@@ -13,9 +13,10 @@ dist/
 Thumbs.db
 *.log
 
-# 临时脚本（测试/修复脚本不提交）
+# 临时脚本（测试/修复/推送脚本不提交）
 runtime_test*.cjs
 api_test*.cjs
 e2e_test*.cjs
 fix*.cjs
 fix*.js
+git_*.cjs
