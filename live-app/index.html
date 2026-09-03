@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>三位一体辅助系统</title>
+<meta name="description" content="浙江三位一体报考辅助：院校筛选、综合分计算、校测参考、树洞社区。学考+校测+高考，帮你找到最适合的三一院校。">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#3B82F6">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="三一辅助">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<style>
+*,::before,::after{box-sizing:border-box;margin:0;padding:0}
+::root{--p50:#EFF6FF;--p100:#DBEAFE;--p500:#3B82F6;--p600:#2563EB;--p700:#1D4ED8;--p800:#1E40AF;--s8:#1E293B;--s5:#64748B;--s4:#94A3B8;--s3:#CBD5E1;--s2:#E5E7EB;--s1:#F1F5F9;--bg:#F8FAFC;--w:#FFF;--g:#16A34A;--y:#F59E0B;--r:#EF4444}
+html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent}
+body{font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--s8);-webkit-font-smoothing:antialiased;line-height:1.6}
+#root{min-height:100vh}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+input,select,textarea{font-family:inherit}
+
+.flex{display:flex}.flex-col{flex-direction:column}.items-center{align-items:center}.items-start{align-items:flex-start}.justify-between{justify-content:space-between}.justify-center{justify-content:center}.flex-wrap{flex-wrap:wrap}
+.gap1{gap:4px}.gap2{gap:8px}.gap3{gap:12px}.gap4{gap:16px}.gap6{gap:24px}
+.grid{display:grid}.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}
+@media(min-width:640px){.sm\\:g2{grid-template-columns:repeat(2,1fr)}.sm\\:g3{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:768px){.md\\:g3{grid-template-columns:repeat(3,1fr)}.md\\:flex{display:flex}.md\\:hide{display:none}}
+@media(max-width:767px){.sm-hide{display:none}}
+
+.text-center{text-align:center}.text-left{text-align:left}
+.text-xs{font-size:12px}.text-sm{font-size:14px}.text-base{font-size:16px}.text-lg{font-size:18px}.text-xl{font-size:20px}.text-2xl{font-size:24px}.text-3xl{font-size:28px}.text-4xl{font-size:36px}
+.font-bold{font-weight:700}.font-semibold{font-weight:600}.font-medium{font-weight:500}
+.text-s8{color:var(--s8)}.text-s6{color:#475569}.text-s5{color:var(--s5)}.text-s4{color:var(--s4)}.text-s3{color:var(--s3)}
+.text-p{color:var(--p600)}.text-w{color:var(--w)}.text-g{color:var(--g)}.text-y{color:var(--y)}.text-r{color:var(--r)}
+.bg-w{background:var(--w)}.bg-s1{background:var(--s1)}.bg-p50{background:var(--p50)}.bg-p500{background:var(--p500)}.bg-p600{background:var(--p600)}.bg-g50{background:#F0FDF4}.bg-y50{background:#FEF3C7}.bg-r50{background:#FEE2E2}
+.rounded-lg{border-radius:12px}.rounded-xl{border-radius:16px}.rounded-2xl{border-radius:20px}
+.p1{padding:4px}.p2{padding:8px}.p3{padding:12px}.p4{padding:16px}.p5{padding:20px}.p6{padding:24px}
+.px2{padding-left:8px;padding-right:8px}.px3{padding-left:12px;padding-right:12px}.px4{padding-left:16px;padding-right:16px}.px6{padding-left:24px;padding-right:24px}
+.py05{padding-top:2px;padding-bottom:2px}.py1{padding-top:4px;padding-bottom:4px}.py15{padding-top:6px;padding-bottom:6px}.py2{padding-top:8px;padding-bottom:8px}.py3{padding-top:12px;padding-bottom:12px}.py6{padding-top:24px;padding-bottom:24px}.py16{padding-top:64px;padding-bottom:64px}
+.mb1{margin-bottom:4px}.mb2{margin-bottom:8px}.mb3{margin-bottom:12px}.mb4{margin-bottom:16px}.mb6{margin-bottom:24px}.mb8{margin-bottom:32px}
+.mt1{margin-top:4px}.mt2{margin-top:8px}.mt4{margin-top:16px}.mt-auto{margin-top:auto}
+.ml2{margin-left:8px}.mx-auto{margin-left:auto;margin-right:auto}
+.max-w-sm{max-width:400px}.max-w-md{max-width:560px}.max-w-lg{max-width:720px}.max-w-xl{max-width:900px}.max-w-2xl{max-width:1100px}
+.w-full{width:100%}.h-full{height:100%}.w-8{width:32px}.h-8{height:32px}.w-12{width:48px}.h-12{height:48px}.w-16{width:64px}.h-16{height:64px}
+.flex-1{flex:1}.flex-shrink-0{flex-shrink:0}.min-w-0{min-width:0}
+.truncate{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.relative{position:relative}.absolute{position:absolute}.fixed{position:fixed}.inset0{inset:0}
+.top0{top:0}.left0{left:0}.right0{right:0}.bottom0{bottom:0}
+.z50{z-index:50}.z40{z-index:40}
+.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.overflow-y-auto{overflow-y:auto}
+.max-h-60{max-height:240px}.max-h-70{max-height:280px}
+.shadow-card{box-shadow:0 1px 3px rgba(0,0,0,.06),0 4px 12px rgba(0,0,0,.04)}
+.glass{background:rgba(255,255,255,.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.glass-border{border-bottom:1px solid var(--s2)}
+.hero-bg{background:linear-gradient(135deg,#EFF6FF,#DBEAFE 30%,#BFDBFE 60%,#EFF6FF)}
+.gradient-primary{background:linear-gradient(135deg,var(--p600),var(--p700))}
+.btn-primary{background:var(--p500);color:var(--w)}.btn-primary:hover{background:var(--p600)}
+.card{background:var(--w);border-radius:16px;box-shadow:0 1px 3px rgba(0,0,0,.06),0 4px 12px rgba(0,0,0,.04);transition:all .25s}
+.card-hover:hover{transform:translateY(-3px);box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.tag{display:inline-flex;align-items:center;padding:2px 10px;border-radius:20px;font-size:11px;font-weight:600}
+.tag-blue{background:var(--p50);color:var(--p700);border:1px solid var(--p100)}
+.tag-green{background:#F0FDF4;color:var(--g);border:1px solid #BBF7D0}
+.tag-gray{background:var(--s1);color:var(--s5);border:1px solid var(--s2)}
+.badge{display:inline-block;padding:2px 8px;border-radius:6px;font-size:12px}
+.badge-blue{background:var(--p50);color:var(--p600)}.badge-gray{background:var(--s1);color:var(--s5)}.badge-green{background:#F0FDF4;color:var(--g)}.badge-red{background:#FEE2E2;color:#DC2626}
+.badge-yellow{background:#FEF3C7;color:#D97706}
+.compare-adv{background:#FEF3C7;color:#D97706;font-weight:700}
+.compare-dis{background:#FEE2E2;color:#DC2626;font-weight:700}
+hr{border:none;border-top:1px solid var(--s1)}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes slideUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.animate-fade-in{animation:fadeIn .3s}
+.animate-slide-up{animation:slideUp .3s}
+.tab-btn{padding:10px 16px;border-radius:10px;font-size:13px;font-weight:500;transition:all .2s;text-align:center}
+.tab-active{background:var(--w);color:var(--p600);box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.input{border:1px solid var(--s2);border-radius:12px;padding:10px 14px;font-size:14px;width:100%;outline:none;background:var(--w)}
+.input:focus{border-color:var(--p500);box-shadow:0 0 0 3px rgba(59,130,246,.15)}
+.text-break{word-break:break-all}.cursor-pointer{cursor:pointer}.resize-none{resize:none}
+.border-t{border-top:1px solid var(--s2)}.border-b{border-bottom:1px solid var(--s2)}
+.rounded-full{border-radius:9999px}
+.pb-safe{padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+.h14{height:56px}.pt14{padding-top:56px}.pb16{padding-bottom:64px}
+.leading-relaxed{line-height:1.65}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<script>
+
+// === DATA ===
+var SCHOOLS=[{id:'zju',name:'浙江大学',shortName:'浙大',aliases:['浙大'],type:'ministry',info:{campuses:[{name:'紫金港校区',address:'杭州西湖区'},{name:'玉泉校区',address:'杭州西湖区'}],website:'https://www.zju.edu.cn',admissionsPhone:'0571-87951006',tuitionGeneral:'5300-6000元/年',healthRestrictions:'色盲色弱考生部分专业受限'},formula:{xuekao:{A:10,B:9,C:8,D:6,fullScore:100},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:true,hasInterview:true,hasPhysicalTest:false,writtenTestSubjects:['数学','物理'],interviewFormat:'group',contentSummary:'笔试考查数学和物理基础，面试为无领导小组讨论。',tips:'学考要求相对宽松，适合高考实力强的考生。'},transferRestriction:{restricted:true,detail:'可按学校规定申请转专业，须满足前置课程要求。'},majors:[{id:'zju-m1',schoolId:'zju',name:'计算机科学与技术',category:'工学',requiredSubjects:['物理'],planCount:15},{id:'zju-m2',schoolId:'zju',name:'临床医学',category:'医学',requiredSubjects:['物理','化学'],planCount:20},{id:'zju-m3',schoolId:'zju',name:'法学',category:'法学',requiredSubjects:[],planCount:8}],admission:[{year:2025,applicants:18000,passed:4800,admitted:980,minScore:86,xuekaoRequirement:'各科目均须合格'},{year:2024,applicants:16500,passed:4500,admitted:950,minScore:85,xuekaoRequirement:'各科目均须合格'}],satisfaction:{overall:4.7,environment:4.6,life:4.3,source:'阳光高考网'},dormitory:{description:'4人间，独立卫浴、空调、热水器齐全，有阳台。',score:4.5,source:'网络',highlights:['4人间','独立卫浴','空调'],drawbacks:['部分老宿舍条件一般']},applicationSteps:[{step:1,title:'网上报名',description:'登录浙江大学本科生招生网在线报名',deadline:'5月中旬',materials:['身份证','学考成绩证明','个人陈述']},{step:2,title:'材料审核',description:'学校审核并公布初审通过名单',deadline:'5月下旬'},{step:3,title:'综合素质测试',description:'参加笔试和面试',deadline:'6月中旬'},{step:4,title:'填报志愿',description:'高考提前批填写三位一体志愿',deadline:'6月下旬'}],brochureUrl:'https://zdzsc.zju.edu.cn/'},
+{id:'hdu',name:'杭州电子科技大学',shortName:'杭电',aliases:['杭电'],type:'provincial',info:{campuses:[{name:'下沙校区',address:'杭州钱塘区'}],website:'https://www.hdu.edu.cn',admissionsPhone:'0571-86915007',tuitionGeneral:'5300-6000元/年',tuitionSinoForeign:'25000-35000元/年（中外合作）'},formula:{xuekao:{A:15,B:10,C:6,D:1,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:true,hasInterview:true,hasPhysicalTest:false,writtenTestSubjects:['数学','英语','逻辑'],interviewFormat:'individual',contentSummary:'笔试含数学、英语阅读和逻辑推理。面试为个体面试，15-20分钟。',tips:'面试重视对信息类专业的了解。'},transferRestriction:{restricted:false,detail:'可按学校规定申请转专业。'},majors:[{id:'hdu-m1',schoolId:'hdu',name:'计算机类',category:'工学',requiredSubjects:['物理'],planCount:30},{id:'hdu-m2',schoolId:'hdu',name:'电子信息类',category:'工学',requiredSubjects:['物理'],planCount:35},{id:'hdu-m3',schoolId:'hdu',name:'会计学',category:'管理学',requiredSubjects:[],planCount:15}],admission:[{year:2025,applicants:12000,passed:3200,admitted:450,minScore:78,xuekaoRequirement:'学考≥6A或折算分≥90分'}],satisfaction:{overall:4.3,environment:4.1,life:4.0,source:'阳光高考网'},dormitory:{description:'4-6人间，独立卫浴、空调。',score:4.0,source:'网络',highlights:['独立卫浴','空调','食堂实惠'],drawbacks:['6人间稍显拥挤']},applicationSteps:[{step:1,title:'网上报名',description:'登录杭电本科招生网报名',deadline:'3月中旬',materials:['身份证','1寸照片','学考成绩单']},{step:2,title:'资格审查',description:'公布初审结果',deadline:'4月上旬'},{step:3,title:'综合素质测试',description:'笔试+面试',deadline:'4月中旬'},{step:4,title:'公布入围名单',description:'公布最终入围名单',deadline:'4月下旬'}],brochureUrl:'https://zhaosheng.hdu.edu.cn/'},
+{id:'zufe',name:'浙江财经大学',shortName:'浙财',aliases:['浙财'],type:'provincial',info:{campuses:[{name:'下沙校区',address:'杭州钱塘区'}],website:'https://www.zufe.edu.cn',admissionsPhone:'0571-87557480',tuitionGeneral:'4800-5500元/年'},formula:{xuekao:{A:15,B:9,C:3,D:0,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:false,hasInterview:true,hasPhysicalTest:false,interviewFormat:'group',contentSummary:'无领导小组面试，围绕经济社会热点话题讨论。',tips:'重点看表达和逻辑，不考专业知识。'},transferRestriction:{restricted:false,detail:'可按规定申请转专业。'},majors:[{id:'zufe-m1',schoolId:'zufe',name:'会计学',category:'管理学',requiredSubjects:[],planCount:20},{id:'zufe-m2',schoolId:'zufe',name:'金融学',category:'经济学',requiredSubjects:[],planCount:25}],admission:[{year:2025,applicants:8500,passed:2200,admitted:300,minScore:72,xuekaoRequirement:'学考≥5A2B'}],satisfaction:{overall:4.1,environment:4.0,life:3.9,source:'阳光高考网'},dormitory:{description:'4人间，独立卫浴、空调、热水器。',score:4.0,source:'网络',highlights:['4人间','独立卫浴'],drawbacks:['部分宿舍较旧']},applicationSteps:[{step:1,title:'网上报名',description:'登录招办网站报名',deadline:'3月上中旬'},{step:2,title:'初审',deadline:'4月上旬'},{step:3,title:'面试',description:'无领导小组讨论',deadline:'4月中旬'},{step:4,title:'公布结果',deadline:'4月下旬'}],brochureUrl:'https://zs.zufe.edu.cn/'},
+{id:'nbu',name:'宁波大学',shortName:'宁大',aliases:['宁大'],type:'provincial',info:{campuses:[{name:'本部校区',address:'宁波江北区'},{name:'梅山校区',address:'宁波北仑区'}],website:'https://www.nbu.edu.cn',admissionsPhone:'0574-87600233',tuitionGeneral:'4800-6000元/年'},formula:{xuekao:{A:10,B:8,C:6,D:0,fullScore:100},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:false,hasInterview:true,hasPhysicalTest:false,interviewFormat:'individual',contentSummary:'个体面试，10-15分钟，含自我介绍和结构化问答。',tips:'宁大面试氛围友好，准备自我介绍即可。'},transferRestriction:{restricted:true,detail:'部分热门专业限制转入名额。'},majors:[{id:'nbu-m1',schoolId:'nbu',name:'法学',category:'法学',requiredSubjects:[],planCount:15},{id:'nbu-m2',schoolId:'nbu',name:'通信工程',category:'工学',requiredSubjects:['物理'],planCount:20},{id:'nbu-m3',schoolId:'nbu',name:'临床医学',category:'医学',requiredSubjects:['化学','生物'],planCount:25}],admission:[{year:2025,applicants:9500,passed:2500,admitted:380,minScore:75,xuekaoRequirement:'学考≥5A'}],satisfaction:{overall:4.3,environment:4.5,life:4.2,source:'阳光高考网'},dormitory:{description:'4人间，独立卫浴、空调、热水器。梅山校区有海景宿舍。',score:4.3,source:'网络',highlights:['4人间','海景宿舍','商业街'],drawbacks:['老宿舍需改造']},applicationSteps:[{step:1,title:'网上报名',deadline:'3月中旬'},{step:2,title:'初审公示',deadline:'4月上旬'},{step:3,title:'面试',deadline:'4月中下旬'},{step:4,title:'入围公示',deadline:'5月上旬'}],brochureUrl:'https://zsb.nbu.edu.cn/'},
+{id:'wzu',name:'温州大学',shortName:'温大',aliases:['温大'],type:'provincial',info:{campuses:[{name:'茶山校区',address:'温州瓯海区'}],website:'https://www.wzu.edu.cn',admissionsPhone:'0577-86680800',tuitionGeneral:'4800-5500元/年'},formula:{xuekao:{A:15,B:10,C:5,D:0,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:false,hasInterview:true,hasPhysicalTest:false,interviewFormat:'both',contentSummary:'面试含个体面和群面。',tips:'建议同时准备个体面和群面。'},transferRestriction:{restricted:false,detail:'可按规定参加校内转专业。'},majors:[{id:'wzu-m1',schoolId:'wzu',name:'小学教育（师范）',category:'教育学',requiredSubjects:[],planCount:30},{id:'wzu-m2',schoolId:'wzu',name:'生物科学（师范）',category:'理学',requiredSubjects:['生物'],planCount:20},{id:'wzu-m3',schoolId:'wzu',name:'机械工程',category:'工学',requiredSubjects:['物理'],planCount:25}],admission:[{year:2025,applicants:7000,passed:1800,admitted:300,minScore:70,xuekaoRequirement:'学考≥4A'}],satisfaction:{overall:3.9,environment:4.0,life:3.8,source:'阳光高考网'},dormitory:{description:'4-6人间，空调、独立卫浴。校园环境优美。',score:3.8,source:'网络',highlights:['空调','独立卫浴'],drawbacks:['6人间较拥挤']},applicationSteps:[{step:1,title:'网上报名',deadline:'3月中旬'},{step:2,title:'初审',deadline:'4月上旬'},{step:3,title:'面试',deadline:'4月中下旬'},{step:4,title:'入围公布',deadline:'5月上旬'}],brochureUrl:'https://zs.wzu.edu.cn/'},
+{id:'zjut',name:'浙江工业大学',shortName:'浙工大',aliases:['浙工大','浙江工大'],type:'provincial',info:{campuses:[{name:'朝晖校区',address:'杭州拱墅区'},{name:'屏峰校区',address:'杭州西湖区'}],website:'https://www.zjut.edu.cn',admissionsPhone:'0571-88320032',tuitionGeneral:'5300-6000元/年'},formula:{xuekao:{A:15,B:10,C:6,D:1,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:true,hasInterview:true,hasPhysicalTest:false,writtenTestSubjects:['数学','英语'],interviewFormat:'individual',contentSummary:'笔试含数学和英语，面试为个体结构化面试约20分钟。',tips:'浙工大工科实力突出，面试注重逻辑思维和表达能力。'},transferRestriction:{restricted:true,detail:'三一录取学生转专业有限制，需满足学分和成绩要求。'},majors:[{id:'zjut-m1',schoolId:'zjut',name:'化学工程与工艺',category:'工学',requiredSubjects:['化学'],planCount:20},{id:'zjut-m2',schoolId:'zjut',name:'机械工程',category:'工学',requiredSubjects:['物理'],planCount:25},{id:'zjut-m3',schoolId:'zjut',name:'计算机科学与技术',category:'工学',requiredSubjects:['物理'],planCount:30}],admission:[{year:2025,applicants:11000,passed:3000,admitted:500,minScore:80,xuekaoRequirement:'学考≥6A或折算分≥90分'}],satisfaction:{overall:4.3,environment:4.2,life:4.0,source:'阳光高考网'},dormitory:{description:'4人间，独立卫浴、空调、热水器齐全。屏峰校区环境优美。',score:4.2,source:'网络',highlights:['4人间','独立卫浴','空调'],drawbacks:['朝晖校区部分宿舍较旧']},applicationSteps:[{step:1,title:'网上报名',description:'登录浙工大招生网在线报名',deadline:'3月中旬',materials:['身份证','学考成绩单','个人陈述']},{step:2,title:'初审公示',deadline:'4月上旬'},{step:3,title:'综合素质测试',description:'笔试+面试',deadline:'4月中下旬'},{step:4,title:'入围公示',deadline:'5月上旬'}],brochureUrl:'https://zs.zjut.edu.cn/'},
+{id:'zjnu',name:'浙江师范大学',shortName:'浙师大',aliases:['浙师大','浙江师大'],type:'provincial',info:{campuses:[{name:'金华校区',address:'金华婺城区'}],website:'https://www.zjnu.edu.cn',admissionsPhone:'0579-82282245',tuitionGeneral:'4800-5500元/年'},formula:{xuekao:{A:15,B:10,C:6,D:1,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:false,hasInterview:true,hasPhysicalTest:false,interviewFormat:'both',contentSummary:'面试含个体面和群面，师范类专业有板书或试讲环节。',tips:'师范类面试重视语言表达、板书和教学潜力。'},transferRestriction:{restricted:true,detail:'师范类与非师范类之间转专业有一定限制。'},majors:[{id:'zjnu-m1',schoolId:'zjnu',name:'小学教育（师范）',category:'教育学',requiredSubjects:[],planCount:35},{id:'zjnu-m2',schoolId:'zjnu',name:'汉语言文学（师范）',category:'文学',requiredSubjects:[],planCount:25},{id:'zjnu-m3',schoolId:'zjnu',name:'数学与应用数学（师范）',category:'理学',requiredSubjects:[],planCount:25}],admission:[{year:2025,applicants:10000,passed:2800,admitted:400,minScore:76,xuekaoRequirement:'学考≥5A'}],satisfaction:{overall:4.2,environment:4.3,life:4.1,source:'阳光高考网'},dormitory:{description:'4人间为主，独立卫浴、空调、热水器。校园绿树成荫。',score:4.2,source:'网络',highlights:['4人间','独立卫浴','空调','校园优美'],drawbacks:['部分老旧宿舍待改造']},applicationSteps:[{step:1,title:'网上报名',deadline:'3月中旬',materials:['身份证','学考成绩证明']},{step:2,title:'初审',deadline:'4月上旬'},{step:3,title:'面试',description:'个体面+板书/试讲',deadline:'4月中下旬'},{step:4,title:'入围公示',deadline:'5月上旬'}],brochureUrl:'https://zs.zjnu.edu.cn/'},
+{id:'wmu',name:'温州医科大学',shortName:'温医大',aliases:['温医大','温州医大'],type:'provincial',info:{campuses:[{name:'茶山校区',address:'温州瓯海区'}],website:'https://www.wmu.edu.cn',admissionsPhone:'0577-86689885',tuitionGeneral:'6000-6900元/年',healthRestrictions:'色盲色弱考生部分医学专业受限'},formula:{xuekao:{A:15,B:10,C:6,D:1,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:true,hasInterview:true,hasPhysicalTest:false,writtenTestSubjects:['生物','化学'],interviewFormat:'individual',contentSummary:'笔试考查生物学和化学基础。面试为个体结构化面试，约15分钟。',tips:'医学类专业竞争激烈，生物化学基础好的考生更具优势。'},transferRestriction:{restricted:true,detail:'医学类专业转专业限制严格，一般限在医学类内调整。'},majors:[{id:'wmu-m1',schoolId:'wmu',name:'临床医学',category:'医学',requiredSubjects:['化学','生物'],planCount:30},{id:'wmu-m2',schoolId:'wmu',name:'口腔医学',category:'医学',requiredSubjects:['化学','生物'],planCount:10},{id:'wmu-m3',schoolId:'wmu',name:'护理学',category:'医学',requiredSubjects:[],planCount:20}],admission:[{year:2025,applicants:9000,passed:2500,admitted:350,minScore:82,xuekaoRequirement:'学考≥6A，医学类≥7A'}],satisfaction:{overall:4.1,environment:4.0,life:3.8,source:'阳光高考网'},dormitory:{description:'4-6人间，独立卫浴、空调。部分新宿舍条件较好。',score:3.8,source:'网络',highlights:['独立卫浴','空调','近附院实习方便'],drawbacks:['部分宿舍6人间较拥挤']},applicationSteps:[{step:1,title:'网上报名',deadline:'3月中旬',materials:['身份证','学考成绩单','体检报告']},{step:2,title:'初审',deadline:'4月上旬'},{step:3,title:'笔试+面试',deadline:'4月中下旬'},{step:4,title:'入围公示',deadline:'5月上旬'}],brochureUrl:'https://zhaosheng.wmu.edu.cn/'},
+{id:'zjgsu',name:'浙江工商大学',shortName:'浙工商',aliases:['浙工商','浙江工商'],type:'provincial',info:{campuses:[{name:'下沙校区',address:'杭州钱塘区'}],website:'https://www.zjgsu.edu.cn',admissionsPhone:'0571-28877228',tuitionGeneral:'4800-5520元/年'},formula:{xuekao:{A:15,B:10,C:6,D:1,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:false,hasInterview:true,hasPhysicalTest:false,interviewFormat:'group',contentSummary:'无领导小组面试，围绕经济社会热点话题展开讨论。',tips:'面试重视逻辑思维和表达能力，不考专业知识。'},transferRestriction:{restricted:true,detail:'部分热门专业限制转入名额，需满足成绩要求。'},majors:[{id:'zjgsu-m1',schoolId:'zjgsu',name:'工商管理',category:'管理学',requiredSubjects:[],planCount:20},{id:'zjgsu-m2',schoolId:'zjgsu',name:'经济学',category:'经济学',requiredSubjects:[],planCount:20},{id:'zjgsu-m3',schoolId:'zjgsu',name:'法学',category:'法学',requiredSubjects:[],planCount:15}],admission:[{year:2025,applicants:8000,passed:2000,admitted:280,minScore:73,xuekaoRequirement:'学考≥5A2B'}],satisfaction:{overall:4.2,environment:4.1,life:4.0,source:'阳光高考网'},dormitory:{description:'4人间，独立卫浴、空调、热水器。',score:4.1,source:'网络',highlights:['4人间','独立卫浴','空调'],drawbacks:['部分宿舍空间较小']},applicationSteps:[{step:1,title:'网上报名',deadline:'3月上中旬',materials:['身份证','学考成绩单']},{step:2,title:'初审',deadline:'4月上旬'},{step:3,title:'面试',description:'无领导小组讨论',deadline:'4月中旬'},{step:4,title:'公布结果',deadline:'4月下旬'}],brochureUrl:'https://zhaoban.zjgsu.edu.cn/'},
+{id:'zstu',name:'浙江理工大学',shortName:'浙理工',aliases:['浙理工','浙江理工'],type:'provincial',info:{campuses:[{name:'下沙校区',address:'杭州钱塘区'}],website:'https://www.zstu.edu.cn',admissionsPhone:'0571-86843333',tuitionGeneral:'5300-6000元/年'},formula:{xuekao:{A:15,B:10,C:6,D:1,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:true,hasInterview:true,hasPhysicalTest:false,writtenTestSubjects:['数学','英语'],interviewFormat:'individual',contentSummary:'笔试含数学和英语，面试为个体面约15-20分钟。',tips:'工科专业面试可能涉及专业兴趣和基础知识。'},transferRestriction:{restricted:true,detail:'转专业需满足学分要求，部分专业有名额限制。'},majors:[{id:'zstu-m1',schoolId:'zstu',name:'纺织工程',category:'工学',requiredSubjects:['化学'],planCount:15},{id:'zstu-m2',schoolId:'zstu',name:'服装设计与工程',category:'工学',requiredSubjects:[],planCount:15},{id:'zstu-m3',schoolId:'zstu',name:'计算机科学与技术',category:'工学',requiredSubjects:['物理'],planCount:25}],admission:[{year:2025,applicants:7500,passed:2000,admitted:300,minScore:74,xuekaoRequirement:'学考≥5A'}],satisfaction:{overall:4.2,environment:4.0,life:3.9,source:'阳光高考网'},dormitory:{description:'4人间，独立卫浴、空调。生活区配套齐全。',score:4.0,source:'网络',highlights:['4人间','独立卫浴','空调'],drawbacks:['下沙校区冬天风大']},applicationSteps:[{step:1,title:'网上报名',deadline:'3月中旬',materials:['身份证','学考成绩单']},{step:2,title:'初审',deadline:'4月上旬'},{step:3,title:'笔试+面试',deadline:'4月中下旬'},{step:4,title:'入围公示',deadline:'5月上旬'}],brochureUrl:'https://zs.zstu.edu.cn/'},
+{id:'zjou',name:'浙江海洋大学',shortName:'浙海大',aliases:['浙海大','浙江海洋'],type:'provincial',info:{campuses:[{name:'长峙校区',address:'舟山定海区'}],website:'https://www.zjou.edu.cn',admissionsPhone:'0580-2550022',tuitionGeneral:'4800-5500元/年'},formula:{xuekao:{A:15,B:10,C:6,D:1,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:false,hasInterview:true,hasPhysicalTest:false,interviewFormat:'individual',contentSummary:'个体结构化面试，约10-15分钟，含自我介绍和问答。',tips:'面试氛围轻松，重点考察综合素质和报考意愿。'},transferRestriction:{restricted:true,detail:'部分涉海专业转专业有一定限制。'},majors:[{id:'zjou-m1',schoolId:'zjou',name:'海洋科学',category:'理学',requiredSubjects:['生物'],planCount:15},{id:'zjou-m2',schoolId:'zjou',name:'船舶与海洋工程',category:'工学',requiredSubjects:['物理'],planCount:15},{id:'zjou-m3',schoolId:'zjou',name:'水产养殖学',category:'农学',requiredSubjects:['生物'],planCount:15}],admission:[{year:2025,applicants:5000,passed:1300,admitted:200,minScore:68,xuekaoRequirement:'学考≥4A'}],satisfaction:{overall:3.9,environment:4.2,life:3.7,source:'阳光高考网'},dormitory:{description:'4人间为主，独立卫浴、空调。长峙校区面朝大海，风景好。',score:3.9,source:'网络',highlights:['4人间','海景校园','独立卫浴'],drawbacks:['舟山交通相对不便']},applicationSteps:[{step:1,title:'网上报名',deadline:'3月中旬',materials:['身份证','学考成绩单']},{step:2,title:'初审',deadline:'4月上旬'},{step:3,title:'面试',deadline:'4月中下旬'},{step:4,title:'入围公示',deadline:'5月上旬'}],brochureUrl:'https://zs.zjou.edu.cn/'},
+{id:'zafu',name:'浙江农林大学',shortName:'浙农林',aliases:['浙农林','浙江农林'],type:'provincial',info:{campuses:[{name:'东湖校区',address:'杭州临安区'}],website:'https://www.zafu.edu.cn',admissionsPhone:'0571-63730908',tuitionGeneral:'4800-5500元/年'},formula:{xuekao:{A:15,B:10,C:6,D:1,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:false,hasInterview:true,hasPhysicalTest:false,interviewFormat:'group',contentSummary:'无领导小组面试，围绕生态环保等话题讨论。',tips:'面试注重团队协作和综合分析能力。'},transferRestriction:{restricted:true,detail:'转专业需满足学校相关规定。'},majors:[{id:'zafu-m1',schoolId:'zafu',name:'林学',category:'农学',requiredSubjects:['生物'],planCount:15},{id:'zafu-m2',schoolId:'zafu',name:'园林',category:'农学',requiredSubjects:[],planCount:15},{id:'zafu-m3',schoolId:'zafu',name:'农林经济管理',category:'管理学',requiredSubjects:[],planCount:15}],admission:[{year:2025,applicants:4500,passed:1200,admitted:200,minScore:67,xuekaoRequirement:'学考≥3A'}],satisfaction:{overall:4.0,environment:4.3,life:3.8,source:'阳光高考网'},dormitory:{description:'4人间，独立卫浴、空调。临安校区环境优美，空气清新。',score:4.1,source:'网络',highlights:['4人间','独立卫浴','校园绿化好'],drawbacks:['临安离杭州市区较远']},applicationSteps:[{step:1,title:'网上报名',deadline:'3月中旬',materials:['身份证','学考成绩单']},{step:2,title:'初审',deadline:'4月上旬'},{step:3,title:'面试',description:'无领导小组讨论',deadline:'4月中下旬'},{step:4,title:'入围公示',deadline:'5月上旬'}],brochureUrl:'https://zs.zafu.edu.cn/'},
+{id:'cjlu',name:'中国计量大学',shortName:'中量大',aliases:['中量大','计量大学'],type:'provincial',info:{campuses:[{name:'下沙校区',address:'杭州钱塘区'}],website:'https://www.cjlu.edu.cn',admissionsPhone:'0571-86836066',tuitionGeneral:'4800-5500元/年'},formula:{xuekao:{A:15,B:10,C:6,D:1,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:false,hasInterview:true,hasPhysicalTest:false,interviewFormat:'individual',contentSummary:'个体结构化面试，约15分钟，侧重逻辑思维和综合素质。',tips:'面试氛围友好，准备自我介绍和对专业的基本了解即可。'},transferRestriction:{restricted:true,detail:'转专业需满足成绩要求，部分专业有名额限制。'},majors:[{id:'cjlu-m1',schoolId:'cjlu',name:'测控技术与仪器',category:'工学',requiredSubjects:['物理'],planCount:20},{id:'cjlu-m2',schoolId:'cjlu',name:'质量管理工程',category:'管理学',requiredSubjects:[],planCount:15},{id:'cjlu-m3',schoolId:'cjlu',name:'标准化工程',category:'管理学',requiredSubjects:[],planCount:15}],admission:[{year:2025,applicants:6000,passed:1600,admitted:250,minScore:71,xuekaoRequirement:'学考≥5A'}],satisfaction:{overall:4.1,environment:3.9,life:3.8,source:'阳光高考网'},dormitory:{description:'4人间，独立卫浴、空调。下沙大学生活便利。',score:3.9,source:'网络',highlights:['4人间','独立卫浴','空调'],drawbacks:['部分设施较旧']},applicationSteps:[{step:1,title:'网上报名',deadline:'3月中旬',materials:['身份证','学考成绩单']},{step:2,title:'初审',deadline:'4月上旬'},{step:3,title:'面试',deadline:'4月中下旬'},{step:4,title:'入围公示',deadline:'5月上旬'}],brochureUrl:'https://zs.cjlu.edu.cn/'},
+{id:'hznu',name:'杭州师范大学',shortName:'杭师大',aliases:['杭师大','杭州师大'],type:'provincial',info:{campuses:[{name:'仓前校区',address:'杭州余杭区'}],website:'https://www.hznu.edu.cn',admissionsPhone:'0571-28865518',tuitionGeneral:'4800-5500元/年'},formula:{xuekao:{A:15,B:10,C:6,D:1,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.15,xiaokao:.25,gaokao:.6}},examFormat:{hasWrittenTest:false,hasInterview:true,hasPhysicalTest:false,interviewFormat:'both',contentSummary:'面试含个体面和群面，师范类专业可能有试讲或板书环节。',tips:'师范类面试看重语言表达、亲和力和教学潜力。'},transferRestriction:{restricted:true,detail:'师范类与非师范类之间转专业有相应规定。'},majors:[{id:'hznu-m1',schoolId:'hznu',name:'小学教育（师范）',category:'教育学',requiredSubjects:[],planCount:30},{id:'hznu-m2',schoolId:'hznu',name:'学前教育（师范）',category:'教育学',requiredSubjects:[],planCount:25},{id:'hznu-m3',schoolId:'hznu',name:'数学与应用数学（师范）',category:'理学',requiredSubjects:[],planCount:20}],admission:[{year:2025,applicants:8500,passed:2200,admitted:350,minScore:74,xuekaoRequirement:'学考≥5A'}],satisfaction:{overall:4.2,environment:4.2,life:4.0,source:'阳光高考网'},dormitory:{description:'4人间，独立卫浴、空调。仓前校区为新建校区，设施好。',score:4.2,source:'网络',highlights:['4人间','新校区设施好','独立卫浴'],drawbacks:['余杭区离传统市中心较远']},applicationSteps:[{step:1,title:'网上报名',deadline:'3月中旬',materials:['身份证','学考成绩单']},{step:2,title:'初审',deadline:'4月上旬'},{step:3,title:'面试',description:'个体面+试讲/板书',deadline:'4月中下旬'},{step:4,title:'入围公示',deadline:'5月上旬'}],brochureUrl:'https://bkzs.hznu.edu.cn/'},
+{id:'wku',name:'温州肯恩大学',shortName:'温肯',aliases:['温肯','温州肯恩'],type:'provincial',info:{campuses:[{name:'瓯海校区',address:'温州瓯海区'}],website:'https://www.wku.edu.cn',admissionsPhone:'0577-55870111',tuitionGeneral:'65000-75000元/年',tuitionSinoForeign:'中外合作办学，学费较高'},formula:{xuekao:{A:15,B:10,C:6,D:1,fullScore:150},xiaokao:{fullScore:100},gaokao:{fullScore:750},weights:{xuekao:.10,xiaokao:.30,gaokao:.60}},examFormat:{hasWrittenTest:true,hasInterview:true,hasPhysicalTest:false,writtenTestSubjects:['英语'],interviewFormat:'individual',contentSummary:'笔试为英语水平测试。全英文面试，约15-20分钟。',tips:'英语能力是关键，面试全程英文。适合有出国意向的考生。'},transferRestriction:{restricted:true,detail:'中外合作项目内转专业相对灵活，跨项目有限制。'},majors:[{id:'wku-m1',schoolId:'wku',name:'金融学',category:'经济学',requiredSubjects:[],planCount:15},{id:'wku-m2',schoolId:'wku',name:'计算机科学与技术',category:'工学',requiredSubjects:['物理'],planCount:15},{id:'wku-m3',schoolId:'wku',name:'英语',category:'文学',requiredSubjects:[],planCount:15}],admission:[{year:2025,applicants:4000,passed:1000,admitted:150,minScore:65,xuekaoRequirement:'学考≥3A'}],satisfaction:{overall:4.0,environment:4.4,life:4.2,source:'阳光高考网'},dormitory:{description:'2人间为主，独立卫浴、空调、洗衣房。校园美式风格建筑。',score:4.5,source:'网络',highlights:['2人间','独立卫浴','美式校园','设施新'],drawbacks:['学费+住宿费较高']},applicationSteps:[{step:1,title:'网上报名',deadline:'3月中旬',materials:['身份证','学考成绩单','英语能力证明']},{step:2,title:'初审',deadline:'4月上旬'},{step:3,title:'笔试+面试',description:'英语笔试+全英文面试',deadline:'4月中下旬'},{step:4,title:'入围公示',deadline:'5月上旬'}],brochureUrl:'https://www.wku.edu.cn/zhaosheng/'}];
+var SUBJECTS=['物理','化学','生物','政治','历史','地理','技术'];
+var FAQ_DATA=[{q:'什么是三位一体招生？',a:'三位一体招生是浙江省特有的高考招生模式，将学考成绩+校测成绩+高考成绩三个维度按比例折算成综合分录取。每位考生在提前批只能填报一所三位一体院校。'},{q:'什么是"冲稳保"策略？',a:'"冲刺"指往年录取分略高于你成绩的院校；"稳妥"指匹配度高的院校；"保底"指录取概率很大的院校。但注意：提前批只能填报一所！'},{q:'学考等级如何折算成综合分？',a:'各校折算标准不同。例如部分院校A=15、B=10、C=6、D=1（满分150分），也有A=10、B=8等。以各校招生章程为准。'},{q:'校测主要考什么？',a:'一般包含笔试和面试。笔试题型因校而异，面试形式有个面和群面两种。部分院校还设体测或心理测试。'},{q:'三位一体录取后可以转专业吗？',a:'各校规定不同。部分可以转，部分限在三一招生专业内转，部分明确禁止。报考前需仔细查看。'},{q:'数据来源是否可靠？',a:'数据来源于浙江省教育考试院官网、各高校招生网和阳光高考网。请以官方最新公告为准。'},{q:'什么是综合分？',a:'综合分是把学考、校测、高考三个成绩按院校章程规定的比例折算后相加得到的总分。例如某校规则：综合分=学考折算分×15%+校测×25%+高考折算分×60%。三位一体录取看的就是综合分排名。'},{q:'校测占比是怎么定的？',a:'由各校招生章程自定，通常在15%~30%之间。绝大多数省属院校采用 学考15%+校测25%+高考60% 的结构，也有部分院校校测占30%。校测占比越高，面试翻盘空间越大，但对准备要求也越高。'},{q:'提前批和普通批会冲突吗？',a:'不冲突但会"拦截"。三一在提前批录取，如果被录取，档案被提走、不再参加普通批；如果提前批未被录取，则自动进入后续普通批次正常投档，不受任何影响。所以三一相当于多一次机会。'},{q:'报名需要准备哪些材料？',a:'身份证、学考成绩单/证明是基础，多数院校还要求个人陈述（自荐信）、获奖证书、技能证书。部分院校要求按固定格式誊写材料并邮寄，务必在报名截止前完成并保留截图凭证。'},{q:'入围后还要做什么？',a:'入围后须在高考后、志愿填报时于提前批第一志愿填报该校三位一体，未在志愿中确认即视为放弃。若校测入围但未填报志愿，不影响后续普通批录取。'},{q:'三位一体可以填报几所？',a:'校测报名阶段理论上可以报多所院校并分别参加校测，但志愿填报时提前批只能填一所三位一体院校。建议校测阶段报2-3所（冲+稳），最终填报时再确定1所。'}];
+var ENCOURAGE_DATA=[
+  {text:'坚持到最后的人，运气都不会太差。校测加油！',tag:'鼓励'},
+  {text:'学考A多一点，选择就宽一点；校测练一练，胜算就大一点。',tag:'心得'},
+  {text:'把每一次面试都当作一次成长，答错也没关系。',tag:'鼓励'},
+  {text:'提前批只能填一所，但你的努力可以铺满整个夏天。',tag:'提醒'},
+  {text:'校测紧张很正常，深呼吸，把考官当朋友聊。',tag:'技巧'},
+  {text:'你不是一个人在备考，树洞里大家都在。',tag:'陪伴'},
+  {text:'综合分不会辜负每一个认真折算的人。',tag:'鼓励'},
+  {text:'学考、校测、高考，三驾马车，缺一不可，也一个都不能少。',tag:'心得'},
+  {text:'今天多背一个自我介绍，考场上就多一份从容。',tag:'技巧'},
+  {text:'冲稳保只选一所，但请相信自己选的就是最优解。',tag:'鼓励'},
+  {text:'填志愿前仔细核对转专业限制，别让三年后的自己后悔。',tag:'提醒'},
+  {text:'每一位三一er都是独一无二的星光，加油上岸！',tag:'陪伴'}
+];
+
+// === Storage ===
+function Lget(k){try{return JSON.parse(localStorage.getItem('3in1_'+k))}catch(e){return null}}
+function Lset(k,v){localStorage.setItem('3in1_'+k,JSON.stringify(v))}
+
+// === API Layer ===
+function apiGet(path,cb){
+  fetch(path).then(function(r){return r.json()}).then(function(data){cb(data)}).catch(function(){cb(null)});
+}
+function apiPost(path,body,cb){
+  fetch(path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body||{})}).then(function(r){return r.json()}).then(function(data){cb(data)}).catch(function(){cb(null)});
+}
+function getUserId(){
+  var uid=Lget('uid');
+  if(uid)return uid;
+  var fresh='u'+Date.now().toString(36)+Math.random().toString(36).slice(2,8);
+  Lset('uid',fresh);
+  return fresh;
+}
+function getUserCounter(cb){
+  var uid=getUserId();
+  apiGet('/api/counter?userId='+uid,function(data){
+    if(data){Lset('counter',data.count);cb(data);}
+    else{cb({count:Lget('counter')||0,userId:uid,offline:true});}
+  });
+}
+
+// === Utils ===
+function filterSchools(schools,f,userScore){
+  var results=schools.filter(function(s){
+    if(f.selectedSubjects.length>0){
+      var ok=s.majors.some(function(m){return m.requiredSubjects.length===0||m.requiredSubjects.every(function(sub){return f.selectedSubjects.indexOf(sub)!==-1})});
+      if(!ok)return false;
+    }
+    var q=f.searchQuery.trim().toLowerCase();
+    if(q&&s.name.toLowerCase().indexOf(q)===-1&&s.shortName.toLowerCase().indexOf(q)===-1&&!s.aliases.some(function(a){return a.toLowerCase().indexOf(q)!==-1}))return false;
+    return true;
+  });
+  results=results.map(function(s){
+    var tier='match';
+    if(userScore&&s.admission[0]&&s.admission[0].minScore){
+      var diff=userScore-s.admission[0].minScore;
+      if(diff>5)tier='safety';else if(diff<-5)tier='reach';
+    }
+    return{school:s,tier:tier};
+  });
+  if(f.tierFilter!=='all')results=results.filter(function(r){return r.tier===f.tierFilter});
+  return results;
+}
+
+function calcXuekao(grades,formula){return grades.reduce(function(sum,g){return sum+(formula.xuekao[g.grade]||0)},0)}
+
+function calcResult(input,school){
+  var f=school.formula;if(!f)return null;
+  var xk=calcXuekao(input.xuekaoGrades,f),xs=input.xiaokaoScore||0,gk=input.gaokaoScore||0;
+  var score=xk*f.weights.xuekao+xs*f.weights.xiaokao+(gk/f.gaokao.fullScore*100)*f.weights.gaokao;
+  var tier='match';
+  if(school.admission[0]&&school.admission[0].minScore){var diff=score-school.admission[0].minScore;if(diff>5)tier='safety';else if(diff<-5)tier='reach'}
+  return{xuekaoConverted:xk,xuekaoFullScore:f.xuekao.fullScore,xiaokaoNormalized:xs,gaokaoNormalized:Math.round((gk/f.gaokao.fullScore*100)*100)/100,comprehensiveScore:Math.round(score*100)/100,tier:tier};
+}
+
+function reverseGk(target,grades,xs,school){
+  var f=school.formula;if(!f)return null;
+  var xkPart=calcXuekao(grades,f)*f.weights.xuekao,xsPart=xs*f.weights.xiaokao;
+  var needed=target-xkPart-xsPart;if(needed<0)return 0;
+  return Math.ceil((needed/f.weights.gaokao)*(f.gaokao.fullScore/100));
+}
+
+function reverseXs(target,grades,gk,school){
+  var f=school.formula;if(!f)return null;
+  var xkPart=calcXuekao(grades,f)*f.weights.xuekao,gkPart=(gk/f.gaokao.fullScore*100)*f.weights.gaokao;
+  var needed=target-xkPart-gkPart;if(needed<0)return 0;
+  return Math.round((needed/f.weights.xiaokao)*100)/100;
+}
+
+// Helper: extract numeric tuition value from string like "5300-6000元/年"
+function extractTuitionNum(str){var m=str.match(/(\d+)/);return m?parseInt(m[1]):0;}
+
+// === Components ===
+function HeartIcon(props){
+  return React.createElement('svg',{width:props.s||16,height:props.s||16,viewBox:'0 0 24 24',fill:props.fill||'none',stroke:props.stroke||'currentColor',strokeWidth:2},React.createElement('path',{d:'M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z'}));
+}
+
+function TabBar(props){
+  return React.createElement('div',{className:'flex gap1 bg-s1 rounded-xl p1 mb4'},props.tabs.map(function(t){return React.createElement('button',{key:t.k,onClick:function(){props.onChange(t.k)},className:'flex-1 tab-btn '+(props.active===t.k?'tab-active':'text-s5')},t.l)}));
+}
+
+// === HomePage ===
+function HomePage(props){
+  var cards=[{l:'院校筛选',d:'按选科和学考条件查找',p:'schools',icon:'🔍'},{l:'综合分计算',d:'正算反算都支持',p:'calculator',icon:'🧮'},{l:'路径对比',d:'三一vs普通高考',p:'pathCompare',icon:'⚖️'},{l:'开放数据',d:'下载院校数据包',p:'download',icon:'📦'},{l:'我的档案',d:'收藏院校与导出方案',p:'profile',icon:'📋'},{l:'数据纠错',d:'发现错误告诉我们',p:'feedback',icon:'📝'}];
+  var steps=[{step:'01',title:'学考报名',desc:'查看各校学考等级要求，选择符合条件的目标院校，准备报名材料。学考等级越高，选择越多。',color:'#3B82F6'},{step:'02',title:'校测考核',desc:'参加目标院校的综合素质测试（笔试+面试）。校测成绩占比25%，是区分度的关键环节。',color:'#F59E0B'},{step:'03',title:'高考录取',desc:'高考后综合分排名录取。注意：提前批只能填报一所三位一体院校，选稳不选冲！',color:'#16A34A'}];
+  var qState=React.useState(function(){return ENCOURAGE_DATA[Math.floor(Math.random()*ENCOURAGE_DATA.length)]});var quote=qState[0],setQuote=qState[1];
+  var bannerState=React.useState(function(){return !Lget('counterShown')});var showBanner=bannerState[0],setShowBanner=bannerState[1];
+  var countState=React.useState(Lget('counter')||0);var userCount=countState[0],setUserCount=countState[1];
+  React.useEffect(function(){getUserCounter(function(data){if(data&&data.count)setUserCount(data.count)})},[]);
+
+  var counterBanner=showBanner&&userCount>0?React.createElement('div',{className:'bg-p50 text-p p3 text-center text-sm'},
+    React.createElement('div',{className:'flex items-center justify-center gap3'},
+      React.createElement('span',null,'🎉 你是第 ',userCount,' 位使用者，一起把信息差补齐！'),
+      React.createElement('button',{onClick:function(){Lset('counterShown',true);setShowBanner(false)},className:'text-xs px3 py1 rounded-lg bg-w text-p'},'知道了'))):null;
+  var quoteCard=React.createElement('div',{className:'max-w-lg mx-auto px4 mt4'},
+    React.createElement('div',{className:'card p4',style:{background:'linear-gradient(135deg,#FFF7ED,#FEF3C7)'}},
+      React.createElement('div',{className:'flex items-start gap3'},
+        React.createElement('span',{className:'text-xl'},'💪'),
+        React.createElement('div',{className:'flex-1 min-w-0'},
+          React.createElement('p',{className:'text-sm font-medium text-s8 leading-relaxed'},quote.text),
+          React.createElement('div',{className:'flex items-center justify-between mt2'},
+            React.createElement('span',{className:'text-xs text-s4'},'# '+quote.tag),
+            React.createElement('button',{onClick:function(){setQuote(ENCOURAGE_DATA[Math.floor(Math.random()*ENCOURAGE_DATA.length)])},className:'text-xs text-y px3 py1 rounded-lg bg-w'},'换一句 ↻'))))));
+
+  return React.createElement('div',{className:'animate-fade-in'},
+    counterBanner,
+    React.createElement('section',{className:'hero-bg py16 px4 text-center'},
+      React.createElement('h1',{className:'text-3xl font-bold text-s8 mb4'},'三位一体，不止一条路'),
+      React.createElement('p',{className:'text-s5 text-base max-w-md mx-auto mb8'},'学考成绩 + 校测表现 + 高考分数，帮你找到最适合的三一院校。'),
+      React.createElement('div',{className:'grid sm:g2 md:g3 gap4 max-w-lg mx-auto'},
+        cards.map(function(c){return React.createElement('button',{key:c.p,onClick:function(){props.setPage(c.p)},className:'card card-hover p6 flex flex-col items-center text-center'},
+          React.createElement('span',{className:'text-2xl mb2'},c.icon),
+          React.createElement('h3',{className:'font-semibold text-s8 mb1'},c.l),
+          React.createElement('p',{className:'text-xs text-s4'},c.d))}))
+    ),
+    quoteCard,
+    React.createElement('section',{className:'max-w-lg mx-auto px4 py16'},
+      React.createElement('h2',{className:'text-2xl font-bold text-center text-s8 mb2'},'三步录取流程'),
+      React.createElement('div',{className:'grid md:g3 gap6 mt8'},
+        steps.map(function(item){return React.createElement('div',{key:item.step,className:'card p6 text-center'},
+          React.createElement('span',{className:'inline-block w-12 h-12 rounded-full text-w font-bold text-lg mb4',style:{background:item.color,lineHeight:'48px'}},item.step),
+          React.createElement('h3',{className:'font-semibold text-s8 mb2'},item.title),
+          React.createElement('p',{className:'text-sm text-s5 leading-relaxed'},item.desc))}))
+    ),
+    React.createElement('section',{className:'max-w-lg mx-auto px4 pb16'},
+      React.createElement('div',{className:'card bg-y50 p5'},React.createElement('p',{className:'text-sm font-semibold text-y mb1'},'⚠️ 重要提醒'),React.createElement('p',{className:'text-sm text-y leading-relaxed'},'省属三位一体在提前批录取，只能填报一所院校。一旦被录取不再参与普通批次。请谨慎选择！')))
+  );
+}
+
+// === SchoolListPage ===
+function SchoolListPage(props){
+  var state=React.useState(function(){return Lget('favs')||[]});var favs=state[0],setFavs=state[1];
+  var fState=React.useState({selectedSubjects:[],minACount:0,searchQuery:'',tierFilter:'all'});var filter=fState[0],setFilter=fState[1];
+  var usState=React.useState('');var userScore=usState[0],setUserScore=usState[1];
+  var sfState=React.useState(false);var showFilter=sfState[0],setShowFilter=sfState[1];
+
+  var results=React.useMemo(function(){return filterSchools(SCHOOLS,filter,userScore?Number(userScore):undefined)},[filter,userScore]);
+
+  return React.createElement('div',{className:'max-w-2xl mx-auto px4 py6 pb16 animate-fade-in'},
+    React.createElement('div',{className:'relative mb4'},
+      React.createElement('input',{type:'text',placeholder:'搜索院校，如"杭电"、"浙财"...',value:filter.searchQuery,onChange:function(e){setFilter(Object.assign({},filter,{searchQuery:e.target.value}))},className:'input',style:{paddingRight:40}}),
+      React.createElement('button',{onClick:function(){setShowFilter(!showFilter)},className:'absolute right0 top0 h-full px3 text-s4'},'⚙')
+    ),
+    showFilter?React.createElement('div',{className:'card p4 mb4 animate-slide-up'},
+      React.createElement('div',{className:'mb3'},React.createElement('label',{className:'text-xs text-s4 mb2 block'},'选科筛选'),
+        React.createElement('div',{className:'flex flex-wrap gap2'},SUBJECTS.map(function(s){var sel=filter.selectedSubjects.indexOf(s)!==-1;return React.createElement('button',{key:s,onClick:function(){var u=sel?filter.selectedSubjects.filter(function(x){return x!==s}):filter.selectedSubjects.concat([s]);setFilter(Object.assign({},filter,{selectedSubjects:u}))},className:'px3 py15 rounded-lg text-sm '+(sel?'bg-p500 text-w':'bg-s1 text-s5')},s)}))),
+      React.createElement('div',{className:'mb3'},React.createElement('label',{className:'text-xs text-s4 mb2 block'},'预估折算分'),React.createElement('input',{type:'number',value:userScore,onChange:function(e){setUserScore(e.target.value)},placeholder:'输入预估分数查看冲稳保',className:'input'})),
+      React.createElement('div',{className:'mb3'},[{v:'all',l:'全部'},{v:'reach',l:'冲刺'},{v:'match',l:'稳妥'},{v:'safety',l:'保底'}].map(function(t){return React.createElement('button',{key:t.v,onClick:function(){setFilter(Object.assign({},filter,{tierFilter:t.v}))},className:'px3 py1 rounded-lg text-sm mr2 mb1 '+(filter.tierFilter===t.v?'bg-p500 text-w':'bg-s1 text-s5')},t.l)})),
+      React.createElement('button',{onClick:function(){setFilter({selectedSubjects:[],minACount:0,searchQuery:'',tierFilter:'all'});setUserScore('')},className:'text-xs text-s4'},'重置')
+    ):null,
+    React.createElement('p',{className:'text-xs text-s4 mb3'},'共 ',results.length,' 所院校'),
+    React.createElement('div',{className:'grid sm:g2 md:g3 gap4'},
+      results.map(function(r){var s=r.school,t=r.tier;var isFav=favs.indexOf(s.id)!==-1;return React.createElement('div',{key:s.id,className:'card card-hover overflow-hidden'},
+        React.createElement('div',{className:'p5'},
+          React.createElement('div',{className:'flex items-start justify-between mb3'},
+            React.createElement('div',{onClick:function(){Lset('detailId',s.id);props.setPage('detail')},className:'flex-1 min-w-0 cursor-pointer'},
+              React.createElement('h3',{className:'font-semibold text-s8'},s.name),React.createElement('p',{className:'text-xs text-s4 mt1'},s.shortName)),
+            React.createElement('button',{onClick:function(){var u=isFav?favs.filter(function(x){return x!==s.id}):favs.concat([s.id]);setFavs(u);Lset('favs',u)},className:'flex-shrink-0 ml2 p1 rounded-lg '+(isFav?'text-r':'text-s3')},React.createElement(HeartIcon,{s:16,fill:isFav?'currentColor':'none',stroke:isFav?'currentColor':'#CBD5E1'}))),
+          React.createElement('div',{className:'flex items-center gap2 mb2'},
+            React.createElement('span',{className:'tag '+(t==='reach'?'tag-blue':t==='match'?'tag-green':'tag-gray')},t==='reach'?'冲刺':t==='match'?'稳妥':'保底'),
+            React.createElement('span',{className:'text-xs text-s4'},s.type==='ministry'?'部属':'省属')),
+          React.createElement('p',{className:'text-xs text-s4 mb1'},(s.info.campuses[0]||{}).name||''),
+          React.createElement('div',{className:'flex flex-wrap gap1 mb3'},s.majors.slice(0,3).map(function(m){return React.createElement('span',{key:m.id,className:'px2 py05 bg-s1 rounded text-xs text-s5'},m.name)}),s.majors.length>3?React.createElement('span',{className:'text-xs text-s4'},'+',s.majors.length-3):null),
+          React.createElement('button',{onClick:function(){Lset('detailId',s.id);props.setPage('detail')},className:'w-full py2 rounded-lg bg-p500 text-w text-sm font-medium'},'查看详情')))}),
+      results.length===0?React.createElement('div',{className:'text-center py16',style:{gridColumn:'1/-1'}},React.createElement('p',{className:'text-s4'},'没有找到匹配的院校')):null));
+}
+
+// === SchoolDetailPage ===
+function SchoolDetailPage(props){
+  var id=Lget('detailId');var school=SCHOOLS.find(function(s){return s.id===id});
+  var favState=React.useState(function(){return Lget('favs')||[]});var favs=favState[0],setFavs=favState[1];
+  var tabState=React.useState('overview');var tab=tabState[0],setTab=tabState[1];
+  if(!school)return React.createElement('div',{className:'text-center py16'},React.createElement('p',{className:'text-s4 mb4'},'未找到院校'),React.createElement('button',{onClick:function(){props.setPage('schools')},className:'px4 py2 rounded-lg bg-p500 text-w text-sm'},'返回列表'));
+  var isFav=favs.indexOf(school.id)!==-1;
+  var toggleFav=function(){var u=isFav?favs.filter(function(x){return x!==school.id}):favs.concat([school.id]);setFavs(u);Lset('favs',u)};
+
+  return React.createElement('div',{className:'max-w-lg mx-auto px4 py6 pb16 animate-fade-in'},
+    React.createElement('div',{className:'flex items-center justify-between mb6'},
+      React.createElement('button',{onClick:function(){props.setPage('schools')},className:'text-s4 text-sm'},'← 返回'),
+      React.createElement('button',{onClick:toggleFav,className:'flex items-center gap1 px3 py15 rounded-lg text-sm '+(isFav?'bg-r50 text-r':'bg-s1 text-s5')},'❤ '+(isFav?'已收藏':'收藏'))),
+    React.createElement('div',{className:'card p6 mb4 flex items-start gap4'},
+      React.createElement('div',{className:'w-16 h-16 rounded-2xl gradient-primary flex items-center justify-center flex-shrink-0'},React.createElement('span',{className:'text-w text-xl font-bold'},school.shortName[0])),
+      React.createElement('div',null,React.createElement('h1',{className:'text-2xl font-bold text-s8'},school.name),React.createElement('p',{className:'text-sm text-s4'},school.type==='ministry'?'部属院校':'省属院校'))),
+    school.transferRestriction.restricted?React.createElement('div',{className:'bg-r50 rounded-xl p4 mb4'},React.createElement('p',{className:'text-sm font-medium text-r mb1'},'⚠️ 转专业限制'),React.createElement('p',{className:'text-xs'},school.transferRestriction.detail)):null,
+    React.createElement(TabBar,{tabs:[{k:'overview',l:'概览'},{k:'exam',l:'校测'},{k:'data',l:'数据'},{k:'life',l:'生活'}],active:tab,onChange:setTab}),
+    tab==='overview'?React.createElement('div',{className:'flex flex-col gap4'},
+      React.createElement('div',{className:'card p5'},React.createElement('h3',{className:'font-semibold text-s8 mb3'},'基本信息'),
+        React.createElement('p',{className:'text-sm mb1'},'📍 ',(school.info.campuses[0]||{}).name||''),
+        React.createElement('p',{className:'text-sm mb1'},'💰 学费：',school.info.tuitionGeneral),school.info.tuitionSinoForeign?React.createElement('p',{className:'text-sm text-y mb1'},'中外合作：',school.info.tuitionSinoForeign):null,
+        React.createElement('p',{className:'text-sm mb1'},'📞 ',school.info.admissionsPhone),school.info.healthRestrictions?React.createElement('p',{className:'text-sm text-y'},'⚠️ ',school.info.healthRestrictions):null,
+        React.createElement('p',{className:'text-sm mt2'},React.createElement('a',{href:school.info.website,target:'_blank',className:'text-p text-break'},school.info.website)),
+        school.brochureUrl?React.createElement('p',{className:'text-sm mt1'},React.createElement('a',{href:school.brochureUrl,target:'_blank',className:'text-p text-break text-xs'},'📄 招生简章')):null),
+      React.createElement('div',{className:'card p5'},React.createElement('h3',{className:'font-semibold text-s8 mb3'},'招生专业'),school.majors.map(function(m){return React.createElement('div',{key:m.id,className:'flex items-center justify-between py2 px3 bg-s1 rounded-xl mb2'},React.createElement('div',null,React.createElement('p',{className:'text-sm font-medium'},m.name),React.createElement('p',{className:'text-xs text-s4'},m.category)),React.createElement('div',{className:'flex items-center gap2'},m.requiredSubjects.length>0?React.createElement('span',{className:'badge badge-blue'},m.requiredSubjects.join('+')):null,m.planCount?React.createElement('span',{className:'text-xs text-s4'},'招'+m.planCount+'人'):null))})),
+      React.createElement('div',{className:'card p5'},React.createElement('h3',{className:'font-semibold text-s8 mb3'},'报名流程'),school.applicationSteps.map(function(step){return React.createElement('div',{key:step.step,className:'flex gap3 mb3'},React.createElement('div',{className:'w-8 h-8 rounded-full bg-p50 flex items-center justify-center flex-shrink-0'},React.createElement('span',{className:'text-sm font-bold text-p'},step.step)),React.createElement('div',null,React.createElement('div',{className:'flex items-center gap2'},React.createElement('h4',{className:'font-medium text-sm'},step.title),step.deadline?React.createElement('span',{className:'text-xs text-s4 bg-s1 px2 py05 rounded'},step.deadline):null),step.description?React.createElement('p',{className:'text-xs text-s5 mt1'},step.description):null))}))):null,
+    tab==='exam'?React.createElement('div',{className:'card p5'},
+      React.createElement('div',{className:'flex gap3 mb4'},[['笔试',school.examFormat.hasWrittenTest,'bg-p50 text-p'],['面试',school.examFormat.hasInterview,'bg-g50 text-g'],['体测',school.examFormat.hasPhysicalTest,'bg-y50 text-y']].map(function(a){return React.createElement('div',{key:a[0],className:'px4 py15 rounded-xl text-sm font-medium '+(a[2]||'bg-s1 text-s4')},a[0]+'：'+(a[1]?'有':'无'))})),
+      school.examFormat.hasWrittenTest&&school.examFormat.writtenTestSubjects?React.createElement('p',{className:'text-sm mb2'},'笔试科目：',school.examFormat.writtenTestSubjects.join('、')):null,
+      React.createElement('p',{className:'text-sm mb2'},school.examFormat.contentSummary),
+      React.createElement('div',{className:'bg-p50 rounded-xl p3 mt3'},React.createElement('p',{className:'text-xs text-p font-medium mb1'},'备考建议'),React.createElement('p',{className:'text-xs'},school.examFormat.tips))):null,
+    tab==='data'?React.createElement('div',{className:'flex flex-col gap4'},
+      React.createElement('div',{className:'card p5'},React.createElement('h3',{className:'font-semibold text-s8 mb3'},'综合分公式'),React.createElement('div',{className:'bg-s1 rounded-xl p4 text-sm'},React.createElement('p',{className:'mb2'},'综合分 = 学考折算分 × '+(school.formula.weights.xuekao*100)+'% + 校测 × '+(school.formula.weights.xiaokao*100)+'% + 高考折算分 × '+(school.formula.weights.gaokao*100)+'%'),React.createElement('p',{className:'text-xs'},'A='+school.formula.xuekao.A+' B='+school.formula.xuekao.B+' C='+school.formula.xuekao.C+' D='+school.formula.xuekao.D)),React.createElement('p',{className:'text-xs text-s3 mt2'},'来源：',school.name,'招生章程')),
+      school.admission.length>0?React.createElement('div',{className:'card p5'},React.createElement('h3',{className:'font-semibold text-s8 mb3'},'历年竞争比'),school.admission.map(function(ad){return React.createElement('div',{key:ad.year,className:'flex justify-between py2 text-sm border-t border-s1'},React.createElement('span',null,ad.year,'年'),React.createElement('span',null,'报名 ',ad.applicants,' → 入围 ',ad.passed,' → 录取 ',ad.admitted,'  (',(ad.applicants/ad.admitted).toFixed(1),':1)'))})):null):null,
+    tab==='life'?React.createElement('div',{className:'flex flex-col gap4'},
+      React.createElement('div',{className:'card p5'},React.createElement('h3',{className:'font-semibold text-s8 mb3'},'满意度'),[{l:'综合',v:school.satisfaction.overall},{l:'环境',v:school.satisfaction.environment},{l:'生活',v:school.satisfaction.life}].map(function(item){return React.createElement('div',{key:item.l,className:'flex items-center gap3 mb2'},React.createElement('span',{className:'text-sm text-s5 w-16'},item.l),React.createElement('div',{className:'flex-1 h-3 bg-s1 rounded-full overflow-hidden'},React.createElement('div',{className:'h-full rounded-full',style:{width:(item.v/5*100)+'%',background:'linear-gradient(90deg,#F59E0B,#FBBF24)'}})),React.createElement('span',{className:'text-sm font-medium'},item.v))})),
+      React.createElement('div',{className:'card p5'},React.createElement('h3',{className:'font-semibold text-s8 mb3'},'住宿条件'),React.createElement('p',{className:'text-sm leading-relaxed'},school.dormitory.description),React.createElement('div',{className:'flex flex-wrap gap2 mt3'},school.dormitory.highlights.map(function(h){return React.createElement('span',{key:h,className:'badge badge-green'},h)})),school.dormitory.drawbacks.length>0?React.createElement('div',{className:'flex flex-wrap gap2 mt2'},school.dormitory.drawbacks.map(function(d){return React.createElement('span',{key:d,className:'badge badge-red'},d)})):null)):null);
+}
+
+// === CalculatorPage ===
+function CalculatorPage(){
+  var SUBJ=['语文','数学','英语','物理','化学','生物','政治','历史','地理','技术'];
+  var gState=React.useState(SUBJ.map(function(s){return{subject:s,grade:'B'}}));var grades=gState[0],setGrades=gState[1];
+  var sidState=React.useState('');var schoolId=sidState[0],setSchoolId=sidState[1];
+  var xsState=React.useState('');var xs=xsState[0],setXs=xsState[1];
+  var gkState=React.useState('');var gk=gkState[0],setGk=gkState[1];
+  var resultState=React.useState(null);var result=resultState[0],setResult=resultState[1];
+  var modeState=React.useState('forward');var mode=modeState[0],setMode=modeState[1];
+  var targetState=React.useState('');var target=targetState[0],setTarget=targetState[1];
+  var rGkState=React.useState(null);var rGk=rGkState[0],setRGk=rGkState[1];
+  var rXsState=React.useState(null);var rXs=rXsState[0],setRXs=rXsState[1];
+
+  var school=SCHOOLS.find(function(s){return s.id===schoolId});
+
+  return React.createElement('div',{className:'max-w-md mx-auto px4 py6 pb16 animate-fade-in'},
+    React.createElement('h1',{className:'text-xl font-bold text-s8 mb6'},'🧮 综合分计算器'),
+    React.createElement('div',{className:'flex bg-s1 rounded-xl p1 mb4'},
+      ['forward','reverse'].map(function(m){return React.createElement('button',{key:m,onClick:function(){setMode(m);setResult(null);setRGk(null);setRXs(null)},className:'flex-1 py15 rounded-lg text-sm font-medium '+(mode===m?'bg-w text-p shadow-card':'text-s5')},m==='forward'?'正算模式':'反向推算')})),
+    React.createElement('div',{className:'card p4 mb4'},React.createElement('label',{className:'text-xs font-medium text-s5 mb2 block'},'选择院校'),React.createElement('select',{value:schoolId,onChange:function(e){setSchoolId(e.target.value);setResult(null)},className:'input'},React.createElement('option',{value:''},'请选择院校'),SCHOOLS.map(function(s){return React.createElement('option',{key:s.id,value:s.id},s.name+'（'+s.shortName+'）')}))),
+    school?React.createElement('div',{className:'bg-p50 rounded-xl p4 mb4 text-sm'},React.createElement('p',{className:'mb1'},'公式：学考折算分×'+(school.formula.weights.xuekao*100)+'% + 校测×'+(school.formula.weights.xiaokao*100)+'% + 高考折算分×'+(school.formula.weights.gaokao*100)+'%'),React.createElement('p',{className:'text-xs'},'A='+school.formula.xuekao.A+' B='+school.formula.xuekao.B+' C='+school.formula.xuekao.C+' D='+school.formula.xuekao.D)):null,
+    React.createElement('div',{className:'card p4 mb4'},React.createElement('h3',{className:'font-medium text-sm mb3'},'学考等级'),React.createElement('div',{className:'grid g2 gap2'},grades.map(function(g){return React.createElement('div',{key:g.subject,className:'flex items-center gap2 bg-s1 rounded-lg px3 py2'},React.createElement('span',{className:'text-sm w-10'},g.subject),React.createElement('select',{value:g.grade,onChange:function(e){setGrades(grades.map(function(x){return x.subject===g.subject?Object.assign({},x,{grade:e.target.value}):x}))},className:'bg-w border border-s2 rounded px2 py1 text-sm flex-1'},['A','B','C','D','E'].map(function(o){return React.createElement('option',{key:o,value:o},o)})))}))),
+    React.createElement('div',{className:'card p4 mb4'},React.createElement('div',{className:'grid g2 gap3'},React.createElement('div',null,React.createElement('label',{className:'text-xs font-medium text-s5 mb1 block'},'校测预估分'),React.createElement('input',{type:'number',value:xs,onChange:function(e){setXs(e.target.value)},placeholder:'如 85',className:'input'})),React.createElement('div',null,React.createElement('label',{className:'text-xs font-medium text-s5 mb1 block'},'高考预估分'),React.createElement('input',{type:'number',value:gk,onChange:function(e){setGk(e.target.value)},placeholder:'如 620',className:'input'})))),
+    mode==='forward'?React.createElement('button',{onClick:function(){if(!school)return;var r=calcResult({xuekaoGrades:grades.map(function(g){return{subject:g.subject,grade:g.grade}}),xiaokaoScore:xs?Number(xs):null,gaokaoScore:gk?Number(gk):null},school);setResult(r)},disabled:!schoolId,className:'w-full py3 rounded-xl bg-p500 text-w font-medium text-sm mb4 disabled:opacity-50'},'计算综合分'):
+    React.createElement('div',{className:'mb4'},React.createElement('input',{type:'number',value:target,onChange:function(e){setTarget(e.target.value)},placeholder:'目标综合分（如 85）',className:'input mb3'}),React.createElement('button',{onClick:function(){if(!school||!target)return;var gs=grades.map(function(g){return{subject:g.subject,grade:g.grade}});setRGk(reverseGk(Number(target),gs,xs?Number(xs):0,school));setRXs(reverseXs(Number(target),gs,gk?Number(gk):0,school))},disabled:!schoolId||!target,className:'w-full py3 rounded-xl text-w font-medium text-sm disabled:opacity-50',style:{background:'#F59E0B'}},'反向推算')),
+    mode==='forward'&&result?React.createElement('div',{className:'card p5 animate-slide-up mb4'},
+      React.createElement('p',{className:'text-4xl font-bold text-p text-center mb4'},result.comprehensiveScore,React.createElement('span',{className:'text-sm text-s4 font-normal'},' 综合分')),
+      [['学考折算',result.xuekaoConverted+'/'+result.xuekaoFullScore],['校测',result.xiaokaoNormalized],['高考折算',result.gaokaoNormalized],['判定',result.tier==='reach'?'冲刺':result.tier==='match'?'稳妥':'保底']].map(function(r){return React.createElement('div',{key:r[0],className:'flex justify-between py2 text-sm border-t border-s1'},React.createElement('span',{className:'text-s4'},r[0]),React.createElement('span',{className:'font-medium'},r[1]))})):null,
+    mode==='reverse'&&(rGk!==null||rXs!==null)?React.createElement('div',{className:'card p5 animate-slide-up mb4'},
+      rGk!==null?React.createElement('div',{className:'bg-y50 rounded-xl p4 mb3'},React.createElement('p',{className:'text-xs mb1'},'若校测为 ',(xs||'?'),' 分'),React.createElement('p',{className:'text-lg font-bold text-y'},'高考需 ≥ ',rGk,' 分')):null,
+      rXs!==null?React.createElement('div',{className:'bg-p50 rounded-xl p4'},React.createElement('p',{className:'text-xs mb1'},'若高考为 ',(gk||'?'),' 分'),React.createElement('p',{className:'text-lg font-bold text-p'},'校测需 ≥ ',rXs,' 分')):null):null
+  );
+}
+
+// === FavoritesPage ===
+function FavoritesPage(props){
+  var state=React.useState(function(){return Lget('favs')||[]});var favs=state[0],setFavs=state[1];
+  var list=SCHOOLS.filter(function(s){return favs.indexOf(s.id)!==-1});
+  return React.createElement('div',{className:'max-w-md mx-auto px4 py6 pb16 animate-fade-in'},
+    React.createElement('h1',{className:'text-xl font-bold text-s8 mb6'},'❤️ 我的收藏'),
+    list.length===0?React.createElement('div',{className:'text-center py16'},React.createElement('p',{className:'text-s4 mb4'},'还没有收藏的院校'),React.createElement('button',{onClick:function(){props.setPage('schools')},className:'px4 py2 rounded-lg bg-p500 text-w text-sm'},'去院校列表看看')):
+    list.map(function(s){return React.createElement('div',{key:s.id,className:'card p4 flex items-center gap4 mb3'},
+      React.createElement('div',{className:'w-12 h-12 rounded-xl gradient-primary flex items-center justify-center flex-shrink-0'},React.createElement('span',{className:'text-w font-bold'},s.shortName[0])),
+      React.createElement('div',{className:'flex-1 min-w-0'},
+        React.createElement('button',{onClick:function(){Lset('detailId',s.id);props.setPage('detail')},className:'font-medium text-s8 text-left w-full'},s.name),
+        React.createElement('p',{className:'text-xs text-s4'},"📍 "+(s.info.campuses[0]||{}).name)),
+      React.createElement('button',{onClick:function(){var u=favs.filter(function(x){return x!==s.id});setFavs(u);Lset('favs',u)},className:'p2 text-s4'},'✕'))}));
+}
+
+// === FAQPage ===
+function FAQPage(){
+  var state=React.useState(null);var open=state[0],setOpen=state[1];
+  return React.createElement('div',{className:'max-w-md mx-auto px4 py6 pb16 animate-fade-in'},
+    React.createElement('h1',{className:'text-xl font-bold text-s8 mb6'},'❓ 常见问题'),
+    FAQ_DATA.map(function(item,i){return React.createElement('div',{key:i,className:'card overflow-hidden mb3'},
+      React.createElement('button',{onClick:function(){setOpen(open===i?null:i)},className:'w-full flex items-center justify-between p4 text-left'},
+        React.createElement('span',{className:'font-medium text-s8 text-sm pr4'},item.q),React.createElement('span',{className:'text-xs text-s4'},open===i?'▲':'▼')),
+      open===i?React.createElement('div',{className:'px4 pb4 animate-slide-up'},React.createElement('p',{className:'text-sm text-s5 bg-s1 rounded-xl p4 leading-relaxed'},item.a)):null)}));
+}
+
+// === TreeholePage ===
+function TreeholePage(){
+  var cats=['经验','互助','吐槽','疑问'];
+  var uid=getUserId();
+  var postsState=React.useState(function(){return Lget('treehole')||[]});var posts=postsState[0],setPosts=postsState[1];
+  var catState=React.useState('all');var category=catState[0],setCategory=catState[1];
+  var textState=React.useState('');var text=textState[0],setText=textState[1];
+  var pcState=React.useState('经验');var postCat=pcState[0],setPostCat=pcState[1];
+  var onlineState=React.useState(true);var online=onlineState[0],setOnline=onlineState[1];
+  var roState=React.useState(null);var replyOpen=roState[0],setReplyOpen=roState[1];
+  var rtState=React.useState('');var replyText=rtState[0],setReplyText=rtState[1];
+  var noState=React.useState('');var notice=noState[0],setNotice=noState[1];
+  var qState=React.useState(function(){return ENCOURAGE_DATA[Math.floor(Math.random()*ENCOURAGE_DATA.length)]});var quote=qState[0],setQuote=qState[1];
+
+  React.useEffect(function(){
+    var timer=null;
+    function fetchPosts(flagOffline){
+      apiGet('/api/treehole',function(data){
+        if(data&&data.posts){setPosts(data.posts);setOnline(true);Lset('treehole',data.posts);}
+        else if(flagOffline){setOnline(false);}
+      });
+    }
+    fetchPosts(true);
+    timer=setInterval(function(){fetchPosts(false);},8000);
+    return function(){if(timer)clearInterval(timer);};
+  },[]);
+
+  function submitPost(){
+    var content=text.trim();
+    if(!content)return;
+    var localPost={id:'local'+Date.now().toString(36),content:content,category:postCat,aid:'你',created_at:new Date().toLocaleString('zh-CN'),likes:[],replies:[],pinned:false,reports:0};
+    apiPost('/api/treehole',{content:content,category:postCat},function(data){
+      var my=Lget('myPosts')||[];
+      if(data&&data.ok&&data.post){
+        var u=[data.post].concat(posts);
+        setPosts(u);Lset('treehole',u);Lset('myPosts',my.concat([data.post.id]));
+        setNotice('✅ 发布成功，感谢分享！');setOnline(true);
+      }else{
+        var u2=[localPost].concat(posts);
+        setPosts(u2);Lset('treehole',u2);Lset('myPosts',my.concat([localPost.id]));
+        setOnline(false);setNotice('⚠️ 离线模式：帖子仅保存在本设备');
+      }
+      setText('');
+    });
+  }
+
+  function toggleLike(p){
+    var liked=(p.likes||[]).indexOf(uid)>-1;
+    var nl=liked?p.likes.filter(function(x){return x!==uid}):p.likes.concat([uid]);
+    var updated=posts.map(function(x){return x.id===p.id?Object.assign({},x,{likes:nl}):x});
+    setPosts(updated);Lset('treehole',updated);
+    apiPost('/api/treehole/'+p.id+'/like',{userId:uid},function(data){
+      if(data&&data.ok)setNotice(liked?'已取消点赞':'❤ 收到你的鼓励！');
+      else{setOnline(false);setNotice('⚠️ 离线模式：点赞未同步');}
+    });
+  }
+
+  function submitReply(p){
+    var c=replyText.trim();
+    if(!c)return;
+    var newReply={id:'r'+Date.now().toString(36),content:c,aid:'匿名',created_at:new Date().toLocaleString('zh-CN')};
+    var updated=posts.map(function(x){return x.id===p.id?Object.assign({},x,{replies:(x.replies||[]).concat([newReply])}):x});
+    setPosts(updated);Lset('treehole',updated);
+    apiPost('/api/treehole/'+p.id+'/reply',{content:c,aid:'匿名'},function(data){
+      if(data&&data.ok)setNotice('💬 回复成功');
+      else{setOnline(false);setNotice('⚠️ 离线模式：回复仅保存在本设备');}
+    });
+    setReplyText('');setReplyOpen(null);
+  }
+
+  function togglePin(p){
+    var updated=posts.map(function(x){return x.id===p.id?Object.assign({},x,{pinned:!x.pinned}):x});
+    setPosts(updated);Lset('treehole',updated);
+    apiPost('/api/treehole/'+p.id+'/pin',{},function(data){
+      if(data&&data.ok)setNotice('📌 置顶状态已更新');
+      else setOnline(false);
+    });
+  }
+
+  function report(p){
+    if(window.confirm&&!window.confirm('确认举报这条内容？'))return;
+    apiPost('/api/treehole/'+p.id+'/report',{userId:uid},function(data){
+      if(data&&data.ok)setNotice('🚩 已提交举报，我们会尽快处理');
+      else setNotice('🚩 举报已记录（离线模式）');
+    });
+  }
+
+  function renderPost(p){
+    var liked=(p.likes||[]).indexOf(uid)>-1;
+    var isMine=(Lget('myPosts')||[]).indexOf(p.id)>-1;
+    var pinTag=p.pinned?React.createElement('span',{className:'badge badge-yellow'},'📌 置顶'):null;
+    var catTag=React.createElement('span',{className:'badge '+(p.category==='经验'?'badge-green':p.category==='互助'?'badge-blue':p.category==='吐槽'?'badge-red':'badge-gray')},p.category||'疑问');
+    var likeBtn=React.createElement('button',{onClick:function(){toggleLike(p)},className:'flex items-center gap1 px3 py1 rounded-lg text-xs '+(liked?'bg-r50 text-r':'bg-s1 text-s5')},'❤ '+(p.likes?p.likes.length:0));
+    var replyBtn=React.createElement('button',{onClick:function(){setReplyOpen(replyOpen===p.id?null:p.id)},className:'px3 py1 rounded-lg text-xs bg-s1 text-s5'},'💬 '+(p.replies?p.replies.length:0));
+    var pinBtn=isMine?React.createElement('button',{onClick:function(){togglePin(p)},className:'px3 py1 rounded-lg text-xs '+(p.pinned?'bg-y50 text-y':'bg-s1 text-s5')},p.pinned?'取消置顶':'置顶'):null;
+    var reportBtn=React.createElement('button',{onClick:function(){report(p)},className:'px3 py1 rounded-lg text-xs bg-s1 text-s4'},'举报');
+    var replies=replyOpen===p.id?React.createElement('div',{className:'bg-s1 rounded-xl p3 mt3'},
+      (p.replies||[]).map(function(r){return React.createElement('div',{key:r.id,className:'py1 border-b border-s2'},React.createElement('p',{className:'text-xs text-s6'},r.content),React.createElement('p',{className:'text-xs text-s4 mt1'},r.aid,' · ',r.created_at))}),
+      React.createElement('div',{className:'flex gap2 mt2'},
+        React.createElement('input',{type:'text',value:replyText,onChange:function(e){setReplyText(e.target.value)},placeholder:'友善回复...',maxLength:200,className:'input text-sm flex-1'}),
+        React.createElement('button',{onClick:function(){submitReply(p)},disabled:!replyText.trim(),className:'px3 py2 rounded-lg bg-p600 text-w text-xs disabled:opacity-50'},'回复'))):null;
+    return React.createElement('div',{key:p.id,className:'card p4 mb3',style:p.pinned?{borderLeft:'4px solid #F59E0B'}:null},
+      React.createElement('div',{className:'flex items-center gap2 mb2'},pinTag,catTag),
+      React.createElement('p',{className:'text-sm text-s6 leading-relaxed'},p.content),
+      React.createElement('div',{className:'flex items-center justify-between mt3'},
+        React.createElement('p',{className:'text-xs text-s4'},p.aid,' · ',p.created_at),
+        React.createElement('div',{className:'flex items-center gap2'},likeBtn,replyBtn,pinBtn,reportBtn)),
+      replies);
+  }
+
+  var filtered=posts.filter(function(p){return category==='all'||p.category===category});
+  var sorted=filtered.slice().sort(function(a,b){return (b.pinned?1:0)-(a.pinned?1:0)});
+  var header=React.createElement('h1',{className:'text-xl font-bold text-s8 mb6'},'💬 树洞 · 社区');
+  var onlineTag=online?null:React.createElement('div',{className:'bg-y50 rounded-xl p3 mb4'},React.createElement('p',{className:'text-xs text-y'},'⚠️ 离线模式：无法连接服务器，帖子仅保存在本设备'));
+  var noticeTag=notice?React.createElement('div',{className:'bg-g50 rounded-xl p3 mb4'},React.createElement('p',{className:'text-xs text-g'},notice)):null;
+  var quoteCard=React.createElement('div',{className:'card p4 mb4',style:{background:'linear-gradient(135deg,#FFF7ED,#FEF3C7)'}},
+    React.createElement('div',{className:'flex items-start gap3'},
+      React.createElement('span',{className:'text-xl'},'💪'),
+      React.createElement('div',{className:'flex-1 min-w-0'},
+        React.createElement('p',{className:'text-sm font-medium text-s8 leading-relaxed'},quote.text),
+        React.createElement('div',{className:'flex items-center justify-between mt2'},
+          React.createElement('span',{className:'text-xs text-s4'},'# '+quote.tag),
+          React.createElement('button',{onClick:function(){setQuote(ENCOURAGE_DATA[Math.floor(Math.random()*ENCOURAGE_DATA.length)])},className:'text-xs text-y px3 py1 rounded-lg bg-w'},'换一句 ↻')))));
+  var composer=React.createElement('div',{className:'card p4 mb4'},
+    React.createElement('textarea',{value:text,onChange:function(e){setText(e.target.value)},placeholder:'分享你的三一经验、困惑或心情...',maxLength:500,rows:3,className:'input resize-none mb2'}),
+    React.createElement('div',{className:'flex items-center justify-between flex-wrap gap2'},
+      React.createElement('div',{className:'flex gap1'},cats.map(function(c){return React.createElement('button',{key:c,onClick:function(){setPostCat(c)},className:'px2 py1 rounded-lg text-xs '+(postCat===c?'bg-p500 text-w':'bg-s1 text-s5')},c)})),
+      React.createElement('button',{onClick:submitPost,disabled:!text.trim(),className:'px4 py2 rounded-lg bg-p500 text-w text-sm disabled:opacity-50'},'匿名发布')));
+  var catTabs=React.createElement('div',{className:'flex gap2 mb4 overflow-x-auto'},
+    ['全部'].concat(cats).map(function(c){return React.createElement('button',{key:c,onClick:function(){setCategory(c)},className:'px3 py15 rounded-lg text-sm flex-shrink-0 '+(category===c?'bg-p500 text-w':'bg-w text-s5 shadow-card')},c)}));
+  return React.createElement('div',{className:'max-w-md mx-auto px4 py6 pb16 animate-fade-in'},
+    header,onlineTag,noticeTag,quoteCard,composer,catTabs,
+    sorted.length===0?React.createElement('div',{className:'text-center py12'},React.createElement('p',{className:'text-s4'},'还没有内容，来发第一帖吧！')):sorted.map(renderPost));
+}
+
+// === ProfilePage (with Markdown Export) ===
+function ProfilePage(props){
+  var state=React.useState(function(){return Lget('favs')||[]});var favs=state[0];
+  var list=SCHOOLS.filter(function(s){return favs.indexOf(s.id)!==-1});
+
+  function exportMarkdown(){
+    if(list.length===0)return;
+    var now=new Date();
+    var dateStr=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');
+    var md='# 三位一体报考方案\n\n> 生成日期：'+dateStr+'\n> 收藏院校数：'+list.length+' 所\n\n---\n\n';
+    list.forEach(function(s,i){
+      md+='## '+(i+1)+'. '+s.name+'（'+s.shortName+'）\n\n';
+      md+='### 基本信息\n\n';
+      md+='- **类型**：'+(s.type==='ministry'?'部属院校':'省属院校')+'\n';
+      md+='- **校区**：'+(s.info.campuses[0]||{}).name||'未知';
+      if(s.info.campuses.length>1)md+=' 等'+s.info.campuses.length+'个校区';
+      md+='\n- **学费**：'+s.info.tuitionGeneral+'\n';
+      if(s.info.tuitionSinoForeign)md+='- **中外合作学费**：'+s.info.tuitionSinoForeign+'\n';
+      md+='- **招生电话**：'+s.info.admissionsPhone+'\n';
+      if(s.info.healthRestrictions)md+='- **健康限制**：'+s.info.healthRestrictions+'\n';
+      md+='- **官网**：'+s.info.website+'\n';
+      if(s.brochureUrl)md+='- **招生简章**：'+s.brochureUrl+'\n';
+      md+='\n### 招生专业\n\n';
+      s.majors.forEach(function(m){
+        md+='- **'+m.name+'**（'+m.category+'）';
+        if(m.requiredSubjects.length>0)md+=' - 选科要求：'+m.requiredSubjects.join('+');
+        if(m.planCount)md+=' - 计划招生 '+m.planCount+' 人';
+        md+='\n';
+      });
+      md+='\n### 校测内容\n\n';
+      md+='- **笔试**：'+(s.examFormat.hasWrittenTest?'有'+(s.examFormat.writtenTestSubjects?'（'+s.examFormat.writtenTestSubjects.join('、')+'）':'') :'无')+'\n';
+      md+='- **面试**：'+(s.examFormat.hasInterview?'有 - '+s.examFormat.interviewFormat:'无')+'\n';
+      md+='- **内容摘要**：'+s.examFormat.contentSummary+'\n';
+      md+='- **备考建议**：'+s.examFormat.tips+'\n';
+      md+='\n### 综合分公式\n\n';
+      var f=s.formula;
+      md+='```\n综合分 = 学考折算分 × '+(f.weights.xuekao*100)+'% + 校测 × '+(f.weights.xiaokao*100)+'% + 高考折算分 × '+(f.weights.gaokao*100)+'%\n```\n\n';
+      md+='学考折算：A='+f.xuekao.A+' B='+f.xuekao.B+' C='+f.xuekao.C+' D='+f.xuekao.D+'（满分'+f.xuekao.fullScore+'分）\n\n';
+      md+='### 报名流程\n\n';
+      s.applicationSteps.forEach(function(st){
+        md+='**'+st.step+'. '+st.title+'**'+(st.deadline?'（'+st.deadline+'）':'')+'\n';
+        if(st.description)md+=st.description+'\n';
+        if(st.materials&&st.materials.length>0)md+='所需材料：'+st.materials.join('、')+'\n';
+        md+='\n';
+      });
+      md+='### 转专业政策\n\n';
+      md+=s.transferRestriction.restricted?'⚠️ **有转专业限制**：'+s.transferRestriction.detail:'✅ 可按学校规定申请转专业';
+      md+='\n\n### 满意度\n\n';
+      md+='| 综合满意度 | 环境满意度 | 生活满意度 |\n|:---:|:---:|:---:|\n';
+      md+='| '+s.satisfaction.overall+'/5 | '+s.satisfaction.environment+'/5 | '+s.satisfaction.life+'/5 |\n';
+      md+='\n---\n\n';
+    });
+    md+='*数据来源：浙江省教育考试院、各高校招生网、阳光高考网。请以官方最新公告为准。*';
+    var blob=new Blob([md],{type:'text/markdown;charset=utf-8'});
+    var url=URL.createObjectURL(blob);
+    var a=document.createElement('a');a.href=url;a.download='三位一体方案_'+dateStr.replace(/-/g,'')+'.md';
+    document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
+  }
+
+  return React.createElement('div',{className:'max-w-md mx-auto px4 py6 pb16 animate-fade-in'},
+    React.createElement('h1',{className:'text-xl font-bold text-s8 mb6'},'📋 我的档案'),
+    React.createElement('div',{className:'card p4 mb4'},React.createElement('h3',{className:'font-medium text-sm mb2'},'目标院校 (',list.length,')'),list.length===0?React.createElement('p',{className:'text-sm text-s4'},'还没有收藏，',React.createElement('button',{onClick:function(){props.setPage('schools')},className:'text-p'},'去添加')):React.createElement('div',{className:'flex flex-wrap gap2 mt2'},list.map(function(s){return React.createElement('button',{key:s.id,onClick:function(){Lset('detailId',s.id);props.setPage('detail')},className:'px3 py15 bg-s1 rounded-lg text-sm text-s5'},s.shortName)}))),
+    list.length>0?React.createElement('button',{onClick:exportMarkdown,className:'w-full py3 rounded-xl bg-g text-w font-medium text-sm mb4'},'📥 导出Markdown方案'):null,
+    React.createElement('div',{className:'card p4'},React.createElement('h3',{className:'font-medium text-sm mb3'},'报名材料清单'),list.length===0?React.createElement('p',{className:'text-sm text-s4'},'收藏院校后自动汇总'):list.map(function(s){var mats=[];s.applicationSteps.forEach(function(st){(st.materials||[]).forEach(function(m){if(mats.indexOf(m)===-1)mats.push(m)})});return React.createElement('div',{key:s.id,className:'bg-s1 rounded-xl p3 mb3'},React.createElement('p',{className:'text-sm font-medium mb2'},s.shortName),mats.map(function(m){return React.createElement('label',{key:m,className:'flex items-center gap2 py1'},React.createElement('input',{type:'checkbox',className:'w-4 h-4'}),React.createElement('span',{className:'text-xs text-s5'},m))}))})));
+}
+
+// === ComparePage (Enhanced with advantage/disadvantage markers) ===
+function ComparePage(props){
+  var state=React.useState(function(){return Lget('compareIds')||[]});var ids=state[0],setIds=state[1];
+  var shState=React.useState(false);var show=shState[0],setShow=shState[1];
+  var list=SCHOOLS.filter(function(s){return ids.indexOf(s.id)!==-1});
+
+  var numericRows=[
+    ['学费',function(s){return extractTuitionNum(s.info.tuitionGeneral)},true],
+    ['最低录取分',function(s){return s.admission[0]&&s.admission[0].minScore||0},true],
+    ['综合满意度',function(s){return s.satisfaction.overall},false],
+    ['环境满意度',function(s){return s.satisfaction.environment},false],
+    ['生活满意度',function(s){return s.satisfaction.life},false]
+  ];
+
+  function renderCell(s,rowDef,isNumeric){
+    var val=rowDef[1](s);
+    if(!isNumeric||list.length<2)return React.createElement('td',{key:s.id,className:'p4 text-center text-xs'},rowDef[0]==='学费'?s.info.tuitionGeneral:rowDef[0]==='最低录取分'?(val||'-'):(val+'/5'));
+    var baseline=rowDef[1](list[0]);
+    if(baseline===0||baseline===undefined||baseline===null)return React.createElement('td',{key:s.id,className:'p4 text-center text-xs'},val);
+    var lowerBetter=rowDef[2];
+    var cls='p4 text-center text-xs';
+    var marker='';
+    if(s.id!==list[0].id){
+      if(lowerBetter){
+        if(val<baseline){cls+=' compare-adv';marker=' ⊕';}
+        else if(val>baseline){cls+=' compare-dis';marker=' ⊖';}
+      }else{
+        if(val>baseline){cls+=' compare-adv';marker=' ⊕';}
+        else if(val<baseline){cls+=' compare-dis';marker=' ⊖';}
+      }
+    }else{cls+=' p4 text-center text-xs font-semibold';}
+    var display=rowDef[0]==='学费'?s.info.tuitionGeneral:rowDef[0]==='最低录取分'?(val||'-'):(val+'/5');
+    return React.createElement('td',{key:s.id,className:cls},display,marker?React.createElement('span',{className:'text-[10px]'},marker):null);
+  }
+
+  var allRows=[['院校类型',function(s){return s.type==='ministry'?'部属':'省属'}],['校区',function(s){return(s.info.campuses[0]||{}).name||'-'}],['笔试',function(s){return s.examFormat.hasWrittenTest?'有':'无'}],['面试',function(s){return s.examFormat.hasInterview?'有':'无'}],['转专业限制',function(s){return s.transferRestriction.restricted?'是':'否'}]];
+
+  return React.createElement('div',{className:'max-w-2xl mx-auto px4 py6 pb16 animate-fade-in'},
+    React.createElement('div',{className:'flex items-center justify-between mb6'},
+      React.createElement('h1',{className:'text-xl font-bold text-s8'},'院校对比'),
+      React.createElement('button',{onClick:function(){setShow(true)},disabled:ids.length>=5,className:'px4 py2 rounded-lg bg-p500 text-w text-sm disabled:opacity-50'},'添加 (',ids.length,'/5)')),
+    list.length>1?React.createElement('div',{className:'bg-y50 rounded-xl p3 mb4'},React.createElement('p',{className:'text-xs text-y'},'💡 以最左院校（',list[0].shortName,'）为参考基准。⊕ 黄色 = 优势，⊖ 红色 = 劣势。')):null,
+    list.length>0?React.createElement('div',{className:'card overflow-x-auto'},
+      React.createElement('table',{className:'w-full text-sm'},
+        React.createElement('thead',null,React.createElement('tr',{className:'border-b border-s1'},React.createElement('th',{className:'text-left p4 text-s4 text-xs'},'项目'),list.map(function(s,i){return React.createElement('th',{key:s.id,className:'p4 text-center',style:{minWidth:120,background:i===0?'#EFF6FF':'transparent'}},React.createElement('div',{className:'flex items-center justify-between'},React.createElement('span',{className:i===0?'font-semibold text-p':''},s.shortName,i===0?' ★':''),React.createElement('button',{onClick:function(){var u=ids.filter(function(i){return i!==s.id});setIds(u);Lset('compareIds',u)},className:'text-s3 text-xs'},'✕')))}))),
+        React.createElement('tbody',null,
+          allRows.map(function(row){return React.createElement('tr',{key:row[0],className:'border-b border-s1'},React.createElement('td',{className:'p4 text-s5 text-xs whitespace-nowrap'},row[0]),list.map(function(s){return React.createElement('td',{key:s.id,className:'p4 text-center text-xs'},row[1](s))}))}),
+          React.createElement('tr',{className:'border-b border-s1',style:{background:'#FEF3C7'}},React.createElement('td',{colSpan:list.length+1,className:'p2 text-center text-xs font-semibold text-y'},'— 差异对比（数值型字段） —')),
+          numericRows.map(function(row){return React.createElement('tr',{key:row[0],className:'border-b border-s1'},React.createElement('td',{className:'p4 text-s5 text-xs whitespace-nowrap'},row[0]),list.map(function(s){return renderCell(s,row,true)}))})
+        )
+      )
+    ):React.createElement('div',{className:'text-center py16'},React.createElement('p',{className:'text-s4'},'添加院校开始对比（最多 5 所）')),
+    show?React.createElement('div',{className:'fixed inset0 z50 flex items-center justify-center p4',style:{background:'rgba(0,0,0,.3)'}},
+      React.createElement('div',{className:'bg-w rounded-2xl w-full max-w-sm max-h-70 overflow-hidden animate-slide-up'},
+        React.createElement('div',{className:'flex items-center justify-between p4 border-b border-s1'},React.createElement('h3',{className:'font-semibold'},'添加对比院校'),React.createElement('button',{onClick:function(){setShow(false)},className:'text-s4'},'✕')),
+        React.createElement('div',{className:'p4 overflow-y-auto max-h-60'},SCHOOLS.map(function(s){return React.createElement('button',{key:s.id,onClick:function(){if(ids.length>=5||ids.indexOf(s.id)!==-1)return;var u=ids.concat([s.id]);setIds(u);Lset('compareIds',u);setShow(false)},disabled:ids.indexOf(s.id)!==-1,className:'w-full text-left p3 rounded-xl hover:bg-s1 transition-colors disabled:opacity-40 mb1'},React.createElement('p',{className:'font-medium text-sm'},s.name),React.createElement('p',{className:'text-xs text-s4'},s.shortName))})))
+    ):null
+  );
+}
+
+// === PathComparePage (三位一体 vs 普通高考) ===
+function PathComparePage(props){
+  var tableRows=[
+    ['录取批次','提前批，早于普通批','普通批，提前批之后'],
+    ['分数构成','学考+校测+高考 = 综合分','仅高考总分'],
+    ['志愿数量','仅1所院校','最多80个平行志愿'],
+    ['录取时间','7月上旬','7月中下旬'],
+    ['是否影响后续','录取后不再参加普通批','未被录取可参加征集志愿'],
+    ['退档风险','退档后只能等征集','有多次检索机会'],
+    ['学考权重','直接计入总分（约15%）','仅要求合格'],
+    ['校测','需参加笔试/面试','无需校测'],
+    ['准备周期','需长期准备校测','专注高考复习']
+  ];
+  var advCards=[
+    {icon:'🌟',title:'降分录取可能',desc:'学考和校测可弥补高考的不足，部分考生以低于普通批的分数被录取。'},
+    {icon:'🎤',title:'展示综合能力',desc:'校测面试让你在分数之外展示沟通、思维等软实力。'},
+    {icon:'🔒',title:'多一次录取机会',desc:'提前批录取，不影响后续普通批参与（如未被三一录取）。'},
+    {icon:'📊',title:'学考优势放大',desc:'学考A等较多的考生在综合分中占比15%，是天然优势。'}
+  ];
+  var disCards=[
+    {icon:'⚠️',title:'只能报一所',desc:'省属三位一体在提前批仅能填报1所院校+6个专业，选择面窄。'},
+    {icon:'🔄',title:'转专业可能受限',desc:'部分院校规定三一录取学生的转专业限制比普通批更严格。'},
+    {icon:'📚',title:'校测备考压力',desc:'笔试面试需要额外时间和精力准备，可能影响高考复习节奏。'},
+    {icon:'⏰',title:'录取时间紧张',desc:'提前批录取时间早，一旦被三一录取不可反悔参加普通批。'}
+  ];
+  var recItems=[
+    {s:'学考A较多（≥5A）+ 校测有信心',r:'强烈推荐三位一体',c:'text-g'},
+    {s:'学考A一般 + 高考实力强',r:'可尝试三一，主攻普通批',c:'text-y'},
+    {s:'学考较弱 + 高考稳定高分',r:'优先普通高考路径',c:'text-s5'},
+    {s:'有明确目标院校 + 该校有三一',r:'务必参加该三一，多一条路',c:'text-p'}
+  ];
+
+  var summary=React.createElement('div',{className:'grid g2 gap4 mb6'},
+    React.createElement('div',{className:'card p5 bg-p50'},
+      React.createElement('h3',{className:'font-bold text-p mb2'},'🎯 三位一体'),
+      React.createElement('p',{className:'text-xs text-s6 leading-relaxed'},'学考+校测+高考三合一，提前批录取，多一次机会但只能选一所。')),
+    React.createElement('div',{className:'card p5 bg-s1'},
+      React.createElement('h3',{className:'font-bold text-s8 mb2'},'📝 普通高考'),
+      React.createElement('p',{className:'text-xs text-s6 leading-relaxed'},'纯看高考分数，平行志愿可填80个，按分录取，选择面广。')));
+
+  var table=React.createElement('div',{className:'card overflow-hidden mb6'},
+    React.createElement('h3',{className:'font-semibold text-s8 p4 border-b border-s1'},'核心对比'),
+    React.createElement('table',{className:'w-full text-sm'},
+      React.createElement('thead',null,React.createElement('tr',{className:'border-b border-s1 bg-s1'},React.createElement('th',{className:'p3 text-left text-xs text-s5 w-24'},'维度'),React.createElement('th',{className:'p3 text-center text-xs text-p'},'三位一体'),React.createElement('th',{className:'p3 text-center text-xs text-s5'},'普通高考'))),
+      React.createElement('tbody',null,tableRows.map(function(row){return React.createElement('tr',{key:row[0],className:'border-b border-s1'},React.createElement('td',{className:'p3 text-xs text-s5'},row[0]),React.createElement('td',{className:'p3 text-center text-xs bg-p50'},row[1]),React.createElement('td',{className:'p3 text-center text-xs'},row[2]))}))));
+
+  var advSection=React.createElement('div',{className:'mb6'},
+    React.createElement('h3',{className:'font-semibold text-s8 mb4'},'三一优势'),
+    React.createElement('div',{className:'flex flex-col gap3'},
+      advCards.map(function(card){return React.createElement('div',{key:card.title,className:'card p4'},React.createElement('div',{className:'flex items-start gap3'},React.createElement('span',{className:'text-xl'},card.icon),React.createElement('div',null,React.createElement('h4',{className:'font-medium text-sm text-s8 mb1'},card.title),React.createElement('p',{className:'text-xs text-s5 leading-relaxed'},card.desc))))})));
+
+  var disSection=React.createElement('div',{className:'mb6'},
+    React.createElement('h3',{className:'font-semibold text-s8 mb4'},'三一局限'),
+    React.createElement('div',{className:'flex flex-col gap3'},
+      disCards.map(function(card){return React.createElement('div',{key:card.title,className:'card p4 bg-r50'},React.createElement('div',{className:'flex items-start gap3'},React.createElement('span',{className:'text-xl'},card.icon),React.createElement('div',null,React.createElement('h4',{className:'font-medium text-sm text-r mb1'},card.title),React.createElement('p',{className:'text-xs text-s6 leading-relaxed'},card.desc))))})));
+
+  var recSection=React.createElement('div',{className:'card p5 bg-p50 mb6'},
+    React.createElement('h3',{className:'font-semibold text-p mb3'},'💡 适用场景建议'),
+    React.createElement('div',{className:'flex flex-col gap2'},
+      recItems.map(function(item){return React.createElement('div',{key:item.s,className:'flex items-center justify-between py2 px3 bg-w rounded-xl'},React.createElement('span',{className:'text-xs text-s6'},item.s),React.createElement('span',{className:'text-xs font-semibold '+item.c},item.r))})));
+
+  var warn=React.createElement('div',{className:'card bg-y50 p5 text-center'},
+    React.createElement('p',{className:'text-sm font-semibold text-y mb1'},'⚠️ 核心提醒'),
+    React.createElement('p',{className:'text-xs text-y leading-relaxed'},'三位一体和普通高考不是"二选一"，你可以两条路同时准备！提前批投档在三一录取后进行，两者时间不冲突。关键在于：三一录取后不能再参加普通批。'));
+
+  return React.createElement('div',{className:'max-w-lg mx-auto px4 py6 pb16 animate-fade-in'},
+    React.createElement('h1',{className:'text-xl font-bold text-s8 mb6'},'⚖️ 三位一体 vs 普通高考'),
+    summary,
+    table,
+    advSection,
+    disSection,
+    recSection,
+    warn
+  );
+}
+
+// === FeedbackPage (数据纠错) ===
+function FeedbackPage(props){
+  var fields=['学费','录取分','满意度','校测','专业信息','其他'];
+  var sidState=React.useState('');var schoolId=sidState[0],setSchoolId=sidState[1];
+  var snameState=React.useState('');var schoolName=snameState[0],setSchoolName=snameState[1];
+  var fieldState=React.useState('其他');var field=fieldState[0],setField=fieldState[1];
+  var detState=React.useState('');var detail=detState[0],setDetail=detState[1];
+  var conState=React.useState('');var contact=conState[0],setContact=conState[1];
+  var doneState=React.useState('');var done=doneState[0],setDone=doneState[1];
+  var onlineState=React.useState(true);var online=onlineState[0],setOnline=onlineState[1];
+
+  function submit(){
+    if(!schoolName.trim()&&!schoolId){setDone('⚠️ 请选择或填写院校名称');return;}
+    if(!detail.trim()){setDone('⚠️ 请填写错误描述');return;}
+    var name=schoolName.trim()||(SCHOOLS.find(function(s){return s.id===schoolId})||{}).name||'';
+    apiPost('/api/feedback',{schoolId:schoolId,schoolName:name,field:field,detail:detail.trim(),contact:contact.trim()},function(data){
+      if(data&&data.ok){setDone('✅ 纠错已提交，感谢你让数据更准确！');setSchoolName('');setSchoolId('');setDetail('');setContact('');setOnline(true);}
+      else{
+        setOnline(false);
+        var text='【数据纠错】院校：'+name+'｜字段：'+field+'｜描述：'+detail.trim()+(contact?'｜联系方式：'+contact.trim():'');
+        setDone('⚠️ 离线模式：无法提交。请复制以下内容发给维护者：'+text);
+      }
+    });
+  }
+
+  var header=React.createElement('h1',{className:'text-xl font-bold text-s8 mb2'},'📝 数据纠错');
+  var sub=React.createElement('p',{className:'text-xs text-s4 mb6'},'发现学费、录取分或满意度等数据有误？告诉我们，一起把信息差补齐。');
+  var doneTag=done?React.createElement('div',{className:(online?'bg-g50':'bg-y50')+' rounded-xl p4 mb4'},React.createElement('p',{className:'text-xs '+(online?'text-g':'text-y')},done)):null;
+  var schoolSel=React.createElement('div',{className:'card p4 mb4'},
+    React.createElement('label',{className:'text-xs font-medium text-s5 mb2 block'},'① 选择院校'),
+    React.createElement('select',{value:schoolId,onChange:function(e){setSchoolId(e.target.value);if(e.target.value)setSchoolName((SCHOOLS.find(function(s){return s.id===e.target.value})||{}).name||'')},className:'input mb3'},React.createElement('option',{value:''},'选择院校'),SCHOOLS.map(function(s){return React.createElement('option',{key:s.id,value:s.id},s.name)})),
+    React.createElement('label',{className:'text-xs font-medium text-s5 mb2 block'},'或手动填写院校名称'),
+    React.createElement('input',{type:'text',value:schoolName,onChange:function(e){setSchoolName(e.target.value)},placeholder:'如：浙江工业大学',className:'input'}));
+  var fieldSel=React.createElement('div',{className:'card p4 mb4'},
+    React.createElement('label',{className:'text-xs font-medium text-s5 mb2 block'},'② 纠错字段'),
+    React.createElement('div',{className:'flex flex-wrap gap2'},fields.map(function(f){return React.createElement('button',{key:f,onClick:function(){setField(f)},className:'px3 py15 rounded-lg text-sm '+(field===f?'bg-p500 text-w':'bg-s1 text-s5')},f)})));
+  var detailBox=React.createElement('div',{className:'card p4 mb4'},
+    React.createElement('label',{className:'text-xs font-medium text-s5 mb2 block'},'③ 错误描述'),
+    React.createElement('textarea',{value:detail,onChange:function(e){setDetail(e.target.value)},placeholder:'请描述你发现的数据错误，如"2025年最低录取分应为78分"...',maxLength:1000,rows:4,className:'input resize-none mb2'}),
+    React.createElement('div',{className:'flex items-center justify-between'},
+      React.createElement('span',{className:'text-xs text-s3'},detail.length,'/1000'),
+      React.createElement('span',{className:'text-xs text-s4'},'补充说明：反馈会经人工核实后修正')));
+  var contactBox=React.createElement('div',{className:'card p4 mb4'},
+    React.createElement('label',{className:'text-xs font-medium text-s5 mb2 block'},'联系方式（选填）'),
+    React.createElement('input',{type:'text',value:contact,onChange:function(e){setContact(e.target.value)},placeholder:'邮箱或QQ，方便我们向你确认细节',className:'input'}));
+  var submitBtn=React.createElement('button',{onClick:submit,className:'w-full py3 rounded-xl bg-g text-w font-medium text-sm mb4'},'提交纠错');
+  return React.createElement('div',{className:'max-w-md mx-auto px4 py6 pb16 animate-fade-in'},
+    header,sub,doneTag,schoolSel,fieldSel,detailBox,contactBox,submitBtn,
+    React.createElement('div',{className:'card bg-s1 p4'},React.createElement('p',{className:'text-xs text-s5 leading-relaxed'},'💡 纠错数据经核实后，我们会更新院校信息并同步到导出方案中。你的每一次反馈都在帮助后来者。')));
+}
+
+// === DownloadPage (开放数据) ===
+function DownloadPage(){
+  var doneState=React.useState('');var done=doneState[0],setDone=doneState[1];
+  var dataDate='2026年3月';
+  var dataVersion='v1.0.0';
+
+  function buildJson(){
+    return JSON.stringify({version:dataVersion,updatedAt:dataDate,count:SCHOOLS.length,schools:SCHOOLS},null,2);
+  }
+  function buildCsv(){
+    var rows=[['院校','简称','类型','校区','学费','2025最低分','综合满意度','环境满意度','生活满意度','官网','招生简章']];
+    SCHOOLS.forEach(function(s){
+      rows.push([s.name,s.shortName,s.type==='ministry'?'部属':'省属',(s.info.campuses[0]||{}).name||'',s.info.tuitionGeneral,(s.admission[0]&&s.admission[0].minScore)||'',s.satisfaction.overall,s.satisfaction.environment,s.satisfaction.life,s.info.website,s.brochureUrl||'']);
+    });
+    return rows.map(function(r){return r.map(function(c){var v=String(c||'');return v.indexOf(',')>-1||v.indexOf('"')>-1||v.indexOf('\n')>-1?'"'+v.replace(/"/g,'""')+'"':v}).join(',')}).join('\n');
+  }
+  function buildMd(){
+    var md='# 浙江三位一体院校开放数据\n\n> 版本：'+dataVersion+' ｜ 更新时间：'+dataDate+' ｜ 院校数：'+SCHOOLS.length+' 所\n\n## 院校一览\n\n| 院校 | 简称 | 类型 | 校区 | 学费 | 2025最低录取分 | 综合满意度 |\n|---|---|---|---|---|---|---|\n';
+    SCHOOLS.forEach(function(s){
+      md+='| '+s.name+' | '+s.shortName+' | '+(s.type==='ministry'?'部属':'省属')+' | '+((s.info.campuses[0]||{}).name||'')+' | '+s.info.tuitionGeneral+' | '+((s.admission[0]&&s.admission[0].minScore)||'-')+' | '+s.satisfaction.overall+' |\n';
+    });
+    md+='\n## 字段说明\n\n- **学考折算**：各校 A/B/C/D 等级分值不同，见综合分公式\n- **校测**：笔试科目与面试形式因校而异\n- **满意度**：数据来自阳光高考网，满分 5.0\n- **招生简章**：各校官方最新简章链接\n\n## 数据来源\n\n浙江省教育考试院、各高校招生网、阳光高考网。请以官方最新公告为准。\n';
+    return md;
+  }
+
+  function downloadFile(name,content,mimeType){
+    var blob=new Blob([content],{type:mimeType+';charset=utf-8'});
+    var url=URL.createObjectURL(blob);
+    var a=document.createElement('a');
+    a.href=url;a.download=name;
+    document.body.appendChild(a);a.click();document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
+  function onDownload(format){
+    var maps={json:{name:'schools.json',content:buildJson(),mime:'application/json'},csv:{name:'schools.csv',content:buildCsv(),mime:'text/csv'},md:{name:'schools.md',content:buildMd(),mime:'text/markdown'}};
+    var m=maps[format];
+    downloadFile(m.name,m.content,m.mime);
+    setDone('✅ 已下载 '+m.name+'，数据共 '+SCHOOLS.length+' 所院校');
+  }
+
+  var formats=[
+    {k:'json',icon:'🧾',t:'JSON 数据包',d:'完整结构化数据，适合程序化分析',name:'schools.json'},
+    {k:'csv',icon:'📊',t:'CSV 表格',d:'Excel / WPS 可直接打开，便于筛选排序',name:'schools.csv'},
+    {k:'md',icon:'📄',t:'Markdown 文档',d:'人类可读文档，便于查看与分享',name:'schools.md'}
+  ];
+  var githubLink=Lget('githubUrl')||'';
+  var fields=['院校名称','校区地址','学费区间','学考折算规则','校测形式（笔试科目/面试方式）','招生专业与选科要求','历年报名/入围/录取数据','综合满意度（综合/环境/生活）','转专业限制','报名流程与材料','招生简章链接'];
+
+  var header=React.createElement('h1',{className:'text-xl font-bold text-s8 mb2'},'📦 开放数据');
+  var sub=React.createElement('p',{className:'text-xs text-s4 mb6'},'下载整理好的浙江三位一体院校数据包，离线可用，也可用于二次分析。');
+  var doneTag=done?React.createElement('div',{className:'bg-g50 rounded-xl p4 mb4'},React.createElement('p',{className:'text-xs text-g'},done)):null;
+  var overview=React.createElement('div',{className:'card p5 mb4'},
+    React.createElement('h3',{className:'font-semibold text-s8 mb3'},'数据概览'),
+    React.createElement('div',{className:'grid g2 gap3 mb3'},
+      React.createElement('div',{className:'bg-p50 rounded-xl p4 text-center'},React.createElement('p',{className:'text-2xl font-bold text-p'},SCHOOLS.length),React.createElement('p',{className:'text-xs text-s4 mt1'},'所院校')),
+      React.createElement('div',{className:'bg-g50 rounded-xl p4 text-center'},React.createElement('p',{className:'text-2xl font-bold text-g'},fields.length),React.createElement('p',{className:'text-xs text-s4 mt1'},'个数据维度'))),
+    React.createElement('p',{className:'text-xs text-s4 mb2'},'版本 '+dataVersion+' ｜ 更新于 '+dataDate),
+    React.createElement('div',{className:'flex flex-wrap gap1'},fields.map(function(f){return React.createElement('span',{key:f,className:'px2 py05 bg-s1 rounded text-xs text-s5'},f)})));
+  var downloadCard=React.createElement('div',{className:'card p5 mb4'},
+    React.createElement('h3',{className:'font-semibold text-s8 mb3'},'下载数据包'),
+    React.createElement('div',{className:'flex flex-col gap3'},
+      formats.map(function(f){return React.createElement('button',{key:f.k,onClick:function(){onDownload(f.k)},className:'card-hover p4 rounded-xl bg-s1 flex items-center gap3 text-left'},
+        React.createElement('span',{className:'text-2xl'},f.icon),
+        React.createElement('div',{className:'flex-1 min-w-0'},
+          React.createElement('p',{className:'font-medium text-sm text-s8'},f.t),
+          React.createElement('p',{className:'text-xs text-s4 mt1'},f.d),
+          React.createElement('p',{className:'text-xs text-p mt1'},'下载 '+f.name)),
+        React.createElement('span',{className:'text-p'},'↓'))})));
+  var githubCard=React.createElement('div',{className:'card p5 mb4'},
+    React.createElement('h3',{className:'font-semibold text-s8 mb3'},'GitHub 数据仓库'),
+    githubLink?
+      React.createElement('a',{href:githubLink,target:'_blank',className:'block w-full py3 rounded-xl bg-p500 text-w text-sm font-medium text-center'},'前往 GitHub 仓库查看原始数据'):
+      React.createElement('div',{className:'bg-s1 rounded-xl p4'},React.createElement('p',{className:'text-xs text-s5 leading-relaxed'},'数据包将同步到 GitHub 开源仓库，方便贡献与版本追踪。仓库地址就绪后会自动显示在这里。')));
+  var usage=React.createElement('div',{className:'card bg-s1 p5'},
+    React.createElement('h3',{className:'font-semibold text-s8 mb3'},'使用说明'),
+    React.createElement('div',{className:'flex flex-col gap2 text-xs text-s5 leading-relaxed'},
+      React.createElement('p',null,'• 数据来源：浙江省教育考试院、各高校招生网、阳光高考网。'),
+      React.createElement('p',null,'• 满意度评分为在校生实名投票结果，满分 5.0，请结合自身情况参考。'),
+      React.createElement('p',null,'• 历年录取数据每年更新，报考时请以官方最新公告为准。'),
+      React.createElement('p',null,'• 本数据免费开放，欢迎用于学习、研究与二次创作；引用时请注明来源。')));
+  return React.createElement('div',{className:'max-w-md mx-auto px4 py6 pb16 animate-fade-in'},
+    header,sub,doneTag,overview,downloadCard,githubCard,usage);
+}
+
+// === App ===
+function App(){
+  var pState=React.useState('home');var page=pState[0],setPage=pState[1];
+  var cState=React.useState(Lget('counter')||0);var totalUsers=cState[0],setTotalUsers=cState[1];
+  React.useEffect(function(){getUserCounter(function(data){if(data&&data.count)setTotalUsers(data.count)})},[]);
+
+  function render(){
+    switch(page){
+      case'home':return React.createElement(HomePage,{setPage:setPage});
+      case'schools':return React.createElement(SchoolListPage,{setPage:setPage});
+      case'detail':return React.createElement(SchoolDetailPage,{setPage:setPage});
+      case'calculator':return React.createElement(CalculatorPage);
+      case'compare':return React.createElement(ComparePage,{setPage:setPage});
+      case'pathCompare':return React.createElement(PathComparePage,{setPage:setPage});
+      case'favorites':return React.createElement(FavoritesPage,{setPage:setPage});
+      case'profile':return React.createElement(ProfilePage,{setPage:setPage});
+      case'faq':return React.createElement(FAQPage);
+      case'treehole':return React.createElement(TreeholePage);
+      case'feedback':return React.createElement(FeedbackPage,{setPage:setPage});
+      case'download':return React.createElement(DownloadPage);
+      default:return React.createElement(HomePage,{setPage:setPage});
+    }
+  }
+
+  var items=[{p:'home',l:'首页'},{p:'schools',l:'院校'},{p:'calculate',l:'计算'},{p:'favorites',l:'收藏'},{p:'profile',l:'档案'}];
+  // Mobile uses calculator page directly
+  var itemsM=[{p:'home',l:'首页'},{p:'schools',l:'院校'},{p:'calculator',l:'计算'},{p:'compare',l:'对比'},{p:'profile',l:'档案'}];
+
+  return React.createElement('div',{style:{minHeight:'100vh',display:'flex',flexDirection:'column'}},
+    React.createElement('header',{className:'fixed top0 left0 right0 z50 glass glass-border'},
+      React.createElement('div',{className:'flex items-center justify-between px4 h14'},
+        React.createElement('div',{className:'flex items-center gap2'},
+          React.createElement('div',{className:'w-8 h-8 rounded-lg gradient-primary flex items-center justify-center cursor-pointer',onClick:function(){setPage('home')}},React.createElement('span',{className:'text-w text-xs font-bold'},'3一')),
+          React.createElement('span',{className:'font-bold text-sm sm-hide'},'三位一体')),
+        React.createElement('nav',{className:'hide md:flex items-center gap1'},
+          [{p:'home',l:'首页'},{p:'schools',l:'院校'},{p:'calculator',l:'计算器'},{p:'compare',l:'对比'},{p:'pathCompare',l:'三一vs高考'},{p:'download',l:'数据'},{p:'faq',l:'FAQ'},{p:'treehole',l:'树洞'},{p:'feedback',l:'纠错'}].map(function(n){return React.createElement('button',{key:n.p,onClick:function(){setPage(n.p)},className:'px3 py1 rounded-lg text-sm '+(page===n.p?'bg-p50 text-p font-medium':'text-s5')},n.l)})))),
+    React.createElement('main',{className:'flex-1',style:{paddingTop:56,paddingBottom:64}},render()),
+    React.createElement('footer',{className:'bg-w border-t border-s2 py6 px4 text-center text-xs text-s4'},
+      '数据来源：浙江省教育考试院 · 各高校招生网 · 阳光高考网',totalUsers>0?React.createElement('p',{className:'mt2 text-s4'},'👥 已有 ',totalUsers,' 位使用者一起共建'):null),
+    React.createElement('nav',{className:'md:hidden fixed bottom0 left0 right0 z50 glass glass-border px2 pb-safe'},
+      React.createElement('div',{className:'flex items-center justify-around h14'},
+        itemsM.map(function(item){var active=page===item.p;return React.createElement('button',{key:item.p,onClick:function(){setPage(item.p)},className:'flex flex-col items-center justify-center px3 py1 rounded-lg '+(active?'text-p':'text-s4')},React.createElement('span',{className:'text-sm font-bold'},item.l[0]),React.createElement('span',{className:'text-[10px]'},item.l))})))
+  );
+}
+
+var root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(React.createElement(App));
+
+if('serviceWorker' in navigator){
+  window.addEventListener('load',function(){
+    navigator.serviceWorker.register('sw.js').catch(function(err){console.error('SW register failed:',err)});
+  });
+}
+</script>
+</body>
+</html>

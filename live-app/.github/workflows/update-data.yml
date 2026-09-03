@@ -1,0 +1,36 @@
+name: Update Data & Deploy
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # 每周日凌晨运行
+  workflow_dispatch:       # 支持手动触发
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Data Update Script
+        run: npx tsx scripts/update-data.ts
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add src/data/
+          git diff --staged --quiet || git commit -m 'chore: auto-update school data'
+          git push
+
+      - name: Trigger Cloudflare Pages Deploy
+        run: |
+          curl -X POST "https://api.cloudflare.com/client/v4/pages/webhooks/deploy_hook/${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}"

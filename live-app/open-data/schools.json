@@ -1,0 +1,2123 @@
+{
+  "version": "v1.0.0",
+  "updatedAt": "2026年3月",
+  "count": 15,
+  "schools": [
+    {
+      "id": "zju",
+      "name": "浙江大学",
+      "shortName": "浙大",
+      "aliases": [
+        "浙大"
+      ],
+      "type": "ministry",
+      "info": {
+        "campuses": [
+          {
+            "name": "紫金港校区",
+            "address": "杭州西湖区"
+          },
+          {
+            "name": "玉泉校区",
+            "address": "杭州西湖区"
+          }
+        ],
+        "website": "https://www.zju.edu.cn",
+        "admissionsPhone": "0571-87951006",
+        "tuitionGeneral": "5300-6000元/年",
+        "healthRestrictions": "色盲色弱考生部分专业受限"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 10,
+          "B": 9,
+          "C": 8,
+          "D": 6,
+          "fullScore": 100
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": true,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "writtenTestSubjects": [
+          "数学",
+          "物理"
+        ],
+        "interviewFormat": "group",
+        "contentSummary": "笔试考查数学和物理基础，面试为无领导小组讨论。",
+        "tips": "学考要求相对宽松，适合高考实力强的考生。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "可按学校规定申请转专业，须满足前置课程要求。"
+      },
+      "majors": [
+        {
+          "id": "zju-m1",
+          "schoolId": "zju",
+          "name": "计算机科学与技术",
+          "category": "工学",
+          "requiredSubjects": [
+            "物理"
+          ],
+          "planCount": 15
+        },
+        {
+          "id": "zju-m2",
+          "schoolId": "zju",
+          "name": "临床医学",
+          "category": "医学",
+          "requiredSubjects": [
+            "物理",
+            "化学"
+          ],
+          "planCount": 20
+        },
+        {
+          "id": "zju-m3",
+          "schoolId": "zju",
+          "name": "法学",
+          "category": "法学",
+          "requiredSubjects": [],
+          "planCount": 8
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 18000,
+          "passed": 4800,
+          "admitted": 980,
+          "minScore": 86,
+          "xuekaoRequirement": "各科目均须合格"
+        },
+        {
+          "year": 2024,
+          "applicants": 16500,
+          "passed": 4500,
+          "admitted": 950,
+          "minScore": 85,
+          "xuekaoRequirement": "各科目均须合格"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4.7,
+        "environment": 4.6,
+        "life": 4.3,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4人间，独立卫浴、空调、热水器齐全，有阳台。",
+        "score": 4.5,
+        "source": "网络",
+        "highlights": [
+          "4人间",
+          "独立卫浴",
+          "空调"
+        ],
+        "drawbacks": [
+          "部分老宿舍条件一般"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "description": "登录浙江大学本科生招生网在线报名",
+          "deadline": "5月中旬",
+          "materials": [
+            "身份证",
+            "学考成绩证明",
+            "个人陈述"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "材料审核",
+          "description": "学校审核并公布初审通过名单",
+          "deadline": "5月下旬"
+        },
+        {
+          "step": 3,
+          "title": "综合素质测试",
+          "description": "参加笔试和面试",
+          "deadline": "6月中旬"
+        },
+        {
+          "step": 4,
+          "title": "填报志愿",
+          "description": "高考提前批填写三位一体志愿",
+          "deadline": "6月下旬"
+        }
+      ],
+      "brochureUrl": "https://zdzsc.zju.edu.cn/"
+    },
+    {
+      "id": "hdu",
+      "name": "杭州电子科技大学",
+      "shortName": "杭电",
+      "aliases": [
+        "杭电"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "下沙校区",
+            "address": "杭州钱塘区"
+          }
+        ],
+        "website": "https://www.hdu.edu.cn",
+        "admissionsPhone": "0571-86915007",
+        "tuitionGeneral": "5300-6000元/年",
+        "tuitionSinoForeign": "25000-35000元/年（中外合作）"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 6,
+          "D": 1,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": true,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "writtenTestSubjects": [
+          "数学",
+          "英语",
+          "逻辑"
+        ],
+        "interviewFormat": "individual",
+        "contentSummary": "笔试含数学、英语阅读和逻辑推理。面试为个体面试，15-20分钟。",
+        "tips": "面试重视对信息类专业的了解。"
+      },
+      "transferRestriction": {
+        "restricted": false,
+        "detail": "可按学校规定申请转专业。"
+      },
+      "majors": [
+        {
+          "id": "hdu-m1",
+          "schoolId": "hdu",
+          "name": "计算机类",
+          "category": "工学",
+          "requiredSubjects": [
+            "物理"
+          ],
+          "planCount": 30
+        },
+        {
+          "id": "hdu-m2",
+          "schoolId": "hdu",
+          "name": "电子信息类",
+          "category": "工学",
+          "requiredSubjects": [
+            "物理"
+          ],
+          "planCount": 35
+        },
+        {
+          "id": "hdu-m3",
+          "schoolId": "hdu",
+          "name": "会计学",
+          "category": "管理学",
+          "requiredSubjects": [],
+          "planCount": 15
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 12000,
+          "passed": 3200,
+          "admitted": 450,
+          "minScore": 78,
+          "xuekaoRequirement": "学考≥6A或折算分≥90分"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4.3,
+        "environment": 4.1,
+        "life": 4,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4-6人间，独立卫浴、空调。",
+        "score": 4,
+        "source": "网络",
+        "highlights": [
+          "独立卫浴",
+          "空调",
+          "食堂实惠"
+        ],
+        "drawbacks": [
+          "6人间稍显拥挤"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "description": "登录杭电本科招生网报名",
+          "deadline": "3月中旬",
+          "materials": [
+            "身份证",
+            "1寸照片",
+            "学考成绩单"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "资格审查",
+          "description": "公布初审结果",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "综合素质测试",
+          "description": "笔试+面试",
+          "deadline": "4月中旬"
+        },
+        {
+          "step": 4,
+          "title": "公布入围名单",
+          "description": "公布最终入围名单",
+          "deadline": "4月下旬"
+        }
+      ],
+      "brochureUrl": "https://zhaosheng.hdu.edu.cn/"
+    },
+    {
+      "id": "zufe",
+      "name": "浙江财经大学",
+      "shortName": "浙财",
+      "aliases": [
+        "浙财"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "下沙校区",
+            "address": "杭州钱塘区"
+          }
+        ],
+        "website": "https://www.zufe.edu.cn",
+        "admissionsPhone": "0571-87557480",
+        "tuitionGeneral": "4800-5500元/年"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 9,
+          "C": 3,
+          "D": 0,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": false,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "interviewFormat": "group",
+        "contentSummary": "无领导小组面试，围绕经济社会热点话题讨论。",
+        "tips": "重点看表达和逻辑，不考专业知识。"
+      },
+      "transferRestriction": {
+        "restricted": false,
+        "detail": "可按规定申请转专业。"
+      },
+      "majors": [
+        {
+          "id": "zufe-m1",
+          "schoolId": "zufe",
+          "name": "会计学",
+          "category": "管理学",
+          "requiredSubjects": [],
+          "planCount": 20
+        },
+        {
+          "id": "zufe-m2",
+          "schoolId": "zufe",
+          "name": "金融学",
+          "category": "经济学",
+          "requiredSubjects": [],
+          "planCount": 25
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 8500,
+          "passed": 2200,
+          "admitted": 300,
+          "minScore": 72,
+          "xuekaoRequirement": "学考≥5A2B"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4.1,
+        "environment": 4,
+        "life": 3.9,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4人间，独立卫浴、空调、热水器。",
+        "score": 4,
+        "source": "网络",
+        "highlights": [
+          "4人间",
+          "独立卫浴"
+        ],
+        "drawbacks": [
+          "部分宿舍较旧"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "description": "登录招办网站报名",
+          "deadline": "3月上中旬"
+        },
+        {
+          "step": 2,
+          "title": "初审",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "面试",
+          "description": "无领导小组讨论",
+          "deadline": "4月中旬"
+        },
+        {
+          "step": 4,
+          "title": "公布结果",
+          "deadline": "4月下旬"
+        }
+      ],
+      "brochureUrl": "https://zs.zufe.edu.cn/"
+    },
+    {
+      "id": "nbu",
+      "name": "宁波大学",
+      "shortName": "宁大",
+      "aliases": [
+        "宁大"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "本部校区",
+            "address": "宁波江北区"
+          },
+          {
+            "name": "梅山校区",
+            "address": "宁波北仑区"
+          }
+        ],
+        "website": "https://www.nbu.edu.cn",
+        "admissionsPhone": "0574-87600233",
+        "tuitionGeneral": "4800-6000元/年"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 10,
+          "B": 8,
+          "C": 6,
+          "D": 0,
+          "fullScore": 100
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": false,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "interviewFormat": "individual",
+        "contentSummary": "个体面试，10-15分钟，含自我介绍和结构化问答。",
+        "tips": "宁大面试氛围友好，准备自我介绍即可。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "部分热门专业限制转入名额。"
+      },
+      "majors": [
+        {
+          "id": "nbu-m1",
+          "schoolId": "nbu",
+          "name": "法学",
+          "category": "法学",
+          "requiredSubjects": [],
+          "planCount": 15
+        },
+        {
+          "id": "nbu-m2",
+          "schoolId": "nbu",
+          "name": "通信工程",
+          "category": "工学",
+          "requiredSubjects": [
+            "物理"
+          ],
+          "planCount": 20
+        },
+        {
+          "id": "nbu-m3",
+          "schoolId": "nbu",
+          "name": "临床医学",
+          "category": "医学",
+          "requiredSubjects": [
+            "化学",
+            "生物"
+          ],
+          "planCount": 25
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 9500,
+          "passed": 2500,
+          "admitted": 380,
+          "minScore": 75,
+          "xuekaoRequirement": "学考≥5A"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4.3,
+        "environment": 4.5,
+        "life": 4.2,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4人间，独立卫浴、空调、热水器。梅山校区有海景宿舍。",
+        "score": 4.3,
+        "source": "网络",
+        "highlights": [
+          "4人间",
+          "海景宿舍",
+          "商业街"
+        ],
+        "drawbacks": [
+          "老宿舍需改造"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "deadline": "3月中旬"
+        },
+        {
+          "step": 2,
+          "title": "初审公示",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "面试",
+          "deadline": "4月中下旬"
+        },
+        {
+          "step": 4,
+          "title": "入围公示",
+          "deadline": "5月上旬"
+        }
+      ],
+      "brochureUrl": "https://zsb.nbu.edu.cn/"
+    },
+    {
+      "id": "wzu",
+      "name": "温州大学",
+      "shortName": "温大",
+      "aliases": [
+        "温大"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "茶山校区",
+            "address": "温州瓯海区"
+          }
+        ],
+        "website": "https://www.wzu.edu.cn",
+        "admissionsPhone": "0577-86680800",
+        "tuitionGeneral": "4800-5500元/年"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 5,
+          "D": 0,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": false,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "interviewFormat": "both",
+        "contentSummary": "面试含个体面和群面。",
+        "tips": "建议同时准备个体面和群面。"
+      },
+      "transferRestriction": {
+        "restricted": false,
+        "detail": "可按规定参加校内转专业。"
+      },
+      "majors": [
+        {
+          "id": "wzu-m1",
+          "schoolId": "wzu",
+          "name": "小学教育（师范）",
+          "category": "教育学",
+          "requiredSubjects": [],
+          "planCount": 30
+        },
+        {
+          "id": "wzu-m2",
+          "schoolId": "wzu",
+          "name": "生物科学（师范）",
+          "category": "理学",
+          "requiredSubjects": [
+            "生物"
+          ],
+          "planCount": 20
+        },
+        {
+          "id": "wzu-m3",
+          "schoolId": "wzu",
+          "name": "机械工程",
+          "category": "工学",
+          "requiredSubjects": [
+            "物理"
+          ],
+          "planCount": 25
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 7000,
+          "passed": 1800,
+          "admitted": 300,
+          "minScore": 70,
+          "xuekaoRequirement": "学考≥4A"
+        }
+      ],
+      "satisfaction": {
+        "overall": 3.9,
+        "environment": 4,
+        "life": 3.8,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4-6人间，空调、独立卫浴。校园环境优美。",
+        "score": 3.8,
+        "source": "网络",
+        "highlights": [
+          "空调",
+          "独立卫浴"
+        ],
+        "drawbacks": [
+          "6人间较拥挤"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "deadline": "3月中旬"
+        },
+        {
+          "step": 2,
+          "title": "初审",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "面试",
+          "deadline": "4月中下旬"
+        },
+        {
+          "step": 4,
+          "title": "入围公布",
+          "deadline": "5月上旬"
+        }
+      ],
+      "brochureUrl": "https://zs.wzu.edu.cn/"
+    },
+    {
+      "id": "zjut",
+      "name": "浙江工业大学",
+      "shortName": "浙工大",
+      "aliases": [
+        "浙工大",
+        "浙江工大"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "朝晖校区",
+            "address": "杭州拱墅区"
+          },
+          {
+            "name": "屏峰校区",
+            "address": "杭州西湖区"
+          }
+        ],
+        "website": "https://www.zjut.edu.cn",
+        "admissionsPhone": "0571-88320032",
+        "tuitionGeneral": "5300-6000元/年"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 6,
+          "D": 1,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": true,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "writtenTestSubjects": [
+          "数学",
+          "英语"
+        ],
+        "interviewFormat": "individual",
+        "contentSummary": "笔试含数学和英语，面试为个体结构化面试约20分钟。",
+        "tips": "浙工大工科实力突出，面试注重逻辑思维和表达能力。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "三一录取学生转专业有限制，需满足学分和成绩要求。"
+      },
+      "majors": [
+        {
+          "id": "zjut-m1",
+          "schoolId": "zjut",
+          "name": "化学工程与工艺",
+          "category": "工学",
+          "requiredSubjects": [
+            "化学"
+          ],
+          "planCount": 20
+        },
+        {
+          "id": "zjut-m2",
+          "schoolId": "zjut",
+          "name": "机械工程",
+          "category": "工学",
+          "requiredSubjects": [
+            "物理"
+          ],
+          "planCount": 25
+        },
+        {
+          "id": "zjut-m3",
+          "schoolId": "zjut",
+          "name": "计算机科学与技术",
+          "category": "工学",
+          "requiredSubjects": [
+            "物理"
+          ],
+          "planCount": 30
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 11000,
+          "passed": 3000,
+          "admitted": 500,
+          "minScore": 80,
+          "xuekaoRequirement": "学考≥6A或折算分≥90分"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4.3,
+        "environment": 4.2,
+        "life": 4,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4人间，独立卫浴、空调、热水器齐全。屏峰校区环境优美。",
+        "score": 4.2,
+        "source": "网络",
+        "highlights": [
+          "4人间",
+          "独立卫浴",
+          "空调"
+        ],
+        "drawbacks": [
+          "朝晖校区部分宿舍较旧"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "description": "登录浙工大招生网在线报名",
+          "deadline": "3月中旬",
+          "materials": [
+            "身份证",
+            "学考成绩单",
+            "个人陈述"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "初审公示",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "综合素质测试",
+          "description": "笔试+面试",
+          "deadline": "4月中下旬"
+        },
+        {
+          "step": 4,
+          "title": "入围公示",
+          "deadline": "5月上旬"
+        }
+      ],
+      "brochureUrl": "https://zs.zjut.edu.cn/"
+    },
+    {
+      "id": "zjnu",
+      "name": "浙江师范大学",
+      "shortName": "浙师大",
+      "aliases": [
+        "浙师大",
+        "浙江师大"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "金华校区",
+            "address": "金华婺城区"
+          }
+        ],
+        "website": "https://www.zjnu.edu.cn",
+        "admissionsPhone": "0579-82282245",
+        "tuitionGeneral": "4800-5500元/年"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 6,
+          "D": 1,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": false,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "interviewFormat": "both",
+        "contentSummary": "面试含个体面和群面，师范类专业有板书或试讲环节。",
+        "tips": "师范类面试重视语言表达、板书和教学潜力。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "师范类与非师范类之间转专业有一定限制。"
+      },
+      "majors": [
+        {
+          "id": "zjnu-m1",
+          "schoolId": "zjnu",
+          "name": "小学教育（师范）",
+          "category": "教育学",
+          "requiredSubjects": [],
+          "planCount": 35
+        },
+        {
+          "id": "zjnu-m2",
+          "schoolId": "zjnu",
+          "name": "汉语言文学（师范）",
+          "category": "文学",
+          "requiredSubjects": [],
+          "planCount": 25
+        },
+        {
+          "id": "zjnu-m3",
+          "schoolId": "zjnu",
+          "name": "数学与应用数学（师范）",
+          "category": "理学",
+          "requiredSubjects": [],
+          "planCount": 25
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 10000,
+          "passed": 2800,
+          "admitted": 400,
+          "minScore": 76,
+          "xuekaoRequirement": "学考≥5A"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4.2,
+        "environment": 4.3,
+        "life": 4.1,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4人间为主，独立卫浴、空调、热水器。校园绿树成荫。",
+        "score": 4.2,
+        "source": "网络",
+        "highlights": [
+          "4人间",
+          "独立卫浴",
+          "空调",
+          "校园优美"
+        ],
+        "drawbacks": [
+          "部分老旧宿舍待改造"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "deadline": "3月中旬",
+          "materials": [
+            "身份证",
+            "学考成绩证明"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "初审",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "面试",
+          "description": "个体面+板书/试讲",
+          "deadline": "4月中下旬"
+        },
+        {
+          "step": 4,
+          "title": "入围公示",
+          "deadline": "5月上旬"
+        }
+      ],
+      "brochureUrl": "https://zs.zjnu.edu.cn/"
+    },
+    {
+      "id": "wmu",
+      "name": "温州医科大学",
+      "shortName": "温医大",
+      "aliases": [
+        "温医大",
+        "温州医大"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "茶山校区",
+            "address": "温州瓯海区"
+          }
+        ],
+        "website": "https://www.wmu.edu.cn",
+        "admissionsPhone": "0577-86689885",
+        "tuitionGeneral": "6000-6900元/年",
+        "healthRestrictions": "色盲色弱考生部分医学专业受限"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 6,
+          "D": 1,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": true,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "writtenTestSubjects": [
+          "生物",
+          "化学"
+        ],
+        "interviewFormat": "individual",
+        "contentSummary": "笔试考查生物学和化学基础。面试为个体结构化面试，约15分钟。",
+        "tips": "医学类专业竞争激烈，生物化学基础好的考生更具优势。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "医学类专业转专业限制严格，一般限在医学类内调整。"
+      },
+      "majors": [
+        {
+          "id": "wmu-m1",
+          "schoolId": "wmu",
+          "name": "临床医学",
+          "category": "医学",
+          "requiredSubjects": [
+            "化学",
+            "生物"
+          ],
+          "planCount": 30
+        },
+        {
+          "id": "wmu-m2",
+          "schoolId": "wmu",
+          "name": "口腔医学",
+          "category": "医学",
+          "requiredSubjects": [
+            "化学",
+            "生物"
+          ],
+          "planCount": 10
+        },
+        {
+          "id": "wmu-m3",
+          "schoolId": "wmu",
+          "name": "护理学",
+          "category": "医学",
+          "requiredSubjects": [],
+          "planCount": 20
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 9000,
+          "passed": 2500,
+          "admitted": 350,
+          "minScore": 82,
+          "xuekaoRequirement": "学考≥6A，医学类≥7A"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4.1,
+        "environment": 4,
+        "life": 3.8,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4-6人间，独立卫浴、空调。部分新宿舍条件较好。",
+        "score": 3.8,
+        "source": "网络",
+        "highlights": [
+          "独立卫浴",
+          "空调",
+          "近附院实习方便"
+        ],
+        "drawbacks": [
+          "部分宿舍6人间较拥挤"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "deadline": "3月中旬",
+          "materials": [
+            "身份证",
+            "学考成绩单",
+            "体检报告"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "初审",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "笔试+面试",
+          "deadline": "4月中下旬"
+        },
+        {
+          "step": 4,
+          "title": "入围公示",
+          "deadline": "5月上旬"
+        }
+      ],
+      "brochureUrl": "https://zhaosheng.wmu.edu.cn/"
+    },
+    {
+      "id": "zjgsu",
+      "name": "浙江工商大学",
+      "shortName": "浙工商",
+      "aliases": [
+        "浙工商",
+        "浙江工商"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "下沙校区",
+            "address": "杭州钱塘区"
+          }
+        ],
+        "website": "https://www.zjgsu.edu.cn",
+        "admissionsPhone": "0571-28877228",
+        "tuitionGeneral": "4800-5520元/年"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 6,
+          "D": 1,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": false,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "interviewFormat": "group",
+        "contentSummary": "无领导小组面试，围绕经济社会热点话题展开讨论。",
+        "tips": "面试重视逻辑思维和表达能力，不考专业知识。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "部分热门专业限制转入名额，需满足成绩要求。"
+      },
+      "majors": [
+        {
+          "id": "zjgsu-m1",
+          "schoolId": "zjgsu",
+          "name": "工商管理",
+          "category": "管理学",
+          "requiredSubjects": [],
+          "planCount": 20
+        },
+        {
+          "id": "zjgsu-m2",
+          "schoolId": "zjgsu",
+          "name": "经济学",
+          "category": "经济学",
+          "requiredSubjects": [],
+          "planCount": 20
+        },
+        {
+          "id": "zjgsu-m3",
+          "schoolId": "zjgsu",
+          "name": "法学",
+          "category": "法学",
+          "requiredSubjects": [],
+          "planCount": 15
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 8000,
+          "passed": 2000,
+          "admitted": 280,
+          "minScore": 73,
+          "xuekaoRequirement": "学考≥5A2B"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4.2,
+        "environment": 4.1,
+        "life": 4,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4人间，独立卫浴、空调、热水器。",
+        "score": 4.1,
+        "source": "网络",
+        "highlights": [
+          "4人间",
+          "独立卫浴",
+          "空调"
+        ],
+        "drawbacks": [
+          "部分宿舍空间较小"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "deadline": "3月上中旬",
+          "materials": [
+            "身份证",
+            "学考成绩单"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "初审",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "面试",
+          "description": "无领导小组讨论",
+          "deadline": "4月中旬"
+        },
+        {
+          "step": 4,
+          "title": "公布结果",
+          "deadline": "4月下旬"
+        }
+      ],
+      "brochureUrl": "https://zhaoban.zjgsu.edu.cn/"
+    },
+    {
+      "id": "zstu",
+      "name": "浙江理工大学",
+      "shortName": "浙理工",
+      "aliases": [
+        "浙理工",
+        "浙江理工"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "下沙校区",
+            "address": "杭州钱塘区"
+          }
+        ],
+        "website": "https://www.zstu.edu.cn",
+        "admissionsPhone": "0571-86843333",
+        "tuitionGeneral": "5300-6000元/年"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 6,
+          "D": 1,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": true,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "writtenTestSubjects": [
+          "数学",
+          "英语"
+        ],
+        "interviewFormat": "individual",
+        "contentSummary": "笔试含数学和英语，面试为个体面约15-20分钟。",
+        "tips": "工科专业面试可能涉及专业兴趣和基础知识。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "转专业需满足学分要求，部分专业有名额限制。"
+      },
+      "majors": [
+        {
+          "id": "zstu-m1",
+          "schoolId": "zstu",
+          "name": "纺织工程",
+          "category": "工学",
+          "requiredSubjects": [
+            "化学"
+          ],
+          "planCount": 15
+        },
+        {
+          "id": "zstu-m2",
+          "schoolId": "zstu",
+          "name": "服装设计与工程",
+          "category": "工学",
+          "requiredSubjects": [],
+          "planCount": 15
+        },
+        {
+          "id": "zstu-m3",
+          "schoolId": "zstu",
+          "name": "计算机科学与技术",
+          "category": "工学",
+          "requiredSubjects": [
+            "物理"
+          ],
+          "planCount": 25
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 7500,
+          "passed": 2000,
+          "admitted": 300,
+          "minScore": 74,
+          "xuekaoRequirement": "学考≥5A"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4.2,
+        "environment": 4,
+        "life": 3.9,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4人间，独立卫浴、空调。生活区配套齐全。",
+        "score": 4,
+        "source": "网络",
+        "highlights": [
+          "4人间",
+          "独立卫浴",
+          "空调"
+        ],
+        "drawbacks": [
+          "下沙校区冬天风大"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "deadline": "3月中旬",
+          "materials": [
+            "身份证",
+            "学考成绩单"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "初审",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "笔试+面试",
+          "deadline": "4月中下旬"
+        },
+        {
+          "step": 4,
+          "title": "入围公示",
+          "deadline": "5月上旬"
+        }
+      ],
+      "brochureUrl": "https://zs.zstu.edu.cn/"
+    },
+    {
+      "id": "zjou",
+      "name": "浙江海洋大学",
+      "shortName": "浙海大",
+      "aliases": [
+        "浙海大",
+        "浙江海洋"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "长峙校区",
+            "address": "舟山定海区"
+          }
+        ],
+        "website": "https://www.zjou.edu.cn",
+        "admissionsPhone": "0580-2550022",
+        "tuitionGeneral": "4800-5500元/年"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 6,
+          "D": 1,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": false,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "interviewFormat": "individual",
+        "contentSummary": "个体结构化面试，约10-15分钟，含自我介绍和问答。",
+        "tips": "面试氛围轻松，重点考察综合素质和报考意愿。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "部分涉海专业转专业有一定限制。"
+      },
+      "majors": [
+        {
+          "id": "zjou-m1",
+          "schoolId": "zjou",
+          "name": "海洋科学",
+          "category": "理学",
+          "requiredSubjects": [
+            "生物"
+          ],
+          "planCount": 15
+        },
+        {
+          "id": "zjou-m2",
+          "schoolId": "zjou",
+          "name": "船舶与海洋工程",
+          "category": "工学",
+          "requiredSubjects": [
+            "物理"
+          ],
+          "planCount": 15
+        },
+        {
+          "id": "zjou-m3",
+          "schoolId": "zjou",
+          "name": "水产养殖学",
+          "category": "农学",
+          "requiredSubjects": [
+            "生物"
+          ],
+          "planCount": 15
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 5000,
+          "passed": 1300,
+          "admitted": 200,
+          "minScore": 68,
+          "xuekaoRequirement": "学考≥4A"
+        }
+      ],
+      "satisfaction": {
+        "overall": 3.9,
+        "environment": 4.2,
+        "life": 3.7,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4人间为主，独立卫浴、空调。长峙校区面朝大海，风景好。",
+        "score": 3.9,
+        "source": "网络",
+        "highlights": [
+          "4人间",
+          "海景校园",
+          "独立卫浴"
+        ],
+        "drawbacks": [
+          "舟山交通相对不便"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "deadline": "3月中旬",
+          "materials": [
+            "身份证",
+            "学考成绩单"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "初审",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "面试",
+          "deadline": "4月中下旬"
+        },
+        {
+          "step": 4,
+          "title": "入围公示",
+          "deadline": "5月上旬"
+        }
+      ],
+      "brochureUrl": "https://zs.zjou.edu.cn/"
+    },
+    {
+      "id": "zafu",
+      "name": "浙江农林大学",
+      "shortName": "浙农林",
+      "aliases": [
+        "浙农林",
+        "浙江农林"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "东湖校区",
+            "address": "杭州临安区"
+          }
+        ],
+        "website": "https://www.zafu.edu.cn",
+        "admissionsPhone": "0571-63730908",
+        "tuitionGeneral": "4800-5500元/年"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 6,
+          "D": 1,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": false,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "interviewFormat": "group",
+        "contentSummary": "无领导小组面试，围绕生态环保等话题讨论。",
+        "tips": "面试注重团队协作和综合分析能力。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "转专业需满足学校相关规定。"
+      },
+      "majors": [
+        {
+          "id": "zafu-m1",
+          "schoolId": "zafu",
+          "name": "林学",
+          "category": "农学",
+          "requiredSubjects": [
+            "生物"
+          ],
+          "planCount": 15
+        },
+        {
+          "id": "zafu-m2",
+          "schoolId": "zafu",
+          "name": "园林",
+          "category": "农学",
+          "requiredSubjects": [],
+          "planCount": 15
+        },
+        {
+          "id": "zafu-m3",
+          "schoolId": "zafu",
+          "name": "农林经济管理",
+          "category": "管理学",
+          "requiredSubjects": [],
+          "planCount": 15
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 4500,
+          "passed": 1200,
+          "admitted": 200,
+          "minScore": 67,
+          "xuekaoRequirement": "学考≥3A"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4,
+        "environment": 4.3,
+        "life": 3.8,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4人间，独立卫浴、空调。临安校区环境优美，空气清新。",
+        "score": 4.1,
+        "source": "网络",
+        "highlights": [
+          "4人间",
+          "独立卫浴",
+          "校园绿化好"
+        ],
+        "drawbacks": [
+          "临安离杭州市区较远"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "deadline": "3月中旬",
+          "materials": [
+            "身份证",
+            "学考成绩单"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "初审",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "面试",
+          "description": "无领导小组讨论",
+          "deadline": "4月中下旬"
+        },
+        {
+          "step": 4,
+          "title": "入围公示",
+          "deadline": "5月上旬"
+        }
+      ],
+      "brochureUrl": "https://zs.zafu.edu.cn/"
+    },
+    {
+      "id": "cjlu",
+      "name": "中国计量大学",
+      "shortName": "中量大",
+      "aliases": [
+        "中量大",
+        "计量大学"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "下沙校区",
+            "address": "杭州钱塘区"
+          }
+        ],
+        "website": "https://www.cjlu.edu.cn",
+        "admissionsPhone": "0571-86836066",
+        "tuitionGeneral": "4800-5500元/年"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 6,
+          "D": 1,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": false,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "interviewFormat": "individual",
+        "contentSummary": "个体结构化面试，约15分钟，侧重逻辑思维和综合素质。",
+        "tips": "面试氛围友好，准备自我介绍和对专业的基本了解即可。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "转专业需满足成绩要求，部分专业有名额限制。"
+      },
+      "majors": [
+        {
+          "id": "cjlu-m1",
+          "schoolId": "cjlu",
+          "name": "测控技术与仪器",
+          "category": "工学",
+          "requiredSubjects": [
+            "物理"
+          ],
+          "planCount": 20
+        },
+        {
+          "id": "cjlu-m2",
+          "schoolId": "cjlu",
+          "name": "质量管理工程",
+          "category": "管理学",
+          "requiredSubjects": [],
+          "planCount": 15
+        },
+        {
+          "id": "cjlu-m3",
+          "schoolId": "cjlu",
+          "name": "标准化工程",
+          "category": "管理学",
+          "requiredSubjects": [],
+          "planCount": 15
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 6000,
+          "passed": 1600,
+          "admitted": 250,
+          "minScore": 71,
+          "xuekaoRequirement": "学考≥5A"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4.1,
+        "environment": 3.9,
+        "life": 3.8,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4人间，独立卫浴、空调。下沙大学生活便利。",
+        "score": 3.9,
+        "source": "网络",
+        "highlights": [
+          "4人间",
+          "独立卫浴",
+          "空调"
+        ],
+        "drawbacks": [
+          "部分设施较旧"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "deadline": "3月中旬",
+          "materials": [
+            "身份证",
+            "学考成绩单"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "初审",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "面试",
+          "deadline": "4月中下旬"
+        },
+        {
+          "step": 4,
+          "title": "入围公示",
+          "deadline": "5月上旬"
+        }
+      ],
+      "brochureUrl": "https://zs.cjlu.edu.cn/"
+    },
+    {
+      "id": "hznu",
+      "name": "杭州师范大学",
+      "shortName": "杭师大",
+      "aliases": [
+        "杭师大",
+        "杭州师大"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "仓前校区",
+            "address": "杭州余杭区"
+          }
+        ],
+        "website": "https://www.hznu.edu.cn",
+        "admissionsPhone": "0571-28865518",
+        "tuitionGeneral": "4800-5500元/年"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 6,
+          "D": 1,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.15,
+          "xiaokao": 0.25,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": false,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "interviewFormat": "both",
+        "contentSummary": "面试含个体面和群面，师范类专业可能有试讲或板书环节。",
+        "tips": "师范类面试看重语言表达、亲和力和教学潜力。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "师范类与非师范类之间转专业有相应规定。"
+      },
+      "majors": [
+        {
+          "id": "hznu-m1",
+          "schoolId": "hznu",
+          "name": "小学教育（师范）",
+          "category": "教育学",
+          "requiredSubjects": [],
+          "planCount": 30
+        },
+        {
+          "id": "hznu-m2",
+          "schoolId": "hznu",
+          "name": "学前教育（师范）",
+          "category": "教育学",
+          "requiredSubjects": [],
+          "planCount": 25
+        },
+        {
+          "id": "hznu-m3",
+          "schoolId": "hznu",
+          "name": "数学与应用数学（师范）",
+          "category": "理学",
+          "requiredSubjects": [],
+          "planCount": 20
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 8500,
+          "passed": 2200,
+          "admitted": 350,
+          "minScore": 74,
+          "xuekaoRequirement": "学考≥5A"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4.2,
+        "environment": 4.2,
+        "life": 4,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "4人间，独立卫浴、空调。仓前校区为新建校区，设施好。",
+        "score": 4.2,
+        "source": "网络",
+        "highlights": [
+          "4人间",
+          "新校区设施好",
+          "独立卫浴"
+        ],
+        "drawbacks": [
+          "余杭区离传统市中心较远"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "deadline": "3月中旬",
+          "materials": [
+            "身份证",
+            "学考成绩单"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "初审",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "面试",
+          "description": "个体面+试讲/板书",
+          "deadline": "4月中下旬"
+        },
+        {
+          "step": 4,
+          "title": "入围公示",
+          "deadline": "5月上旬"
+        }
+      ],
+      "brochureUrl": "https://bkzs.hznu.edu.cn/"
+    },
+    {
+      "id": "wku",
+      "name": "温州肯恩大学",
+      "shortName": "温肯",
+      "aliases": [
+        "温肯",
+        "温州肯恩"
+      ],
+      "type": "provincial",
+      "info": {
+        "campuses": [
+          {
+            "name": "瓯海校区",
+            "address": "温州瓯海区"
+          }
+        ],
+        "website": "https://www.wku.edu.cn",
+        "admissionsPhone": "0577-55870111",
+        "tuitionGeneral": "65000-75000元/年",
+        "tuitionSinoForeign": "中外合作办学，学费较高"
+      },
+      "formula": {
+        "xuekao": {
+          "A": 15,
+          "B": 10,
+          "C": 6,
+          "D": 1,
+          "fullScore": 150
+        },
+        "xiaokao": {
+          "fullScore": 100
+        },
+        "gaokao": {
+          "fullScore": 750
+        },
+        "weights": {
+          "xuekao": 0.1,
+          "xiaokao": 0.3,
+          "gaokao": 0.6
+        }
+      },
+      "examFormat": {
+        "hasWrittenTest": true,
+        "hasInterview": true,
+        "hasPhysicalTest": false,
+        "writtenTestSubjects": [
+          "英语"
+        ],
+        "interviewFormat": "individual",
+        "contentSummary": "笔试为英语水平测试。全英文面试，约15-20分钟。",
+        "tips": "英语能力是关键，面试全程英文。适合有出国意向的考生。"
+      },
+      "transferRestriction": {
+        "restricted": true,
+        "detail": "中外合作项目内转专业相对灵活，跨项目有限制。"
+      },
+      "majors": [
+        {
+          "id": "wku-m1",
+          "schoolId": "wku",
+          "name": "金融学",
+          "category": "经济学",
+          "requiredSubjects": [],
+          "planCount": 15
+        },
+        {
+          "id": "wku-m2",
+          "schoolId": "wku",
+          "name": "计算机科学与技术",
+          "category": "工学",
+          "requiredSubjects": [
+            "物理"
+          ],
+          "planCount": 15
+        },
+        {
+          "id": "wku-m3",
+          "schoolId": "wku",
+          "name": "英语",
+          "category": "文学",
+          "requiredSubjects": [],
+          "planCount": 15
+        }
+      ],
+      "admission": [
+        {
+          "year": 2025,
+          "applicants": 4000,
+          "passed": 1000,
+          "admitted": 150,
+          "minScore": 65,
+          "xuekaoRequirement": "学考≥3A"
+        }
+      ],
+      "satisfaction": {
+        "overall": 4,
+        "environment": 4.4,
+        "life": 4.2,
+        "source": "阳光高考网"
+      },
+      "dormitory": {
+        "description": "2人间为主，独立卫浴、空调、洗衣房。校园美式风格建筑。",
+        "score": 4.5,
+        "source": "网络",
+        "highlights": [
+          "2人间",
+          "独立卫浴",
+          "美式校园",
+          "设施新"
+        ],
+        "drawbacks": [
+          "学费+住宿费较高"
+        ]
+      },
+      "applicationSteps": [
+        {
+          "step": 1,
+          "title": "网上报名",
+          "deadline": "3月中旬",
+          "materials": [
+            "身份证",
+            "学考成绩单",
+            "英语能力证明"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "初审",
+          "deadline": "4月上旬"
+        },
+        {
+          "step": 3,
+          "title": "笔试+面试",
+          "description": "英语笔试+全英文面试",
+          "deadline": "4月中下旬"
+        },
+        {
+          "step": 4,
+          "title": "入围公示",
+          "deadline": "5月上旬"
+        }
+      ],
+      "brochureUrl": "https://www.wku.edu.cn/zhaosheng/"
+    }
+  ]
+}
