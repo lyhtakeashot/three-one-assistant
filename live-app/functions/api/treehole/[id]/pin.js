@@ -1,7 +1,7 @@
 // POST /api/treehole/:id/pin  置顶/取消置顶（toggle）
-import { togglePin } from '../../../../lib/pure.js';
-import { json, error } from '../../../../lib/http.js';
-import { getPost, savePost } from '../../../../lib/posts.js';
+import { togglePin } from '../../../lib/pure.js';
+import { json, error } from '../../../lib/http.js';
+import { getPost, savePost } from '../../../lib/posts.js';
 
 export async function onRequestPost(context) {
   const env = context.env;
