@@ -19,7 +19,8 @@ module.exports = function run(t) {
     const gs = grades.map((g) => ({ subject: g.subject, grade: 'A' }));
     const xk = calcXuekao(gs, s.formula);
     const xs = 88, gk = 620;
-    const manual = (xk / s.formula.xuekao.fullScore * 100) * s.formula.weights.xuekao + xs * s.formula.weights.xiaokao + (gk / s.formula.gaokao.fullScore * 100) * s.formula.weights.gaokao;
+    const xiaokaoFs = s.formula.xiaokao && s.formula.xiaokao.fullScore > 0 ? s.formula.xiaokao.fullScore : 100;
+    const manual = (xk / s.formula.xuekao.fullScore * 100) * s.formula.weights.xuekao + (xs / xiaokaoFs * 100) * s.formula.weights.xiaokao + (gk / s.formula.gaokao.fullScore * 100) * s.formula.weights.gaokao;
     const r = calcResult({ xuekaoGrades: gs, xiaokaoScore: xs, gaokaoScore: gk }, s);
     check(t, close(r.comprehensiveScore, manual), id + ' calcResult 与手工公式一致（' + r.comprehensiveScore + ' vs ' + manual.toFixed(2) + '）');
     check(t, close(r.xuekaoConverted, xk), id + ' xuekaoConverted 正确');

@@ -184,19 +184,24 @@ function filterSchools(schools,f,userScore){
 function calcXuekao(grades,formula){return grades.reduce(function(sum,g){return sum+(formula.xuekao[g.grade]||0)},0)}
 function xkPercent(grades,formula){return calcXuekao(grades,formula)/((formula.xuekao.fullScore>0?formula.xuekao.fullScore:100)/100)}
 
+function xiaokaoFull(school){return school&&school.formula&&school.formula.xiaokao&&school.formula.xiaokao.fullScore>0?school.formula.xiaokao.fullScore:100}
+
 function calcResult(input,school){
   var f=school.formula;if(!f)return null;
   var xk=calcXuekao(input.xuekaoGrades,f),xs=input.xiaokaoScore||0,gk=input.gaokaoScore||0;
   var xkP=xkPercent(input.xuekaoGrades,f);
-  var score=xkP*f.weights.xuekao+xs*f.weights.xiaokao+(gk/f.gaokao.fullScore*100)*f.weights.gaokao;
+  var xf=xiaokaoFull(school);
+  var xsP=xf>0?xs/xf*100:0;
+  var score=xkP*f.weights.xuekao+xsP*f.weights.xiaokao+(gk/f.gaokao.fullScore*100)*f.weights.gaokao;
   var tier='match';
   if(school.admission[0]&&school.admission[0].minScore){var diff=score-school.admission[0].minScore;if(diff>5)tier='safety';else if(diff<-5)tier='reach'}
-  return{xuekaoConverted:xk,xuekaoPercent:Math.round(xkP*100)/100,xuekaoFullScore:f.xuekao.fullScore,xiaokaoNormalized:xs,gaokaoNormalized:Math.round((gk/f.gaokao.fullScore*100)*100)/100,comprehensiveScore:Math.round(score*100)/100,tier:tier};
+  return{xuekaoConverted:xk,xuekaoPercent:Math.round(xkP*100)/100,xuekaoFullScore:f.xuekao.fullScore,xiaokaoNormalized:Math.round(xsP*100)/100,xiaokaoFull:xf,gaokaoFull:f.gaokao.fullScore,gaokaoNormalized:Math.round((gk/f.gaokao.fullScore*100)*100)/100,comprehensiveScore:Math.round(score*100)/100,tier:tier};
 }
 
 function reverseGk(target,grades,xs,school){
   var f=school.formula;if(!f)return null;
-  var xkPart=xkPercent(grades,f)*f.weights.xuekao,xsPart=xs*f.weights.xiaokao;
+  var xsP=(xiaokaoFull(school)>0?xs/xiaokaoFull(school)*100:0);
+  var xkPart=xkPercent(grades,f)*f.weights.xuekao,xsPart=xsP*f.weights.xiaokao;
   var needed=target-xkPart-xsPart;if(needed<0)return 0;
   return Math.ceil((needed/f.weights.gaokao)*(f.gaokao.fullScore/100));
 }
@@ -206,6 +211,22 @@ function reverseXs(target,grades,gk,school){
   var xkPart=xkPercent(grades,f)*f.weights.xuekao,gkPart=(gk/f.gaokao.fullScore*100)*f.weights.gaokao;
   var needed=target-xkPart-gkPart;if(needed<0)return 0;
   return Math.round((needed/f.weights.xiaokao)*100)/100;
+}
+
+// 输入收敛：空串保留，非数字忽略，负数回 0，超上限回上限（保留至多两位小数）
+function clampNum(raw,max){
+  if(raw===''||raw==null)return '';
+  var n=Number(raw);
+  if(isNaN(n))return raw;
+  var c=n;
+  if(c<0)c=0;
+  if(c>max)c=max;
+  return String(Math.round(c*100)/100);
+}
+// 换算并四舍五入为整百分数；无效返回 null
+function pctOf(v,max){
+  if(v===''||v==null||isNaN(Number(v))||!(max>0))return null;
+  return Math.round(Number(v)/max*100);
 }
 
 // Helper: extract numeric tuition value from string like "5300-6000元/年"
@@ -354,6 +375,10 @@ function CalculatorPage(){
   var majorState=React.useState('');var majorId=majorState[0],setMajorId=majorState[1];
 
   var school=SCHOOLS.find(function(s){return s.id===schoolId});
+  var xf=xiaokaoFull(school);
+  var gf=school&&school.formula&&school.formula.gaokao&&school.formula.gaokao.fullScore>0?school.formula.gaokao.fullScore:750;
+  var xsPct=pctOf(xs,xf);
+  var gkPct=pctOf(gk,gf);
   var major=school&&majorId?school.majors.find(function(m){return m.id===majorId}):null;
   var line=major&&major.admissionStats&&typeof major.admissionStats.minScore==='number'?major.admissionStats.minScore:(school&&school.admission&&school.admission.length>0&&school.admission[0].minScore!=null?school.admission[0].minScore:null);
   var tierLabel=result&&result.comprehensiveScore!=null?(line!=null?(result.comprehensiveScore-line>5?'保':result.comprehensiveScore-line<-5?'冲':'稳'):(result.tier==='reach'?'冲':result.tier==='match'?'稳':'保')):null;
@@ -379,20 +404,22 @@ function CalculatorPage(){
       React.createElement('div',{className:'grid g2 gap3'},
         React.createElement('div',null,
           React.createElement('label',{className:'text-xs font-medium text-s5 mb1 block'},'校测预估分'),
-          React.createElement('input',{type:'number',value:xs,onChange:function(e){setXs(e.target.value)},placeholder:'如 85',className:'input'})),
+          React.createElement('input',{type:'number',min:0,max:xf,step:'any',value:xs,onChange:function(e){setXs(clampNum(e.target.value,xf));setErr('')},placeholder:'如 '+(xf===100?'85':Math.round(xf*.85)),className:'input'}),
+          React.createElement('p',{className:'text-xs text-s4 mt1'},'范围 0~',xf,' 分',xsPct!=null?React.createElement('span',{className:'text-s6'},' · 百分制 ≈',xsPct):null)),
         React.createElement('div',null,
           React.createElement('label',{className:'text-xs font-medium text-s5 mb1 block'},'高考预估分'),
-          React.createElement('input',{type:'number',value:gk,onChange:function(e){setGk(e.target.value)},placeholder:'如 620',className:'input'}))),
+          React.createElement('input',{type:'number',min:0,max:gf,step:'any',value:gk,onChange:function(e){setGk(clampNum(e.target.value,gf));setErr('')},placeholder:'如 620',className:'input'}),
+          React.createElement('p',{className:'text-xs text-s4 mt1'},'范围 0~',gf,' 分',gkPct!=null?React.createElement('span',{className:'text-s6'},' · 百分制 ≈',gkPct):null))),
       mode==='forward'?React.createElement('button',{onClick:doForward,className:'w-full mt3 py3 rounded-xl text-w font-medium text-sm',style:{background:'#7C3AED',border:'1px solid rgba(0,0,0,.1)'}},'计算综合分'):null,
       mode==='forward'&&err?React.createElement('p',{className:'err-text mt2 text-center animate-slide-up'},'⚠ '+err):null),
     mode==='forward'?null:
-    React.createElement('div',{className:'card p4 mb4'},React.createElement('label',{className:'text-xs font-medium text-s5 mb2 block'},'目标综合分'),React.createElement('input',{type:'number',value:target,onChange:function(e){setTarget(e.target.value)},placeholder:'如 85',className:'input'}),React.createElement('p',{className:'text-xs text-s4 mt1 mb3'},'百分制综合分，用于反推高考/校测所需分数'),React.createElement('button',{onClick:function(){var e='';var miss=grades.filter(function(g){return !g.grade}).map(function(g){return g.subject});if(!schoolId)e='请先选择院校';else if(miss.length>0)e='请先补全剩余科目等级：'+miss.join('、');else if(!target||!(Number(target)>0))e='请填写目标综合分';else{var gs=grades.map(function(g){return{subject:g.subject,grade:g.grade}});setRGk(reverseGk(Number(target),gs,xs?Number(xs):0,school));setRXs(reverseXs(Number(target),gs,gk?Number(gk):0,school))}if(e){setRGk(null);setRXs(null)}setErr(e)},className:'w-full py3 rounded-xl text-w font-medium text-sm',style:{background:'#F59E0B'}},'反向推算'),err?React.createElement('p',{className:'err-text mt2 text-center animate-slide-up'},'⚠ '+err):null),
+    React.createElement('div',{className:'card p4 mb4'},React.createElement('label',{className:'text-xs font-medium text-s5 mb2 block'},'目标综合分'),React.createElement('input',{type:'number',min:0,max:100,step:'any',value:target,onChange:function(e){setTarget(clampNum(e.target.value,100));setErr('')},placeholder:'如 85',className:'input'}),React.createElement('p',{className:'text-xs text-s4 mt1 mb3'},'按百分制（0~100）填写，用于反推高考/校测所需分数'),React.createElement('button',{onClick:function(){var e='';var miss=grades.filter(function(g){return !g.grade}).map(function(g){return g.subject});if(!schoolId)e='请先选择院校';else if(miss.length>0)e='请先补全剩余科目等级：'+miss.join('、');else if(!target||!(Number(target)>0))e='请填写目标综合分';else{var gs=grades.map(function(g){return{subject:g.subject,grade:g.grade}});setRGk(reverseGk(Number(target),gs,xs?Number(xs):0,school));setRXs(reverseXs(Number(target),gs,gk?Number(gk):0,school))}if(e){setRGk(null);setRXs(null)}setErr(e)},className:'w-full py3 rounded-xl text-w font-medium text-sm',style:{background:'#F59E0B'}},'反向推算'),err?React.createElement('p',{className:'err-text mt2 text-center animate-slide-up'},'⚠ '+err):null),
     mode==='forward'&&result?React.createElement('div',{className:'card p5 animate-slide-up mb4'},
       React.createElement('p',{className:'text-4xl font-bold text-p text-center mb4'},result.comprehensiveScore,React.createElement('span',{className:'text-sm text-s4 font-normal'},' 综合分')),
-      [['学考折算(百分制)',result.xuekaoPercent],['校测',result.xiaokaoNormalized],['高考折算',result.gaokaoNormalized],['判定',tierLabel]].map(function(r){return React.createElement('div',{key:r[0],className:'flex justify-between py2 text-sm border-t border-s1'},React.createElement('span',{className:'text-s4'},r[0]),React.createElement('span',{className:'font-medium'},r[1]))})):null,
+      [['学考折算(百分制)',result.xuekaoPercent],['校测(百分制)',result.xiaokaoNormalized],['高考折算',result.gaokaoNormalized],['判定',tierLabel]].map(function(r){return React.createElement('div',{key:r[0],className:'flex justify-between py2 text-sm border-t border-s1'},React.createElement('span',{className:'text-s4'},r[0]),React.createElement('span',{className:'font-medium'},r[1]))})):null,
     mode==='reverse'&&(rGk!==null||rXs!==null)?React.createElement('div',{className:'card p5 animate-slide-up mb4'},
       rGk!==null?React.createElement('div',{className:'bg-y50 rounded-xl p4 mb3'},React.createElement('p',{className:'text-xs mb1'},'若校测为 ',(xs||'?'),' 分'),React.createElement('p',{className:'text-lg font-bold text-y'},'高考需 ≥ ',rGk,' 分')):null,
-      rXs!==null?React.createElement('div',{className:'bg-p50 rounded-xl p4'},React.createElement('p',{className:'text-xs mb1'},'若高考为 ',(gk||'?'),' 分'),React.createElement('p',{className:'text-lg font-bold text-p'},'校测需 ≥ ',rXs,' 分')):null):null
+      rXs!==null?React.createElement('div',{className:'bg-p50 rounded-xl p4'},React.createElement('p',{className:'text-xs mb1'},'若高考为 ',(gk||'?'),' 分'),React.createElement('p',{className:'text-lg font-bold text-p'},'校测需 ≥ ',rXs,' 分（百分制）',xf!==100?React.createElement('span',{className:'text-sm font-normal text-s5'},' ≈ ',Math.round(rXs/100*xf*100)/100,' 分（满分 ',xf,'）'):null)):null):null
   );
 }
 
