@@ -1,4 +1,4 @@
-const CACHE_NAME='3in1-v2';
+const CACHE_NAME='3in1-v3';
 const APP_SHELL=[
   '/',
   '/manifest.json',
@@ -51,7 +51,25 @@ self.addEventListener('fetch',function(e){
     return;
   }
 
-  // 静态资源：cache-first，离线可用核心功能
+  // HTML / 页面导航：network-first（在线取最新并刷新缓存；断网回退最近缓存，保证发版即新）
+  if(e.request.mode==='navigate'||url.pathname==='/'||url.pathname.endsWith('.html')){
+    e.respondWith(
+      fetch(e.request).then(function(resp){
+        if(resp&&resp.status===200&&resp.type==='basic'){
+          const copy=resp.clone();
+          caches.open(CACHE_NAME).then(function(cache){cache.put(e.request,copy)});
+        }
+        return resp;
+      }).catch(function(){
+        return caches.match(e.request).then(function(hit){
+          return hit||caches.match('/');
+        });
+      })
+    );
+    return;
+  }
+
+  // 其它静态资源（icon、manifest 等不可变低频文件）：cache-first，作为离线兜底
   e.respondWith(
     caches.match(e.request).then(function(hit){
       if(hit)return hit;
