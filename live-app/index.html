@@ -960,8 +960,10 @@ var root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(React.createElement(App));
 
 if('serviceWorker' in navigator){
+  var swRefreshed=false;
+  navigator.serviceWorker.addEventListener('controllerchange',function(){if(swRefreshed)return;swRefreshed=true;location.reload()});
   window.addEventListener('load',function(){
-    navigator.serviceWorker.register('sw.js').catch(function(err){console.error('SW register failed:',err)});
+    navigator.serviceWorker.register('sw.js').then(function(reg){reg.update()}).catch(function(err){console.error('SW register failed:',err)});
   });
 }
 </script>

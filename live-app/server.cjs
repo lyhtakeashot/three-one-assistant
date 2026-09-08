@@ -56,7 +56,9 @@ function serveStatic(req,res){
     const ext=path.extname(fp).slice(1);
     let ct=mime[ext]||'text/plain';
     if(base==='manifest.json')ct='application/manifest+json';
-    res.writeHead(200,{'Content-Type':ct,'Access-Control-Allow-Origin':'*'});
+    const headers={'Content-Type':ct,'Access-Control-Allow-Origin':'*'};
+    if(ext==='html'||base==='index.html')headers['Cache-Control']='no-cache';
+    res.writeHead(200,headers);
     res.end(data);
   });
 }
