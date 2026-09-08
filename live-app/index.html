@@ -83,7 +83,7 @@ hr{border:none;border-top:1px solid var(--s1)}
 .pb-safe{padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
 .h14{height:56px}.pt14{padding-top:56px}.pb16{padding-bottom:64px}
 .leading-relaxed{line-height:1.65}
-.modal-overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);z-index:80;display:flex;align-items:center;justify-content:center;padding:16px;animation:fadeIn .2s}
+.modal-overlay{position:fixed;inset:0;background:rgba(15,23,42,.8);z-index:80;display:flex;align-items:center;justify-content:center;padding:16px;animation:fadeIn .2s}
 .modal-card{background:var(--w);border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,.25);width:100%;max-width:420px;max-height:84vh;overflow-y:auto;animation:slideUp .3s}
 .modal-check{display:flex;align-items:center;gap:8px;cursor:pointer;user-select:none}
 .modal-check input{width:16px;height:16px;accent-color:var(--p500);cursor:pointer}
@@ -223,7 +223,6 @@ function TabBar(props){
 // === HomePage ===
 function HomePage(props){
   var cards=[{l:'院校筛选',d:'按选科和学考条件查找',p:'schools',icon:'🔍'},{l:'综合分计算',d:'正算反算都支持',p:'calculator',icon:'🧮'},{l:'路径对比',d:'三一vs普通高考',p:'pathCompare',icon:'⚖️'},{l:'开放数据',d:'下载院校数据包',p:'download',icon:'📦'},{l:'我的档案',d:'收藏院校与导出方案',p:'profile',icon:'📋'},{l:'数据纠错',d:'发现错误告诉我们',p:'feedback',icon:'📝'}];
-  var steps=[{step:'01',title:'学考报名',desc:'查看各校学考等级要求，选择符合条件的目标院校，准备报名材料。学考等级越高，选择越多。',color:'#3B82F6'},{step:'02',title:'校测考核',desc:'参加目标院校的综合素质测试（笔试+面试）。校测成绩占比25%，是区分度的关键环节。',color:'#F59E0B'},{step:'03',title:'高考录取',desc:'高考后综合分排名录取。注意：提前批只能填报一所三位一体院校，选稳不选冲！',color:'#16A34A'}];
   var qState=React.useState(function(){return ENCOURAGE_DATA[Math.floor(Math.random()*ENCOURAGE_DATA.length)]});var quote=qState[0],setQuote=qState[1];
   var bannerState=React.useState(function(){return !Lget('counterShown')});var showBanner=bannerState[0],setShowBanner=bannerState[1];
   var countState=React.useState(Lget('counter')||0);var userCount=countState[0],setUserCount=countState[1];
@@ -248,7 +247,7 @@ function HomePage(props){
     React.createElement('section',{className:'hero-bg py16 px4 text-center'},
       React.createElement('h1',{className:'text-3xl font-bold text-s8 mb4'},'三位一体，不止一条路'),
       React.createElement('p',{className:'text-s5 text-base max-w-md mx-auto mb4'},'学考成绩 + 校测表现 + 高考分数，帮你找到最适合的三一院校。'),
-      React.createElement('div',{className:'mb8'},React.createElement('button',{onClick:function(){props.setIntroOpen(true)},className:'pill-btn'},'❓ 什么是三位一体？')),
+      React.createElement('div',{className:'flex flex-wrap justify-center gap2 mb8'},React.createElement('button',{onClick:function(){props.setIntroOpen(true)},className:'pill-btn'},'❓ 什么是三位一体？'),React.createElement('button',{onClick:function(){props.setFlowOpen(true)},className:'pill-btn'},'🪜 录取流程')),
       React.createElement('div',{className:'grid sm:g2 md:g3 gap4 max-w-lg mx-auto'},
         cards.map(function(c){return React.createElement('button',{key:c.p,onClick:function(){props.setPage(c.p)},className:'card card-hover p6 flex flex-col items-center text-center'},
           React.createElement('span',{className:'text-2xl mb2'},c.icon),
@@ -256,14 +255,6 @@ function HomePage(props){
           React.createElement('p',{className:'text-xs text-s4'},c.d))}))
     ),
     quoteCard,
-    React.createElement('section',{className:'max-w-lg mx-auto px4 py16'},
-      React.createElement('h2',{className:'text-2xl font-bold text-center text-s8 mb2'},'三步录取流程'),
-      React.createElement('div',{className:'grid md:g3 gap6 mt8'},
-        steps.map(function(item){return React.createElement('div',{key:item.step,className:'card p6 text-center'},
-          React.createElement('span',{className:'inline-block w-12 h-12 rounded-full text-w font-bold text-lg mb4',style:{background:item.color,lineHeight:'48px'}},item.step),
-          React.createElement('h3',{className:'font-semibold text-s8 mb2'},item.title),
-          React.createElement('p',{className:'text-sm text-s5 leading-relaxed'},item.desc))}))
-    ),
     React.createElement('section',{className:'max-w-lg mx-auto px4 pb16'},
       React.createElement('div',{className:'card bg-y50 p5'},React.createElement('p',{className:'text-sm font-semibold text-y mb1'},'⚠️ 重要提醒'),React.createElement('p',{className:'text-sm text-y leading-relaxed'},'省属三位一体在提前批录取，只能填报一所院校。一旦被录取不再参与普通批次。请谨慎选择！')))
   );
@@ -900,17 +891,33 @@ function IntroModal(props){
       )));
 }
 
+// === FlowModal ===
+function FlowModal(props){
+  if(!props.open)return null;
+  var steps=[{step:'01',title:'学考报名',desc:'查看各校学考等级要求，选择符合条件的目标院校，准备报名材料。学考等级越高，选择越多。',color:'#3B82F6'},{step:'02',title:'校测考核',desc:'参加目标院校的综合素质测试（笔试+面试）。校测成绩占比25%，是区分度的关键环节。',color:'#F59E0B'},{step:'03',title:'高考录取',desc:'高考后按综合分排名录取。注意：提前批只能填报一所三位一体院校，选稳不选冲！',color:'#16A34A'}];
+  return React.createElement('div',{className:'modal-overlay',onClick:function(e){if(e.target===e.currentTarget)props.onClose()}},
+    React.createElement('div',{className:'modal-card'},
+      React.createElement('div',{className:'gradient-primary px5 py4 flex items-center justify-between',style:{borderTopLeftRadius:20,borderTopRightRadius:20}},
+        React.createElement('h2',{className:'text-w font-bold text-lg'},'🪜 录取流程'),
+        React.createElement('button',{onClick:props.onClose,className:'text-w',style:{opacity:.9,fontSize:18}},React.createElement('span',null,'✕'))),
+      React.createElement('div',{className:'p5'},
+        steps.map(function(it){return React.createElement('div',{key:it.step,className:'flex gap3 mb4'},React.createElement('span',{className:'flex-shrink-0 w-12 h-12 rounded-full text-w font-bold flex items-center justify-center text-sm',style:{background:it.color}},it.step),React.createElement('div',{className:'flex-1 min-w-0'},React.createElement('p',{className:'font-medium text-s8'},it.title),React.createElement('p',{className:'text-xs text-s5 leading-relaxed mt1'},it.desc)))}),
+        React.createElement('button',{onClick:props.onClose,className:'w-full py3 rounded-xl bg-p500 text-w font-medium text-sm'},'我知道了')
+      )));
+}
+
 // === App ===
 function App(){
   var pState=React.useState('home');var page=pState[0],setPage=pState[1];
   var introState=React.useState(false);var introOpen=introState[0],setIntroOpen=introState[1];
+  var flowState=React.useState(false);var flowOpen=flowState[0],setFlowOpen=flowState[1];
   var cState=React.useState(Lget('counter')||0);var totalUsers=cState[0],setTotalUsers=cState[1];
   React.useEffect(function(){if(!Lget('introDismissed'))setIntroOpen(true)},[]);
   React.useEffect(function(){getUserCounter(function(data){if(data&&data.count)setTotalUsers(data.count)})},[]);
 
   function render(){
     switch(page){
-      case'home':return React.createElement(HomePage,{setPage:setPage,setIntroOpen:setIntroOpen});
+      case'home':return React.createElement(HomePage,{setPage:setPage,setIntroOpen:setIntroOpen,setFlowOpen:setFlowOpen});
       case'schools':return React.createElement(SchoolListPage,{setPage:setPage});
       case'detail':return React.createElement(SchoolDetailPage,{setPage:setPage});
       case'calculator':return React.createElement(CalculatorPage);
@@ -922,7 +929,7 @@ function App(){
       case'treehole':return React.createElement(TreeholePage);
       case'feedback':return React.createElement(FeedbackPage,{setPage:setPage});
       case'download':return React.createElement(DownloadPage);
-      default:return React.createElement(HomePage,{setPage:setPage,setIntroOpen:setIntroOpen});
+      default:return React.createElement(HomePage,{setPage:setPage,setIntroOpen:setIntroOpen,setFlowOpen:setFlowOpen});
     }
   }
 
@@ -932,6 +939,7 @@ function App(){
 
   return React.createElement('div',{style:{minHeight:'100vh',display:'flex',flexDirection:'column'}},
     React.createElement(IntroModal,{open:introOpen,onClose:function(){setIntroOpen(false)}}),
+    React.createElement(FlowModal,{open:flowOpen,onClose:function(){setFlowOpen(false)}}),
     React.createElement('header',{className:'fixed top0 left0 right0 z50 glass glass-border'},
       React.createElement('div',{className:'flex items-center justify-between px4 h14'},
         React.createElement('div',{className:'flex items-center gap2'},
