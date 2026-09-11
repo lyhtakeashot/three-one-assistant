@@ -25,7 +25,7 @@ vm.runInContext(schoolsSrc,sandbox);
 const SCHOOLS=sandbox.SCHOOLS;
 console.log('Extracted',SCHOOLS.length,'schools');
 
-const dataDate='2026年3月',dataVersion='v1.0.0';
+const dataDate='2026年9月',dataVersion='v2.0.0';
 
 // ---------- JSON ----------
 const json=JSON.stringify({version:dataVersion,updatedAt:dataDate,count:SCHOOLS.length,schools:SCHOOLS},null,2);
@@ -37,7 +37,7 @@ function csvCell(v){
 }
 const csvRows=[['院校','简称','类型','校区','学费','2025最低分','综合满意度','环境满意度','生活满意度','官网','招生简章']];
 SCHOOLS.forEach(s=>{
-  csvRows.push([s.name,s.shortName,s.type==='ministry'?'部属':'省属',(s.info.campuses[0]||{}).name||'',s.info.tuitionGeneral,(s.admission[0]&&s.admission[0].minScore)||'',s.satisfaction.overall,s.satisfaction.environment,s.satisfaction.life,s.info.website,s.brochureUrl||'']);
+  csvRows.push([s.name,s.shortName,s.type==='ministry'?'部属':'省属',(s.info.campuses[0]||{}).name||'',(s.info.tuitionGeneral||''),(s.admission[0]&&s.admission[0].minScore!=null?s.admission[0].minScore:''),(s.satisfaction.overall==null?'':s.satisfaction.overall),(s.satisfaction.environment==null?'':s.satisfaction.environment),(s.satisfaction.life==null?'':s.satisfaction.life),s.info.website,s.brochureUrl||'']);
 });
 const csv=csvRows.map(r=>r.map(csvCell).join(',')).join('\n');
 
@@ -47,7 +47,7 @@ md+='> 版本：'+dataVersion+' ｜ 更新时间：'+dataDate+' ｜ 院校数：
 md+='## 数据说明\n\n本数据包整理自浙江省教育考试院、各高校招生网与阳光高考网，供报考参考与二次分析。\n\n';
 md+='## 院校一览\n\n| 院校 | 简称 | 类型 | 校区 | 学费 | 2025最低录取分 | 综合满意度 |\n|---|---|---|---|---|---|---|\n';
 SCHOOLS.forEach(s=>{
-  md+='| '+s.name+' | '+s.shortName+' | '+(s.type==='ministry'?'部属':'省属')+' | '+((s.info.campuses[0]||{}).name||'')+' | '+s.info.tuitionGeneral+' | '+((s.admission[0]&&s.admission[0].minScore)||'-')+' | '+s.satisfaction.overall+' |\n';
+  md+='| '+s.name+' | '+s.shortName+' | '+(s.type==='ministry'?'部属':'省属')+' | '+((s.info.campuses[0]||{}).name||'')+' | '+(s.info.tuitionGeneral||'-')+' | '+((s.admission[0]&&s.admission[0].minScore!=null)?s.admission[0].minScore:'-')+' | '+(s.satisfaction.overall==null?'-':s.satisfaction.overall)+' |\n';
 });
 md+='\n## 字段说明\n\n';
 md+='- **学考折算**：各校 A/B/C/D 等级分值不同，综合分 = 学考折算×权重 + 校测×权重 + 高考折算×权重\n';
@@ -62,7 +62,7 @@ let readme='# 三位一体辅助系统 · 开放数据包\n\n';
 readme+='本目录为浙江省三位一体院校数据的开放数据包，随应用版本同步更新。\n\n';
 readme+='## 文件说明\n\n';
 readme+='| 文件 | 说明 |\n|---|---|\n';
-readme+='| schools.json | 完整结构化数据（15 所院校全字段），适合程序化使用 |\n';
+readme+='| schools.json | 完整结构化数据（'+SCHOOLS.length+' 所院校全字段），适合程序化使用 |\n';
 readme+='| schools.csv | 核心字段表格，Excel / WPS 可直接打开 |\n';
 readme+='| schools.md | 人类可读数据文档 |\n\n';
 readme+='## 数据维度\n\n';

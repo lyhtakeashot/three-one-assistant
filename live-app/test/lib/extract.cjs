@@ -53,7 +53,14 @@ function extract() {
     reverseXs: sandbox.reverseXs,
     filterSchools: sandbox.filterSchools,
     calcXuekao: sandbox.calcXuekao,
+    xuekaoTotal: sandbox.xuekaoTotal,
     extractTuitionNum: sandbox.extractTuitionNum,
+    isStandardFormula: sandbox.isStandardFormula,
+    schoolDataYear: sandbox.schoolDataYear,
+    hasCurrentData: sandbox.hasCurrentData,
+    admissionRow: sandbox.admissionRow,
+    schoolLine: sandbox.schoolLine,
+    majorLine: sandbox.majorLine,
   };
 }
 
