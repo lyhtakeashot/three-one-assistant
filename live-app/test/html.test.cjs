@@ -65,6 +65,28 @@ module.exports = function run(t) {
   // 首页横幅应为浅色
   check(t, src.indexOf("'bg-p50 text-p p3 text-center text-sm'") > -1, '首页计数横幅为浅色 bg-p50');
 
+  // ---- 控制台改版结构回归 ----
+  check(t, src.indexOf('var ICON_PATHS={') > -1, '脚本内含内联 SVG 图标表 ICON_PATHS');
+  check(t, src.indexOf("React.createElement('svg'") > -1, '图标以内联 svg 渲染（零外部图标依赖）');
+  check(t, src.indexOf('function Icon(props)') > -1, 'Icon 图标组件存在');
+  check(t, src.indexOf('var NAV_SECTIONS=[') > -1, '脚本内含 NAV_SECTIONS 侧边栏分组导航');
+  check(t, src.indexOf('var PAGE_META={') > -1, '脚本内含 PAGE_META 页面标题元信息');
+  check(t, src.indexOf('BOTTOM_NAV') === -1 && src.indexOf('bottom-nav') === -1, '已移除与侧边栏重复的移动端底部 Tab 栏');
+  check(t, src.indexOf("'sidebar'") > -1 && src.indexOf("'topbar'") > -1, '外壳使用 sidebar / topbar 控制台类名');
+  check(t, src.indexOf('drawer-mask') > -1, '移动端抽屉遮罩存在');
+  check(t, src.indexOf('navMode') > -1, '侧边栏展开/收起状态写入 localStorage');
+  check(t, src.indexOf("'data-theme'") > -1, '支持深浅主题 data-theme 切换');
+  check(t, src.indexOf("'data-table'") > -1, '院校库与详情使用 data-table 数据表');
+  check(t, src.indexOf('function dashboardStats') > -1 && src.indexOf('function scoreBuckets') > -1 && src.indexOf('function sortSchools') > -1, '仪表盘统计与表格排序派生函数存在');
+
+  // 控制台样式类与主题 token 已定义
+  check(t, html.indexOf('.sidebar{') > -1, 'style 含 .sidebar 侧边栏样式');
+  check(t, html.indexOf('.data-table thead th{') > -1, 'style 含 .data-table 表头样式');
+  check(t, html.indexOf('[data-theme="dark"]') > -1, 'style 含深色主题 token');
+  check(t, html.indexOf('--nav-w:248px') > -1, 'style 含侧边栏宽度 token');
+  check(t, html.indexOf('.console[data-nav="closed"]{--nav-cur:var(--nav-w-mini)}') > -1, 'style 含收起态侧边栏宽度规则');
+  check(t, html.indexOf('.sidebar{position:sticky') > -1 && html.indexOf('width:var(--nav-cur)') > -1, 'style 含文档流内侧边栏（宽度由 --nav-cur 驱动，主区由 flex 自动让位）');
+
   // ---- open-data 数据包存在 ----
   ['schools.json', 'schools.csv', 'schools.md', 'README.md'].forEach((f) => {
     check(t, fs.existsSync(path.join(ROOT, 'open-data', f)), 'open-data/' + f + ' 存在');

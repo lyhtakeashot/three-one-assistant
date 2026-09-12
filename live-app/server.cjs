@@ -1,6 +1,6 @@
 const http=require('http'),fs=require('fs'),path=require('path');
 const PORT=8080,DIR=__dirname,DATA=path.join(DIR,'data');
-const mime={'html':'text/html;charset=utf-8','js':'application/javascript','css':'text/css','json':'application/json','manifest':'application/manifest+json','svg':'image/svg+xml','png':'image/png','webmanifest':'application/manifest+json'};
+const mime={'html':'text/html;charset=utf-8','js':'application/javascript','css':'text/css','json':'application/json','manifest':'application/manifest+json','svg':'image/svg+xml','png':'image/png','webmanifest':'application/manifest+json','csv':'text/csv;charset=utf-8','md':'text/markdown;charset=utf-8','zip':'application/zip','txt':'text/plain;charset=utf-8'};
 
 // ---------- 数据持久化 ----------
 function readJson(file,def){
@@ -54,7 +54,7 @@ function serveStatic(req,res){
     if(err){res.writeHead(404);res.end('Not Found');return}
     const base=path.basename(fp);
     const ext=path.extname(fp).slice(1);
-    let ct=mime[ext]||'text/plain';
+    let ct=mime[ext]||'text/plain;charset=utf-8';
     if(base==='manifest.json')ct='application/manifest+json';
     const headers={'Content-Type':ct,'Access-Control-Allow-Origin':'*'};
     if(ext==='html'||base==='index.html')headers['Cache-Control']='no-cache';

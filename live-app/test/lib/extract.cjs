@@ -61,6 +61,20 @@ function extract() {
     admissionRow: sandbox.admissionRow,
     schoolLine: sandbox.schoolLine,
     majorLine: sandbox.majorLine,
+    scoreScaleMax: sandbox.scoreScaleMax,
+    toPercentScore: sandbox.toPercentScore,
+    utf8Bytes: sandbox.utf8Bytes,
+    crc32: sandbox.crc32,
+    zipStore: sandbox.zipStore,
+    csvOf: sandbox.csvOf,
+    mdOf: sandbox.mdOf,
+    buildExportTables: sandbox.buildExportTables,
+    buildOpenDataFiles: sandbox.buildOpenDataFiles,
+    buildOpenDataZips: sandbox.buildOpenDataZips,
+    formatBytes: sandbox.formatBytes,
+    OPEN_DATA_FILES: sandbox.OPEN_DATA_FILES,
+    OPEN_DATA_VERSION: sandbox.OPEN_DATA_VERSION,
+    OPEN_DATA_DATE: sandbox.OPEN_DATA_DATE,
   };
 }
 

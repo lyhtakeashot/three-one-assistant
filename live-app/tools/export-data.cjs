@@ -1,99 +1,96 @@
-// 数据包导出脚本：从 index.html 提取 SCHOOLS，生成 open-data/ 三格式数据 + README
+// 开放数据包导出脚本：复用 index.html 切片区的导出纯函数（与前端下载页唯一来源）
 // 用法：node tools/export-data.cjs
-const fs=require('fs'),path=require('path'),vm=require('vm');
+// 产出 open-data/：schools.json + 6 个 CSV + schools.md + README.md
+//   CSV / MD / README 一律带 UTF-8 BOM（Excel / WPS 打开不乱码）；JSON 不带 BOM（保证 JSON.parse 可用）
+const fs = require('fs');
+const path = require('path');
+const vm = require('vm');
 
-const ROOT=path.join(__dirname,'..');
-const OUT=path.join(ROOT,'open-data');
-const html=fs.readFileSync(path.join(ROOT,'index.html'),'utf8');
+const ROOT = path.join(__dirname, '..');
+const OUT = path.join(ROOT, 'open-data');
+const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
 
-// 提取 SCHOOLS 数组声明
-const start=html.indexOf('var SCHOOLS=[');
-if(start===-1){console.error('ERROR: SCHOOLS not found in index.html');process.exit(1);}
-let depth=0,end=-1;
-for(let i=start;i<html.length;i++){
-  const c=html[i];
-  if(c==='[')depth++;
-  if(c===']'){depth--;if(depth===0){end=i+1;break;}}
+// ---- 与 test/lib/extract.cjs 同机制：提取切片区间（数据 + Utils + 导出纯函数）----
+const scriptStart = html.indexOf('<script>');
+const scriptEnd = html.lastIndexOf('</script>');
+if (scriptStart === -1 || scriptEnd === -1) {
+  console.error('ERROR: index.html 缺少 <script> 块');
+  process.exit(1);
 }
-if(end===-1){console.error('ERROR: unbalanced SCHOOLS array');process.exit(1);}
-const schoolsSrc=html.substring(start,end)+';';
+const code = html.substring(scriptStart + 8, scriptEnd);
+const startMark = 'var SCHOOLS=[';
+const endMark = '// === Components';
+const start = code.indexOf(startMark);
+const end = code.indexOf(endMark);
+if (start === -1) { console.error('ERROR: 未找到 var SCHOOLS=['); process.exit(1); }
+if (end === -1) { console.error('ERROR: 未找到 // === Components'); process.exit(1); }
 
-// 在隔离 VM 中执行获得数组
-const sandbox={};
+// localStorage 桩（与前端/extract 沙箱保持一致）
+const store = {};
+const sandbox = {
+  localStorage: {
+    getItem: (k) => (store[k] !== undefined ? store[k] : null),
+    setItem: (k, v) => { store[k] = String(v); },
+  },
+};
 vm.createContext(sandbox);
-vm.runInContext(schoolsSrc,sandbox);
-const SCHOOLS=sandbox.SCHOOLS;
-console.log('Extracted',SCHOOLS.length,'schools');
-
-const dataDate='2026年9月',dataVersion='v2.0.0';
-
-// ---------- JSON ----------
-const json=JSON.stringify({version:dataVersion,updatedAt:dataDate,count:SCHOOLS.length,schools:SCHOOLS},null,2);
-
-// ---------- CSV ----------
-function csvCell(v){
-  const s=String(v==null?'':v);
-  return /[",\n]/.test(s)?'"'+s.replace(/"/g,'""')+'"':s;
+try {
+  vm.runInContext(code.substring(start, end), sandbox, { timeout: 10000 });
+} catch (e) {
+  console.error('ERROR: 切片区执行失败: ' + e.message);
+  process.exit(1);
 }
-const csvRows=[['院校','简称','类型','校区','学费','2025最低分','综合满意度','环境满意度','生活满意度','官网','招生简章']];
-SCHOOLS.forEach(s=>{
-  csvRows.push([s.name,s.shortName,s.type==='ministry'?'部属':'省属',(s.info.campuses[0]||{}).name||'',(s.info.tuitionGeneral||''),(s.admission[0]&&s.admission[0].minScore!=null?s.admission[0].minScore:''),(s.satisfaction.overall==null?'':s.satisfaction.overall),(s.satisfaction.environment==null?'':s.satisfaction.environment),(s.satisfaction.life==null?'':s.satisfaction.life),s.info.website,s.brochureUrl||'']);
-});
-const csv=csvRows.map(r=>r.map(csvCell).join(',')).join('\n');
 
-// ---------- Markdown ----------
-let md='# 浙江三位一体院校开放数据\n\n';
-md+='> 版本：'+dataVersion+' ｜ 更新时间：'+dataDate+' ｜ 院校数：'+SCHOOLS.length+' 所\n\n';
-md+='## 数据说明\n\n本数据包整理自浙江省教育考试院、各高校招生网与阳光高考网，供报考参考与二次分析。\n\n';
-md+='## 院校一览\n\n| 院校 | 简称 | 类型 | 校区 | 学费 | 2025最低录取分 | 综合满意度 |\n|---|---|---|---|---|---|---|\n';
-SCHOOLS.forEach(s=>{
-  md+='| '+s.name+' | '+s.shortName+' | '+(s.type==='ministry'?'部属':'省属')+' | '+((s.info.campuses[0]||{}).name||'')+' | '+(s.info.tuitionGeneral||'-')+' | '+((s.admission[0]&&s.admission[0].minScore!=null)?s.admission[0].minScore:'-')+' | '+(s.satisfaction.overall==null?'-':s.satisfaction.overall)+' |\n';
-});
-md+='\n## 字段说明\n\n';
-md+='- **学考折算**：各校 A/B/C/D 等级分值不同，综合分 = 学考折算×权重 + 校测×权重 + 高考折算×权重\n';
-md+='- **校测**：笔试科目与面试形式（个面/群面）因校而异\n';
-md+='- **满意度**：来自阳光高考网在校生投票，满分 5.0\n';
-md+='- **转专业限制**：部分院校对三位一体录取考生有转专业限制\n';
-md+='- **招生简章**：各校官方最新招生简章链接\n\n';
-md+='## 数据来源\n\n浙江省教育考试院、各高校招生网、阳光高考网。请以官方最新公告为准。\n';
+const SCHOOLS = sandbox.SCHOOLS;
+const buildOpenDataFiles = sandbox.buildOpenDataFiles;
+if (!Array.isArray(SCHOOLS) || SCHOOLS.length === 0) {
+  console.error('ERROR: SCHOOLS 提取失败');
+  process.exit(1);
+}
+if (typeof buildOpenDataFiles !== 'function') {
+  console.error('ERROR: buildOpenDataFiles 未定义（切片区未包含导出纯函数）');
+  process.exit(1);
+}
 
-// ---------- README ----------
-let readme='# 三位一体辅助系统 · 开放数据包\n\n';
-readme+='本目录为浙江省三位一体院校数据的开放数据包，随应用版本同步更新。\n\n';
-readme+='## 文件说明\n\n';
-readme+='| 文件 | 说明 |\n|---|---|\n';
-readme+='| schools.json | 完整结构化数据（'+SCHOOLS.length+' 所院校全字段），适合程序化使用 |\n';
-readme+='| schools.csv | 核心字段表格，Excel / WPS 可直接打开 |\n';
-readme+='| schools.md | 人类可读数据文档 |\n\n';
-readme+='## 数据维度\n\n';
-readme+='院校名称、校区地址、学费区间、学考折算规则、校测形式、招生专业与选科要求、历年报名/入围/录取数据、综合满意度（综合/环境/生活）、转专业限制、报名流程与材料、招生简章链接。\n\n';
-readme+='## 数据来源\n\n浙江省教育考试院、各高校招生网、阳光高考网。\n\n';
-readme+='## GitHub 上传指引\n\n';
-readme+='将本数据包推送至你的 GitHub 仓库，步骤如下：\n\n';
-readme+='```bash\n';
-readme+='# 1. 进入项目目录\n';
-readme+='cd 你的项目目录\n\n';
-readme+='# 2. 初始化仓库（若尚未初始化）\n';
-readme+='git init\n\n';
-readme+='# 3. 添加数据包文件\n';
-readme+='git add open-data/\n\n';
-readme+='# 4. 提交\n';
-readme+='git commit -m "feat: 更新开放数据包 v1.0.0"\n\n';
-readme+='# 5. 关联远程仓库（替换为你的仓库地址）\n';
-readme+='git remote add origin https://github.com/你的用户名/你的仓库.git\n\n';
-readme+='# 6. 推送\n';
-readme+='git push -u origin main\n';
-readme+='```\n\n';
-readme+='> 提示：推送到 GitHub 后，可在应用内"开放数据"页填入仓库地址，方便用户直接访问。\n';
+const files = buildOpenDataFiles(SCHOOLS);
+console.log('Extracted ' + SCHOOLS.length + ' schools');
 
-fs.mkdirSync(OUT,{recursive:true});
-fs.writeFileSync(path.join(OUT,'schools.json'),json,'utf8');
-fs.writeFileSync(path.join(OUT,'schools.csv'),csv,'utf8');
-fs.writeFileSync(path.join(OUT,'schools.md'),md,'utf8');
-fs.writeFileSync(path.join(OUT,'README.md'),readme,'utf8');
-console.log('Generated open-data/:');
-console.log('  schools.json  '+json.length+' bytes');
-console.log('  schools.csv   '+csv.length+' bytes');
-console.log('  schools.md    '+md.length+' bytes');
-console.log('  README.md     '+readme.length+' bytes');
+// ---- 写盘 ----
+fs.mkdirSync(OUT, { recursive: true });
+const written = [];
+function writeOut(name, content) {
+  const bytes = Buffer.from(content, 'utf8');
+  fs.writeFileSync(path.join(OUT, name), bytes);
+  written.push([name, bytes.length]);
+}
+writeOut(files.json.name, files.json.content);          // JSON：无 BOM
+files.csv.forEach((f) => writeOut(f.name, f.content)); // CSV：含 BOM
+writeOut(files.md.name, files.md.content);              // MD：含 BOM
+writeOut(files.readme.name, files.readme.content);      // README：含 BOM
+
+// ---- 自校验（编码 + 行数），失败即非零退出 ----
+const BOM = [0xEF, 0xBB, 0xBF];
+function firstBytes(file, n) {
+  return Array.from(fs.readFileSync(path.join(OUT, file)).slice(0, n));
+}
+function hasBom(file) {
+  const b = firstBytes(file, 3);
+  return b[0] === BOM[0] && b[1] === BOM[1] && b[2] === BOM[2];
+}
+let failed = false;
+function assert(cond, msg) {
+  if (!cond) { failed = true; console.error('  ✗ ' + msg); }
+}
+const textFiles = files.csv.map((f) => f.name).concat([files.md.name, files.readme.name]);
+textFiles.forEach((n) => assert(hasBom(n), n + ' 缺少 UTF-8 BOM'));
+assert(!hasBom(files.json.name), files.json.name + ' 不应包含 BOM');
+written.forEach((w) => assert(fs.existsSync(path.join(OUT, w[0])), w[1] !== undefined ? w[0] + ' 已写入' : w[0]));
+
+console.log('Generated open-data/ (' + files.version + ' · ' + files.count + ' schools):');
+written.forEach((w) => console.log('  ' + w[0].padEnd(24) + ' ' + w[1] + ' bytes'));
+const t = files.tables;
+[['schools', t.schools], ['formulas', t.formulas], ['majors', t.majors], ['admission', t.admission], ['exam-formats', t.examFormats], ['application-steps', t.applicationSteps]]
+  .forEach((row) => console.log('  table ' + row[0].padEnd(20) + ' ' + (row[1].length - 1) + ' rows'));
+
+if (failed) { console.error('ERROR: open-data 自校验未通过'); process.exit(1); }
 console.log('DONE');

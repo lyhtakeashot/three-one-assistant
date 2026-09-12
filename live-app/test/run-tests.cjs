@@ -4,7 +4,7 @@
 //   node test/run-tests.cjs api          # 仅运行 api.test.cjs
 const path = require('path');
 
-const FILES = ['data', 'calculator', 'html', 'render', 'api', 'cf-pure'];
+const FILES = ['data', 'calculator', 'html', 'render', 'api', 'cf-pure', 'export'];
 const filterArg = process.argv[2];
 
 function createT() {

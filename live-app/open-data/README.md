@@ -1,14 +1,25 @@
-# 三位一体辅助系统 · 开放数据包
+﻿# 三位一体辅助系统 · 开放数据包
+
+> 版本：v2.0.0 ｜ 更新时间：2026年9月 ｜ 院校数：46 所
 
 本目录为浙江省三位一体院校数据的开放数据包，随应用版本同步更新。
+
+## 编码说明
+
+所有 CSV 与 Markdown 文件均为 UTF-8（含 BOM），可直接用 Excel / WPS 打开，不会乱码；JSON 为纯 UTF-8（无 BOM）以便程序解析。
 
 ## 文件说明
 
 | 文件 | 说明 |
 |---|---|
 | schools.json | 完整结构化数据（46 所院校全字段），适合程序化使用 |
-| schools.csv | 核心字段表格，Excel / WPS 可直接打开 |
-| schools.md | 人类可读数据文档 |
+| schools.csv | 院校总览：基础信息、学费、联系方式、满意度、住宿、最低综合分（原始分｜百分制） |
+| formulas.csv | 折算规则：学考 A/B/C/D 分值、学考/校测/高考满分与三项权重、口径与来源 |
+| majors.csv | 专业明细：招生专业、类别、选科要求与计划数 |
+| admission.csv | 历年录取竞争比：报名/入围/录取人数与最低综合分 |
+| exam-formats.csv | 校测形式：笔试科目、面试形式、体测与内容摘要 |
+| application-steps.csv | 报名流程：各阶段名称、说明、截止时间与所需材料 |
+| schools.md | 人类可读数据文档（含以上全部表格） |
 
 ## 数据维度
 
@@ -33,7 +44,7 @@ git init
 git add open-data/
 
 # 4. 提交
-git commit -m "feat: 更新开放数据包 v1.0.0"
+git commit -m "feat: 更新开放数据包 v2.0.0"
 
 # 5. 关联远程仓库（替换为你的仓库地址）
 git remote add origin https://github.com/你的用户名/你的仓库.git
