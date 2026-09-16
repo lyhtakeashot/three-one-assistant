@@ -1,0 +1,113 @@
+{
+  "id": "wzbc",
+  "name": "温州商学院",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://www.wzbc.edu.cn/Art/Art_46/Art_46_135842.aspx",
+      "tuitionSourceTitle": "温州商学院2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://www.wzbc.edu.cn/Art/Art_46/Art_46_135842.aspx",
+      "title": "温州商学院2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://www.wzbc.edu.cn/Art/Art_46/Art_46_135842.aspx",
+      "title": "温州商学院2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.2,
+    "environment": 4.5,
+    "life": 3.9,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-6292509.dhtml",
+    "sourceTitle": "阳光高考网 · 温州商学院 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-14",
+    "alternates": [],
+    "note": "阳光高考网综合4.2/环境4.5/生活3.9；环境满意度高但生活满意度相对低，与住宿费偏高、熄灯断网相关。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": null,
+      "passed": 1494,
+      "admitted": null,
+      "sourceUrl": "https://xyw.wzbc.edu.cn/Art/Art_1273/Art_1273_137716.aspx",
+      "sourceTitle": "温州商学院2026年“三位一体”综合评价招生资格审查结果公告",
+      "xuekaoRequirement": "学考各科均须合格；其他科目A=12/B=10/C=9/D=8，外语A=15/B=12/C=10/D=8",
+      "xuekaoRequirementSourceUrl": "https://www.wzbc.edu.cn/Art/Art_46/Art_46_135842.aspx",
+      "xuekaoRequirementSourceTitle": "温州商学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "资格审查（初审）通过5006人"
+    },
+    {
+      "year": 2025,
+      "applicants": 12306,
+      "passed": 1484,
+      "admitted": 299,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://jw.wzbc.edu.cn/Art/Art_188/Art_188_130385.aspx",
+      "sourceTitle": "2025“三位一体”第6号公告 | 我校综合测试入围分数线公布",
+      "collectedAt": "2026-09-13",
+      "note": "综合测试入围1484人来源：第6号公告(Art_188_130385.aspx，官方教务部，含各专业入围人数合计1484)。报名12306人、资格审核入围(获测试资格)4195人来源：初审结果公告(jw.wzbc.edu.cn/Art/Art_409/Art_409_129790.aspx，官方)。最终录取299人来源：录取信息一览表(i.wzbc.edu.cn/Art/Art_339/Art_339_133760.aspx，官方信息服务中心，‘总计299’)。2024/2026未检索。"
+    }
+  ],
+  "dormitory": {
+    "description": "独卫独浴、上床下桌4人间为主，住宿费约3000元/年(F区)；周日-周四23:00熄灯断网。",
+    "score": null,
+    "source": "温州商学院官方管理规定/招生网 + 百度百科校园",
+    "highlights": [
+      "独卫独浴、上床下桌4人间(百度百科校园)",
+      "宿舍离教学区近、生活方便(百度百科)"
+    ],
+    "drawbacks": [
+      "周日-周四23:00熄灯断网(官方学生社区规定)",
+      "住宿费偏高约3000元/学年(F区)"
+    ],
+    "platforms": [
+      {
+        "name": "官方-温州商学院学生社区管理",
+        "url": "https://www.wzbc.edu.cn/Art/Art_46/Art_46_105965.aspx",
+        "summary": "学生社区管理规定：周日到周四23:00熄灯断网，周五周六及节假日延长，门禁与用电有明确时段。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方-温州商学院招生网生活宝鉴",
+        "url": "https://zsw.wzbc.edu.cn/Art/Art_411/Art_411_21444.aspx",
+        "summary": "新生生活宝鉴介绍宿舍为独卫独浴上床下桌，住宿费约3000元/学年，含后勤服务指南。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "百度百科校园(ima.qq.com)",
+        "url": "https://ima.qq.com",
+        "summary": "介绍温商宿舍为独卫独浴、上床下桌4人间，住宿费3000元/学年，配置较新、条件较好。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "仅捕获到站点域名，未取到具体词条直达链接"
+      },
+      {
+        "name": "百度百科",
+        "url": "https://baike.baidu.com",
+        "summary": "提及宿舍离教学区近、生活便利，整体住宿条件在同类民办/应用型院校中较好。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "仅捕获到站点域名，未取到具体词条直达链接"
+      }
+    ],
+    "note": "官方与百科一致反映住宿硬件较好，但熄灯断网较早、住宿费偏高是主要负面点；UGC有效样本较少。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

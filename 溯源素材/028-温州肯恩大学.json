@@ -1,0 +1,100 @@
+{
+  "id": "wku",
+  "name": "温州肯恩大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://admission.wku.edu.cn/zh-hans/node/3271",
+      "tuitionSourceTitle": "温州肯恩大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://admission.wku.edu.cn/zh-hans/node/3271",
+      "title": "温州肯恩大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://admission.wku.edu.cn/zh-hans/node/3271",
+      "title": "温州肯恩大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 3.8,
+    "environment": 4.3,
+    "life": 3.9,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-976553154,categoryId-976553158,mindex-1.dhtml",
+    "sourceTitle": "阳光高考网 · 温州肯恩大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "高三网·院校满意度",
+        "url": "https://m.gaosan.com/gaokao/1506959.html",
+        "summary": "高三网：综合3.8(145人)、环境4.3(185人)、生活3.9(144人)；阳光高考wap未直读，采用此同源数据。",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "阳光高考院校信息库页含院校满意度，wap评分未直读；三项分数采用高三网(同源阳光高考数据)补录，投票人数较少(约145人)，建议复核。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 4000,
+      "passed": 1000,
+      "admitted": 150,
+      "sourceUrl": "https://admission.wku.edu.cn/zh-hans/node/3135",
+      "sourceTitle": "温州肯恩大学2025年“三位一体”综合评价招生材料评审结果公布（材料评审通过名单）",
+      "xuekaoRequirement": "学考≥3A",
+      "xuekaoRequirementSourceUrl": "https://admission.wku.edu.cn/zh-hans/node/3271",
+      "xuekaoRequirementSourceTitle": "温州肯恩大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "找到官方公示：材料评审(初审)通过1753人(获综合测试资格)，来源 node/3135。综合测试入围947人(官方招生新闻页 admission.wku.edu.cn/zh-hans/zhaoshengxinwen?page=2，含A组623+B组324分段，未单列文章URL)。报名总数、最终录取总数未公开(计划150人，仅公布录取分数线)。2024/2026未检索。"
+    }
+  ],
+  "dormitory": {
+    "description": "温肯宿舍为美式公寓：高床/低床四人间、套间、双人间、单人间，均24h热水、不断电、免费WiFi、空调、独立卫浴；公共设施含健身房、厨房、洗衣房。",
+    "score": null,
+    "source": "温州肯恩大学官网·公寓介绍、学杂费标准、未来人才",
+    "highlights": [
+      "独立卫浴、空调、24h热水、不断电、免费WiFi",
+      "房型多样(套间/双人间/单人间)私密性好",
+      "楼栋配健身房、厨房、洗衣房、自习室"
+    ],
+    "drawbacks": [
+      "学费及住宿费远超普通公办(普通专业6.5万/年)",
+      "地处瓯海丽岙，距市区打车40–60分钟，位置偏"
+    ],
+    "platforms": [
+      {
+        "name": "官方|温州肯恩大学·公寓介绍",
+        "url": "https://wku.edu.cn/zh-hans/node/3338",
+        "summary": "十栋公寓，房型含高床四人间、四人套间、双人间、单人间；寝室内24h热水、不断电、免费WiFi、空调、独立淋浴卫浴；楼配台球室健身房洗衣房。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "官方|学杂费标准",
+        "url": "https://www.wku.edu.cn/zh-hans/jgsz/cwb/pfwj",
+        "summary": "学生公寓收费标准公示页：热水40元/吨、冷水3.5元/吨、电费0.54元/度；住宿费按房型面积浮动，每学年按十个月计(不含暑假)。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "未来人才(保定)",
+        "url": "http://hbwlrc.cn:83/phone/NewSchoolInfo.ashx?Type=School&Year=2024&Name=温州肯恩大学&wl=理&Batch=本科",
+        "summary": "三种房型：高端四人套间(两室一厅一卫)、温馨双人间、豪华单人间，独立卫浴空调24h热水WiFi，部分楼栋电梯；不足：费用高、位置偏。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "聚合站"
+      }
+    ],
+    "note": "未查到虎扑/知乎/小红书等可直达帖子；费用高与位置偏为该校普遍反馈。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

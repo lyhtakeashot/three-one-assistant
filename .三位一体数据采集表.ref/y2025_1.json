@@ -1,0 +1,612 @@
+[
+  {
+    "id": "tzc",
+    "name": "台州学院",
+    "shortName": "台院",
+    "aliases": ["台院", "台州学院"],
+    "type": "provincial",
+    "info": {
+      "campuses": [
+        { "name": "椒江校区", "address": "浙江省台州市市府大道1139号" },
+        { "name": "临海校区", "address": "浙江省临海市" }
+      ],
+      "website": "https://zs.tzc.edu.cn/",
+      "admissionsPhone": "0576-88669696",
+      "consultQQ": null,
+      "tuitionGeneral": "实行学分制收费，按浙江省物价部门核定标准预收（各专业学费不同）",
+      "tuitionSinoForeign": null,
+      "healthRestrictions": "执行教育部等《普通高等学校招生体检工作指导意见》；英语(师范)专业要求外语语种为英语，且高考英语单科成绩不低于105分"
+    },
+    "formula": {
+      "xuekao": { "A": 10, "B": 8, "C": 6, "D": 4, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6 }
+    },
+    "formulaNote": null,
+    "formulaSource": {
+      "year": 2025,
+      "title": "台州学院2025年“三位一体”综合评价招生章程",
+      "url": "https://zs.tzc.edu.cn/info/1013/2936.htm"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "按测试组类分组面试，满分100分。师范类：仪态仪表、口头表达、思维能力、书写展示；理工类：科学素养、专业潜质、逻辑思维、创新能力。入围须测试成绩≥60分。",
+      "tips": "师范类注重朗读与板书书写；理工类注重科学素养与逻辑表达"
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "章程第二十五条：三位一体录取学生入学后转专业办法与浙江省普通类录取的学生相同"
+    },
+    "majors": [
+      { "name": "思想政治教育(师范)", "category": "师范类", "requiredSubjects": ["思想政治"], "planCount": 10 },
+      { "name": "小学教育(师范)", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 10 },
+      { "name": "学前教育(师范)", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 15 },
+      { "name": "英语(师范)", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 10 },
+      { "name": "数学与应用数学(师范)", "category": "师范类", "requiredSubjects": ["物理", "化学"], "planCount": 15 },
+      { "name": "科学教育(师范)", "category": "师范类", "requiredSubjects": ["物理"], "planCount": 20 },
+      { "name": "制药工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 30 },
+      { "name": "材料科学与工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "计算机科学与技术", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 5 },
+      { "name": "土木工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 15 },
+      { "name": "电子信息工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 5 },
+      { "name": "环境工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 15 },
+      { "name": "康复治疗学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 30 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "minScore": 61.2,
+        "avgScore": null,
+        "xuekaoRequirement": "师范类：学业水平测试A等+B等≥6，其余为D等及以上；理工类：A等+B等≥5，其余为D等及以上；综合素质评价均为B等及以上"
+      }
+    ],
+    "satisfaction": { "overall": null, "environment": null, "life": null, "source": "阳光高考网" },
+    "dormitory": { "description": null, "score": null, "source": "", "highlights": [], "drawbacks": [] },
+    "applicationSteps": [
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录台州学院本科招生网“三位一体”报名系统填写信息并提交；考生须在师范类、理工类中选报一类，不得兼报；限报包括本校在内的省内地方属试点高校不超过4所。",
+        "deadline": "2025-03-13 17:00",
+        "materials": ["报名系统在线填写并提交，无需邮寄纸质材料"]
+      },
+      {
+        "step": 2,
+        "title": "综合素质测试（面试）",
+        "description": "椒江校区分组面试，满分100分；测试成绩60分及以上者按测试组类招生计划6倍确定入围名单。",
+        "deadline": "2025-04-13",
+        "materials": []
+      },
+      {
+        "step": 3,
+        "title": "填报普通类提前批志愿与录取",
+        "description": "入围考生在普通类提前录取批次第一志愿填报台州学院，仅可填报入围测试组类内专业；高考总分须不低于2025年普通类第一段分数线30分（含）以上。",
+        "deadline": null,
+        "materials": []
+      }
+    ],
+    "brochureUrl": "https://zs.tzc.edu.cn/info/1013/2936.htm"
+  },
+  {
+    "id": "qzc",
+    "name": "衢州学院",
+    "shortName": "衢院",
+    "aliases": ["衢院", "衢州学院"],
+    "type": "provincial",
+    "info": {
+      "campuses": [
+        { "name": "主校区", "address": "浙江省衢州市九华北大道78号" }
+      ],
+      "website": "https://zs.qzc.edu.cn/",
+      "admissionsPhone": "0570-8015711",
+      "consultQQ": "936454719",
+      "tuitionGeneral": "本科：按浙江省物价部门核定标准执行（师范类约4800-5520元/学年，工科类约5500-6300元/学年）",
+      "tuitionSinoForeign": null,
+      "healthRestrictions": "执行《普通高等学校招生体检工作指导意见》；英语(师范)专业要求外语语种为英语，且高考英语单科成绩不低于105分"
+    },
+    "formula": {
+      "xuekao": { "A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "formulaNote": null,
+    "formulaSource": {
+      "year": 2025,
+      "title": "衢州学院2025年“三位一体”综合评价招生章程",
+      "url": "https://zs.qzc.edu.cn/2025/0301/c116a76540/page.htm"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "面试，满分100分，60分及以上为合格；主要考察学生综合素质、专业素养、专业潜质等，内容包括仪态仪表、口头表达、特长展示等。按分专业招生计划1:8确定入围名单。",
+      "tips": "注重仪态仪表与口头表达，可准备特长展示"
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "章程：三位一体录取学生入学后如需转专业，与普通录取学生相同，依据《衢州学院学生转专业管理办法》执行"
+    },
+    "majors": [
+      { "name": "数学与应用数学(师范)", "category": "师范类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "小学教育(师范)", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 20 },
+      { "name": "英语(师范)", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 10 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 3239,
+        "passed": 308,
+        "admitted": 40,
+        "minScore": 68.44,
+        "avgScore": null,
+        "xuekaoRequirement": "普通类：学业水平测试A等≥3或A等+B等≥5，其余为D等及以上；特长类：学考成绩均为D等及以上且符合专项特长。综合素质评价均为B等及以上"
+      }
+    ],
+    "satisfaction": { "overall": null, "environment": null, "life": null, "source": "阳光高考网" },
+    "dormitory": { "description": null, "score": null, "source": "", "highlights": [], "drawbacks": [] },
+    "applicationSteps": [
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录衢州学院招生网“三位一体”报名系统报名，考生只能选报一个专业，不可兼报；限报省内地方属试点高校不超过4所。",
+        "deadline": "2025-03-13 17:00",
+        "materials": ["无专项特长考生无需提交材料，仅需系统确认", "特长类考生须上传相关证书原件扫描件（JPG，≤3M）"]
+      },
+      {
+        "step": 2,
+        "title": "综合素质测试（面试）",
+        "description": "面试，满分100分；成绩合格者按分专业招生计划1:8确定入围名单并公示。",
+        "deadline": "2025-04-12",
+        "materials": []
+      },
+      {
+        "step": 3,
+        "title": "填报普通类提前批志愿与录取",
+        "description": "入围考生在普通类提前录取第一院校志愿栏填报衢州学院，专业须与测试专业一致；高考文化成绩不低于普通类第一段分数线。",
+        "deadline": null,
+        "materials": []
+      }
+    ],
+    "brochureUrl": "https://zs.qzc.edu.cn/2025/0301/c116a76540/page.htm"
+  },
+  {
+    "id": "nbut",
+    "name": "宁波工程学院",
+    "shortName": "宁工",
+    "aliases": ["宁工", "宁波工程学院"],
+    "type": "provincial",
+    "info": {
+      "campuses": [
+        { "name": "风华校区", "address": "浙江省宁波市江北区风华路201号" },
+        { "name": "翠柏校区", "address": "浙江省宁波市海曙区翠柏路89号" },
+        { "name": "前湾校区", "address": "浙江省宁波市前湾新区滨海二路769号" }
+      ],
+      "website": "https://zs.nbut.edu.cn/",
+      "admissionsPhone": "0574-87616666",
+      "consultQQ": null,
+      "tuitionGeneral": "学分制收费，按浙江省及宁波市物价部门核定标准预收（与普通高考相同专业一致）",
+      "tuitionSinoForeign": null,
+      "healthRestrictions": "身体健康，体检合格，执行《普通高等学校招生体检工作指导意见》"
+    },
+    "formula": {
+      "xuekao": { "A": 10, "B": 5, "C": 3, "D": 0, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "formulaNote": "语文、数学、外语三门科目A等计15分，其余科目A等计10分；B等5分、C等3分、D等0分；学考折算总分超过100分按100分计。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "宁波工程学院2025年三位一体综合评价招生章程",
+      "url": "https://zs.nbut.edu.cn/"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": false,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "none",
+      "contentSummary": "建筑学、工业设计专业的综合素质测试均为静物素描（满分100分）；按专业计划数与入围数1:5确定入围名单。",
+      "tips": "需具备一定素描/绘画基础，可提前练习静物素描"
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "章程：三位一体录取学生入学后若需转专业，依据《全日制普通本科学生转专业管理办法》执行，与普通录取学生相同"
+    },
+    "majors": [
+      { "name": "建筑学", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 15 },
+      { "name": "工业设计", "category": "普通类", "requiredSubjects": ["物理", "化学"], "planCount": 15 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "minScore": null,
+        "avgScore": null,
+        "xuekaoRequirement": "学业水平测试A等≥2或A等+B等≥5，其余为D等及以上；综合素质评价均为B等及以上"
+      }
+    ],
+    "satisfaction": { "overall": null, "environment": null, "life": null, "source": "阳光高考网" },
+    "dormitory": { "description": null, "score": null, "source": "", "highlights": [], "drawbacks": [] },
+    "applicationSteps": [
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录宁波工程学院本科招生信息网“三位一体”报名入口报名，建筑学与工业设计限报其一，不得兼报；无需邮寄或上传申请材料。",
+        "deadline": "2025-03-13 17:00",
+        "materials": ["无需邮寄或上传申请材料，网上报名提交即可"]
+      },
+      {
+        "step": 2,
+        "title": "综合素质测试（静物素描）",
+        "description": "风华校区进行静物素描测试，满分100分；各专业按计划数与入围数1:5确定入围名单。",
+        "deadline": "2025-04-19",
+        "materials": []
+      },
+      {
+        "step": 3,
+        "title": "填报普通类提前批志愿与录取",
+        "description": "入围考生须将宁波工程学院填为普通类提前批第一志愿，专业志愿须与入围专业一致；高考成绩需达到普通类一段线（含）以上。",
+        "deadline": null,
+        "materials": []
+      }
+    ],
+    "brochureUrl": "https://zs.nbut.edu.cn/"
+  },
+  {
+    "id": "wzut",
+    "name": "温州理工学院",
+    "shortName": "温理工",
+    "aliases": ["温理工", "温州理工学院"],
+    "type": "provincial",
+    "info": {
+      "campuses": [
+        { "name": "滨海校区", "address": "浙江省温州经济技术开发区金海三道337号" },
+        { "name": "乐清校区", "address": "浙江省乐清市（2026年6月建成投用）" }
+      ],
+      "website": "https://zs.wzut.edu.cn/",
+      "admissionsPhone": "0577-86689999",
+      "consultQQ": null,
+      "tuitionGeneral": "4800-6300元/学年（以浙江省物价部门批复为准）",
+      "tuitionSinoForeign": null,
+      "healthRestrictions": "执行《普通高等学校招生体检工作指导意见》"
+    },
+    "formula": {
+      "xuekao": { "A": 10, "B": 8, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "formulaNote": null,
+    "formulaSource": {
+      "year": 2025,
+      "title": "温州理工学院2025年“三位一体”综合评价招生章程",
+      "url": "https://zhejiang.eol.cn/zhejiang_gkkx/202503/t20250310_2657708.shtml"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "group",
+      "contentSummary": "以面试为主，分组进行，满分100分；主要考察学生的专业素养、学习潜质和综合素质。按各组招生计划1:8确定入围名单。",
+      "tips": "注重专业认知、表达与逻辑思维"
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "章程第二十二条：在校期间可申请转专业，依据《温州理工学院学生转专业实施办法》"
+    },
+    "majors": [
+      { "name": "创业管理", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
+      { "name": "工商管理", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
+      { "name": "英语", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
+      { "name": "机械工程", "category": "B组", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "电子信息工程", "category": "B组", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "土木工程", "category": "B组", "requiredSubjects": ["物理", "化学"], "planCount": 10 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 446,
+        "admitted": 60,
+        "minScore": 73.12,
+        "avgScore": null,
+        "xuekaoRequirement": "学业水平测试A等+B等≥5，其余为D等及以上；综合素质评价均为B等及以上；选考科目须符合报考专业要求"
+      }
+    ],
+    "satisfaction": { "overall": null, "environment": null, "life": null, "source": "阳光高考网" },
+    "dormitory": { "description": null, "score": null, "source": "", "highlights": [], "drawbacks": [] },
+    "applicationSteps": [
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录温州理工学院招生网“三位一体”报名系统报名，考生只能选报A组或B组其中一个专业组，不得兼报；限报省内地方属试点高校不超过4所。",
+        "deadline": "2025-03-13 17:00",
+        "materials": ["报名系统在线填写并提交"]
+      },
+      {
+        "step": 2,
+        "title": "综合素质测试（面试）",
+        "description": "分组面试，满分100分；按各组招生计划1:8确定拟入围名单（A组240名、B组206名）。",
+        "deadline": "2025-04-13",
+        "materials": []
+      },
+      {
+        "step": 3,
+        "title": "填报普通类提前批志愿与录取",
+        "description": "入围考生在普通类提前录取将温州理工学院填为第一院校志愿，专业须符合报考组别及选考科目要求；高考分数须在普通类第一段分数线以上。",
+        "deadline": null,
+        "materials": []
+      }
+    ],
+    "brochureUrl": "https://zhejiang.eol.cn/zhejiang_gkkx/202503/t20250310_2657708.shtml"
+  },
+  {
+    "id": "hzxy",
+    "name": "湖州学院",
+    "shortName": "湖院",
+    "aliases": ["湖院", "湖州学院"],
+    "type": "provincial",
+    "info": {
+      "campuses": [
+        { "name": "学士路校区", "address": "浙江省湖州市吴兴区学士路1号" },
+        { "name": "新校园（妙峰山北路）", "address": "浙江省湖州市吴兴区妙峰山北路999号" }
+      ],
+      "website": "https://zsw.zjhzu.edu.cn/",
+      "admissionsPhone": "0572-2117000",
+      "consultQQ": null,
+      "tuitionGeneral": "按浙江省物价部门核定标准执行",
+      "tuitionSinoForeign": null,
+      "healthRestrictions": "参照《普通高等学校招生体检工作指导意见》执行"
+    },
+    "formula": {
+      "xuekao": { "A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "formulaNote": null,
+    "formulaSource": {
+      "year": 2025,
+      "title": "湖州学院2025年“三位一体”综合评价招生章程",
+      "url": "https://www.zizzs.com/gk/zhejiangxingaokao/192832.html"
+    },
+    "examFormat": {
+      "hasWrittenTest": true,
+      "hasInterview": false,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "none",
+      "contentSummary": "笔试（含机考），满分100分；主要考查学生综合素质、逻辑思维及专业潜质。按招生计划总数1:8确定入围名单（2025年入围154名，综测最低52分）。",
+      "tips": "笔试侧重逻辑思维与专业潜质，无面试环节"
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "章程未单独限制，三位一体录取学生转专业按学校普通规定执行"
+    },
+    "majors": [
+      { "name": "电气工程及其自动化", "category": "普通类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "计算机科学与技术", "category": "普通类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "电子信息工程", "category": "普通类", "requiredSubjects": ["物理", "化学"], "planCount": 10 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 1665,
+        "passed": 154,
+        "admitted": 30,
+        "minScore": 70.6,
+        "avgScore": null,
+        "xuekaoRequirement": "学业水平测试A等+B等≥5，其余为D等及以上；综合素质评价等第均为B等及以上；选考科目须符合报考专业要求"
+      }
+    ],
+    "satisfaction": { "overall": null, "environment": null, "life": null, "source": "阳光高考网" },
+    "dormitory": { "description": null, "score": null, "source": "", "highlights": [], "drawbacks": [] },
+    "applicationSteps": [
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录湖州学院招生网“三位一体招生报名系统”报名；限报省内地方属试点高校不超过4所；学考与综评数据以考试院系统为准，无需提供证明。",
+        "deadline": "2025-03-13 17:00",
+        "materials": ["无需提供证明，学考/综合素质评价数据以浙江省教育考试院系统为准"]
+      },
+      {
+        "step": 2,
+        "title": "综合素质测试（笔试）",
+        "description": "笔试（含机考），满分100分；按招生计划总数1:8确定入围名单。",
+        "deadline": "2025-04-12",
+        "materials": []
+      },
+      {
+        "step": 3,
+        "title": "填报普通类提前批志愿与录取",
+        "description": "入围考生在普通类提前录取第一院校志愿栏填报湖州学院，专业须为三位一体招生专业且满足选考科目要求；高考总分不低于普通类第一段分数线。",
+        "deadline": null,
+        "materials": []
+      }
+    ],
+    "brochureUrl": "https://www.zizzs.com/gk/zhejiangxingaokao/192832.html"
+  },
+  {
+    "id": "jhc",
+    "name": "金华职业技术大学",
+    "shortName": "金职大",
+    "aliases": ["金职大", "金华职业技术大学"],
+    "type": "provincial",
+    "info": {
+      "campuses": [
+        { "name": "主校区", "address": "浙江省金华市海棠西路888号" }
+      ],
+      "website": "https://zsw.jhc.edu.cn",
+      "admissionsPhone": "400-826-5035",
+      "consultQQ": null,
+      "tuitionGeneral": "学前教育(师范)本科：6900元/学年",
+      "tuitionSinoForeign": null,
+      "healthRestrictions": "参照浙江省《普通高等学校招生体检工作指导意见》；色盲、色弱考生请慎重填报"
+    },
+    "formula": {
+      "xuekao": { "A": 30, "B": 25, "C": 21, "D": 18, "fullScore": 300 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6 }
+    },
+    "formulaNote": "学考折算满分300（A30/B25/C21/D18），综合成绩计算时学考成绩除以3折算为百分制，即“学考成绩/3×10%+综合素质测试成绩×30%+高考总分/7.5×60%”。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "金华职业技术大学2025年“三位一体”综合评价招生章程",
+      "url": "https://zsw.jhc.edu.cn"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "面试，满分100分，60分及以上方可入围；主要考核仪表仪态、口头表达、书写展示、思维品质、特长展示。按不超过计划数1:8确定入围名单。",
+      "tips": "学前教育（师范）方向，注重仪态、表达与特长展示（如舞蹈/演唱/书法/讲故事）"
+    },
+    "transferRestriction": {
+      "restricted": true,
+      "detail": "据招生宣传解读，三位一体录取学生入学后不能转专业"
+    },
+    "majors": [
+      { "name": "学前教育(师范)", "category": "职业本科", "requiredSubjects": ["不限"], "planCount": 20 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": 20,
+        "minScore": null,
+        "avgScore": null,
+        "xuekaoRequirement": "所有科目高中学考成绩均须合格且赋分≥192分（学考折算A30/B25/C21/D18，满分300）；综合素质评价每项均为B等及以上；不提选考科目要求"
+      }
+    ],
+    "satisfaction": { "overall": null, "environment": null, "life": null, "source": "阳光高考网" },
+    "dormitory": { "description": null, "score": null, "source": "", "highlights": [], "drawbacks": [] },
+    "applicationSteps": [
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录金华职业技术大学招生网“三位一体”专栏报名；限报省内地方属试点高校不超过4所。",
+        "deadline": "2025-03-13 17:00",
+        "materials": ["考生本人签名的《考试诚信承诺书》", "身份证复印件（现场确认环节提交，不需邮寄或上传）"]
+      },
+      {
+        "step": 2,
+        "title": "综合素质测试（面试）",
+        "description": "杭州湾校区面试，满分100分；面试成绩60分及以上者按不超过计划数1:8确定入围名单。",
+        "deadline": "2025-04-13",
+        "materials": []
+      },
+      {
+        "step": 3,
+        "title": "填报普通类提前批志愿与录取",
+        "description": "入围考生须在普通类提前批第一院校志愿栏填报本校、第一专业志愿栏填报已入围的学前教育(师范)专业；高考总分折算后参与综合成绩排序。",
+        "deadline": null,
+        "materials": []
+      }
+    ],
+    "brochureUrl": "https://zsw.jhc.edu.cn"
+  },
+  {
+    "id": "nbyz",
+    "name": "宁波幼儿师范高等专科学校",
+    "shortName": "宁幼",
+    "aliases": ["宁幼", "宁波幼师", "宁波幼儿师范高等专科学校"],
+    "type": "provincial",
+    "info": {
+      "campuses": [
+        { "name": "杭州湾校区", "address": "浙江省宁波市前湾新区金慈路316号" },
+        { "name": "宁波校区", "address": "浙江省宁波市江北区环城北路西段625号" }
+      ],
+      "website": "http://zsw.ncec.edu.cn",
+      "admissionsPhone": "0574-87212325",
+      "consultQQ": null,
+      "tuitionGeneral": "6000元/学年（体育教育/音乐教育，均为师范类）",
+      "tuitionSinoForeign": null,
+      "healthRestrictions": "参照《普通高等学校招生体检工作指导意见》；色盲、色弱考生请慎重填报"
+    },
+    "formula": {
+      "xuekao": { "A": 30, "B": 25, "C": 21, "D": 18, "fullScore": 300 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6 }
+    },
+    "formulaNote": "学考折算满分300（A30/B25/C21/D18），综合成绩=“学考成绩/3×10%+综合素质测试成绩×30%+高考总分/7.5×60%”。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "宁波幼儿师范高等专科学校2025年“三位一体”综合评价招生章程",
+      "url": "https://www.ncec.edu.cn/2025/0301/c41a16971/page.htm"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "面试，满分100分，60分及以上方可入围；体育教育（幼教方向）主要考核专业测试、特长展示；音乐教育（幼教方向）主要考核专业测试、特长展示。按不超过计划数1:5确定入围名单。",
+      "tips": "注重专业技能与特长展示（体育/音乐方向）"
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "章程第二十八条：三位一体录取考生与普通高考录取考生享受同等待遇（转专业按学校普通规定执行）"
+    },
+    "majors": [
+      { "name": "体育教育(幼教方向,师范)", "category": "普通类（专科）", "requiredSubjects": ["不限"], "planCount": 20 },
+      { "name": "音乐教育(幼教方向,师范)", "category": "普通类（专科）", "requiredSubjects": ["不限"], "planCount": 25 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "minScore": null,
+        "avgScore": null,
+        "xuekaoRequirement": "所有科目高中学考成绩均须合格，且学考折算成绩≥190分（A30/B25/C21/D18，满分300）；综合素质评价每项均为B等及以上"
+      }
+    ],
+    "satisfaction": { "overall": null, "environment": null, "life": null, "source": "阳光高考网" },
+    "dormitory": { "description": null, "score": null, "source": "", "highlights": [], "drawbacks": [] },
+    "applicationSteps": [
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录宁波幼儿师范高等专科学校招生网“三位一体”专栏报名系统报名；每位考生限报一个专业；限报省内地方属试点高校不超过4所。",
+        "deadline": "2025-03-13 17:00",
+        "materials": ["网上报名系统填写提交，无需邮寄纸质材料"]
+      },
+      {
+        "step": 2,
+        "title": "综合素质测试（面试）",
+        "description": "杭州湾校区面试，满分100分；面试成绩60分及以上者按不超过计划数1:5确定入围名单。",
+        "deadline": "2025-04-12",
+        "materials": []
+      },
+      {
+        "step": 3,
+        "title": "填报普通类提前批志愿与录取",
+        "description": "入围考生须在普通类提前批第一院校志愿栏填报本校、第一专业志愿栏填报已入围专业（不得跨专业）；综合成绩=学考/3×10%+测试×30%+高考/7.5×60%。",
+        "deadline": null,
+        "materials": []
+      }
+    ],
+    "brochureUrl": "https://www.ncec.edu.cn/2025/0301/c41a16971/page.htm"
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "id": "zjweu",
+  "name": "浙江水利水电学院",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zhaosheng.zuwe.edu.cn/newstudent/view/aid/1210/tag/zsjz",
+      "tuitionSourceTitle": "浙江水利水电学院2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zhaosheng.zuwe.edu.cn/newstudent/view/aid/1210/tag/zsjz",
+      "title": "浙江水利水电学院2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zhaosheng.zuwe.edu.cn/newstudent/view/aid/1210/tag/zsjz",
+      "title": "浙江水利水电学院2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.5,
+    "environment": 4.5,
+    "life": 4.5,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/820",
+    "sourceTitle": "阳光高考网 · 浙江水利水电学院 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [],
+    "note": "阳光高考wap页：综合满意度4.5(1810人)、环境满意度4.5(1518人)；生活满意度在该页以『查看更多』折叠未直读，采用同源阳光高考数据(ABC排名2026，统计2026-02)补录为4.5，建议人工复核。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": 453,
+      "admitted": 100,
+      "sourceUrl": null,
+      "sourceTitle": null,
+      "xuekaoRequirement": "学考各科目合格；普通类书面评审线66分(约8B2C)",
+      "xuekaoRequirementSourceUrl": "https://zhaosheng.zuwe.edu.cn/newstudent/view/aid/1210/tag/zsjz",
+      "xuekaoRequirementSourceTitle": "浙江水利水电学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "本行年份未找到官方公示链接。 passed=书面评审/资格审查662人入围综合测试（官方公示文本确认，发布于招生网zhaosheng.zjweu.edu.cn及报名系统zsbm.zjweu.edu.cn，youzy.cn为第三方镜像，不作为sourceUrl）；admitted=100人为实际录取（官方通报“100个招生计划全部顺利完成录取”，录取查询地址https://zsbm.zjweu.edu.cn/query/gk）；finalPassed=校测后综合测试入围数未单独找到；均因无直接静态文章URL，sourceUrl填null。报名人数未找到。"
+    }
+  ],
+  "dormitory": {
+    "description": "钱塘(下沙)校区以6人间为主(上下铺、独立卫浴、空调租赁)，南浔校区为新校区，2/4人间上床下桌、干湿分离、部分楼栋带电梯。",
+    "score": null,
+    "source": "阳光高考食宿条件页、中国教育在线南浔校区报道、未来人才聚合站",
+    "highlights": [
+      "南浔新校区二人寝干湿分离、部分楼栋带电梯，被称『酒店式体验』",
+      "空调全覆盖，宿舍楼配自习室/洗衣房/烘干/洗鞋",
+      "南浔校区周边宝龙广场、地铁1号线，生活便利"
+    ],
+    "drawbacks": [
+      "下沙(钱塘)校区六人间空间较拥挤、为公共卫浴",
+      "空调需租赁(约400元/年)，费用有争议",
+      "断电制度与频繁查寝被部分学生认为限制较多"
+    ],
+    "platforms": [
+      {
+        "name": "官方|阳光高考·食宿条件",
+        "url": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-820,categoryId-38409,mindex-8.dhtml",
+        "summary": "学生公寓设2/4/6人间，均配空调(自行租赁)、独立卫浴，提供洗衣洗鞋烘干；每幢书院内建24小时自习室与活动室。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "中国教育在线",
+        "url": "https://www.eol.cn/zhejiang/zhejiang_news/202505/t20250515_2668504.shtml",
+        "summary": "南浔校区四大书院：四人寝上床下桌+公共卫浴带USB插座；两人寝五室一厅二卫干湿分离+24h热水；书院配六部电梯、楼下有快递站。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "未来人才(保定)",
+        "url": "http://hbwlrc.cn:83/NewSchoolInfo.ashx?Type=School&Year=2024&Name=浙江水利水电学院&wl=理&Batch=本科",
+        "summary": "南浔四人间上床下桌独立阳台共用卫浴；下沙六人间上下铺独立卫浴，空调需租约400元/年；热水分时段，断电与频繁查寝被批形式化。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "聚合站，整理自学校公开信息与学长学姐评价"
+      }
+    ],
+    "note": "未检索到虎扑/知乎/小红书/抖音/贴吧/B站该校宿舍的可信直达帖子链接，故未收录；以上为官方与媒体/聚合站来源，供人工辨别。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

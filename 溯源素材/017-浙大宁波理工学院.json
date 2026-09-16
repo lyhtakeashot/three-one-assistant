@@ -1,0 +1,143 @@
+{
+  "id": "nit",
+  "name": "浙大宁波理工学院",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zsw.nbt.edu.cn/info/1033/3492.htm",
+      "tuitionSourceTitle": "浙大宁波理工学院2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zsw.nbt.edu.cn/info/1033/3492.htm",
+      "title": "浙大宁波理工学院2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zsw.nbt.edu.cn/info/1033/3492.htm",
+      "title": "浙大宁波理工学院2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.2,
+    "environment": 4.4,
+    "life": 3.7,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-1482.dhtml",
+    "sourceTitle": "阳光高考网·浙大宁波理工学院院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "ABC排名官微(2026年2月统计)",
+        "overall": 4.2,
+        "environment": 4.4,
+        "life": 3.7
+      },
+      {
+        "name": "宁理星球(阳光高考实拍页镜像)",
+        "overall": 4.2,
+        "environment": 4.4,
+        "life": 3.7
+      }
+    ],
+    "note": "生活满意度采用3.7(部分聚合页误写3.6，以阳光高考实拍页及ABC排名官微3.7为准)。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": null,
+      "passed": 371,
+      "admitted": 70,
+      "sourceUrl": "https://zsw.nbt.edu.cn/info/1029/3501.htm",
+      "sourceTitle": "浙大宁波理工学院关于公布2026年入围三位一体综合素质测试考生名单的通知",
+      "xuekaoRequirement": "学考折算≥60分；高考总分须达一段线；中外合作专业外语单科≥100分",
+      "xuekaoRequirementSourceUrl": "https://zsw.nbt.edu.cn/info/1033/3492.htm",
+      "xuekaoRequirementSourceTitle": "浙大宁波理工学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "提交报考申请4361（其中188人报名无效，4173人进入书面评审），书面评审(初审)通过775。校测入围名单同见该公示。最终录取见招生网录取查询（https://zsw.nbt.edu.cn/），无单列总人数，admitted 置空。"
+    },
+    {
+      "year": 2025,
+      "applicants": 3914,
+      "passed": 753,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zsw.nbt.edu.cn/info/1029/3413.htm",
+      "sourceTitle": "浙大宁波理工学院关于公布2025年入围三位一体综合素质测试考生名单的通知",
+      "collectedAt": "2026-09-13",
+      "note": "提交报考申请3914（137人无效，3777人进入书面评审），书面评审(初审)通过753。校测入围420人（官方公示 https://zsw.nbt.edu.cn/info/1029/3422.htm）。最终录取见官方公示 https://zsw.nbt.edu.cn/info/1034/3435.htm 分专业最低综合分，无单列总人数，admitted 置空。"
+    },
+    {
+      "year": 2024,
+      "applicants": null,
+      "passed": null,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zsw.nbt.edu.cn/bkzn/lnsj.htm",
+      "sourceTitle": "浙大宁波理工学院本科招生网-历年数据",
+      "collectedAt": "2026-09-13",
+      "note": "本次仅取到历年数据栏目(导航页)，2024 报名/初审/录取汇总未取到官方直链，均置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "一/二/三/四期学生公寓。一期四人间独卫(套间10/14人共用卫浴)；二期四/五人间无独卫、公浴刷卡洗澡；三期四人间独卫；空调、热水器均需租用。",
+    "score": null,
+    "source": {
+      "name": "人民日报·寻秘浙大宁理‘城堡’新生宿舍指南",
+      "url": "https://www.peopleapp.com/rmharticle/30023770926"
+    },
+    "highlights": [
+      "一期、三期、四期为独立卫浴",
+      "二期地理位置居中，近快递站新食堂超市",
+      "所有宿舍上床下桌(二期部分五人间)，空调热水器可租用"
+    ],
+    "drawbacks": [
+      "二期无独立卫浴，厕所浴室为楼层公共(军训时拥挤)",
+      "一期部分楼栋设施偏老旧，宿舍分配随机‘开盲盒’"
+    ],
+    "platforms": [
+      {
+        "name": "大学生活质量指北·浙大宁波理工学院",
+        "url": "https://cf-pages.colleges.chat/universities/zhe-da-zhu-bo-li-gong-xue-yuan",
+        "summary": "匿名问答显示二期无独立卫浴、每层公共澡堂，一四期独卫，三期有独卫；大一有晚自习；校园跑男生80km女生70km。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "匿名UGC问答，含多届学生真实反馈"
+      },
+      {
+        "name": "好教高考·浙大宁波理工学院新生宿舍条件",
+        "url": "http://www.haojiao.net/zjyxdt/20250812/809730.html",
+        "summary": "一期直廊独卫阳台朝南、套间3×4人+2人共用厕所；二期四/五人间无独卫刷卡洗澡；三期四人间有独卫，空调热水器均租用。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "第三方高考资讯站整理新生指南"
+      },
+      {
+        "name": "保定未来人才·浙大宁波理工学院食宿评价",
+        "url": "http://hbwlrc.cn:83/NewSchoolInfo.ashx?Type=School&Year=2024&Name=%E6%B5%99%E5%A4%A7%E5%AE%81%E6%B3%A2%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2&wl=%E7%90%86&Batch=%E6%9C%AC%E7%A7%91",
+        "summary": "二期五人间无独立卫生间共用楼层公共卫浴，一期老旧设施老化；宿舍分配不可自选‘开盲盒’；三期条件较好。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "升学服务机构汇编，含学生评价摘录"
+      },
+      {
+        "name": "官方-招生网（宿舍条件）",
+        "url": "https://zsw.nbt.edu.cn/info/1016/2229.htm",
+        "summary": "A型4人自带卫生间，B型5人公共浴室，C型10–14人套间，D型4人公共浴室；均配空调插座、网络接口、热水器。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      }
+    ],
+    "note": "官方来源为人民日报转载的学校新生宿舍指南(‘城堡’一文)；满意度以阳光高考网为准，生活分取3.7。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

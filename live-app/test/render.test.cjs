@@ -23,6 +23,8 @@ module.exports = function run(t) {
       'HomePage', 'SchoolListPage', 'SchoolDetailPage', 'CalculatorPage', 'FavoritesPage',
       'FAQPage', 'TreeholePage', 'ProfilePage', 'ComparePage', 'PathComparePage',
       'FeedbackPage', 'DownloadPage', 'App',
+      'SchoolOverviewPage', 'SchoolExamPage', 'SchoolDataPage',
+      'SchoolLifePage', 'SchoolMajorsPage', 'SchoolSatisfactionPage',
     ];
     pages.forEach((name) => {
       try {

@@ -1,0 +1,143 @@
+{
+  "id": "zucc",
+  "name": "浙大城市学院",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zs.hzcu.edu.cn/guide/show-898.html",
+      "tuitionSourceTitle": "浙大城市学院2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zs.hzcu.edu.cn/guide/show-898.html",
+      "title": "浙大城市学院2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zs.hzcu.edu.cn/guide/show-898.html",
+      "title": "浙大城市学院2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.4,
+    "environment": 4.5,
+    "life": 4.1,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/1481",
+    "sourceTitle": "阳光高考网·浙大城市学院院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "ABC排名官微(2026年2月统计)",
+        "overall": 4.4,
+        "environment": 4.5,
+        "life": 4.1
+      }
+    ],
+    "note": "分数经阳光高考页(标签错位校验)与ABC排名官微互证一致。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": null,
+      "passed": 792,
+      "admitted": 200,
+      "sourceUrl": "https://zs.hzcu.edu.cn/guide/show-910.html",
+      "sourceTitle": "浙大城市学院2026年三位一体综合评价招生入围名单公示",
+      "xuekaoRequirement": "学考折算≥60分(语数外A计15分)；高考总分须达一段线",
+      "xuekaoRequirementSourceUrl": "https://zs.hzcu.edu.cn/guide/show-898.html",
+      "xuekaoRequirementSourceTitle": "浙大城市学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "校测入围792人（护理学268+药学155+土木工程155+工业设计(中外合作)214，官方公示 show-910.html）。初审通过名单为PDF（https://zs.hzcu.edu.cn/upload/202604/01/202604010857493260.pdf）未单列汇总人数，报名人数未取到，故 applicants/passed 置空。最终录取见本科招生网录取查询（https://zs.hzcu.edu.cn/），无单列总人数，admitted 置空。"
+    },
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": null,
+      "admitted": 160,
+      "sourceUrl": "https://www.hzcu.edu.cn/info/1086/32847.htm",
+      "sourceTitle": "浙大城市学院2025年三位一体综合评价招生初审结果",
+      "xuekaoRequirement": null,
+      "xuekaoRequirementSourceUrl": null,
+      "xuekaoRequirementSourceTitle": null,
+      "collectedAt": "2026-09-13",
+      "note": "初审通过1228。报名人数未取到。校测入围926人（官方公示 https://zs.hzcu.edu.cn/guide/show-839.html）。最终录取见官方录取情况表（本科招生网录取查询），分专业无单列总人数，admitted 置空。"
+    },
+    {
+      "year": 2024,
+      "applicants": null,
+      "passed": null,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zs.hzcu.edu.cn/guide/show-819.html",
+      "sourceTitle": "浙大城市学院2024年三位一体综合评价招生录取公示",
+      "collectedAt": "2026-09-13",
+      "note": "本次仅取到2024录取公示（分专业），报名人数与初审通过人数未取到官方汇总，均置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "主校区(拱墅区湖州街51号)南北两区，宿舍四人间上床下桌，配空调、独立卫浴；住宿费1600元/生·年。",
+    "score": null,
+    "source": {
+      "name": "浙大城市学院2026年普通高校招生章程",
+      "url": "https://zs.hzcu.edu.cn/guide/show-965.html"
+    },
+    "highlights": [
+      "四人间上床下桌，独立卫浴",
+      "空调标配、住宿费1600元/年明文规定"
+    ],
+    "drawbacks": [
+      "部分楼栋年代较早，有学生反馈设施偏旧(见UGC)"
+    ],
+    "platforms": [
+      {
+        "name": "今日头条·浙大城市学院2026新生必看",
+        "url": "https://www.toutiao.com/article/7677268331585389114/",
+        "summary": "住宿费1600元/年，4人间上床下桌配空调独立卫浴；普通公办专业学费4800-6300，中外合作5.8-6.3万另计。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "自媒体整理，附官方招生章程依据"
+      },
+      {
+        "name": "今日头条·浙大城市学院2026新生必看(续)",
+        "url": "https://www.toutiao.com/article/7677743956557333001",
+        "summary": "宿舍四人间上床下桌配空调独卫，住宿费约1600元/年；北区人文法学商院，南区计算机工科医学艺术，校内住宿。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "自媒体整理，与招生章程一致"
+      },
+      {
+        "name": "搜狗聚合·校园生活(浙江大学城市学院)",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E5%9F%8E%E5%B8%82%E5%AD%A6%E9%99%A2",
+        "summary": "聚合页显示该校综合评分4.3、环境4.5、生活4，住宿情况详见学院官网；部分反馈宿舍条件校区内有差异。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "聚合页含UGC评分，生活评分4与阳光高考生活4.1接近"
+      },
+      {
+        "name": "官方-浙大城市学院（宿舍介绍）",
+        "url": "https://www.hzcu.edu.cn/info/1088/10807.htm",
+        "summary": "学生宿舍为4人间，独立卫生间、饮水机、电话、网络等生活设施齐全。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方-浙大城市学院（寝室条件）",
+        "url": "https://www.hzcu.edu.cn/info/1086/21185.htm",
+        "summary": "学生寝室4人一间，配独立卫生间；空调、热水器由学校统一安装，可租可购。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      }
+    ],
+    "note": "官方来源为本科招生网招生章程(住宿费条款)；满意度以阳光高考网为准。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

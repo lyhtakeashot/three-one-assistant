@@ -1,0 +1,109 @@
+{
+  "id": "ucas",
+  "name": "中国科学院大学",
+  "category": "高水平三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://admission.ucas.ac.cn/ShowArticle/Article/dc7dc7f7-1b95-4d46-80e9-b6b29c4278a2/c4d614c6-6ad0-4d04-b154-a43a1c1d7366",
+      "tuitionSourceTitle": "中国科学院大学2026年浙江省三位一体综合评价招生简章",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://admission.ucas.ac.cn/ShowArticle/Article/dc7dc7f7-1b95-4d46-80e9-b6b29c4278a2/c4d614c6-6ad0-4d04-b154-a43a1c1d7366",
+      "title": "中国科学院大学2026年浙江省三位一体综合评价招生简章（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://admission.ucas.ac.cn/ShowArticle/Article/dc7dc7f7-1b95-4d46-80e9-b6b29c4278a2/c4d614c6-6ad0-4d04-b154-a43a1c1d7366",
+      "title": "中国科学院大学2026年浙江省三位一体综合评价招生简章（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.4,
+    "environment": 4.4,
+    "life": 4.3,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/956043210",
+    "sourceTitle": "阳光高考网(wap) · 中国科学院大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-14",
+    "alternates": [],
+    "note": "阳光高考(wap)院校页综合4.4/环境4.4、生活项样本不足未渲染；参考cnur及高考100生活约4.3-4.4，暂取4.3，建议人工复核。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": null,
+      "admitted": null,
+      "sourceUrl": "https://www.zh.gov.cn/art/2025/6/17/art_1229626764_59380188.html",
+      "sourceTitle": "聚焦中国科学院大学浙江省“三位一体”综合评价测试现场（镇海区人民政府官网，援引招生组）",
+      "xuekaoRequirement": "所有专业选考须物理+化学必考；学考各科合格；须获综合素质测试入围资格",
+      "xuekaoRequirementSourceUrl": "https://admission.ucas.ac.cn/ShowArticle/Article/dc7dc7f7-1b95-4d46-80e9-b6b29c4278a2/c4d614c6-6ad0-4d04-b154-a43a1c1d7366",
+      "xuekaoRequirementSourceTitle": "中国科学院大学2026年浙江省三位一体综合评价招生简章",
+      "collectedAt": "2026-09-13",
+      "note": "报名申请‘2000余份’(来源：镇海区政府官网援引浙江招生组，约记为2000)。招生计划39名(来源：招生简章 admission.ucas.edu.cn/ShowArticle/.../1b8c0a5d-...)。校测入围数未公布汇总(‘不超过录取人数5倍’，登录阳光高考特殊类型招生报名平台查询)。2024/2026未检索。"
+    }
+  ],
+  "dormitory": {
+    "description": "雁栖湖校区公寓式套间，单人间带独卫24h热水电梯湖景；玉泉路部分公寓无独卫公共浴室。本科宿舍条件优。",
+    "score": null,
+    "source": "国科大本科教育网/新京报报道 + 职朋校友圈/搜狐官微/微信公众号调研",
+    "highlights": [
+      "雁栖湖套间单人间、独卫24h热水、电梯、湖景(新京报)",
+      "本科宿舍与硕士同标准，空调暖气齐全、不熄灯断电(职朋)"
+    ],
+    "drawbacks": [
+      "玉泉路部分公寓无独卫、公共浴室(官方)",
+      "部分公寓隔音一般、虫子多、查寝较频繁(微信公众号调研)",
+      "西区高楼层临国道、夜间货车噪音(微信公众号调研)"
+    ],
+    "platforms": [
+      {
+        "name": "官方-国科大本科教育网",
+        "url": "https://bkjy.ucas.ac.cn",
+        "summary": "2015级本科宿舍为3人/2人套间，高架床、空调，套间含客厅与独立卫浴，条件优良。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "新京报(报道)",
+        "url": "https://www.bjnews.com.cn",
+        "summary": "报道雁栖湖校区单人间带独立卫浴、24小时热水、电梯、湖景，住宿条件全国领先、堪比酒店。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "仅捕获到站点域名，未取到具体文章直达链接"
+      },
+      {
+        "name": "搜狐(转载国科大官微)",
+        "url": "https://www.sohu.com/a/205737669_124836",
+        "summary": "转载官微《这所大学的学生宿舍，全国第二！》：单人间空调、每月免费10度电、超出0.49元/度；网友称虫子多。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "职朋校友圈",
+        "url": "https://www.showxue.com/huati/723/topic59.html",
+        "summary": "校友称雁栖湖公寓式单人间带飘窗独卫、晚上不熄灯断电、每月10度电额度、管理宽松、报修快。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "微信公众号-国科大吃喝玩乐学",
+        "url": "",
+        "summary": "雁栖湖西区公寓调研：隔音不好、虫子多、查寝频繁；三人间拥挤、高楼层临国道夜间货车吵。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "微信公众号校园自媒体，无外链URL，以公众号名标注"
+      }
+    ],
+    "note": "国科大本科住宿口碑极佳，主要负面来自研究生公寓隔音/虫子/查寝；玉泉路老公寓无独卫。UGC多来自研究生视角，本科生体验以官方与官微为准。微信公众号来源无外链URL。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

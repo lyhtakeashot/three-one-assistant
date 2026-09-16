@@ -1,0 +1,128 @@
+{
+  "id": "zust",
+  "name": "浙江科技大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zsb.zust.edu.cn/wzxq/17fb059cbe524fdab969f9c168a7806a",
+      "tuitionSourceTitle": "浙江科技大学2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zsb.zust.edu.cn/wzxq/17fb059cbe524fdab969f9c168a7806a",
+      "title": "浙江科技大学2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zsb.zust.edu.cn/wzxq/17fb059cbe524fdab969f9c168a7806a",
+      "title": "浙江科技大学2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.3,
+    "environment": 4.7,
+    "life": 4.3,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-704.dhtml",
+    "sourceTitle": "阳光高考网 · 浙江科技大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [],
+    "note": "数值取自cnur 2026中国大学院校满意度排名(标注数据来源阳光高考网、统计2026-02)交叉核对;阳光高考桌面页为JS渲染,正文无法直读。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": null,
+      "passed": null,
+      "admitted": 240,
+      "sourceUrl": "https://zsb.zust.edu.cn/wzxq/09b776e7ee104623968d5f685116f1e4",
+      "sourceTitle": "浙江科技大学2026年三位一体综合评价招生初审结果",
+      "xuekaoRequirement": "学考A+B不少于6门，各科目均D及以上；高考总分≥特控线90%",
+      "xuekaoRequirementSourceUrl": "https://zsb.zust.edu.cn/wzxq/17fb059cbe524fdab969f9c168a7806a",
+      "xuekaoRequirementSourceTitle": "浙江科技大学2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "报名6584、初审通过2253（A组1386+B组867）。最终录取官方仅公布分专业最低综合分（https://zsb.zust.edu.cn/wzxq/9ddf6338ddc042ee8afe8aec4dfb38b8），未单列总人数，admitted 置空。"
+    },
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": null,
+      "admitted": 240,
+      "sourceUrl": "https://zsb.zust.edu.cn/wzxq/635afe03e3544e9ab5ab990d720e2231",
+      "sourceTitle": "浙江科技大学2025年三位一体综合评价招生初审结果",
+      "xuekaoRequirement": null,
+      "xuekaoRequirementSourceUrl": null,
+      "xuekaoRequirementSourceTitle": null,
+      "collectedAt": "2026-09-13",
+      "note": "报名7030、初审通过2850（含特长类104）。校测入围1442人（官方公示 https://zsb.zust.edu.cn/wzxq/7dcd6e19b2de491f9107b6393a891d6f）。最终录取官方仅公布分专业最低综合分，未单列总人数，admitted 置空。"
+    },
+    {
+      "year": 2024,
+      "applicants": null,
+      "passed": 2198,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zsb.zust.edu.cn/wzxq/1564724dab5c40fb9723a3b18eeb69a2",
+      "sourceTitle": "浙江科技大学2024年三位一体综合评价招生初审结果",
+      "collectedAt": "2026-09-13",
+      "note": "初审通过2198。报名人数、校测入围与录取汇总本次未取到官方直链，admitted 置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "小和山校区多4人间(少5人间)、安吉校区书院制4人寝(独卫干湿分离、朝阳、洗衣机),空调租赁;公共卫浴高峰期拥挤、部分老旧。",
+    "score": null,
+    "source": "官方阳光高考食宿条件 + 安吉校区官网 + 大学生活质量指北 + 大学生必备网",
+    "highlights": [
+      "安吉校区4人寝独卫干湿分离、朝阳、单独洗衣机",
+      "小和山大部分4人寝、少部分5人寝",
+      "空调租赁,书院制公寓管理"
+    ],
+    "drawbacks": [
+      "小和山部分楼公共卫浴、高峰期拥挤、隔音差",
+      "空调租赁费额外、性价比一般",
+      "频繁查寝断电被批形式化"
+    ],
+    "platforms": [
+      {
+        "name": "官方·阳光高考",
+        "url": "https://gaokao.chsi.com.cn/sch/viewdksw--infoId-7727416731,categoryId-421589,schId-704.dhtml",
+        "summary": "阳光高考食宿条件:4人及以下1600元/学年,5人间1200元/学年;安吉四人寝朝阳空调租赁单独洗衣机干湿分离;小和山大部分4人寝小部分5人寝。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "官方·安吉校区",
+        "url": "https://ajxq.zust.edu.cn/info/1135/1600.htm",
+        "summary": "安吉校区官网:介绍书院制学生公寓,4人寝配置独立卫浴、公共活动空间等社区化住宿管理。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·大学生活质量指北",
+        "url": "https://cf-pages.colleges.chat/universities/zhe-jiang-ke-ji-da-xue",
+        "summary": "安吉独立卫浴干湿分离、小和山无;小和山公共卫浴高峰期拥挤、部分老旧隔音差;空调租赁费额外性价比一般;频繁查寝断电被批形式化。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·大学生必备网",
+        "url": "https://www.dxsbb.com/news/17256.html",
+        "summary": "聚合信息:浙科大宿舍小和山多4人间、安吉新校区条件较好,整体设施较新但空调需租赁。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      }
+    ],
+    "note": "hbwlrc等站链接失效未采用;小和山公共卫浴、老旧隔音、查寝断电等负面已记录。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

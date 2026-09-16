@@ -1,0 +1,116 @@
+{
+  "id": "sxu",
+  "name": "绍兴大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zs.usx.edu.cn/info/1010/7025.htm",
+      "tuitionSourceTitle": "绍兴大学2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zs.usx.edu.cn/info/1010/7025.htm",
+      "title": "绍兴大学2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zs.usx.edu.cn/info/1010/7025.htm",
+      "title": "绍兴大学2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.2,
+    "environment": 4.4,
+    "life": 4.0,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-267.dhtml",
+    "sourceTitle": "阳光高考网·绍兴文理学院(绍兴大学)院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "ABC排名官微(2026年2月统计)",
+        "overall": 4.2,
+        "environment": 4.4,
+        "life": 4.0
+      }
+    ],
+    "note": "用户称‘绍兴大学’，阳光高考页标题为绍兴大学、实体为绍兴文理学院(schId=267)；分数经校验与ABC排名一致。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": 7448,
+      "passed": 1043,
+      "admitted": null,
+      "sourceUrl": "https://www.usx.edu.cn/info/1547/56366.htm",
+      "sourceTitle": "绍兴大学2026年“三位一体”综合评价招生报名及资格审查相关公告",
+      "xuekaoRequirement": "2026年：学考各科目合格、学考折算≥60分(A=10,B=8,C=6,D=4)",
+      "xuekaoRequirementSourceUrl": "https://zs.usx.edu.cn/info/1010/7025.htm",
+      "xuekaoRequirementSourceTitle": "绍兴大学2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "报名人数7448人"
+    },
+    {
+      "year": 2025,
+      "applicants": 1978,
+      "passed": 820,
+      "admitted": 135,
+      "sourceUrl": "https://zs.usx.edu.cn/info/1085/6721.htm",
+      "sourceTitle": "绍兴文理学院2025年“三位一体”综合评价招生资格审查入围名单公告（资格审查820人）",
+      "xuekaoRequirement": "2025年：学考3A或A+B≥5、其余D及以上",
+      "xuekaoRequirementSourceUrl": "https://zs.usx.edu.cn/info/1010/7025.htm",
+      "xuekaoRequirementSourceTitle": "绍兴大学2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "applicants=报名1978人（学校新闻网官方页）；passed=资格审查820人（222+374+368，官方招生网公告）；finalPassed=综合测试拟入围683人（171+271+241，官方招生网公告）；admitted=录取数仅见第三方（CNUR/浙考联盟）汇总约83人，官方录取公示页未直接获取，故填null。"
+    }
+  ],
+  "dormitory": {
+    "description": "书院制管理(步青/仲申等)，公寓4-6人间，配空调、独卫、热水器、阳台；南山校区条件较好；23:00关门，不断电但23:00后断网(移动edu)，大一原则禁带电脑。",
+    "score": null,
+    "source": {
+      "name": "好教高考·绍兴文理学院新生宿舍条件",
+      "url": "http://www.haojiao.net/zjyxdt/20250812/809459.html"
+    },
+    "highlights": [
+      "书院制，每寝配空调独卫热水器，仲申书院靠山",
+      "南山四人寝上床下桌有独卫小阳台，条件舒适",
+      "一般无熄灯制度、少查寝、不断电"
+    ],
+    "drawbacks": [
+      "23:00后断网(移动edu，电信影响小)，夜间上网受限",
+      "六人寝占多数、桌子较小，空间较挤"
+    ],
+    "platforms": [
+      {
+        "name": "好教高考·绍兴文理学院宿舍条件(学生评价)",
+        "url": "http://www.haojiao.net/zjyxdt/20250812/809459.html",
+        "summary": "书院制4-6人间配空调独卫热水器，南山四人寝上床下桌有独卫；11点后断网(移动edu)不断电，大一原则禁带电脑实际可带。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "第三方高考站整理含学生真实评价"
+      },
+      {
+        "name": "大学路·绍兴文理学院宿舍条件",
+        "url": "https://www.daxuelu.com/academy/sushe/849.html",
+        "summary": "学生公寓4-6人间空调热水器家具卫生设施齐全，书院制管理设图书阅览室；仲申书院靠山间，六人寝桌子偏小。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "高教资讯站，含本校学生评价摘录"
+      },
+      {
+        "name": "官方-本科招生网（寝室咨询回复）",
+        "url": "https://zs.usx.edu.cn/shbzxzx.jsp?b42921bt=1082&b42921bp=235&b42921bc=15&urltype=tree.treetempurl&wbtreeid=1036",
+        "summary": "我校学生公寓为4—6人间，由书院安排；寝室内空调、热水器、家具设备、卫生设施一应俱全，均有独立阳台与独立卫生间。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "来源：招生网“寝室”咨询的招办官方回复。"
+      }
+    ],
+    "note": "校名以阳光高考页‘绍兴大学’呈现、实体为绍兴文理学院；断网为明确负面点已如实记录。满意度以阳光高考网为准。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

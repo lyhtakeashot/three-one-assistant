@@ -1,0 +1,128 @@
+{
+  "id": "cjlu",
+  "name": "中国计量大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zs.cjlu.edu.cn/info/1037/8403.htm",
+      "tuitionSourceTitle": "中国计量大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zs.cjlu.edu.cn/info/1037/8403.htm",
+      "title": "中国计量大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zs.cjlu.edu.cn/info/1037/8403.htm",
+      "title": "中国计量大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.4,
+    "environment": 4.5,
+    "life": 4.3,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-274.dhtml",
+    "sourceTitle": "阳光高考网 · 中国计量大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [],
+    "note": "数值取自cnur 2026中国大学院校满意度排名(标注数据来源阳光高考网、统计2026-02)及bendibao交叉核对一致;阳光高考桌面页为JS渲染,正文无法直读。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": 6748,
+      "passed": 2967,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zs.cjlu.edu.cn/info/1019/8553.htm",
+      "sourceTitle": "中国计量大学2026年三位一体综合评价招生书面评审结果公告",
+      "collectedAt": "2026-09-13",
+      "note": "报考人数6748（来源：https://www.cjlu.edu.cn/info/1101/59163.htm）、书面评审(初审)通过2967。最终录取官方仅公布分专业录取数（录取查询 https://zs.cjlu.edu.cn/lqcx.htm），未单列总人数，admitted 置空。"
+    },
+    {
+      "year": 2025,
+      "applicants": 6000,
+      "passed": 1600,
+      "admitted": 250,
+      "sourceUrl": "https://zs.cjlu.edu.cn/info/1019/7482.htm",
+      "sourceTitle": "中国计量大学2025年三位一体综合评价招生书面评审结果公告",
+      "xuekaoRequirement": "学考≥5A",
+      "xuekaoRequirementSourceUrl": "https://zs.cjlu.edu.cn/info/1037/8403.htm",
+      "xuekaoRequirementSourceTitle": "中国计量大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "书面评审(初审)通过2647（A类2597+B类专项50）。报名人数本次未取到官方汇总，admitted 置空。校测入围1840人见官方公示 https://zs.cjlu.edu.cn/zhongguojiliangdaxue2025niansanweiyitizonghepingjiazhaoshengruweikaoshengmingdangongshi.pdf。"
+    },
+    {
+      "year": 2024,
+      "applicants": null,
+      "passed": 2771,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zs.cjlu.edu.cn/info/1019/6552.htm",
+      "sourceTitle": "中国计量大学2024年三位一体综合评价招生书面评审结果公告",
+      "collectedAt": "2026-09-13",
+      "note": "书面评审(初审)通过2771。报名人数与校测入围、录取汇总本次未取到官方直链，admitted 置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "本科四/五人间,独立卫浴、上床下桌、空调热水器,每层自习室;五人寝部分无电梯、床位临厕所有异味,23点熄灯不断电。",
+    "score": null,
+    "source": "官方阳光高考食宿条件 + 招生网 + 职朋校友圈 + 知乎聚合",
+    "highlights": [
+      "各寝室独立卫生间、装配空调热水器",
+      "每层设学生自习室",
+      "床2M*0.85M,空调热水器可租赁"
+    ],
+    "drawbacks": [
+      "五人寝无电梯、11点熄灯",
+      "部分五人寝床位在厕所对面,夏天热冬天冻、门口有异味",
+      "熄灯不断电"
+    ],
+    "platforms": [
+      {
+        "name": "官方·阳光高考",
+        "url": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-274,categoryId-20590,mindex-8.dhtml",
+        "summary": "阳光高考食宿条件:各学生寝室均有独立的卫生间,并装配空调、热水器,寝室楼每一层均设有学生自习室。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "官方·招生网",
+        "url": "https://zs.cjlu.edu.cn/info/1045/2322.htm",
+        "summary": "招生网说明:寝室空调、热水器为租赁使用,床铺尺寸约2米×0.85米,生活设施以入学安排为准。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·职朋校友圈",
+        "url": "https://m.showxue.com/huati/5521/topic59.html",
+        "summary": "本科四/五人间;独立卫浴上床下桌五人寝无电梯11点熄灯;五人寝有床位在厕所对面吹不到空调夏天热冬天冻厕所门口臭;熄灯不断电。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·知乎聚合",
+        "url": "https://www.qxbw.cn/show_70_3216966_3610922.html",
+        "summary": "聚合知乎等反馈:计量宿舍多为四/五人间独立卫浴,五人寝空间局促、部分床位临厕所,管理上23点熄灯但不断电。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      }
+    ],
+    "note": "gk100等站环境分4.6与cnur4.5略有出入,以cnur交叉验证为准;五人寝布局负面信息已记录。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

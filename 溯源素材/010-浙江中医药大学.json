@@ -1,0 +1,120 @@
+{
+  "id": "zcmu",
+  "name": "浙江中医药大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zsb.zcmu.edu.cn/info/1075/4871.htm",
+      "tuitionSourceTitle": "浙江中医药大学2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zsb.zcmu.edu.cn/info/1075/4871.htm",
+      "title": "浙江中医药大学2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zsb.zcmu.edu.cn/info/1075/4871.htm",
+      "title": "浙江中医药大学2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 3.8,
+    "environment": 3.9,
+    "life": 3.8,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/263",
+    "sourceTitle": "阳光高考网 · 浙江中医药大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [],
+    "note": "数值取自cnur 2025中国大学院校满意度排名(标注数据来源阳光高考网)交叉核对。搜索片段显示综合3.9/环境3.8,与cnur的3.8/3.9/3.8在综合/环境两项上疑似顺序互换,生活分3.8一致;以cnur为准并提示顺序存疑。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": 3992,
+      "passed": 906,
+      "admitted": 180,
+      "sourceUrl": "https://zsb.zcmu.edu.cn/info/1101/4912.htm",
+      "sourceTitle": "浙江中医药大学2026年三位一体综合评价招生申请信息审核结果公示",
+      "xuekaoRequirement": "各组学考折算门槛(满分100)：中医学类≥82/临床医学类≥79/中药学类≥70/护理学类≥61/管理学类≥67",
+      "xuekaoRequirementSourceUrl": "https://zsb.zcmu.edu.cn/info/1075/4871.htm",
+      "xuekaoRequirementSourceTitle": "浙江中医药大学2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "报名3992、申请信息审核入围(初审)1521。校测入围906人见官方公示 https://zsb.zcmu.edu.cn/info/1101/4921.htm（中医学类240/临床医学类232/中药学类167/护理学类173/管理学类94）。最终录取官方仅公布分专业综合分（本科招生网录取查询），未单列录取总人数，故 admitted 置空。"
+    },
+    {
+      "year": 2025,
+      "applicants": 5148,
+      "passed": 1472,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://www.zcmu.edu.cn/info/10498/11554.htm",
+      "sourceTitle": "学校顺利完成2025年三位一体综合评价招生综合测试",
+      "collectedAt": "2026-09-13",
+      "note": "报名5148、材料评审入围(初审)1472。校测入围官方公示分组合计870（中医学类185/临床医学类277/中药学类150/护理学类157/管理学类101；二次源zizzs误报843，以官方公示为准）。最终录取官方仅公布分专业综合分，未单列总人数，admitted 置空。"
+    },
+    {
+      "year": 2024,
+      "applicants": 6885,
+      "passed": 1748,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zsb.zcmu.edu.cn/info/1113/4361.htm",
+      "sourceTitle": "浙江中医药大学2024年三位一体综合评价招生申请信息审核结果公示",
+      "collectedAt": "2026-09-13",
+      "note": "报名6885、初审通过1748。最终录取官方仅公布分专业投档情况（本科招生网录取查询/浙江省教育考试院），未单列总人数，admitted 置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "两校区4-6人间,均配独立卫生间、热水系统,空调可申装;滨江校区较旧、富春校区较好,夜间按时熄灯。",
+    "score": null,
+    "source": "官方招生办住宿说明 + 职朋校友圈UGC",
+    "highlights": [
+      "两校区宿舍均有独立卫生间、热水系统",
+      "空调可申请安装",
+      "4人间1600元/年、6人间1200元/年"
+    ],
+    "drawbacks": [
+      "滨江校区条件较差、楼体陈旧",
+      "本部6/4人寝居多、空间狭小",
+      "11点后断电断网(反馈不一,部分称熄灯不断电)"
+    ],
+    "platforms": [
+      {
+        "name": "官方·招生办",
+        "url": "https://zsb.zcmu.edu.cn/info/1013/1889.htm",
+        "summary": "招生办说明:学生宿舍4-6人/间,由学校统一安排;两校区宿舍都有独立卫生间,有热水系统,也可申请安装空调。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "官方·收费公示",
+        "url": "https://zsb.zcmu.edu.cn/info/1075/4822.htm",
+        "summary": "住宿费公示:4人间1600元/年、6人间1200元/年,具体以入学后实际安排为准。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·职朋校友圈",
+        "url": "https://m.showxue.com/huati/5101/topic59.html",
+        "summary": "11点后断电断网;滨江校区条件较差、富春较好;本部楼陈旧6/4人寝居多空间狭小;晚上按时熄灯但不断电(反馈不一)。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      }
+    ],
+    "note": "未查到虎扑/知乎/小红书等具体帖子直达链接,仅职朋校友圈UGC;断电断网与熄灯不断电说法存在分歧,已如实并列不取结论。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

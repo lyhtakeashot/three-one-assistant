@@ -1,0 +1,461 @@
+[
+  {
+    "id": "hzsf",
+    "name": "湖州师范大学（原湖州师范学院）",
+    "note": "2025年三位一体招生计划235人。已找到初审/资格审查官方公示页；综合测试入围、实际录取数官方公示文本已确认但文章URL未直接获取，录取数按招生计划235标注并待人工核实。2024、2026年本次未优先采集。",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 1736,
+        "finalPassed": 1288,
+        "admitted": 235,
+        "sourceUrl": "https://zsw.zjhu.edu.cn/2025/0328/c3200a230812/page.htm",
+        "sourceTitle": "湖州师范学院2025年“三位一体”综合评价招生入围综合素质测试考生名单公示（资格审查/初审1736人）",
+        "sourceYear": 2025,
+        "sources": {
+          "applicants": null,
+          "passed": "https://zsw.zjhu.edu.cn/2025/0328/c3200a230812/page.htm",
+          "finalPassed": null,
+          "admitted": null
+        },
+        "collectedAt": "2026-09-14",
+        "note": "passed=资格审查/初审通过1736人（官方公示页，含师范组1/师范组2/非师范组1，其中师范组2因报名不足计划8倍全部416人入围）；finalPassed=综合测试入围1288人（官方公示文本确认，具体文章URL未直接获取）；admitted=235为2025招生计划数（招生章程），实际录取数官方录取公示页未直接获取，第三方汇总亦为235，待人工核实。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2024,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "本次未优先采集2024年数据，待补。"
+      },
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2026,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "2026年招生尚未开展/未优先采集，待补。"
+      }
+    ]
+  },
+  {
+    "id": "sxu",
+    "name": "绍兴大学（原绍兴文理学院）",
+    "note": "2025年三项数据均有官方公示页（报名、资格审查、综合测试入围）。录取数仅见第三方汇总约83人，官方录取公示页未直接获取。2024、2026年本次未优先采集。",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 1978,
+        "passed": 820,
+        "finalPassed": 683,
+        "admitted": null,
+        "sourceUrl": "https://zs.usx.edu.cn/info/1085/6721.htm",
+        "sourceTitle": "绍兴文理学院2025年“三位一体”综合评价招生资格审查入围名单公告（资格审查820人）",
+        "sourceYear": 2025,
+        "sources": {
+          "applicants": "https://www.usx.edu.cn/info/1547/50849.htm",
+          "passed": "https://zs.usx.edu.cn/info/1085/6721.htm",
+          "finalPassed": "https://zs.usx.edu.cn/info/1047/6742.htm",
+          "admitted": null
+        },
+        "collectedAt": "2026-09-14",
+        "note": "applicants=报名1978人（学校新闻网官方页）；passed=资格审查820人（222+374+368，官方招生网公告）；finalPassed=综合测试拟入围683人（171+271+241，官方招生网公告）；admitted=录取数仅见第三方（CNUR/浙考联盟）汇总约83人，官方录取公示页未直接获取，故填null。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2024,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "本次未优先采集2024年数据，待补。"
+      },
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2026,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "2026年招生尚未开展/未优先采集，待补。"
+      }
+    ]
+  },
+  {
+    "id": "wzu",
+    "name": "温州大学",
+    "note": "2025年报名、初审、综合测试入围、录取四项均有官方公示页，数据完整。2024、2026年本次未优先采集。",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 5617,
+        "passed": 2821,
+        "finalPassed": 1795,
+        "admitted": 327,
+        "sourceUrl": "https://zs.wzu.edu.cn/info/1213/8444.htm",
+        "sourceTitle": "温州大学2025年“三位一体”综合评价招生书面评审（报名/初审）结果公告",
+        "sourceYear": 2025,
+        "sources": {
+          "applicants": "https://zs.wzu.edu.cn/info/1213/8444.htm",
+          "passed": "https://zs.wzu.edu.cn/info/1213/8444.htm",
+          "finalPassed": "https://zs.wzu.edu.cn/info/1144/8634.htm",
+          "admitted": "https://zs.wzu.edu.cn/info/1247/10804.htm"
+        },
+        "collectedAt": "2026-09-14",
+        "note": "applicants=报名5617人；passed=初审2821人（师范890+非师范1931+特长279）；finalPassed=综合测试入围1795人（师范562+非师范1233）；admitted=录取327人（合计，官方录取情况一览表索引页）。均为温州大学招生网官方公示。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2024,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "本次未优先采集2024年数据，待补。"
+      },
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2026,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "2026年招生尚未开展/未优先采集，待补。"
+      }
+    ]
+  },
+  {
+    "id": "zisu",
+    "name": "浙江外国语学院",
+    "note": "2025年报名人数有官方新闻页；资格审查1114人、综合测试入围654人官方公示文本已确认（发布于招生网/三位一体报名系统），但具体文章URL未直接获取。录取数未找到。2024、2026年本次未优先采集。",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 6049,
+        "passed": 1114,
+        "finalPassed": 654,
+        "admitted": null,
+        "sourceUrl": "https://www.zisu.edu.cn/info/1010/22544.htm",
+        "sourceTitle": "浙江外国语学院2025年“三位一体”综合评价招生报名相关官方新闻（报名6049人）",
+        "sourceYear": 2025,
+        "sources": {
+          "applicants": "https://www.zisu.edu.cn/info/1010/22544.htm",
+          "passed": null,
+          "finalPassed": null,
+          "admitted": null
+        },
+        "collectedAt": "2026-09-14",
+        "note": "applicants=报名6049人（学校官网新闻，官方）；passed=资格审查1114人、finalPassed=综合测试入围654人，均见官方公示文本（浙江外国语学院招生网 zs.zisu.edu.cn 及三位一体报名系统 swyt.zisu.edu.cn），具体文章URL未直接获取，故passed/finalPassed的sourceUrl填null；admitted=录取数未找到官方公示。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2024,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "本次未优先采集2024年数据，待补。"
+      },
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2026,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "2026年招生尚未开展/未优先采集，待补。"
+      }
+    ]
+  },
+  {
+    "id": "zjweu",
+    "name": "浙江水利水电学院",
+    "note": "2025年书面评审（初审）662人、录取100人均见官方公示文本（招生网/报名系统），但无直接静态文章URL；综合测试入围（校测后）数未单独找到。未找到可直接打开的官方静态公示页。2024、2026年本次未优先采集。注：学校原域名zjweu.edu.cn自2026-01-16起停用，新域名为zuwe.edu.cn。",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 662,
+        "finalPassed": null,
+        "admitted": 100,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2025,
+        "sources": {
+          "applicants": null,
+          "passed": null,
+          "finalPassed": null,
+          "admitted": null
+        },
+        "collectedAt": "2026-09-14",
+        "note": "passed=书面评审/资格审查662人入围综合测试（官方公示文本确认，发布于招生网zhaosheng.zjweu.edu.cn及报名系统zsbm.zjweu.edu.cn，youzy.cn为第三方镜像，不作为sourceUrl）；admitted=100人为实际录取（官方通报“100个招生计划全部顺利完成录取”，录取查询地址https://zsbm.zjweu.edu.cn/query/gk）；finalPassed=校测后综合测试入围数未单独找到；均因无直接静态文章URL，sourceUrl填null。报名人数未找到。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2024,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "本次未优先采集2024年数据，待补。"
+      },
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2026,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "2026年招生尚未开展/未优先采集，待补。"
+      }
+    ]
+  },
+  {
+    "id": "zjpc",
+    "name": "浙江警察学院",
+    "note": "特殊：录取为分市分性别划线，9个公安专业共计划（录取）1050人；无传统“报名人数/初审人数”公示（流程为政治考察+体能测试+高考）。录取分数线数据仅见于官方招生信息网“录取查询”系统及官微，无汇总人数静态页。未找到可直接打开的官方静态公示页。2024、2026年本次未优先采集。",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": 1050,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2025,
+        "sources": {
+          "applicants": null,
+          "passed": null,
+          "finalPassed": null,
+          "admitted": null
+        },
+        "collectedAt": "2026-09-14",
+        "note": "admitted=2025招生计划/录取1050人（治安学165、侦查学125、涉外警务80、经济犯罪侦查90、警务指挥与战术60、刑事科学技术120、交通管理工程140、网络安全与执法190、数据警务技术80），分市分性别划线，数据来自官方招生信息网录取查询系统(www.zjjcxy.cn/zsxxw)及官微，无汇总静态页故sourceUrl填null；applicants/passed/finalPassed不适用（无传统报名/初审公示）。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2024,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "本次未优先采集2024年数据，待补。"
+      },
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2026,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "2026年招生尚未开展/未优先采集，待补。"
+      }
+    ]
+  },
+  {
+    "id": "hzmc",
+    "name": "杭州医学院",
+    "note": "2025年录取数有官方公示页（临床8+医信9=17人）；报名956人、书面评审230人（113+117）、综合测试入围120人（60+60）均见官方公示文本（招生网/官微），但具体文章URL未直接获取。2024、2026年本次未优先采集。",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 956,
+        "passed": 230,
+        "finalPassed": 120,
+        "admitted": 17,
+        "sourceUrl": "https://zs.hmc.edu.cn/art/2025/9/16/art_2402_165106.html",
+        "sourceTitle": "杭州医学院2025年“三位一体”综合评价招生录取结果公告（录取17人）",
+        "sourceYear": 2025,
+        "sources": {
+          "applicants": null,
+          "passed": null,
+          "finalPassed": null,
+          "admitted": "https://zs.hmc.edu.cn/art/2025/9/16/art_2402_165106.html"
+        },
+        "collectedAt": "2026-09-14",
+        "note": "applicants=报名956人；passed=书面评审230人（临床113+医信117）；finalPassed=综合测试入围120人（临床60+医信60）；以上三项见官方公示文本（杭州医学院招生网zs.hmc.edu.cn及招生办官微），具体文章URL未直接获取故sources对应填null。admitted=录取17人（临床8+医信9，官方招生网文章）。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2024,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "本次未优先采集2024年数据，待补。"
+      },
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2026,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "2026年招生尚未开展/未优先采集，待补。"
+      }
+    ]
+  },
+  {
+    "id": "lsu",
+    "name": "丽水学院",
+    "note": "2025年资格审查、综合测试入围均有官方公示页。报名人数、录取数未找到（计划100人）。2024、2026年本次未优先采集。",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 1059,
+        "finalPassed": 499,
+        "admitted": null,
+        "sourceUrl": "https://zsw.lsu.edu.cn/2025/0324/c581a352916/page.htm",
+        "sourceTitle": "丽水学院2025年“三位一体”综合评价招生资格审查入围名单公示（资格审查1059人）",
+        "sourceYear": 2025,
+        "sources": {
+          "applicants": null,
+          "passed": "https://zsw.lsu.edu.cn/2025/0324/c581a352916/page.htm",
+          "finalPassed": "https://zsw.lsu.edu.cn/2025/0425/c616a354521/page.htm",
+          "admitted": null
+        },
+        "collectedAt": "2026-09-14",
+        "note": "passed=资格审查1059人（官方招生网公示页）；finalPassed=综合测试入围499人（官方招生网公示页）；applicants=报名人数未找到；admitted=录取数未找到（2025招生计划100人）。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2024,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "本次未优先采集2024年数据，待补。"
+      },
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2026,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "2026年招生尚未开展/未优先采集，待补。"
+      }
+    ]
+  },
+  {
+    "id": "jxnh",
+    "name": "嘉兴南湖学院",
+    "note": "2025年书面评审（PDF）、综合测试入围均有官方公示页。报名人数、录取数未找到（计划60人）。2024、2026年本次未优先采集。",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 678,
+        "finalPassed": 471,
+        "admitted": null,
+        "sourceUrl": "https://zsb.jxnhu.edu.cn/info/1084/3287.htm",
+        "sourceTitle": "嘉兴南湖学院2025年“三位一体”综合评价招生综合测试入围名单公告（入围471人）",
+        "sourceYear": 2025,
+        "sources": {
+          "applicants": null,
+          "passed": "https://zsb.jxnhu.edu.cn/__local/E/78/A2/8153E0732A9C8E4139AB5BAA575_D52CAF9C_1451D.pdf",
+          "finalPassed": "https://zsb.jxnhu.edu.cn/info/1084/3287.htm",
+          "admitted": null
+        },
+        "collectedAt": "2026-09-14",
+        "note": "passed=书面评审678人（官方招生网PDF公示）；finalPassed=综合测试入围471人（官方招生网公告）；applicants=报名人数未找到；admitted=录取数未找到（2025招生计划60人）。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2024,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "本次未优先采集2024年数据，待补。"
+      },
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": null,
+        "finalPassed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": null,
+        "sourceYear": 2026,
+        "sources": { "applicants": null, "passed": null, "finalPassed": null, "admitted": null },
+        "collectedAt": "2026-09-14",
+        "note": "2026年招生尚未开展/未优先采集，待补。"
+      }
+    ]
+  }
+]

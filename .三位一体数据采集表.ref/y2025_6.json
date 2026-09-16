@@ -1,0 +1,324 @@
+[
+  {
+    "id": "fudan",
+    "formula": {
+      "xuekao": { "A": 5, "B": 4.5, "C": 4, "D": 3, "fullScore": 50 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.05, "xiaokao": 0.10, "gaokao": 0.85 }
+    },
+    "formulaNote": "综合成绩=高考成绩÷750×850+面试成绩(满分100)+高中学业水平折算成绩(满分50)；即高考85%+面试10%+学考5%，满分1000分制。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "复旦大学2025年浙江省综合评价录取改革试点暨“三位一体”综合评价招生简章",
+      "url": "https://ao.fudan.edu.cn/24/19/c36330a730137/page.htm"
+    },
+    "examFormat": {
+      "hasWrittenTest": true,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": ["数学+文科综合（文史类）", "数学+理科综合（理工类/医学类）"],
+      "interviewFormat": "group",
+      "contentSummary": "笔试：文史类考数学+文科综合，理工类/医学类考数学+理科综合；依据笔试成绩按不超过招生计划数4倍划定入围面试分数线。面试：5名专家随机分组，每组约10名考生，专家独立对考生排序后折算面试成绩，面试成绩满分100分。",
+      "tips": "审核结果为“优秀”的考生可免笔试直接入围面试。面试成绩=Σ(21.5−每位专家排名×1.5)，一组实际面试不足10人时按线性映射折算。"
+    },
+    "transferRestriction": { "restricted": false, "detail": "" },
+    "majors": [
+      { "name": "专业组1（文科类）", "category": "文科类", "requiredSubjects": [], "planCount": 55 },
+      { "name": "专业组2（理工类）", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 85 },
+      { "name": "专业组3（数学英才班）", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 5 },
+      { "name": "医学专业组1（临床医学类）", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 40 },
+      { "name": "医学专业组2（其他医学类）", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 20 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "minScore": 648,
+        "avgScore": null,
+        "xuekaoRequirement": "高考成绩须达到浙江省特殊类型招生控制线（2025年三位一体高考最低录取分约648分，较统招约降46分）。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录高校特殊类型招生信息服务平台(bm.chsi.com.cn)完成网上报名，按要求填写并提交材料。", "deadline": "2025-05-21", "materials": ["申请表（中学盖章）", "高中阶段学业成绩、学科特长、综合素质等材料", "数学/物理/化学特长获奖证明（申请“优秀”资格者）"] },
+      { "step": 2, "title": "材料审核与确认", "description": "5月26日公布审核结果（优秀/通过/不通过）；通过或优秀的考生须于5月27日登录浙江省教育考试院系统确认参加校测和录取。", "deadline": "2025-05-27", "materials": [] },
+      { "step": 3, "title": "参加高考", "description": "参加浙江省高考。", "deadline": null, "materials": [] },
+      { "step": 4, "title": "校测（笔试+面试）", "description": "6月11日左右组织笔试（文史类数学+文科综合，理工/医学类数学+理科综合），按不超过计划4倍入围面试；高考出分前组织面试。优秀考生免笔试。", "deadline": null, "materials": [] }
+    ],
+    "brochureUrl": "https://ao.fudan.edu.cn/24/19/c36330a730137/page.htm"
+  },
+  {
+    "id": "sjtu",
+    "formula": {
+      "xuekao": { "A": 100, "B": 90, "C": 80, "D": 60, "fullScore": 30 },
+      "xiaokao": { "fullScore": 120 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.03, "xiaokao": 0.12, "gaokao": 0.85 }
+    },
+    "formulaNote": "综合成绩(满分1000分)=高考投档成绩折算成绩(满分850)+高中学业水平折算成绩(满分30)+面试折算成绩(满分120)；即高考85%+面试12%+学考3%。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "上海交通大学2025年在浙江省综合评价录取改革试点暨三位一体综合评价招生简章",
+      "url": "https://admissions.sjtu.edu.cn/newDetails?contentsID=3810000004064"
+    },
+    "examFormat": {
+      "hasWrittenTest": true,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": ["数学、物理、化学（理科/医学组）", "语文、数学、英语（文科组）"],
+      "interviewFormat": "individual",
+      "contentSummary": "笔试：理科/医学组考数学、物理、化学，文科组考语文、数学、英语；笔试成绩仅作为入围面试依据，不计入综合成绩。面试：1对3，两轮，每轮约20分钟，面试折算成绩满分120分。",
+      "tips": "初审入围面试考生（数学/物理/化学学科特长）免笔试；笔试预计6月11日上午举行；面试高考结束后进行。浦江国际学院、巴黎卓越工程师学院、临床医学五年制（英语班）、核工程与核技术仅录取有志愿考生。"
+    },
+    "transferRestriction": { "restricted": false, "detail": "" },
+    "majors": [
+      { "name": "校本部理科专业组", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 244 },
+      { "name": "校本部文科专业组", "category": "文科类", "requiredSubjects": [], "planCount": 11 },
+      { "name": "医学理科专业组", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 40 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "minScore": 650,
+        "avgScore": null,
+        "xuekaoRequirement": "高考投档成绩不低于浙江省特殊类型招生控制线（2025年三位一体高考最低录取分约650分，较统招约降46分）。计划总数预计不少于295名。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录上海交通大学报名系统(applications.sjtu.edu.cn)注册报名，选择“浙江综合评价/三位一体”类型，打印申请表经中学盖章后扫描上传。", "deadline": "2025-05-21 12:00", "materials": ["申请表（中学盖章）", "学业成绩及特长证明材料", "综合素质评价材料"] },
+      { "step": 2, "title": "初审与确认", "description": "初审结果（入围面试/入围笔试/不通过）5月23日公布；入围考生须于5月27日登录浙江省教育考试院系统确认参加校测和录取。", "deadline": "2025-05-27", "materials": [] },
+      { "step": 3, "title": "参加高考", "description": "参加浙江省高考。", "deadline": null, "materials": [] },
+      { "step": 4, "title": "校测（笔试+面试）", "description": "入围笔试考生6月11日上午参加笔试（不计入综合成绩）；按不超过计划3倍入围面试；高考后面试。初审优秀者免笔试。", "deadline": null, "materials": ["《高水平大学三位一体招生告知书》（签字确认）"] }
+    ],
+    "brochureUrl": "https://admissions.sjtu.edu.cn/newDetails?contentsID=3810000004064"
+  },
+  {
+    "id": "zju",
+    "formula": {
+      "xuekao": { "A": 10, "B": 9, "C": 8, "D": 6, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.05, "xiaokao": 0.10, "gaokao": 0.85 }
+    },
+    "formulaNote": "综合成绩=(高考投档成绩÷750×100)×85%+面试成绩(满分100)×10%+高中学业水平考试成绩(满分100)×5%；即高考85%+面试10%+学考5%。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "浙江大学2025年浙江省“三位一体”综合评价招生简章",
+      "url": "https://zjui.intl.zju.edu.cn/en/node/3033"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "group",
+      "contentSummary": "仅面试，无笔试。面试满分100分，多数专业采用群面（多对多）形式，常见英文问题。按专业招生计划1:6初审入围，按不超过计划5倍确定入围资格考生。",
+      "tips": "考生仅参加初审通过专业的面试；高考投档成绩须位于2025年浙江省高考成绩前8%（含）以上。"
+    },
+    "transferRestriction": {
+      "restricted": true,
+      "detail": "按“三位一体”专业录取的考生进校后不参加主修专业确认；申请转专业须高考投档成绩原则上不低于转入专业在浙江省普通批次投档分。中外合作办学专业与非中外合作办学专业之间不能互转，不同中外合作办学联合学院之间不能互转。"
+    },
+    "majors": [
+      { "name": "人工智能", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 8 },
+      { "name": "工业设计", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 7 },
+      { "name": "机器人工程(荣誉项目班)", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 5 },
+      { "name": "光电信息科学与工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 12 },
+      { "name": "自动化", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "信息工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 12 },
+      { "name": "电子科学与技术", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "微电子科学与工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 8 },
+      { "name": "生物医学工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 30 },
+      { "name": "工程力学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 16 },
+      { "name": "飞行器设计与工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 20 },
+      { "name": "过程装备与控制工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 15 },
+      { "name": "车辆工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 8 },
+      { "name": "能源与环境系统工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 20 },
+      { "name": "土木、水利与交通工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 30 },
+      { "name": "城乡规划", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 5 },
+      { "name": "建筑学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 9 },
+      { "name": "材料科学与工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 18 },
+      { "name": "化学工程与工艺", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 30 },
+      { "name": "生物工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 8 },
+      { "name": "高分子材料与工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 12 },
+      { "name": "机械工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 6 },
+      { "name": "物理学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 15 },
+      { "name": "心理学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 24 },
+      { "name": "化学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 25 },
+      { "name": "生物科学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "生态学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 7 },
+      { "name": "地理信息科学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "大气科学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 16 },
+      { "name": "地质学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 22 },
+      { "name": "环境科学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 11 },
+      { "name": "环境工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 11 },
+      { "name": "海洋工程与技术", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 12 },
+      { "name": "海洋科学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 11 },
+      { "name": "电子与计算机工程(中外合作办学)", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 20 },
+      { "name": "电气工程及其自动化(中外合作办学)", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 20 },
+      { "name": "土木工程(中外合作办学)", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 40 },
+      { "name": "机械工程(中外合作办学)", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 30 },
+      { "name": "智能体育工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 15 },
+      { "name": "医学试验班(竺可桢学院巴德年医学班)", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "临床医学(5+3一体化)", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "临床医学(儿科方向,5+3一体化)", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "口腔医学(5+3一体化)", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 5 },
+      { "name": "临床医学", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "生物医学(中外合作办学)", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 40 },
+      { "name": "生物信息学(中外合作办学)", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 20 },
+      { "name": "预防医学", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 20 },
+      { "name": "药学", "category": "医学类", "requiredSubjects": ["物理", "化学"], "planCount": 30 },
+      { "name": "农业资源与环境", "category": "农学类", "requiredSubjects": ["物理", "化学"], "planCount": 15 },
+      { "name": "农学", "category": "农学类", "requiredSubjects": ["物理", "化学"], "planCount": 8 },
+      { "name": "茶学", "category": "农学类", "requiredSubjects": ["物理", "化学"], "planCount": 8 },
+      { "name": "植物保护", "category": "农学类", "requiredSubjects": ["物理", "化学"], "planCount": 8 },
+      { "name": "园林", "category": "农学类", "requiredSubjects": ["物理", "化学"], "planCount": 15 },
+      { "name": "园艺", "category": "农学类", "requiredSubjects": ["物理", "化学"], "planCount": 8 },
+      { "name": "动物科学", "category": "农学类", "requiredSubjects": ["物理", "化学"], "planCount": 12 },
+      { "name": "动物医学", "category": "农学类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "农业工程", "category": "农学类", "requiredSubjects": ["物理", "化学"], "planCount": 11 },
+      { "name": "食品科学与工程", "category": "农学类", "requiredSubjects": ["物理", "化学"], "planCount": 10 },
+      { "name": "古典文献学", "category": "人文社科类", "requiredSubjects": [], "planCount": 10 },
+      { "name": "会计学(智能财务荣誉项目班)", "category": "人文社科类", "requiredSubjects": [], "planCount": 8 },
+      { "name": "工商管理", "category": "人文社科类", "requiredSubjects": [], "planCount": 8 },
+      { "name": "政治学与行政学", "category": "人文社科类", "requiredSubjects": ["思想政治"], "planCount": 18 },
+      { "name": "社会学", "category": "人文社科类", "requiredSubjects": [], "planCount": 15 },
+      { "name": "行政管理", "category": "人文社科类", "requiredSubjects": [], "planCount": 6 },
+      { "name": "农林经济管理", "category": "人文社科类", "requiredSubjects": [], "planCount": 6 },
+      { "name": "劳动与社会保障", "category": "人文社科类", "requiredSubjects": [], "planCount": 6 },
+      { "name": "土地资源管理", "category": "人文社科类", "requiredSubjects": [], "planCount": 6 },
+      { "name": "教育学", "category": "人文社科类", "requiredSubjects": [], "planCount": 24 },
+      { "name": "国际经济与贸易", "category": "人文社科类", "requiredSubjects": [], "planCount": 10 },
+      { "name": "金融学(竺可桢学院人文社科实验班)", "category": "人文社科类", "requiredSubjects": [], "planCount": 5 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "minScore": 645,
+        "avgScore": null,
+        "xuekaoRequirement": "高考投档成绩须位于2025年浙江省普通高校招生考试考生成绩前8%（含）以上（2025年三位一体高考最低录取分约645分，较统招约降13分）。总计划980名、70个专业。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录特殊类型招生报名平台综合评价报名系统(bm.chsi.com.cn)注册报名，上传申请表（中学教务章）、个人陈述等材料。", "deadline": "2025-05-16 17:00", "materials": ["申请表（中学教务部门盖章、考生签名）", "个人陈述（800字内）", "高中阶段省级（含）以上获奖证书扫描件"] },
+      { "step": 2, "title": "初审与确认", "description": "按专业招生计划1:6确定初审通过名单及入围面试专业，5月27日前公布；须于5月27日登录浙江省教育考试院系统确认参加校测和录取。", "deadline": "2025-05-27", "materials": [] },
+      { "step": 3, "title": "参加高考", "description": "参加浙江省高考。", "deadline": null, "materials": [] },
+      { "step": 4, "title": "综合面试", "description": "6月中旬参加综合面试（仅面试，无笔试），仅参加初审通过专业的面试；按不超过专业计划5倍确定入围资格名单。", "deadline": null, "materials": ["准考证", "有效身份证", "考生及家长签字的《告知书》", "纸质申请材料"] }
+    ],
+    "brochureUrl": "https://zjui.intl.zju.edu.cn/en/node/3033"
+  },
+  {
+    "id": "ucas",
+    "formula": {
+      "xuekao": { "A": null, "B": null, "C": null, "D": null, "fullScore": 750 },
+      "xiaokao": { "fullScore": 750 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.10, "xiaokao": 0.30, "gaokao": 0.60 }
+    },
+    "formulaNote": "综合评价成绩=X×60%+Y×30%+Z×10%：X=高考成绩(满分750)，Y=综合素质测试成绩(满分750)，Z=高中学业水平成绩(满分750，全A为满分；每增1个B按高考满分值2%扣减、每增1个C按3%扣减，D/E不考虑)。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "中国科学院大学2025年浙江省三位一体综合评价招生简章",
+      "url": "https://admission.ucas.ac.cn/ShowArticle/Article/dc7dc7f7-1b95-4d46-80e9-b6b29c4278a2/19ca7dff-dfca-4405-be00-6128c219798912"
+    },
+    "examFormat": {
+      "hasWrittenTest": true,
+      "hasInterview": true,
+      "hasPhysicalTest": true,
+      "writtenTestSubjects": ["数学", "物理"],
+      "interviewFormat": "group",
+      "contentSummary": "综合素质测试分初试（笔试）和复试（面试）。笔试考察数理逻辑，数学、物理两场，采用“现学现考”形式；面试考察综合素质（洞察力、思维方式、人文情怀等），3名左右专家对每组约5名考生，每组约1小时。另设体育测试（跳绳/仰卧起坐/立定跳远三选一）作为录取重要参考。",
+      "tips": "综合素质测试成绩=数学×30%+物理×30%+面试×40%；按不超过录取人数5倍入围。体育测试结果作为录取与否重要参考。"
+    },
+    "transferRestriction": { "restricted": false, "detail": "" },
+    "majors": [
+      { "name": "数学与应用数学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "物理学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "化学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "天文学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "人文地理与城乡规划", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "生物科学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "心理学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "理论与应用力学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "网络空间安全", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "材料科学与工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "电气工程及其自动化", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "电子信息工程", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "人工智能", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "计算机科学与技术", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null },
+      { "name": "环境科学", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 2000,
+        "passed": null,
+        "admitted": 39,
+        "minScore": 669,
+        "avgScore": null,
+        "xuekaoRequirement": "高考成绩须达浙江省特殊类型招生控制线；学考出现D或E者原则上不考虑（2025年报名约2000余份，录取约39人，三位一体高考最低录取分约669分）。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "通过教育部阳光高考平台报名系统(bm.chsi.com.cn)注册报名，上传申请表（中学教务部门盖章）及获奖、特长证明材料。", "deadline": "2025-05-15 24:00", "materials": ["申请表（中学教务部门盖章）", "获奖证书及特长证明材料"] },
+      { "step": 2, "title": "遴选与确认", "description": "专家审核材料确定测试资格（5月25日左右公布）；获得资格考生须于5月27日登录浙江省教育考试院系统确认参加三位一体录取。", "deadline": "2025-05-27", "materials": [] },
+      { "step": 3, "title": "参加高考", "description": "参加浙江省高考。", "deadline": null, "materials": [] },
+      { "step": 4, "title": "综合素质测试（笔试+面试+体测）", "description": "高考后组织测试（6月14-15日），笔试（数学、物理现学现考）+面试+体育测试（跳绳/仰卧起坐/立定跳远三选一）；按不超过录取人数5倍入围。", "deadline": null, "materials": ["中学盖章确认的《中国科学院大学2025年综合评价申请表》", "证明材料复印件"] }
+    ],
+    "brochureUrl": "https://admission.ucas.ac.cn/ShowArticle/Article/dc7dc7f7-1b95-4d46-80e9-b6b29c4278a2/19ca7dff-dfca-4405-be00-6128c219798912"
+  },
+  {
+    "id": "westlake",
+    "formula": {
+      "xuekao": { "A": 10, "B": 9, "C": 8, "D": 6, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.10, "xiaokao": 0.30, "gaokao": 0.60 }
+    },
+    "formulaNote": "综合总分=(高考总分÷750×100)×60%+学校综合测试成绩(满分100)×30%+高中学业水平考试成绩(满分100)×10%；即高考60%+校测30%+学考10%。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "西湖大学2025年浙江省“三位一体”综合评价招生简章",
+      "url": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ComprehensiveEvaluation/202511/t20251121_61450.shtml"
+    },
+    "examFormat": {
+      "hasWrittenTest": true,
+      "hasInterview": true,
+      "hasPhysicalTest": true,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "综合测试（满分100分）于6月13-15日进行，含笔试和面试环节，考查基础学科素养、思维能力、创新潜质、探索精神、沟通能力、英语表达等。所有考生均须参加体育测试（BMI、肺活量、坐位体前屈、立定跳远），加权平均低于60分为不合格，不能获得录取资格。",
+      "tips": "按招生计划1:10初审入围；面试具体形式简章未明确说明（以学校后续通知为准）。体育测试不合格者不能获得综合评价录取资格。"
+    },
+    "transferRestriction": { "restricted": false, "detail": "" },
+    "majors": [
+      { "name": "生物科学（入学后统一录取，后期分流选定专业）", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": 15 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "minScore": 646,
+        "avgScore": null,
+        "xuekaoRequirement": "高考总分（含政策加分）须达到浙江省特殊类型招生控制线（2025年三位一体高考最低录取分约646分，较统招约降46分）。招生计划不超过15人，统一录取到生物科学专业。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录西湖大学本科生招生报名系统注册报名，填写信息并上传材料（个人陈述、高中成绩记录、特长证明等），下载申请表经考生及监护人签名后回传。", "deadline": "2025-05-20", "materials": ["个人陈述（800字内）", "高中成绩记录（中学教务章）", "高中学业水平考试成绩", "特长证明材料（非必需）", "申请表（考生及监护人签名）"] },
+      { "step": 2, "title": "初审与确认", "description": "5月26日前完成初审，按计划1:10确定初审通过名单；须于5月27日登录浙江省教育考试院系统确认参加综合测试和录取。", "deadline": "2025-05-27", "materials": [] },
+      { "step": 3, "title": "参加高考", "description": "参加浙江省高考。", "deadline": null, "materials": [] },
+      { "step": 4, "title": "综合测试（笔试+面试+体测）", "description": "6月13-15日综合测试（满分100分，含笔试和面试）；所有考生须参加体育测试，不合格不能录取。", "deadline": null, "materials": ["考生和家长签字的《告知书》"] }
+    ],
+    "brochureUrl": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ComprehensiveEvaluation/202511/t20251121_61450.shtml"
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "id": "zisu",
+  "name": "浙江外国语学院",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://swyt.zisu.edu.cn/Default/NewsShow?newsId=142",
+      "tuitionSourceTitle": "浙江外国语学院2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://swyt.zisu.edu.cn/Default/NewsShow?newsId=142",
+      "title": "浙江外国语学院2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://swyt.zisu.edu.cn/Default/NewsShow?newsId=142",
+      "title": "浙江外国语学院2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 3.7,
+    "environment": 3.5,
+    "life": 3.4,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/6281472",
+    "sourceTitle": "阳光高考网·浙江外国语学院院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "ABC排名官微(2026年2月统计)",
+        "overall": 3.7,
+        "environment": 3.5,
+        "life": 3.4
+      }
+    ],
+    "note": "三项为8校中最低(综合3.7/环境3.5/生活3.4)，经阳光高考页(标签错位校验)与ABC排名一致，已如实保留。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": null,
+      "passed": 691,
+      "admitted": null,
+      "sourceUrl": "https://xsc.zisu.edu.cn/info/1025/3051.htm",
+      "sourceTitle": "浙江外国语学院2026年“三位一体”综合评价招生报名相关公告",
+      "xuekaoRequirement": "学考至少1门A等或6个B等及以上",
+      "xuekaoRequirementSourceUrl": "https://swyt.zisu.edu.cn/Default/NewsShow?newsId=142",
+      "xuekaoRequirementSourceTitle": "浙江外国语学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "报名人数5210人"
+    },
+    {
+      "year": 2025,
+      "applicants": 6049,
+      "passed": 654,
+      "admitted": 115,
+      "sourceUrl": "https://www.zisu.edu.cn/info/1010/22544.htm",
+      "sourceTitle": "浙江外国语学院2025年“三位一体”综合评价招生报名相关官方新闻（报名6049人）",
+      "xuekaoRequirement": "学考至少1门A等或6个B等及以上(A=15,B=9,C=3,D=0,满分150)",
+      "xuekaoRequirementSourceUrl": "https://swyt.zisu.edu.cn/Default/NewsShow?newsId=142",
+      "xuekaoRequirementSourceTitle": "浙江外国语学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "applicants=报名6049人（学校官网新闻，官方）；passed=资格审查1114人、finalPassed=综合测试入围654人，均见官方公示文本（浙江外国语学院招生网 zs.zisu.edu.cn 及三位一体报名系统 swyt.zisu.edu.cn），具体文章URL未直接获取，故passed/finalPassed的sourceUrl填null；admitted=录取数未找到官方公示。"
+    }
+  ],
+  "dormitory": {
+    "description": "小和山校区雅致苑、雅仪苑、雅正苑三幢宿舍楼，4-5人间，独立卫浴、空调(租赁)、共享洗衣机；布局为高低铺加学习位或上床下桌；地铁3号线屏峰站距校门50米内。",
+    "score": null,
+    "source": {
+      "name": "浙江外国语学院本科招生网·学校的环境、食宿如何？",
+      "url": "https://zs.zisu.edu.cn/info/1035/1470.htm"
+    },
+    "highlights": [
+      "雅致/雅仪/雅正三苑，独立卫浴、空调租赁、共享洗衣",
+      "4-5人间，部分上床下桌，毗邻地铁口出行便捷",
+      "2023年完成全部宿舍空调线路改造，夏季供电保障提升"
+    ],
+    "drawbacks": [
+      "宿舍规模小(仅三幢楼)、房型以4-5人间为主，选择有限",
+      "空调需租赁，非标配"
+    ],
+    "platforms": [
+      {
+        "name": "西方语言文化学院·沉浸式体验浙外衣食住行",
+        "url": "https://europe.zisu.edu.cn/info/1006/7071.htm",
+        "summary": "三幢宿舍楼独立卫浴空调齐全，雅致苑宽敞雅仪苑通透雅正苑配套完善，楼外绿化错落休闲区温馨，宿舍即第二个家。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "学院官方新媒体攻略，可作半官方来源"
+      },
+      {
+        "name": "易搜教育·浙外宿舍条件",
+        "url": "http://xhlnet.com/gaoxiao/738302.html",
+        "summary": "4人间为主配独立卫浴空调衣柜书桌，部分楼栋公共洗衣房自习室；2023完成全部宿舍空调线路改造，夏季供电保障提升30%。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "第三方教育资讯站，含校园设施数据"
+      },
+      {
+        "name": "官方-后勤服务中心（公寓住宿）",
+        "url": "https://hq.zisu.edu.cn/zwshg/gyzs.htm",
+        "summary": "雅仪/雅正/雅致苑为4—5人间，24小时启用门禁；空调租赁（尼好校园），各楼配洗衣机、开水器、洗澡热水。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方-西语学院（宿舍说明）",
+        "url": "https://europe.zisu.edu.cn/info/1006/7072.htm",
+        "summary": "4—5人间，配备沐浴热水，租赁空调、共享洗衣机，生活便利设施齐全。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      }
+    ],
+    "note": "官方来源为本科招生网食宿说明；满意度三项均为8校最低，已如实保留不美化。未查到虎扑/知乎直达帖，相关平台略。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

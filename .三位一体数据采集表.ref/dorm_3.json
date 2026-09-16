@@ -1,0 +1,487 @@
+[
+  {
+    "id": "zjxu",
+    "name": "嘉兴大学",
+    "satisfaction": {
+      "overall": 4.2,
+      "environment": 4.3,
+      "life": 4.1,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/272",
+      "sourceTitle": "阳光高考网·嘉兴大学院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "ABC排名官微(2026年2月统计)",
+          "overall": 4.2,
+          "environment": 4.3,
+          "life": 4.1
+        }
+      ],
+      "note": "三项分数采用阳光高考网院校满意度页(经搜索摘要标签错位规律校验:该页‘院校满意度’=综合、‘综合满意度’=环境、‘环境满意度’=生活)，并以ABC排名官微镜像数据互证一致。"
+    },
+    "dormitory": {
+      "description": "梁林(主校区)、平湖两校区，公寓以四人间、六人间为主，上床下桌，独立卫浴；空调以寝室为单位租赁(梁林租金1700元/建筑2000/医本1800/护理1500/专升本800，平湖400元/年)；门禁23:30-06:00。",
+      "score": null,
+      "source": {
+        "name": "嘉兴大学后勤服务大厅·公寓服务部服务指南",
+        "url": "https://fwpt.zjxu.edu.cn/fwpt2017/infosingle.aspx?moduleid=6&stypeid=129"
+      },
+      "highlights": [
+        "四/六人间上床下桌，独立卫浴、阳台",
+        "楼内配直饮水机、智能速热开水、自助洗衣/烘干机、AED、微波炉",
+        "热水分时段供应(早6:30-8:30、午11:30-13:30、晚16:00-23:00)"
+      ],
+      "drawbacks": [
+        "空调需另行租赁付费，非标配",
+        "热水限时段供应，夜间23:00后无热水"
+      ],
+      "platforms": [
+        {
+          "name": "百度百科·嘉兴大学(校园设施)",
+          "url": "https://baike.baidu.com/item/%E5%98%89%E5%85%B4%E5%A4%A7%E5%AD%A6/62845125",
+          "summary": "校园设施标注宿舍含独立卫生间、四或六人间、WIFI、热水供应、洗衣房、空调；住宿费标注3000元/年，门禁管理完善。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "百度百科校园大使协作认证内容，属半官方/UGC混合，仅供参考"
+        },
+        {
+          "name": "本科网·梁林校区宿舍FAQ",
+          "url": "https://www.benkewang.com/45082.html",
+          "summary": "梁林一期四人间为主、二期新建带电梯干湿分离卫浴；所有宿舍独立阳台卫生间，二期设施更现代；空调以寝室为单位租赁，冷凝水改造防潮。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "第三方资讯站，基于校区规划与改造数据整理"
+        }
+      ],
+      "note": "官方来源为后勤服务大厅公寓服务部指南；满意度以阳光高考网为准。未单独查到虎扑/知乎直达帖，相关平台略。"
+    }
+  },
+  {
+    "id": "zucc",
+    "name": "浙大城市学院",
+    "satisfaction": {
+      "overall": 4.4,
+      "environment": 4.5,
+      "life": 4.1,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/1481",
+      "sourceTitle": "阳光高考网·浙大城市学院院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "ABC排名官微(2026年2月统计)",
+          "overall": 4.4,
+          "environment": 4.5,
+          "life": 4.1
+        }
+      ],
+      "note": "分数经阳光高考页(标签错位校验)与ABC排名官微互证一致。"
+    },
+    "dormitory": {
+      "description": "主校区(拱墅区湖州街51号)南北两区，宿舍四人间上床下桌，配空调、独立卫浴；住宿费1600元/生·年。",
+      "score": null,
+      "source": {
+        "name": "浙大城市学院2026年普通高校招生章程",
+        "url": "https://zs.hzcu.edu.cn/guide/show-965.html"
+      },
+      "highlights": [
+        "四人间上床下桌，独立卫浴",
+        "空调标配、住宿费1600元/年明文规定"
+      ],
+      "drawbacks": [
+        "部分楼栋年代较早，有学生反馈设施偏旧(见UGC)"
+      ],
+      "platforms": [
+        {
+          "name": "今日头条·浙大城市学院2026新生必看",
+          "url": "https://www.toutiao.com/article/7677268331585389114/",
+          "summary": "住宿费1600元/年，4人间上床下桌配空调独立卫浴；普通公办专业学费4800-6300，中外合作5.8-6.3万另计。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "自媒体整理，附官方招生章程依据"
+        },
+        {
+          "name": "今日头条·浙大城市学院2026新生必看(续)",
+          "url": "https://www.toutiao.com/article/7677743956557333001",
+          "summary": "宿舍四人间上床下桌配空调独卫，住宿费约1600元/年；北区人文法学商院，南区计算机工科医学艺术，校内住宿。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "自媒体整理，与招生章程一致"
+        },
+        {
+          "name": "搜狗聚合·校园生活(浙江大学城市学院)",
+          "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E5%9F%8E%E5%B8%82%E5%AD%A6%E9%99%A2",
+          "summary": "聚合页显示该校综合评分4.3、环境4.5、生活4，住宿情况详见学院官网；部分反馈宿舍条件校区内有差异。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "聚合页含UGC评分，生活评分4与阳光高考生活4.1接近"
+        }
+      ],
+      "note": "官方来源为本科招生网招生章程(住宿费条款)；满意度以阳光高考网为准。"
+    }
+  },
+  {
+    "id": "nit",
+    "name": "浙大宁波理工学院",
+    "satisfaction": {
+      "overall": 4.2,
+      "environment": 4.4,
+      "life": 3.7,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-1482.dhtml",
+      "sourceTitle": "阳光高考网·浙大宁波理工学院院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "ABC排名官微(2026年2月统计)",
+          "overall": 4.2,
+          "environment": 4.4,
+          "life": 3.7
+        },
+        {
+          "name": "宁理星球(阳光高考实拍页镜像)",
+          "overall": 4.2,
+          "environment": 4.4,
+          "life": 3.7
+        }
+      ],
+      "note": "生活满意度采用3.7(部分聚合页误写3.6，以阳光高考实拍页及ABC排名官微3.7为准)。"
+    },
+    "dormitory": {
+      "description": "一/二/三/四期学生公寓。一期四人间独卫(套间10/14人共用卫浴)；二期四/五人间无独卫、公浴刷卡洗澡；三期四人间独卫；空调、热水器均需租用。",
+      "score": null,
+      "source": {
+        "name": "人民日报·寻秘浙大宁理‘城堡’新生宿舍指南",
+        "url": "https://www.peopleapp.com/rmharticle/30023770926"
+      },
+      "highlights": [
+        "一期、三期、四期为独立卫浴",
+        "二期地理位置居中，近快递站新食堂超市",
+        "所有宿舍上床下桌(二期部分五人间)，空调热水器可租用"
+      ],
+      "drawbacks": [
+        "二期无独立卫浴，厕所浴室为楼层公共(军训时拥挤)",
+        "一期部分楼栋设施偏老旧，宿舍分配随机‘开盲盒’"
+      ],
+      "platforms": [
+        {
+          "name": "大学生活质量指北·浙大宁波理工学院",
+          "url": "https://cf-pages.colleges.chat/universities/zhe-da-zhu-bo-li-gong-xue-yuan",
+          "summary": "匿名问答显示二期无独立卫浴、每层公共澡堂，一四期独卫，三期有独卫；大一有晚自习；校园跑男生80km女生70km。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "匿名UGC问答，含多届学生真实反馈"
+        },
+        {
+          "name": "好教高考·浙大宁波理工学院新生宿舍条件",
+          "url": "http://www.haojiao.net/zjyxdt/20250812/809730.html",
+          "summary": "一期直廊独卫阳台朝南、套间3×4人+2人共用厕所；二期四/五人间无独卫刷卡洗澡；三期四人间有独卫，空调热水器均租用。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "第三方高考资讯站整理新生指南"
+        },
+        {
+          "name": "保定未来人才·浙大宁波理工学院食宿评价",
+          "url": "http://hbwlrc.cn:83/NewSchoolInfo.ashx?Type=School&Year=2024&Name=%E6%B5%99%E5%A4%A7%E5%AE%81%E6%B3%A2%E7%90%86%E5%B7%A5%E5%AD%A6%E9%99%A2&wl=%E7%90%86&Batch=%E6%9C%AC%E7%A7%91",
+          "summary": "二期五人间无独立卫生间共用楼层公共卫浴，一期老旧设施老化；宿舍分配不可自选‘开盲盒’；三期条件较好。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "升学服务机构汇编，含学生评价摘录"
+        }
+      ],
+      "note": "官方来源为人民日报转载的学校新生宿舍指南(‘城堡’一文)；满意度以阳光高考网为准，生活分取3.7。"
+    }
+  },
+  {
+    "id": "hznu",
+    "name": "杭州师范大学",
+    "satisfaction": {
+      "overall": 4.4,
+      "environment": 4.6,
+      "life": 4.4,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/265",
+      "sourceTitle": "阳光高考网·杭州师范大学院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "ABC排名官微(2026年2月统计)",
+          "overall": 4.4,
+          "environment": 4.6,
+          "life": 4.4
+        }
+      ],
+      "note": "三项为阳光高考满意度页(标签错位校验)与ABC排名官微一致；环境分4.6为8校中最高。"
+    },
+    "dormitory": {
+      "description": "下沙、仓前等校区，宿舍4-6人间，独立卫浴、阳台、空调、饮水机、电风扇；门禁周日至周四23:00、周五六23:30；住宿费550-1200元/年。",
+      "score": null,
+      "source": {
+        "name": "杭州师范大学马克思主义学院·25级本科生开学攻略",
+        "url": "https://marxism.hznu.edu.cn/c/2025-08-23/3172077.shtml"
+      },
+      "highlights": [
+        "四人住六人寝、独立卫浴、上床下桌、配饮水机电扇空调",
+        "一楼热水房洗衣房(洗衣机烘干机扫码)、微波炉饮水机免费",
+        "仓前校区标准化公寓4人间配独立卫浴洗澡间个人网络端口"
+      ],
+      "drawbacks": [
+        "部分为4-6人间混住，非全部四人间",
+        "超额用电智能系统自动断电，需及时缴电费"
+      ],
+      "platforms": [
+        {
+          "name": "搜狗聚合·杭州师范大学校园生活",
+          "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%9D%AD%E5%B7%9E%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+          "summary": "下沙校区4-6人间独立卫浴阳台热水器，社区化设综合房(洗衣机微波炉脱水机)；住宿费550-1200元/年，生活评分4.4。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "聚合页含官方住宿说明与UGC评分"
+        },
+        {
+          "name": "百度百科·杭州师范大学仓前校区",
+          "url": "https://baike.baidu.com/item/%E6%9D%AD%E5%B7%9E%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E4%BB%93%E5%89%8D%E6%A0%A1%E5%8C%BA",
+          "summary": "仓前校区标准化公寓4人间，配195×85cm床柜空调独立卫浴洗澡间，每人独立桌椅网络端口插座，设标准化阳台晾衣架。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "百科条目，参考校区规划资料"
+        }
+      ],
+      "note": "官方来源为学院开学攻略及后勤说明；满意度以阳光高考网为准，生活环境评分居8校前列。"
+    }
+  },
+  {
+    "id": "hzsf",
+    "name": "湖州师范大学",
+    "satisfaction": {
+      "overall": 4.2,
+      "environment": 4.4,
+      "life": 4.1,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-266.dhtml",
+      "sourceTitle": "阳光高考网·湖州师范学院(湖州师范大学)院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "ABC排名官微(2026年2月统计)",
+          "overall": 4.2,
+          "environment": 4.4,
+          "life": 4.1
+        }
+      ],
+      "note": "用户称‘湖州师范大学’，阳光高考页官方校名为湖州师范学院(schId=266)；分数经校验与ABC排名一致。"
+    },
+    "dormitory": {
+      "description": "东、中、西三校区，除27幢为五人寝外均为四人间，上床下桌、独卫独浴；空调租赁(年几百元)；热水分时段(6:00-8:00、11:00-13:00、16:00-23:00)；23:00断电断网(±10分钟)。",
+      "score": null,
+      "source": {
+        "name": "湖州师范学院音乐学院·住寝攻略(新生指南)",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%B9%96%E5%B7%9E%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2"
+      },
+      "highlights": [
+        "四人间独卫独浴、上床下桌、大衣柜、空调电扇",
+        "宿舍热水分三段供应，一楼开水房扫码打水",
+        "宿管提供医药箱、借工具、煎药等便民服务"
+      ],
+      "drawbacks": [
+        "每晚23:00统一断电、断网(约±10分钟)",
+        "梅雨季宿舍潮湿易发霉，蟑螂老鼠常见(见UGC)",
+        "空调、饮水机需自行租赁"
+      ],
+      "platforms": [
+        {
+          "name": "TrueSight·湖师大‘卡通寝室’真相(匿名学姐帖)",
+          "url": "https://tsight.io/articles/6992637",
+          "summary": "匿名老学姐称宿舍四人间上床下桌多数有独卫，但南方梅雨季潮湿能拧出水、墙角发霉，蟑螂老鼠常客，卫生靠轮值易脏乱。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "匿名UGC，含负面真实体验，已如实记录"
+        },
+        {
+          "name": "搜狗聚合·湖州师范学院校园生活",
+          "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%B9%96%E5%B7%9E%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2",
+          "summary": "学生公寓后勤社会化，4人间1600元/年、5人间1200元/年，住宿费1050-1200元/年；综合评分4.3环境4.4生活4.1。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "聚合页含官方收费标准与UGC评分"
+        }
+      ],
+      "note": "校名为湖州师范学院(用户称湖州师范大学)；断电断网与梅雨潮湿为该校明确负面点，已据UGC如实收录。未查到虎扑/知乎直达帖，相关平台略。"
+    }
+  },
+  {
+    "id": "sxu",
+    "name": "绍兴大学",
+    "satisfaction": {
+      "overall": 4.2,
+      "environment": 4.4,
+      "life": 4.0,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-267.dhtml",
+      "sourceTitle": "阳光高考网·绍兴文理学院(绍兴大学)院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "ABC排名官微(2026年2月统计)",
+          "overall": 4.2,
+          "environment": 4.4,
+          "life": 4.0
+        }
+      ],
+      "note": "用户称‘绍兴大学’，阳光高考页标题为绍兴大学、实体为绍兴文理学院(schId=267)；分数经校验与ABC排名一致。"
+    },
+    "dormitory": {
+      "description": "书院制管理(步青/仲申等)，公寓4-6人间，配空调、独卫、热水器、阳台；南山校区条件较好；23:00关门，不断电但23:00后断网(移动edu)，大一原则禁带电脑。",
+      "score": null,
+      "source": {
+        "name": "好教高考·绍兴文理学院新生宿舍条件",
+        "url": "http://www.haojiao.net/zjyxdt/20250812/809459.html"
+      },
+      "highlights": [
+        "书院制，每寝配空调独卫热水器，仲申书院靠山",
+        "南山四人寝上床下桌有独卫小阳台，条件舒适",
+        "一般无熄灯制度、少查寝、不断电"
+      ],
+      "drawbacks": [
+        "23:00后断网(移动edu，电信影响小)，夜间上网受限",
+        "六人寝占多数、桌子较小，空间较挤"
+      ],
+      "platforms": [
+        {
+          "name": "好教高考·绍兴文理学院宿舍条件(学生评价)",
+          "url": "http://www.haojiao.net/zjyxdt/20250812/809459.html",
+          "summary": "书院制4-6人间配空调独卫热水器，南山四人寝上床下桌有独卫；11点后断网(移动edu)不断电，大一原则禁带电脑实际可带。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "第三方高考站整理含学生真实评价"
+        },
+        {
+          "name": "大学路·绍兴文理学院宿舍条件",
+          "url": "https://www.daxuelu.com/academy/sushe/849.html",
+          "summary": "学生公寓4-6人间空调热水器家具卫生设施齐全，书院制管理设图书阅览室；仲申书院靠山间，六人寝桌子偏小。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "高教资讯站，含本校学生评价摘录"
+        }
+      ],
+      "note": "校名以阳光高考页‘绍兴大学’呈现、实体为绍兴文理学院；断网为明确负面点已如实记录。满意度以阳光高考网为准。"
+    }
+  },
+  {
+    "id": "wzu",
+    "name": "温州大学",
+    "satisfaction": {
+      "overall": 4.4,
+      "environment": 4.7,
+      "life": 4.3,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain.do?schId=269",
+      "sourceTitle": "阳光高考网·温州大学院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "ABC排名官微(2026年2月统计)",
+          "overall": 4.4,
+          "environment": 4.7,
+          "life": 4.3
+        }
+      ],
+      "note": "环境满意度4.7为8校最高；分数经阳光高考页(标签错位校验)与ABC排名一致。"
+    },
+    "dormitory": {
+      "description": "五个生活区(A-E区)，寝室分4人间(少量)、6人间及10/14人套间；每间独立卫浴、阳台、空调(租赁)、宽带；各区统一23:00-6:00熄灯；热水三段供应(早6-9、中10:30-14、晚16-23:30)。",
+      "score": null,
+      "source": {
+        "name": "温州大学报考指南(学区住宿说明)",
+        "url": "https://jdxy.wzu.edu.cn/__local/7/A5/F1/4EEFAD093342FF7E4D9661ABE2A_5A345B50_1002663.pdf"
+      },
+      "highlights": [
+        "独立卫浴、开放式阳台、空调自由租赁、宽带网络齐全",
+        "楼道洗衣机开水机，公共学习室活动室",
+        "生活区餐厅超市快递银行小吃街电影院一应俱全"
+      ],
+      "drawbacks": [
+        "每晚23:00-6:00统一熄灯",
+        "空调需租赁，部分楼栋无独卫套间为公共卫浴(10/14人套间)"
+      ],
+      "platforms": [
+        {
+          "name": "温州大学报考指南PDF(学区住宿)",
+          "url": "https://jdxy.wzu.edu.cn/__local/7/A5/F1/4EEFAD093342FF7E4D9661ABE2A_5A345B50_1002663.pdf",
+          "summary": "寝室分四/六人间及十人套间，独立卫浴开放式阳台空调自由租赁宽带齐全；步青溯初超豪三学区，生活设施含清真餐饮连锁超市。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "学校官方报考指南，可作官方来源；同时列为UGC平台之一以便核查"
+        },
+        {
+          "name": "搜狗聚合·温州大学校园生活",
+          "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%B8%A9%E5%B7%9E%E5%A4%A7%E5%AD%A6",
+          "summary": "综合评分4.4环境4.7生活4.3；公寓各区23:00熄灯；学费普通类4400师范4000艺术7000，住宿费按档收取。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "聚合页含官方说明与UGC评分"
+        }
+      ],
+      "note": "官方来源为学校报考指南及后勤/自管会新生推文；满意度以阳光高考网为准，环境分为8校最高。"
+    }
+  },
+  {
+    "id": "zisu",
+    "name": "浙江外国语学院",
+    "satisfaction": {
+      "overall": 3.7,
+      "environment": 3.5,
+      "life": 3.4,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/6281472",
+      "sourceTitle": "阳光高考网·浙江外国语学院院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "ABC排名官微(2026年2月统计)",
+          "overall": 3.7,
+          "environment": 3.5,
+          "life": 3.4
+        }
+      ],
+      "note": "三项为8校中最低(综合3.7/环境3.5/生活3.4)，经阳光高考页(标签错位校验)与ABC排名一致，已如实保留。"
+    },
+    "dormitory": {
+      "description": "小和山校区雅致苑、雅仪苑、雅正苑三幢宿舍楼，4-5人间，独立卫浴、空调(租赁)、共享洗衣机；布局为高低铺加学习位或上床下桌；地铁3号线屏峰站距校门50米内。",
+      "score": null,
+      "source": {
+        "name": "浙江外国语学院本科招生网·学校的环境、食宿如何？",
+        "url": "https://zs.zisu.edu.cn/info/1035/1470.htm"
+      },
+      "highlights": [
+        "雅致/雅仪/雅正三苑，独立卫浴、空调租赁、共享洗衣",
+        "4-5人间，部分上床下桌，毗邻地铁口出行便捷",
+        "2023年完成全部宿舍空调线路改造，夏季供电保障提升"
+      ],
+      "drawbacks": [
+        "宿舍规模小(仅三幢楼)、房型以4-5人间为主，选择有限",
+        "空调需租赁，非标配"
+      ],
+      "platforms": [
+        {
+          "name": "西方语言文化学院·沉浸式体验浙外衣食住行",
+          "url": "https://europe.zisu.edu.cn/info/1006/7071.htm",
+          "summary": "三幢宿舍楼独立卫浴空调齐全，雅致苑宽敞雅仪苑通透雅正苑配套完善，楼外绿化错落休闲区温馨，宿舍即第二个家。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "学院官方新媒体攻略，可作半官方来源"
+        },
+        {
+          "name": "易搜教育·浙外宿舍条件",
+          "url": "http://xhlnet.com/gaoxiao/738302.html",
+          "summary": "4人间为主配独立卫浴空调衣柜书桌，部分楼栋公共洗衣房自习室；2023完成全部宿舍空调线路改造，夏季供电保障提升30%。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "第三方教育资讯站，含校园设施数据"
+        }
+      ],
+      "note": "官方来源为本科招生网食宿说明；满意度三项均为8校最低，已如实保留不美化。未查到虎扑/知乎直达帖，相关平台略。"
+    }
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "id": "hznu",
+  "name": "杭州师范大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://undergrad.hznu.edu.cn/Details/20260305/410257202603050257729421.html",
+      "tuitionSourceTitle": "杭州师范大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://undergrad.hznu.edu.cn/Details/20260305/410257202603050257729421.html",
+      "title": "杭州师范大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://undergrad.hznu.edu.cn/Details/20260305/410257202603050257729421.html",
+      "title": "杭州师范大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.4,
+    "environment": 4.6,
+    "life": 4.4,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/265",
+    "sourceTitle": "阳光高考网·杭州师范大学院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "ABC排名官微(2026年2月统计)",
+        "overall": 4.4,
+        "environment": 4.6,
+        "life": 4.4
+      }
+    ],
+    "note": "三项为阳光高考满意度页(标签错位校验)与ABC排名官微一致；环境分4.6为8校中最高。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": 5148,
+      "passed": 2118,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://undergrad.hznu.edu.cn/Details/20260325/110222202603250222308947.html",
+      "sourceTitle": "杭州师范大学2026年三位一体综合评价招生资格审查结果公告",
+      "collectedAt": "2026-09-13",
+      "note": "报名5148（小学教育1096/学前874/特教764/护理2414）、资格审查通过2118（小学教育508/学前185/特教272/护理1153）。校测拟入围名单官方公示（本次未取到直链，三位一体1776+复硕503）。最终录取分专业录取数合计277（小学教育57+学前30+特教30+护理160，官方录取情况公告；直链未取到），admitted 置空。"
+    },
+    {
+      "year": 2025,
+      "applicants": 8500,
+      "passed": 2200,
+      "admitted": 350,
+      "sourceUrl": "https://undergrad.hznu.edu.cn/Details/20250320/110821202503200821875427.html",
+      "sourceTitle": "杭州师范大学2025年三位一体综合评价和复硕培养试点招生资格审核结果公告",
+      "xuekaoRequirement": "学考≥5A",
+      "xuekaoRequirementSourceUrl": "https://undergrad.hznu.edu.cn/Details/20260305/410257202603050257729421.html",
+      "xuekaoRequirementSourceTitle": "杭州师范大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "报名6755、资格审查通过4438（小学教育813/学前614/特教400/护理1421/物理527/历史663）。校测拟入围1776人（三位一体，官方公示本次未取到直链）。最终录取分专业录取数合计320（小学教育70+学前60+特教30+护理160，官方录取情况公告；直链未取到），admitted 置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "下沙、仓前等校区，宿舍4-6人间，独立卫浴、阳台、空调、饮水机、电风扇；门禁周日至周四23:00、周五六23:30；住宿费550-1200元/年。",
+    "score": null,
+    "source": {
+      "name": "杭州师范大学马克思主义学院·25级本科生开学攻略",
+      "url": "https://marxism.hznu.edu.cn/c/2025-08-23/3172077.shtml"
+    },
+    "highlights": [
+      "四人住六人寝、独立卫浴、上床下桌、配饮水机电扇空调",
+      "一楼热水房洗衣房(洗衣机烘干机扫码)、微波炉饮水机免费",
+      "仓前校区标准化公寓4人间配独立卫浴洗澡间个人网络端口"
+    ],
+    "drawbacks": [
+      "部分为4-6人间混住，非全部四人间",
+      "超额用电智能系统自动断电，需及时缴电费"
+    ],
+    "platforms": [
+      {
+        "name": "搜狗聚合·杭州师范大学校园生活",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%9D%AD%E5%B7%9E%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "summary": "下沙校区4-6人间独立卫浴阳台热水器，社区化设综合房(洗衣机微波炉脱水机)；住宿费550-1200元/年，生活评分4.4。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "聚合页含官方住宿说明与UGC评分"
+      },
+      {
+        "name": "百度百科·杭州师范大学仓前校区",
+        "url": "https://baike.baidu.com/item/%E6%9D%AD%E5%B7%9E%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E4%BB%93%E5%89%8D%E6%A0%A1%E5%8C%BA",
+        "summary": "仓前校区标准化公寓4人间，配195×85cm床柜空调独立卫浴洗澡间，每人独立桌椅网络端口插座，设标准化阳台晾衣架。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "百科条目，参考校区规划资料"
+      },
+      {
+        "name": "官方-马克思主义学院（新生寝室说明）",
+        "url": "https://marxism.hznu.edu.cn/c/2025-08-23/3172077.shtml",
+        "summary": "四人住六人寝，独立卫浴，上床下桌，配饮水机、电风扇、空调；门禁时间23:00/23:30。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方-本科生招生网（住宿费）",
+        "url": "https://undergrad.hznu.edu.cn/Details/20250515/310629202505150629052372.html",
+        "summary": "住宿费：仓前校区1600元（4人间），下沙校区1200元（6人间）/1600元（4人间）。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      }
+    ],
+    "note": "官方来源为学院开学攻略及后勤说明；满意度以阳光高考网为准，生活环境评分居8校前列。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

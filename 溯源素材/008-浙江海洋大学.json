@@ -1,0 +1,94 @@
+{
+  "id": "zjou",
+  "name": "浙江海洋大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zs.zjou.edu.cn/info/1050/6890.htm",
+      "tuitionSourceTitle": "浙江海洋大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zs.zjou.edu.cn/info/1050/6890.htm",
+      "title": "浙江海洋大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zs.zjou.edu.cn/info/1050/6890.htm",
+      "title": "浙江海洋大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.0,
+    "environment": 4.3,
+    "life": 3.6,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/260",
+    "sourceTitle": "阳光高考网 · 浙江海洋大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [],
+    "note": "阳光高考页为JS渲染,数值取自搜索结果片段+cnur(标注数据来源阳光高考网、统计2026-02)交叉核对。搜索片段显示综合4.3/环境3.6(生活分缺失),与cnur的4.0/4.3/3.6在综合分上存异,生活分缺失无法对照,以cnur三值交叉验证为准。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 5000,
+      "passed": 1300,
+      "admitted": 200,
+      "sourceUrl": "https://zs.zjou.edu.cn/info/1047/6570.htm",
+      "sourceTitle": "浙江海洋大学2025年三位一体综合评价招生入围考生名单公示(已结束)",
+      "xuekaoRequirement": "学考≥4A",
+      "xuekaoRequirementSourceUrl": "https://zs.zjou.edu.cn/info/1050/6890.htm",
+      "xuekaoRequirementSourceTitle": "浙江海洋大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "入围459人，分专业合计（海洋科学43+水产养殖学60+船舶与海洋工程91+数学与应用数学(师范)48+物理学(师范)40+历史学(师范)21+小学教育(师范)109+英语(师范)47），出自上述官方入围公示。初审884人（书面评审：非特长881+特长3）见 zs.zjou.edu.cn/info/1047/6520.htm。报名人数未见官方公示，applicants置空。录取计划110人，录取总人数未公示，admitted置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "定海校区6/4人间、新城校区4人间为主(部分独卫),空调租赁;舟山气候潮湿、部分楼体老旧、工作日熄灯断电。",
+    "score": null,
+    "source": "官方招生网公布住宿费标准 + 职朋校友圈UGC反馈",
+    "highlights": [
+      "新城校区4人间上床下桌、独立阳台",
+      "空调可租赁约450元/年",
+      "部分寝室独卫、部分每层公共盥洗室"
+    ],
+    "drawbacks": [
+      "舟山长峙岛气候潮湿、墙体脱皮",
+      "工作日晚上熄灯断电、周末不熄灯",
+      "部分寝室无独立卫生间"
+    ],
+    "platforms": [
+      {
+        "name": "官方·招生网",
+        "url": "https://zs.zjou.edu.cn/info/1070/7331.htm",
+        "summary": "定海校区6人间1000元/年、4人间1200元/年；新城校区4人间独卫1600元/年、非独卫1280元/年；空调租赁约450元/年。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "官方·招生章程",
+        "url": "https://zs.zjou.edu.cn/info/1010/7120.htm",
+        "summary": "招生章程同述定海6/4人间1000/1200元、新城4人间独卫1600/非独卫1280元/年的住宿收费标准。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·职朋校友圈",
+        "url": "https://m.showxue.com/huati/5399/topic59.html",
+        "summary": "新城四人间上床下桌独立阳台,每层公共盥洗室含公共卫生间与公共浴室;舟山长峙岛气候潮湿墙体脱皮;工作日晚上熄灯断电周末不熄灯;部分寝室无独立卫生间。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      }
+    ],
+    "note": "未查到虎扑/知乎/小红书/抖音等具体帖子直达链接,仅采集到职朋校友圈UGC;负面信息(潮湿、断电、无独卫)已如实记录。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

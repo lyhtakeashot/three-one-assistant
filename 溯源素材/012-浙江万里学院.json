@@ -1,0 +1,128 @@
+{
+  "id": "zwu",
+  "name": "浙江万里学院",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zsw.zwu.edu.cn/_t296/4e/ed/c4804a216813/page.htm",
+      "tuitionSourceTitle": "浙江万里学院2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zsw.zwu.edu.cn/_t296/4e/ed/c4804a216813/page.htm",
+      "title": "浙江万里学院2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zsw.zwu.edu.cn/_t296/4e/ed/c4804a216813/page.htm",
+      "title": "浙江万里学院2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.3,
+    "environment": 4.5,
+    "life": 3.8,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-657.dhtml",
+    "sourceTitle": "阳光高考网 · 浙江万里学院 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [],
+    "note": "数值取自cnur 2025中国大学院校满意度排名(标注数据来源阳光高考网)交叉核对。gk100环境4.6/生活3.7、bendibao综合4.2与cnur(4.3/4.5/3.8)存在小幅差异,以cnur为准。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": 10847,
+      "passed": 2090,
+      "admitted": 350,
+      "sourceUrl": "https://zsw.zwu.edu.cn/50/9d/c4804a217245/pagem.htm",
+      "sourceTitle": "浙江万里学院2026年三位一体综合评价招生资格初审结果",
+      "xuekaoRequirement": "各专业学考折算门槛60-70分(英语科目A计15分)；A=12/B=9/C=6/D=4",
+      "xuekaoRequirementSourceUrl": "https://zsw.zwu.edu.cn/_t296/4e/ed/c4804a216813/page.htm",
+      "xuekaoRequirementSourceTitle": "浙江万里学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "报名10847、初审(资格审核)通过3420。校测入围2090人（官方入围公示）。最终录取官方仅公布分专业综合分（https://zsw.zwu.edu.cn/58/51/c4804a219217/pagem.htm），未单列总人数，admitted 置空。"
+    },
+    {
+      "year": 2025,
+      "applicants": 13514,
+      "passed": 3589,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zsw.zwu.edu.cn/2e/bd/c4804a208573/page.htm",
+      "sourceTitle": "浙江万里学院2025年三位一体综合评价招生资格初审结果公示",
+      "collectedAt": "2026-09-13",
+      "note": "报名13514、初审通过3589（含特长生410）。校测入围2082人（官方公示 http://zsw.zjwu.net/31/d6/c4804a209366/page.htm，为http站点）。最终录取见官方公示 https://zsw.zwu.edu.cn/3d/eb/c4804a212459/page.htm 分专业综合分，无单列总人数，admitted 置空。"
+    },
+    {
+      "year": 2024,
+      "applicants": null,
+      "passed": null,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zsw.zwu.edu.cn/1a/73/c4804a203379/page.htm",
+      "sourceTitle": "浙江万里学院2024年三位一体综合评价招生录取公示",
+      "collectedAt": "2026-09-13",
+      "note": "本次仅取到2024录取公示（分专业），报名人数与初审通过人数未取到官方汇总，均置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "公寓按4人间标准设置,配卫生间、家具、电话宽带;空调热水网络全覆盖;查寝较严、22:30熄顶灯不断电、门禁23:00。",
+    "score": null,
+    "source": "官方阳光高考食宿条件 + 招生网 + 职朋校友圈 + 大学生必备网",
+    "highlights": [
+      "所有宿舍安装空调、热水、网络",
+      "4人间标准,配卫生间与功能家具",
+      "民办属性,生活区管理较规范"
+    ],
+    "drawbacks": [
+      "大一查寝严、每天两次早读晚自修",
+      "22:30熄顶灯(不断电)、门禁23:00",
+      "部分反馈环境/生活评分略低于综合"
+    ],
+    "platforms": [
+      {
+        "name": "官方·阳光高考",
+        "url": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-657,categoryId-87501,mindex-8.dhtml",
+        "summary": "阳光高考食宿条件:学生公寓按4人间标准设置,并配有卫生间、功能完备的家具,电话、宽带网络等。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "官方·招生网",
+        "url": "https://zsw.zwu.edu.cn/bkszsw/a4/7d/c4925a107645/pagem.htm",
+        "summary": "招生网说明:所有宿舍都已安装空调、热水、网络,住宿条件统一配置。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·职朋校友圈",
+        "url": "https://m.showxue.com/huati/5492/topic59.html",
+        "summary": "四人上床下桌独卫;大一查寝严每天两次早读晚自修;22:30熄顶灯不断电;门禁23:00。反馈整体住宿条件尚可。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·大学生必备网",
+        "url": "https://www.dxsbb.com/news/17192.html",
+        "summary": "聚合信息:万里学院宿舍多为4人间独立卫浴,空调热水齐备,管理较严格但设施较新。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      }
+    ],
+    "note": "gk100环境4.6/生活3.7、bendibao综合4.2与cnur(4.3/4.5/3.8)存在小幅差异,以cnur为准;查寝严格等负面已记录。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

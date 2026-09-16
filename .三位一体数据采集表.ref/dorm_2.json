@@ -1,0 +1,449 @@
+[
+  {
+    "id": "zjou",
+    "name": "浙江海洋大学",
+    "satisfaction": {
+      "overall": 4.0,
+      "environment": 4.3,
+      "life": 3.6,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/260",
+      "sourceTitle": "阳光高考网 · 浙江海洋大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [],
+      "note": "阳光高考页为JS渲染,数值取自搜索结果片段+cnur(标注数据来源阳光高考网、统计2026-02)交叉核对。搜索片段显示综合4.3/环境3.6(生活分缺失),与cnur的4.0/4.3/3.6在综合分上存异,生活分缺失无法对照,以cnur三值交叉验证为准。"
+    },
+    "dormitory": {
+      "description": "定海校区6/4人间、新城校区4人间为主(部分独卫),空调租赁;舟山气候潮湿、部分楼体老旧、工作日熄灯断电。",
+      "score": null,
+      "source": "官方招生网公布住宿费标准 + 职朋校友圈UGC反馈",
+      "highlights": [
+        "新城校区4人间上床下桌、独立阳台",
+        "空调可租赁约450元/年",
+        "部分寝室独卫、部分每层公共盥洗室"
+      ],
+      "drawbacks": [
+        "舟山长峙岛气候潮湿、墙体脱皮",
+        "工作日晚上熄灯断电、周末不熄灯",
+        "部分寝室无独立卫生间"
+      ],
+      "platforms": [
+        {
+          "name": "官方·招生网",
+          "url": "https://zs.zjou.edu.cn/info/1070/7331.htm",
+          "summary": "定海校区6人间1000元/年、4人间1200元/年；新城校区4人间独卫1600元/年、非独卫1280元/年；空调租赁约450元/年。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "官方·招生章程",
+          "url": "https://zs.zjou.edu.cn/info/1010/7120.htm",
+          "summary": "招生章程同述定海6/4人间1000/1200元、新城4人间独卫1600/非独卫1280元/年的住宿收费标准。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·职朋校友圈",
+          "url": "https://m.showxue.com/huati/5399/topic59.html",
+          "summary": "新城四人间上床下桌独立阳台,每层公共盥洗室含公共卫生间与公共浴室;舟山长峙岛气候潮湿墙体脱皮;工作日晚上熄灯断电周末不熄灯;部分寝室无独立卫生间。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        }
+      ],
+      "note": "未查到虎扑/知乎/小红书/抖音等具体帖子直达链接,仅采集到职朋校友圈UGC;负面信息(潮湿、断电、无独卫)已如实记录。"
+    }
+  },
+  {
+    "id": "zafu",
+    "name": "浙江农林大学",
+    "satisfaction": {
+      "overall": 4.4,
+      "environment": 4.8,
+      "life": 4.3,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/261",
+      "sourceTitle": "阳光高考网 · 浙江农林大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [],
+      "note": "数值取自cnur 2026中国大学院校满意度排名(标注数据来源阳光高考网、统计2026-02)交叉核对;阳光高考wap页为JS渲染,正文无法直读。"
+    },
+    "dormitory": {
+      "description": "东湖校区A/B/C/D区(6/4人间为主,部分上床下桌)、衣锦校区联建/校内公寓(4人间),空调租赁、独立卫浴,热水限时。",
+      "score": null,
+      "source": "校方宿舍改造新闻 + 学生会新生成长手册(微博/什么值得买转载) + 聚合平台",
+      "highlights": [
+        "A区六人寝,B/C/D区4人间带独立卫浴空调",
+        "空调/饮水机/洗衣房等配套齐全",
+        "衣锦校区4人间,部分上床下桌"
+      ],
+      "drawbacks": [
+        "热水按流量计费、供应时段有限(早中晚三时段)",
+        "部分老区(如C区阴面)较潮湿",
+        "熄灯分夏令/冬令,大门23:00关门"
+      ],
+      "platforms": [
+        {
+          "name": "官方·校方新闻",
+          "url": "https://www.zafu.edu.cn/info/1012/111917.htm",
+          "summary": "潮新闻转载校方消息:学校推进宿舍改造,新宿舍干湿分离、由学生参与设计,住宿条件持续改善。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "半官方·学生会微博",
+          "url": "https://weibo.com/3039775515/HAQO8waVM",
+          "summary": "浙江农林大学学生会新生特辑宿舍篇:东湖A区五人间上下铺,B/C区四人间上床下桌,C区阴面较潮湿;衣锦联建E1-E3上下铺、E4-E6上床下桌。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·什么值得买",
+          "url": "https://post.m.smzdm.com/zz/p/adoo4mxd/",
+          "summary": "新生成长手册宿舍攻略:东湖A/B/C区独立卫浴空调风扇,大门23:00-6:00门禁;衣锦联建四人间上下铺/上床下桌,热水限时按流量计费。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·今日头条",
+          "url": "https://www.toutiao.com/a1869117530265673",
+          "summary": "宿舍一览:A区6人上下铺,B区6人家具更新,C区4人上床下桌,D区全新高端4人上床下桌独卫;新生多住A区大二搬迁。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "聚合·搜狗校园生活",
+          "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%B5%99%E6%B1%9F%E5%86%9C%E6%9E%97%E5%A4%A7%E5%AD%A6",
+          "summary": "校园生活页:学生公寓六人一间,有单独阳台、单独卫生间;环境评分4.9、生活评分4.3。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        }
+      ],
+      "note": "学生会《新生成长手册》宿舍详情内容详实(含各区尺寸/熄灯/热水/空调租赁),但检索未捕获其微信公众号直接链接,仅以微博学生会、什么值得买转载及校方新闻佐证;热水限时、C区潮湿等负面已记录。"
+    }
+  },
+  {
+    "id": "zcmu",
+    "name": "浙江中医药大学",
+    "satisfaction": {
+      "overall": 3.8,
+      "environment": 3.9,
+      "life": 3.8,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/263",
+      "sourceTitle": "阳光高考网 · 浙江中医药大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [],
+      "note": "数值取自cnur 2025中国大学院校满意度排名(标注数据来源阳光高考网)交叉核对。搜索片段显示综合3.9/环境3.8,与cnur的3.8/3.9/3.8在综合/环境两项上疑似顺序互换,生活分3.8一致;以cnur为准并提示顺序存疑。"
+    },
+    "dormitory": {
+      "description": "两校区4-6人间,均配独立卫生间、热水系统,空调可申装;滨江校区较旧、富春校区较好,夜间按时熄灯。",
+      "score": null,
+      "source": "官方招生办住宿说明 + 职朋校友圈UGC",
+      "highlights": [
+        "两校区宿舍均有独立卫生间、热水系统",
+        "空调可申请安装",
+        "4人间1600元/年、6人间1200元/年"
+      ],
+      "drawbacks": [
+        "滨江校区条件较差、楼体陈旧",
+        "本部6/4人寝居多、空间狭小",
+        "11点后断电断网(反馈不一,部分称熄灯不断电)"
+      ],
+      "platforms": [
+        {
+          "name": "官方·招生办",
+          "url": "https://zsb.zcmu.edu.cn/info/1013/1889.htm",
+          "summary": "招生办说明:学生宿舍4-6人/间,由学校统一安排;两校区宿舍都有独立卫生间,有热水系统,也可申请安装空调。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "官方·收费公示",
+          "url": "https://zsb.zcmu.edu.cn/info/1075/4822.htm",
+          "summary": "住宿费公示:4人间1600元/年、6人间1200元/年,具体以入学后实际安排为准。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·职朋校友圈",
+          "url": "https://m.showxue.com/huati/5101/topic59.html",
+          "summary": "11点后断电断网;滨江校区条件较差、富春较好;本部楼陈旧6/4人寝居多空间狭小;晚上按时熄灯但不断电(反馈不一)。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        }
+      ],
+      "note": "未查到虎扑/知乎/小红书等具体帖子直达链接,仅职朋校友圈UGC;断电断网与熄灯不断电说法存在分歧,已如实并列不取结论。"
+    }
+  },
+  {
+    "id": "cjlu",
+    "name": "中国计量大学",
+    "satisfaction": {
+      "overall": 4.4,
+      "environment": 4.5,
+      "life": 4.3,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-274.dhtml",
+      "sourceTitle": "阳光高考网 · 中国计量大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [],
+      "note": "数值取自cnur 2026中国大学院校满意度排名(标注数据来源阳光高考网、统计2026-02)及bendibao交叉核对一致;阳光高考桌面页为JS渲染,正文无法直读。"
+    },
+    "dormitory": {
+      "description": "本科四/五人间,独立卫浴、上床下桌、空调热水器,每层自习室;五人寝部分无电梯、床位临厕所有异味,23点熄灯不断电。",
+      "score": null,
+      "source": "官方阳光高考食宿条件 + 招生网 + 职朋校友圈 + 知乎聚合",
+      "highlights": [
+        "各寝室独立卫生间、装配空调热水器",
+        "每层设学生自习室",
+        "床2M*0.85M,空调热水器可租赁"
+      ],
+      "drawbacks": [
+        "五人寝无电梯、11点熄灯",
+        "部分五人寝床位在厕所对面,夏天热冬天冻、门口有异味",
+        "熄灯不断电"
+      ],
+      "platforms": [
+        {
+          "name": "官方·阳光高考",
+          "url": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-274,categoryId-20590,mindex-8.dhtml",
+          "summary": "阳光高考食宿条件:各学生寝室均有独立的卫生间,并装配空调、热水器,寝室楼每一层均设有学生自习室。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "官方·招生网",
+          "url": "https://zs.cjlu.edu.cn/info/1045/2322.htm",
+          "summary": "招生网说明:寝室空调、热水器为租赁使用,床铺尺寸约2米×0.85米,生活设施以入学安排为准。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·职朋校友圈",
+          "url": "https://m.showxue.com/huati/5521/topic59.html",
+          "summary": "本科四/五人间;独立卫浴上床下桌五人寝无电梯11点熄灯;五人寝有床位在厕所对面吹不到空调夏天热冬天冻厕所门口臭;熄灯不断电。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·知乎聚合",
+          "url": "https://www.qxbw.cn/show_70_3216966_3610922.html",
+          "summary": "聚合知乎等反馈:计量宿舍多为四/五人间独立卫浴,五人寝空间局促、部分床位临厕所,管理上23点熄灯但不断电。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        }
+      ],
+      "note": "gk100等站环境分4.6与cnur4.5略有出入,以cnur交叉验证为准;五人寝布局负面信息已记录。"
+    }
+  },
+  {
+    "id": "zwu",
+    "name": "浙江万里学院",
+    "satisfaction": {
+      "overall": 4.3,
+      "environment": 4.5,
+      "life": 3.8,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-657.dhtml",
+      "sourceTitle": "阳光高考网 · 浙江万里学院 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [],
+      "note": "数值取自cnur 2025中国大学院校满意度排名(标注数据来源阳光高考网)交叉核对。gk100环境4.6/生活3.7、bendibao综合4.2与cnur(4.3/4.5/3.8)存在小幅差异,以cnur为准。"
+    },
+    "dormitory": {
+      "description": "公寓按4人间标准设置,配卫生间、家具、电话宽带;空调热水网络全覆盖;查寝较严、22:30熄顶灯不断电、门禁23:00。",
+      "score": null,
+      "source": "官方阳光高考食宿条件 + 招生网 + 职朋校友圈 + 大学生必备网",
+      "highlights": [
+        "所有宿舍安装空调、热水、网络",
+        "4人间标准,配卫生间与功能家具",
+        "民办属性,生活区管理较规范"
+      ],
+      "drawbacks": [
+        "大一查寝严、每天两次早读晚自修",
+        "22:30熄顶灯(不断电)、门禁23:00",
+        "部分反馈环境/生活评分略低于综合"
+      ],
+      "platforms": [
+        {
+          "name": "官方·阳光高考",
+          "url": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-657,categoryId-87501,mindex-8.dhtml",
+          "summary": "阳光高考食宿条件:学生公寓按4人间标准设置,并配有卫生间、功能完备的家具,电话、宽带网络等。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "官方·招生网",
+          "url": "https://zsw.zwu.edu.cn/bkszsw/a4/7d/c4925a107645/pagem.htm",
+          "summary": "招生网说明:所有宿舍都已安装空调、热水、网络,住宿条件统一配置。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·职朋校友圈",
+          "url": "https://m.showxue.com/huati/5492/topic59.html",
+          "summary": "四人上床下桌独卫;大一查寝严每天两次早读晚自修;22:30熄顶灯不断电;门禁23:00。反馈整体住宿条件尚可。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·大学生必备网",
+          "url": "https://www.dxsbb.com/news/17192.html",
+          "summary": "聚合信息:万里学院宿舍多为4人间独立卫浴,空调热水齐备,管理较严格但设施较新。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        }
+      ],
+      "note": "gk100环境4.6/生活3.7、bendibao综合4.2与cnur(4.3/4.5/3.8)存在小幅差异,以cnur为准;查寝严格等负面已记录。"
+    }
+  },
+  {
+    "id": "zust",
+    "name": "浙江科技大学",
+    "satisfaction": {
+      "overall": 4.3,
+      "environment": 4.7,
+      "life": 4.3,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-704.dhtml",
+      "sourceTitle": "阳光高考网 · 浙江科技大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [],
+      "note": "数值取自cnur 2026中国大学院校满意度排名(标注数据来源阳光高考网、统计2026-02)交叉核对;阳光高考桌面页为JS渲染,正文无法直读。"
+    },
+    "dormitory": {
+      "description": "小和山校区多4人间(少5人间)、安吉校区书院制4人寝(独卫干湿分离、朝阳、洗衣机),空调租赁;公共卫浴高峰期拥挤、部分老旧。",
+      "score": null,
+      "source": "官方阳光高考食宿条件 + 安吉校区官网 + 大学生活质量指北 + 大学生必备网",
+      "highlights": [
+        "安吉校区4人寝独卫干湿分离、朝阳、单独洗衣机",
+        "小和山大部分4人寝、少部分5人寝",
+        "空调租赁,书院制公寓管理"
+      ],
+      "drawbacks": [
+        "小和山部分楼公共卫浴、高峰期拥挤、隔音差",
+        "空调租赁费额外、性价比一般",
+        "频繁查寝断电被批形式化"
+      ],
+      "platforms": [
+        {
+          "name": "官方·阳光高考",
+          "url": "https://gaokao.chsi.com.cn/sch/viewdksw--infoId-7727416731,categoryId-421589,schId-704.dhtml",
+          "summary": "阳光高考食宿条件:4人及以下1600元/学年,5人间1200元/学年;安吉四人寝朝阳空调租赁单独洗衣机干湿分离;小和山大部分4人寝小部分5人寝。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "官方·安吉校区",
+          "url": "https://ajxq.zust.edu.cn/info/1135/1600.htm",
+          "summary": "安吉校区官网:介绍书院制学生公寓,4人寝配置独立卫浴、公共活动空间等社区化住宿管理。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·大学生活质量指北",
+          "url": "https://cf-pages.colleges.chat/universities/zhe-jiang-ke-ji-da-xue",
+          "summary": "安吉独立卫浴干湿分离、小和山无;小和山公共卫浴高峰期拥挤、部分老旧隔音差;空调租赁费额外性价比一般;频繁查寝断电被批形式化。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·大学生必备网",
+          "url": "https://www.dxsbb.com/news/17256.html",
+          "summary": "聚合信息:浙科大宿舍小和山多4人间、安吉新校区条件较好,整体设施较新但空调需租赁。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        }
+      ],
+      "note": "hbwlrc等站链接失效未采用;小和山公共卫浴、老旧隔音、查寝断电等负面已记录。"
+    }
+  },
+  {
+    "id": "zufe",
+    "name": "浙江财经大学",
+    "satisfaction": {
+      "overall": 4.3,
+      "environment": 4.3,
+      "life": 3.9,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-821.dhtml",
+      "sourceTitle": "阳光高考网 · 浙江财经大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [],
+      "note": "数值取自cnur 2025中国大学院校满意度排名(标注数据来源阳光高考网)交叉核对。搜狗校园生活页显示综合4.3/环境4.4/生活4.0,与cnur(4.3/4.3/3.9)接近,生活分略有差异,以cnur为准。"
+    },
+    "dormitory": {
+      "description": "下沙桃李苑/成蹊苑/生活区组团4人间为主,独立卫浴、可装空调洗衣机,热水限时,23点熄灯不断电,宿舍外包管理。",
+      "score": null,
+      "source": "官方阳光高考食宿条件 + 搜狗校园生活 + 职朋校友圈 + 大学生活质量指北",
+      "highlights": [
+        "寝室均有独立卫生间,可装配空调洗衣机",
+        "桃李苑/成蹊苑生活区配套食堂超市洗衣房",
+        "部分楼栋配讨论室/自习室/共享厨房"
+      ],
+      "drawbacks": [
+        "热水限时供应、热水费较高(管道35元/吨)",
+        "宿舍外包给物业(紫元/鑫泽),管理严格、查寝频繁",
+        "老4人寝改6人寝空间狭窄、独卫老旧不干湿分离"
+      ],
+      "platforms": [
+        {
+          "name": "官方·阳光高考",
+          "url": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-821,categoryId-6292823,mindex-8.dhtml",
+          "summary": "阳光高考食宿条件:下沙生活区含桃李苑/成蹊苑/西北组团,每寝室独立卫生间,可装配空调洗衣机,园区配自习室共享厨房等。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "聚合·搜狗校园生活",
+          "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%B5%99%E6%B1%9F%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6",
+          "summary": "校园生活页:下沙桃李苑/成奚苑4人间带独卫阳台,空调电源接口,卫生间配热水沐浴龙头盥洗盆;综合4.3环境4.4生活4.0。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·职朋校友圈",
+          "url": "https://m.showxue.com/huati/16534/topic59.html",
+          "summary": "四人寝上床下桌独立卫生间,可租空调有热水;管理严格23点熄灯不断电、11点半断网,宿舍外包水费贵;部分楼不熄灯。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "UGC·大学生活质量指北",
+          "url": "https://cn.colleges.chat/universities/zhe-jiang-cai-jing-da-xue",
+          "summary": "老4人寝改6人寝上床下桌三人共用长桌狭窄;成蹊苑独卫小且脏不干湿分离;空调租金贵(约1680/4年);大一大二卫生间难评。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        }
+      ],
+      "note": "未查到虎扑/知乎/小红书具体帖子直达链接,以职朋、colleges.chat及官方/聚合页为准;热水限时费高、外包管理严、独卫老旧等负面已记录。"
+    }
+  }
+]

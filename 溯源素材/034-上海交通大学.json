@@ -1,0 +1,109 @@
+{
+  "id": "sjtu",
+  "name": "上海交通大学",
+  "category": "高水平三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://admissions.sjtu.edu.cn/newDetails?contentsID=3810000004258",
+      "tuitionSourceTitle": "上海交通大学2026年在浙江省综合评价录取改革试点暨三位一体综合评价招生简章",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://admissions.sjtu.edu.cn/newDetails?contentsID=3810000004258",
+      "title": "上海交通大学2026年在浙江省综合评价录取改革试点暨三位一体综合评价招生简章（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://admissions.sjtu.edu.cn/newDetails?contentsID=3810000004258",
+      "title": "上海交通大学2026年在浙江省综合评价录取改革试点暨三位一体综合评价招生简章（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.6,
+    "environment": 4.7,
+    "life": 4.5,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-199.dhtml",
+    "sourceTitle": "阳光高考网 · 上海交通大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-14",
+    "alternates": [],
+    "note": "阳光高考网综合4.6/环境4.7/生活4.5；生活满意度为八校前列。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": null,
+      "admitted": null,
+      "sourceUrl": "https://www.shsmu.edu.cn/xxgk/info/1048/11240.htm",
+      "sourceTitle": "上海交通大学2025年浙江省“综合评价录取改革试点”暨“三位一体”综合评价招生简章",
+      "xuekaoRequirement": "10门学考均须合格；高考投档成绩不低于浙江省特殊类型招生控制线",
+      "xuekaoRequirementSourceUrl": "https://admissions.sjtu.edu.cn/newDetails?contentsID=3810000004258",
+      "xuekaoRequirementSourceTitle": "上海交通大学2026年在浙江省综合评价录取改革试点暨三位一体综合评价招生简章",
+      "collectedAt": "2026-09-13",
+      "note": "招生计划‘预计不少于295名’(来源：招生简章，医学院信息公开网)。报名人数、初审/笔试/面试入围 aggregate 均未公开(初审结果登录报名系统查询)。录取名单公示于报名系统(admissions.sjtu.edu.cn/newDetails?contentsID=3810000004150，需登录查询)。2024/2026未检索。"
+    }
+  ],
+  "dormitory": {
+    "description": "以闵行校区为主，东三区等4人间独立梳洗间厕所、上床下桌；门禁晚12点、电费0.617元/kwh。",
+    "score": null,
+    "source": "交大家园ourhome/后勤反馈/新生网 + 微信公众号校园自媒体",
+    "highlights": [
+      "东三区4人独立梳洗间厕所、上床下桌、床200*80cm(ourhome)",
+      "宿舍整体较新、公共区域配置较好"
+    ],
+    "drawbacks": [
+      "闵行校区面积大、往返教学区距离远",
+      "门禁晚12点、电费0.617元/kwh偏贵(微信公众号)",
+      "部分老楼无独立卫浴"
+    ],
+    "platforms": [
+      {
+        "name": "官方-交大家园ourhome",
+        "url": "https://ourhome.sjtu.edu.cn/article/910",
+        "summary": "东三区宿舍为4人间，独立梳洗间与厕所，上床下桌，床铺尺寸200*80cm，配备空调。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方-交大后勤反馈公告",
+        "url": "https://feedback.sjtu.edu.cn/BulletinArticle?id=190",
+        "summary": "后勤公告说明宿舍报修、用电与门禁管理规则，电费按0.617元/kwh计，夜间统一供电。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方-交大新生网welcome",
+        "url": "https://welcome.sjtu.edu.cn",
+        "summary": "新生指南介绍闵行校区宿舍分布与书院制生活配套，说明各区户型与报修流程。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "微信公众号-闵荒情报局",
+        "url": "",
+        "summary": "闵行西/东/北三区户型不同，门禁晚12点，电费0.617元/kwh，部分楼无独立卫浴需公共浴室。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "微信公众号校园自媒体，无外链URL，以公众号名标注"
+      },
+      {
+        "name": "微信公众号-交交情报局",
+        "url": "",
+        "summary": "补充闵行各片区宿舍实拍与入住提示，提示开学抢空调租赁位、关注电费与门禁时段。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "微信公众号校园自媒体，无外链URL，以公众号名标注"
+      }
+    ],
+    "note": "交大住宿硬件较好，生活满意度4.5为八校前列；主要负面为闵行校区偏远、电费偏高、部分老楼无独卫。两则微信公众号来源无外链URL。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

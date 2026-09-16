@@ -1,0 +1,164 @@
+[
+  {
+    "id": "wku",
+    "name": "温州肯恩大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 1753,
+        "admitted": null,
+        "sourceUrl": "https://admission.wku.edu.cn/zh-hans/node/3135",
+        "sourceTitle": "温州肯恩大学2025年“三位一体”综合评价招生材料评审结果公布（材料评审通过名单）",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "找到官方公示：材料评审(初审)通过1753人(获综合测试资格)，来源 node/3135。综合测试入围947人(官方招生新闻页 admission.wku.edu.cn/zh-hans/zhaoshengxinwen?page=2，含A组623+B组324分段，未单列文章URL)。报名总数、最终录取总数未公开(计划150人，仅公布录取分数线)。2024/2026未检索。"
+      }
+    ],
+    "note": "仅核实2025年；找到初审通过(1753)官方公示，入围(947)见官方招生新闻页，报名数与录取总数未公开。"
+  },
+  {
+    "id": "unnc",
+    "name": "宁波诺丁汉大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 917,
+        "admitted": 180,
+        "sourceUrl": "https://ima.qq.com/wiki/?shareId=12c301cf42ca8d2fd72d670d0ed135be0978eac6c83a0a83ed1df97f588a8a9c&mediaId=wechatarticle_69a15190cd3c19d1ed96d7d6e53d1385_22b439f72526ef8fd726976812ca7f8c7307942080566631",
+        "sourceTitle": "三位一体丨宁波诺丁汉大学2025年“三位一体”综合测试入围考生名单公示（招生办公众号，腾讯ima转载）",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "入围917人来源：招生办公众号公告(腾讯ima转载，含‘综合测试共有1154名考生参加，入围917人’)。初审通过1527人(招生办公众号，同ima平台另一篇，未单列URL)。录取180名来源：招生办公众号(‘共录取考生180名’)，未捕获可直接打开的官方公开链接；录取查询入口 entry.nottingham.edu.cn 需登录。报名总数未公开(1154为参加综合测试人数)。2024/2026未检索。"
+      }
+    ],
+    "note": "仅核实2025年；入围(917)、初审(1527)、录取(180)均出自招生办公众号，初审/入围有ima转载链接可打开，录取公告未捕获稳定公开URL。"
+  },
+  {
+    "id": "zyu",
+    "name": "浙江越秀外国语学院",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 3388,
+        "passed": 1327,
+        "admitted": null,
+        "sourceUrl": "https://zs.zyufl.edu.cn/2025/0327/c1291a72578/page.htm",
+        "sourceTitle": "浙江越秀外国语学院2025年“三位一体”综合评价招生资格审查公告",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "报名3388人、资格审查通过(获综合素质测试资格)1327人均出自资格审查公告(zs.zyufl.edu.cn/2025/0327/c1291a72578/page.htm，官方招生网)。拟入围576人(综合测试后，招生办公众号，未捕获公开URL)。计划120人；最终录取总数未公开(录取查询在招生网，需登录)。2024/2026未检索。"
+      }
+    ],
+    "note": "仅核实2025年；找到报名(3388)与资格审查通过(1327)官方公示，拟入围(576)见官微，录取总数未公开。"
+  },
+  {
+    "id": "nbfe",
+    "name": "宁波财经学院",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 11107,
+        "passed": 1706,
+        "admitted": null,
+        "sourceUrl": "https://zsb.nbufe.edu.cn/st/zs_news.jsp?neId=151",
+        "sourceTitle": "宁波财经学院2025年“三位一体”综合评价招生初审通过名单公示",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "报名11107人、初审通过1706人均出自初审公示(neId=151，官方招生网)。综合测试入围1008人(来源 neId=154 入围分数线及入围名单公示，官方招生网)。计划200人；录取信息表已发布(zsw.nbufe.edu.cn/listPage?id=1&index=9)但无公开汇总录取人数。2024/2026未检索。"
+      }
+    ],
+    "note": "仅核实2025年；找到报名(11107)、初审通过(1706)、入围(1008)官方公示，录取汇总人数未公开。"
+  },
+  {
+    "id": "wzbc",
+    "name": "温州商学院",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 12306,
+        "passed": 1484,
+        "admitted": 299,
+        "sourceUrl": "https://jw.wzbc.edu.cn/Art/Art_188/Art_188_130385.aspx",
+        "sourceTitle": "2025“三位一体”第6号公告 | 我校综合测试入围分数线公布",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "综合测试入围1484人来源：第6号公告(Art_188_130385.aspx，官方教务部，含各专业入围人数合计1484)。报名12306人、资格审核入围(获测试资格)4195人来源：初审结果公告(jw.wzbc.edu.cn/Art/Art_409/Art_409_129790.aspx，官方)。最终录取299人来源：录取信息一览表(i.wzbc.edu.cn/Art/Art_339/Art_339_133760.aspx，官方信息服务中心，‘总计299’)。2024/2026未检索。"
+      }
+    ],
+    "note": "仅核实2025年；报名(12306)、资格审核入围(4195)、综合测试入围(1484)、录取(299)均有官方公示/信息表来源。"
+  },
+  {
+    "id": "fudan",
+    "name": "复旦大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": 205,
+        "sourceUrl": "https://xxgk.fudan.edu.cn/26/2f/c5195a730671/page.htm",
+        "sourceTitle": "复旦大学2025年浙江省综合评价录取改革试点暨“三位一体”综合评价招生简章",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "招生计划205名(来源：招生简章，信息公开网)。报名人数、初审/入围 aggregate 均未公开(初审结果分优秀/通过/不通过，登录特殊类型招生报名平台查询)。实际录取名单仅报名平台可查(按历年惯例录满至计划数)。2024/2026未检索。"
+      }
+    ],
+    "note": "仅核实2025年；高水平三一，公开渠道仅招生计划(205)，报名/初审/入围/实际录取汇总均未公开。"
+  },
+  {
+    "id": "sjtu",
+    "name": "上海交通大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": 295,
+        "sourceUrl": "https://www.shsmu.edu.cn/xxgk/info/1048/11240.htm",
+        "sourceTitle": "上海交通大学2025年浙江省“综合评价录取改革试点”暨“三位一体”综合评价招生简章",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "招生计划‘预计不少于295名’(来源：招生简章，医学院信息公开网)。报名人数、初审/笔试/面试入围 aggregate 均未公开(初审结果登录报名系统查询)。录取名单公示于报名系统(admissions.sjtu.edu.cn/newDetails?contentsID=3810000004150，需登录查询)。2024/2026未检索。"
+      }
+    ],
+    "note": "仅核实2025年；高水平三一，公开渠道仅招生计划(不少于295)，报名/初审/入围/实际录取汇总均未公开。"
+  },
+  {
+    "id": "zju",
+    "name": "浙江大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": 980,
+        "sourceUrl": "https://zdpx.zju.edu.cn/news1.aspx?fl=301&id=6559",
+        "sourceTitle": "浙江大学2025年浙江省“三位一体”综合评价招生简章发布",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "招生计划980名(来源：招生简章/本科招生网)。报名人数未公开；入围按‘不超过专业招生计划数5倍’确定，未公布汇总人数(入围结果登录报名系统查询)。录取结果登录特殊类型招生报名平台查询。2024/2026未检索。"
+      }
+    ],
+    "note": "仅核实2025年；高水平三一，公开渠道仅招生计划(980)，报名/入围/实际录取汇总均未公开。"
+  },
+  {
+    "id": "ucas",
+    "name": "中国科学院大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 2000,
+        "passed": null,
+        "admitted": 39,
+        "sourceUrl": "https://www.zh.gov.cn/art/2025/6/17/art_1229626764_59380188.html",
+        "sourceTitle": "聚焦中国科学院大学浙江省“三位一体”综合评价测试现场（镇海区人民政府官网，援引招生组）",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "报名申请‘2000余份’(来源：镇海区政府官网援引浙江招生组，约记为2000)。招生计划39名(来源：招生简章 admission.ucas.edu.cn/ShowArticle/.../1b8c0a5d-...)。校测入围数未公布汇总(‘不超过录取人数5倍’，登录阳光高考特殊类型招生报名平台查询)。2024/2026未检索。"
+      }
+    ],
+    "note": "仅核实2025年；报名申请(约2000余份)见地方政府官网援引招生组，计划(39)见官方招生简章，校测入围/录取汇总均未公开。"
+  }
+]

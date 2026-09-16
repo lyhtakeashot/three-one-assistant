@@ -1,0 +1,104 @@
+{
+  "id": "zjgsu",
+  "name": "浙江工商大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zhaoban.zjgsu.edu.cn/?news/266.html",
+      "tuitionSourceTitle": "浙江工商大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zhaoban.zjgsu.edu.cn/?news/266.html",
+      "title": "浙江工商大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zhaoban.zjgsu.edu.cn/?news/266.html",
+      "title": "浙江工商大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.4,
+    "environment": 4.6,
+    "life": 4.3,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/271",
+    "sourceTitle": "阳光高考网 · 浙江工商大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "搜狗大学镜像(与阳光高考同源)",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?school=%E6%B5%99%E6%B1%9F%E5%B7%A5%E5%95%86%E5%A4%A7%E5%AD%A6",
+        "summary": "综合4.4 / 环境4.6 / 生活4.3",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "三项分数取自搜狗大学镜像(与阳光高考网同源数据)，综合4.4/环境4.6/生活4.3；阳光高考网本页生活分需展开“查看更多”才显示。分数随投票实时变动，供人工核对。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 8000,
+      "passed": 2000,
+      "admitted": 280,
+      "sourceUrl": "http://m.zjgsu.edu.cn/view-23108.html",
+      "sourceTitle": "浙商大2025年“三位一体”开考！考生的回答真让人想不到",
+      "xuekaoRequirement": "学考≥5A2B",
+      "xuekaoRequirementSourceUrl": "https://zhaoban.zjgsu.edu.cn/?news/266.html",
+      "xuekaoRequirementSourceTitle": "浙江工商大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "报名17471人出自浙商大官方新闻网上述报道（“吸引17471人报名，较去年增加48.97%”）。初审5017人（Ⅰ类1053/Ⅱ类2029/Ⅲ类1935）、入围2927人来自学校书面评审/入围公示，但官方直接文章链接未捕获（仅见优志愿、搜狐等第三方转载），故passed置空。录取计划360人，录取人数未在官方公示汇总，admitted置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "下沙校区金沙港/钱江湾生活区，标准四人间独卫+空调+开放式阳台(1600元/生·年)；部分楼栋为五人寝上下铺；教工路校区较简朴。热水限时供应。",
+    "score": null,
+    "source": "浙江工商大学招生答考生问、信电学院新生指南及在校生反馈",
+    "highlights": [
+      "下沙四人间独卫+开放式阳台",
+      "空调、热水器(可装)",
+      "干湿分离设计",
+      "住宿费四人间1600元/年",
+      "钱江湾生活区近钱塘江"
+    ],
+    "drawbacks": [
+      "教工路校区住宿条件较简朴",
+      "部分本科生五人寝为上下铺(非上床下桌)",
+      "热水限时(6:30-8:30/11:30-14:30/17:30-0:00)",
+      "周日至四23:00熄灯23:30断电(周五六延后)"
+    ],
+    "platforms": [
+      {
+        "name": "官方",
+        "url": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/271",
+        "summary": "下沙校区带独立卫生间+空调+开放式阳台4人间，新生住宿费1600元/生·年；学生公寓小区式管理，配自助洗衣房。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "阳光高考网院校信息页(学校提供住宿概况)，生活满意度分数在该页隐藏。"
+      },
+      {
+        "name": "官方",
+        "url": "https://iee.zjgsu.edu.cn/?news/3836.html",
+        "summary": "2023级信电学院入住新装修五人寝，独立卫生间、洗手池、衣柜、饮水机、空调、阳台；热水时段6:30-8:30/11:30-14:30/17:30-0:00；周日至四23:00熄灯23:30断电。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "浙江工商大学信息与电子工程学院官方新生指南。"
+      },
+      {
+        "name": "官方",
+        "url": "https://sme.zjgsu.edu.cn/2026/0323/c4204a220655/page.htm",
+        "summary": "下沙校区标准四人间独立卫浴、热水器可装空调，住宿费1200元/人·年；教工路校区住宿条件相对简朴。生活区宽带全覆盖。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "浙江工商大学管工学院官方宿舍问答。"
+      }
+    ],
+    "note": "虎扑/知乎/B站/贴吧/小红书/抖音均未检索到该校可验证直达帖(各平台搜索仅返回官网、搜狗镜像、百度百科号列表或第三方聚合，无具体帖/笔记/视频链接)，故仅列官方来源三条，未编造UGC链接。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

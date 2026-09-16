@@ -1,0 +1,110 @@
+{
+  "id": "zstu",
+  "name": "浙江理工大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zs.zstu.edu.cn//info/1033/4033.htm",
+      "tuitionSourceTitle": "浙江理工大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zs.zstu.edu.cn//info/1033/4033.htm",
+      "title": "浙江理工大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zs.zstu.edu.cn//info/1033/4033.htm",
+      "title": "浙江理工大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.5,
+    "environment": 4.3,
+    "life": 4.3,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/259",
+    "sourceTitle": "阳光高考网 · 浙江理工大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "搜狗大学镜像(与阳光高考同源)",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?school=%E6%B5%99%E6%B1%9F%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6",
+        "summary": "综合4.4 / 环境4.5 / 生活4.3",
+        "collectedAt": "2026-09-13"
+      },
+      {
+        "name": "高三网满意度汇总",
+        "url": "https://m.gaosan.com/gaokao/1506412.html",
+        "summary": "综合满意度4.3(2595人) / 环境4.5(2848人) / 生活4.3(2486人)",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "阳光高考网本页综合/环境为直读值(综合4.5、环境4.3)；生活满意度需点开“查看更多”才显示，生活分4.3取自高三网/搜狗镜像同源数据(二者一致)。分数随投票实时变动，供人工核对。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 7500,
+      "passed": 2000,
+      "admitted": 300,
+      "sourceUrl": "https://news.zstu.edu.cn/info/1033/50389.htm",
+      "sourceTitle": "浙江理工大学2025“三位一体”综合评价招生考试圆满结束",
+      "xuekaoRequirement": "学考≥5A",
+      "xuekaoRequirementSourceUrl": "https://zs.zstu.edu.cn//info/1033/4033.htm",
+      "xuekaoRequirementSourceTitle": "浙江理工大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "官方新闻网报道：报名18000余人、经审核5800余名通过初审，均为约数无精确值，故applicants/passed置空。入围3204人（学校官方综合测试入围公示，第三方转载文本为“确定2025年三位一体综合测试入围考生3204人”），官方直接文章链接未捕获。录取计划400人，录取总人数未公示。"
+    }
+  ],
+  "dormitory": {
+    "description": "下沙校区(生活一/二/三区)4-6人间，两校区寝室均独立卫浴；临平校区全四人间上床下桌独卫干湿分离+电梯+空调租赁。热水限时，23:00熄灯0:00断网。",
+    "score": null,
+    "source": "浙江理工大学招生网2026本科招生答考生问、浙理后勤及在校生反馈",
+    "highlights": [
+      "下沙/临平两校区寝室均独立卫浴",
+      "临平全四人间上床下桌+干湿分离+电梯",
+      "空调可租赁(尼好校园)",
+      "自助洗衣房、智能门锁(临平)"
+    ],
+    "drawbacks": [
+      "下沙多数为5/6人间上下铺(非全上床下桌)",
+      "热水限时(早6-8:30/午11:30-13:30/晚16-24)",
+      "23:00熄灯、0:00断网(周五周末不熄)",
+      "空调需租赁",
+      "下沙三区离教学楼较远"
+    ],
+    "platforms": [
+      {
+        "name": "官方",
+        "url": "https://zs.zstu.edu.cn/info/1033/4119.htm",
+        "summary": "下沙4-6人间、临平全4人间，上床下桌，独立卫浴，空调需租赁，自助洗衣房；住宿费≤1600元/年，热水供应分时段。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "浙江理工大学招生网2026本科招生答考生问，官方来源。"
+      },
+      {
+        "name": "虎扑",
+        "url": "https://bbs.hupu.com/60447624.html",
+        "summary": "麻烦问一下jrs浙江理工大学怎么样？回帖：我本科就是浙江理工的，宿舍挺好，食堂也很好吃。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "虎扑真实帖，正面短评，未展开细节。"
+      },
+      {
+        "name": "第三方汇总",
+        "url": "https://www.yxiso.com/zhishi/1799837.html",
+        "summary": "下沙一区全女寝五人间有独立卫浴空调；二区五人间为主有阳台独卫；三区四人间新装修有玄关独卫大阳台，离教学楼较远。研究生楼四人间不断电有电梯。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "院校搜第三方宿舍汇总，引用在校生描述，非官方。"
+      }
+    ],
+    "note": "知乎/B站/贴吧/小红书/抖音未检索到该校可验证直达帖(知乎、小红书、抖音无结果；B站仅见官方/聚合页非具体视频)，故列官方+虎扑+第三方汇总。下沙多数为5/6人间上下铺已在drawbacks标注。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

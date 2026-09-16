@@ -8,7 +8,7 @@ function check(t, cond, msg) {
 function close(a, b, eps) { return Math.abs(a - b) < (eps || 0.01); }
 
 module.exports = function run(t) {
-  const { SCHOOLS, calcResult, reverseGk, reverseXs, filterSchools, calcXuekao, xuekaoTotal, SUBJECTS, schoolDataYear, hasCurrentData, schoolLine, majorLine, admissionRow } = extract();
+  const { SCHOOLS, calcResult, reverseGk, reverseXs, filterSchools, calcXuekao, xuekaoTotal, SUBJECTS, schoolDataYear, hasCurrentData, schoolLine, majorLine, admissionRow, YEAR_MODES, normYearMode, isLatestMode, dataYears, hasYearRecord, targetYear, admissionRowForMode, lineForMode, yearModeLabel } = extract();
 
   // 通用 10 科学考等级（全 B 基准）
   const grades = SUBJECTS.concat(['语文', '数学', '英语']).map((subject) => ({ subject, grade: 'B' }));
@@ -114,6 +114,41 @@ module.exports = function run(t) {
     check(t, !!admissionRow(s, schoolDataYear(s)), s.id + ' 回退年份有录取行');
   });
 
+  // 9b) 数据年份模式（院校库/详情系列用；计算器与工作台仍用「最新」）
+  {
+    check(t, Array.isArray(YEAR_MODES) && YEAR_MODES.length === 4 && YEAR_MODES[0].k === 'latest', 'YEAR_MODES 含 最新/2026/2025/2024');
+    check(t, normYearMode(undefined) === 'latest' && normYearMode('') === 'latest' && normYearMode('latest') === 'latest', '非法/空模式归一为 latest');
+    check(t, normYearMode('2026') === 2026 && normYearMode(2025) === 2025, '年份字符串/数字归一为整数年');
+    check(t, normYearMode('abc') === 'latest', '非数字模式回落到 latest');
+    check(t, isLatestMode('latest') === true && isLatestMode('2025') === false, 'isLatestMode 判定正确');
+    check(t, yearModeLabel('latest') === '最新' && yearModeLabel('2026') === '2026 年', 'yearModeLabel 文案正确');
+
+    // 「最新」必须与 schoolLine 完全等价（保证导出口径不变）
+    SCHOOLS.forEach((s) => {
+      const a = lineForMode(s, 'latest');
+      const b = schoolLine(s);
+      if (!a && !b) return;
+      check(t, !!a && !!b && a.score === b.score && a.year === b.year, s.id + ' latest 模式与 schoolLine 等价');
+    });
+
+    // 具体年份模式：严格取该年分数，不跨年回退
+    SCHOOLS.forEach((s) => {
+      dataYears(s).forEach((y) => {
+        const row = admissionRowForMode(s, String(y));
+        check(t, !!row && row.year === y, s.id + ' ' + y + ' 年模式取到该年记录');
+        const l = lineForMode(s, String(y));
+        if (row.minScore == null) check(t, l === null, s.id + ' ' + y + ' 年无分数时模式线为 null（不回退）');
+        else check(t, !!l && l.year === y && l.score === row.minScore, s.id + ' ' + y + ' 年模式线取该年分数');
+      });
+      check(t, hasYearRecord(s, 'latest') === (dataYears(s).length > 0), s.id + ' latest 记录判定 = 是否有任意年份');
+      check(t, hasYearRecord(s, '1999') === false, s.id + ' 1999 年无记录');
+    });
+
+    const zjut = SCHOOLS.find((x) => x.id === 'zjut');
+    check(t, targetYear(zjut, 'latest') === dataYears(zjut)[0], 'latest 的目标年份 = 该校最新年份');
+    check(t, dataYears(zjut).indexOf(2025) > -1, 'zjut 含 2025 年报录行');
+  }
+
   // 10) xuekaoTotal：学考折算分合计与百分制折算分（未选/E 等/无折算院校 → null）
   {
     const zjut = SCHOOLS.find((x) => x.id === 'zjut'); // A=15,B=10,C=6,D=1，满分 150
@@ -128,7 +163,8 @@ module.exports = function run(t) {
 
     check(t, xuekaoTotal([{ subject: '语文', grade: '' }], zjut.formula) === null, '全部未选返回 null');
     check(t, xuekaoTotal(gs, null) === null, '无 formula 返回 null');
-    const nyush = SCHOOLS.find((x) => x.id === 'nyush');
-    check(t, xuekaoTotal(gs, nyush.formula) === null, '无学考折算院校返回 null');
+    // ucas（国科大）是 38 所三位一体院校中唯一无学考折算的院校
+    const ucas = SCHOOLS.find((x) => x.id === 'ucas');
+    check(t, xuekaoTotal(gs, ucas.formula) === null, '无学考折算院校返回 null');
   }
 };

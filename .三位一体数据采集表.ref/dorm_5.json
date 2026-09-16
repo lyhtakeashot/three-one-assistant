@@ -1,0 +1,527 @@
+[
+  {
+    "id": "nbfe",
+    "name": "宁波财经学院",
+    "satisfaction": {
+      "overall": 3.9,
+      "environment": 4.0,
+      "life": 3.2,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-1466.dhtml",
+      "sourceTitle": "阳光高考网 · 宁波财经学院 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-14",
+      "alternates": [],
+      "note": "阳光高考网(综合3.9/环境4.0/生活3.2)与高考100(生活3.3)存在0.1差异，均采用阳光高考口径3.2；生活满意度偏低与住宿体验相关。"
+    },
+    "dormitory": {
+      "description": "本部老宿舍无电梯、高楼层搬运行李不便，热水约50元/吨偏贵；新校区为上床下桌，6人间1500元/年、4人间2800元/年。",
+      "score": null,
+      "source": "宁波财经学院后勤/招生网宿舍介绍页 + 多个UGC平台综合",
+      "highlights": [
+        "新校区上床下桌，6人间1500元/年、4人间2800元/年",
+        "寝室较宽敞、管理较严格(m.gaokao.cn院校评论)"
+      ],
+      "drawbacks": [
+        "本部宿舍设备较旧、条件一般(志愿填报网)",
+        "无电梯高楼层搬行李不便、热水费约50元/吨偏高(高校生活热点)",
+        "空调需抢、租赁约250元(宿舍评测)"
+      ],
+      "platforms": [
+        {
+          "name": "官方-宁波财经学院后勤处/招生网",
+          "url": "https://www.nbufe.edu.cn/rw/show.htm?typeid=0&id=5572",
+          "summary": "宿舍6人间1500元/年、4人间2800元/年，空调租赁50元/人/学期，热水器按0.05元/升计费，费用需自理。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "高考网院校评论",
+          "url": "https://m.gaokao.cn/school/2401/comment",
+          "summary": "有评论称寝室比较宽敞、管理比较严格；也有评论提到本部宿舍较旧、设施一般，校区差异明显。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "志愿填报网(kzhiyuan)",
+          "url": "https://www.kzhiyuan.com",
+          "summary": "网友反馈本部宿舍设备较旧、宿舍条件一般，建议新生提前了解校区分配与宿舍新旧情况。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "仅捕获到站点域名，未取到具体帖子直达链接"
+        },
+        {
+          "name": "职朋校友圈",
+          "url": "https://www.showxue.com",
+          "summary": "校友提及本部宿舍偏旧，生活便利度一般，热水与空调为租赁/按量计费，新生需预留预算。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "仅捕获到站点域名，未取到具体帖子直达链接"
+        },
+        {
+          "name": "高校生活热点(hbwlrc)",
+          "url": "https://www.hbwlrc.cn",
+          "summary": "提及本部宿舍无电梯、高楼层搬行李不便，热水费约50元/吨偏高，住宿成本不低。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "仅捕获到站点域名，未取到具体帖子直达链接"
+        },
+        {
+          "name": "宿舍评测(betermondo)",
+          "url": "https://www.betermondo.com",
+          "summary": "有评测称空调需抢、租赁约250元，开学季设备紧张需尽早办理，否则需等待。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "仅捕获到站点域名，未取到具体帖子直达链接"
+        }
+      ],
+      "note": "UGC多反映校区体验差异，本部旧宿舍负面较多；阳光高考生活满意度3.2印证住宿体验一般。部分UGC仅取到站点域名，建议人工复核具体帖子。"
+    }
+  },
+  {
+    "id": "wzbc",
+    "name": "温州商学院",
+    "satisfaction": {
+      "overall": 4.2,
+      "environment": 4.5,
+      "life": 3.9,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-6292509.dhtml",
+      "sourceTitle": "阳光高考网 · 温州商学院 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-14",
+      "alternates": [],
+      "note": "阳光高考网综合4.2/环境4.5/生活3.9；环境满意度高但生活满意度相对低，与住宿费偏高、熄灯断网相关。"
+    },
+    "dormitory": {
+      "description": "独卫独浴、上床下桌4人间为主，住宿费约3000元/年(F区)；周日-周四23:00熄灯断网。",
+      "score": null,
+      "source": "温州商学院官方管理规定/招生网 + 百度百科校园",
+      "highlights": [
+        "独卫独浴、上床下桌4人间(百度百科校园)",
+        "宿舍离教学区近、生活方便(百度百科)"
+      ],
+      "drawbacks": [
+        "周日-周四23:00熄灯断网(官方学生社区规定)",
+        "住宿费偏高约3000元/学年(F区)"
+      ],
+      "platforms": [
+        {
+          "name": "官方-温州商学院学生社区管理",
+          "url": "https://www.wzbc.edu.cn/Art/Art_46/Art_46_105965.aspx",
+          "summary": "学生社区管理规定：周日到周四23:00熄灯断网，周五周六及节假日延长，门禁与用电有明确时段。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "官方-温州商学院招生网生活宝鉴",
+          "url": "https://zsw.wzbc.edu.cn/Art/Art_411/Art_411_21444.aspx",
+          "summary": "新生生活宝鉴介绍宿舍为独卫独浴上床下桌，住宿费约3000元/学年，含后勤服务指南。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "百度百科校园(ima.qq.com)",
+          "url": "https://ima.qq.com",
+          "summary": "介绍温商宿舍为独卫独浴、上床下桌4人间，住宿费3000元/学年，配置较新、条件较好。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "仅捕获到站点域名，未取到具体词条直达链接"
+        },
+        {
+          "name": "百度百科",
+          "url": "https://baike.baidu.com",
+          "summary": "提及宿舍离教学区近、生活便利，整体住宿条件在同类民办/应用型院校中较好。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "仅捕获到站点域名，未取到具体词条直达链接"
+        }
+      ],
+      "note": "官方与百科一致反映住宿硬件较好，但熄灯断网较早、住宿费偏高是主要负面点；UGC有效样本较少。"
+    }
+  },
+  {
+    "id": "fudan",
+    "name": "复旦大学",
+    "satisfaction": {
+      "overall": 4.6,
+      "environment": 4.6,
+      "life": 4.2,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-197.dhtml",
+      "sourceTitle": "阳光高考网 · 复旦大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-14",
+      "alternates": [],
+      "note": "阳光高考网综合4.6/环境4.6/生活4.2；高考100显示4.7/4.7/4.3，采用阳光高考与cnur口径4.6/4.6/4.2。"
+    },
+    "dormitory": {
+      "description": "四大校区宿舍差异大：南区/东区多为4人间上床下桌，大量宿舍无独卫需公共浴室；老校区硬件参差、梅雨季返潮。",
+      "score": null,
+      "source": "复旦大学总务处/学生服务官方说明 + 知乎/职朋/搜狐等UGC",
+      "highlights": [
+        "部分宿舍4人间上床下桌、有空调",
+        "公共浴室开放时段较明确(本部/南苑12:00-14:00、17:00-22:00)"
+      ],
+      "drawbacks": [
+        "大量宿舍无独卫、需公共浴室/澡堂(知乎、职朋、搜狐)",
+        "老校区硬件参差、梅雨季返潮、隔音差网络不稳(搜狐/头条)",
+        "部分宿舍无热水淋浴、被迫去澡堂"
+      ],
+      "platforms": [
+        {
+          "name": "官方-复旦大学总务处",
+          "url": "https://zongwuchu.fudan.edu.cn/39406/list.htm",
+          "summary": "本部/南苑等公共浴室开放时段为12:00-14:00、17:00-22:00，宿舍洗浴依赖公共浴室。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "官方-复旦学生服务",
+          "url": "https://xyfw.fudan.edu.cn/12/51/c39290a463441/page.psp",
+          "summary": "新生住宿服务指南，说明各校区宿舍分配与公共生活设施使用规则，无独卫楼栋需公共浴室。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "知乎(转发经验帖)",
+          "url": "https://www.zhihu.com",
+          "summary": "转发经验：东区4人间上床下桌、无阳台独卫，6个寝室公用卫生间、仅冷水淋浴，条件一般。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "仅捕获到站点域名，未取到具体回答直达链接"
+        },
+        {
+          "name": "职朋校友圈",
+          "url": "https://m.showxue.com/huati/3728",
+          "summary": "校友反馈复旦大多宿舍无独卫，洗浴去公共浴室，校区之间条件差异明显，本部偏旧。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "搜狐(转载)",
+          "url": "https://www.sohu.com/a/277194016_200286",
+          "summary": "文章称部分宿舍无热水淋浴、被迫去澡堂，老楼隔音差、网络不稳定，居住体验参差。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "今日头条",
+          "url": "https://www.toutiao.com",
+          "summary": "有吐槽称老校区宿舍隔音差、网络不稳、梅雨季墙面返潮，硬件随楼龄差异大。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "仅捕获到站点域名，未取到具体文章直达链接"
+        }
+      ],
+      "note": "复旦宿舍生活满意度4.2(阳光高考)在八校中中等，UGC普遍反映无独卫、公共浴室、老楼硬件差是真实痛点；校区差异极大。"
+    }
+  },
+  {
+    "id": "sjtu",
+    "name": "上海交通大学",
+    "satisfaction": {
+      "overall": 4.6,
+      "environment": 4.7,
+      "life": 4.5,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-199.dhtml",
+      "sourceTitle": "阳光高考网 · 上海交通大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-14",
+      "alternates": [],
+      "note": "阳光高考网综合4.6/环境4.7/生活4.5；生活满意度为八校前列。"
+    },
+    "dormitory": {
+      "description": "以闵行校区为主，东三区等4人间独立梳洗间厕所、上床下桌；门禁晚12点、电费0.617元/kwh。",
+      "score": null,
+      "source": "交大家园ourhome/后勤反馈/新生网 + 微信公众号校园自媒体",
+      "highlights": [
+        "东三区4人独立梳洗间厕所、上床下桌、床200*80cm(ourhome)",
+        "宿舍整体较新、公共区域配置较好"
+      ],
+      "drawbacks": [
+        "闵行校区面积大、往返教学区距离远",
+        "门禁晚12点、电费0.617元/kwh偏贵(微信公众号)",
+        "部分老楼无独立卫浴"
+      ],
+      "platforms": [
+        {
+          "name": "官方-交大家园ourhome",
+          "url": "https://ourhome.sjtu.edu.cn/article/910",
+          "summary": "东三区宿舍为4人间，独立梳洗间与厕所，上床下桌，床铺尺寸200*80cm，配备空调。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "官方-交大后勤反馈公告",
+          "url": "https://feedback.sjtu.edu.cn/BulletinArticle?id=190",
+          "summary": "后勤公告说明宿舍报修、用电与门禁管理规则，电费按0.617元/kwh计，夜间统一供电。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "官方-交大新生网welcome",
+          "url": "https://welcome.sjtu.edu.cn",
+          "summary": "新生指南介绍闵行校区宿舍分布与书院制生活配套，说明各区户型与报修流程。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "微信公众号-闵荒情报局",
+          "url": "",
+          "summary": "闵行西/东/北三区户型不同，门禁晚12点，电费0.617元/kwh，部分楼无独立卫浴需公共浴室。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "微信公众号校园自媒体，无外链URL，以公众号名标注"
+        },
+        {
+          "name": "微信公众号-交交情报局",
+          "url": "",
+          "summary": "补充闵行各片区宿舍实拍与入住提示，提示开学抢空调租赁位、关注电费与门禁时段。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "微信公众号校园自媒体，无外链URL，以公众号名标注"
+        }
+      ],
+      "note": "交大住宿硬件较好，生活满意度4.5为八校前列；主要负面为闵行校区偏远、电费偏高、部分老楼无独卫。两则微信公众号来源无外链URL。"
+    }
+  },
+  {
+    "id": "zju",
+    "name": "浙江大学",
+    "satisfaction": {
+      "overall": 4.7,
+      "environment": 4.8,
+      "life": 4.4,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-256.dhtml",
+      "sourceTitle": "阳光高考网 · 浙江大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-14",
+      "alternates": [],
+      "note": "阳光高考网综合4.7/环境4.8/生活4.4；高考100显示生活4.5，采用阳光高考与cnur口径4.4。"
+    },
+    "dormitory": {
+      "description": "紫金港三大学园为主，蓝田/青溪部分公卫户型、无独卫需公共浴室；熄灯23:35-6:30。",
+      "score": null,
+      "source": "求是潮新生官方指南 + 百度贴吧/微信公众号UGC",
+      "highlights": [
+        "上床下桌四人间为主，丹青/云峰多有独卫阳台",
+        "求是潮新生服务完善"
+      ],
+      "drawbacks": [
+        "蓝田学园无独卫、每五寝室共享盥洗室、洗澡刷卡(求是潮)",
+        "青溪1/2公卫户型、澡堂在地下一层冬天冷(贴吧)",
+        "熄灯23:35-6:30(求是情报站)"
+      ],
+      "platforms": [
+        {
+          "name": "官方-求是潮新生指南",
+          "url": "https://qsc.zju.edu.cn/freshman",
+          "summary": "新生指南：蓝田学园无独卫，每五寝室共享盥洗室，洗澡刷卡计费，公共浴室集中、冷水免费。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "百度贴吧",
+          "url": "https://tieba.baidu.com/p/4754602826",
+          "summary": "帖子称蓝田公共浴室每层、青溪1/2为公共卫浴、澡堂在地下一层，冬天较冷、使用不便。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "微信公众号-求是情报站",
+          "url": "",
+          "summary": "介绍紫金港户型A/B/D，熄灯时段23:35-6:30，部分学园无独卫需公共澡堂，提醒备耳塞。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "微信公众号校园自媒体，无外链URL，以公众号名标注"
+        }
+      ],
+      "note": "浙大生活满意度4.4略低于综评，与蓝田/青溪公卫户型、熄灯较早直接相关；丹青/云峰等新区条件较好。微信公众号来源无外链URL。"
+    }
+  },
+  {
+    "id": "ucas",
+    "name": "中国科学院大学",
+    "satisfaction": {
+      "overall": 4.4,
+      "environment": 4.4,
+      "life": 4.3,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/956043210",
+      "sourceTitle": "阳光高考网(wap) · 中国科学院大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-14",
+      "alternates": [],
+      "note": "阳光高考(wap)院校页综合4.4/环境4.4、生活项样本不足未渲染；参考cnur及高考100生活约4.3-4.4，暂取4.3，建议人工复核。"
+    },
+    "dormitory": {
+      "description": "雁栖湖校区公寓式套间，单人间带独卫24h热水电梯湖景；玉泉路部分公寓无独卫公共浴室。本科宿舍条件优。",
+      "score": null,
+      "source": "国科大本科教育网/新京报报道 + 职朋校友圈/搜狐官微/微信公众号调研",
+      "highlights": [
+        "雁栖湖套间单人间、独卫24h热水、电梯、湖景(新京报)",
+        "本科宿舍与硕士同标准，空调暖气齐全、不熄灯断电(职朋)"
+      ],
+      "drawbacks": [
+        "玉泉路部分公寓无独卫、公共浴室(官方)",
+        "部分公寓隔音一般、虫子多、查寝较频繁(微信公众号调研)",
+        "西区高楼层临国道、夜间货车噪音(微信公众号调研)"
+      ],
+      "platforms": [
+        {
+          "name": "官方-国科大本科教育网",
+          "url": "https://bkjy.ucas.ac.cn",
+          "summary": "2015级本科宿舍为3人/2人套间，高架床、空调，套间含客厅与独立卫浴，条件优良。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "新京报(报道)",
+          "url": "https://www.bjnews.com.cn",
+          "summary": "报道雁栖湖校区单人间带独立卫浴、24小时热水、电梯、湖景，住宿条件全国领先、堪比酒店。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "仅捕获到站点域名，未取到具体文章直达链接"
+        },
+        {
+          "name": "搜狐(转载国科大官微)",
+          "url": "https://www.sohu.com/a/205737669_124836",
+          "summary": "转载官微《这所大学的学生宿舍，全国第二！》：单人间空调、每月免费10度电、超出0.49元/度；网友称虫子多。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "职朋校友圈",
+          "url": "https://www.showxue.com/huati/723/topic59.html",
+          "summary": "校友称雁栖湖公寓式单人间带飘窗独卫、晚上不熄灯断电、每月10度电额度、管理宽松、报修快。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "微信公众号-国科大吃喝玩乐学",
+          "url": "",
+          "summary": "雁栖湖西区公寓调研：隔音不好、虫子多、查寝频繁；三人间拥挤、高楼层临国道夜间货车吵。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "微信公众号校园自媒体，无外链URL，以公众号名标注"
+        }
+      ],
+      "note": "国科大本科住宿口碑极佳，主要负面来自研究生公寓隔音/虫子/查寝；玉泉路老公寓无独卫。UGC多来自研究生视角，本科生体验以官方与官微为准。微信公众号来源无外链URL。"
+    }
+  },
+  {
+    "id": "westlake",
+    "name": "西湖大学",
+    "satisfaction": {
+      "overall": null,
+      "environment": null,
+      "life": null,
+      "sourceUrl": null,
+      "sourceTitle": null,
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-14",
+      "alternates": [],
+      "note": "西湖大学为新型研究型大学(2018年获批)，阳光高考网无院校满意度数据，三项分数均缺，无法提供。"
+    },
+    "dormitory": {
+      "description": "书院制4-5人套间，每人独立卧室，学费6000元/年；住宿以单间套间为主，条件优。",
+      "score": null,
+      "source": "西湖大学本科生招生官网/学校新闻(官方)",
+      "highlights": [
+        "书院制4-5人套间、每人单卧(招生官网)",
+        "单间四室一厅两卫(官网报道)"
+      ],
+      "drawbacks": [
+        "为新校，在读本科生规模极小、UGC样本极少",
+        "研究型培养模式，普通三位一体考生需关注招生资格"
+      ],
+      "platforms": [
+        {
+          "name": "官方-西湖大学本科生招生",
+          "url": "https://zh-ugadmissions.westlake.edu.cn/WhyWestlake/ResidentialLife",
+          "summary": "书院生活页介绍本科为4-5人套间，每人独立卧室，共享公共空间，住宿条件优良。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "官方-西湖大学新闻",
+          "url": "https://www.westlake.edu.cn",
+          "summary": "官网报道书院为单间四室一厅两卫，学费6000元/年，住宿以套间单间为主、设施完善。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "仅捕获到站点域名，未取到具体新闻直达链接"
+        }
+      ],
+      "note": "UGC(知乎/小红书/贴吧/抖音等)检索未查到有效本科住宿评价；西湖大学主要招收博士研究生，本科规模极小，满意度无阳光高考数据。仅保留官方来源。"
+    }
+  },
+  {
+    "id": "eit",
+    "name": "宁波东方理工大学",
+    "satisfaction": {
+      "overall": null,
+      "environment": null,
+      "life": null,
+      "sourceUrl": null,
+      "sourceTitle": null,
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-14",
+      "alternates": [],
+      "note": "阳光高考网(schId-6782513866)显示投票人数较少暂不显示满意度；为新校无三项分数。"
+    },
+    "dormitory": {
+      "description": "四室一厅两卫套间、一人一单间(约6.5㎡)，食堂日均约30元；学费9.6万/年(减免后约6000)、住宿费2000元/年。",
+      "score": null,
+      "source": "宁波东方理工大学官网/阳光高考简介/中国教育在线(官方与报道)",
+      "highlights": [
+        "四室一厅两卫套间、一人一单间(eitech官网)",
+        "套间约70㎡、单间6.5㎡、食堂日均30元(阳光高考简介)"
+      ],
+      "drawbacks": [
+        "为新校，在读本科生极少、UGC几乎空白",
+        "学费名义9.6万/年(减免后约6000)，普通考生需核实奖助政策"
+      ],
+      "platforms": [
+        {
+          "name": "官方-宁波东方理工大学",
+          "url": "https://www.eitech.edu.cn/2026/0211/c70a4540/page.htm",
+          "summary": "官网介绍宿舍为四室一厅两卫套间，一人一间独立单间，书院制住宿条件优良。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "官方/阳光高考网简介",
+          "url": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-6782513866,categoryId-6782513985,mindex-8.dhtml",
+          "summary": "学校简介：套间约70㎡、单间6.5㎡，食堂日均消费约30元，住宿费2000元/年。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": ""
+        },
+        {
+          "name": "中国教育在线(学费报道)",
+          "url": "https://shengxue.eol.cn",
+          "summary": "报道学费9.6万/年(减免后约6000)、住宿费2000元/年，奖助覆盖力度大，需核实最新政策。",
+          "rating": null,
+          "collectedAt": "2026-09-14",
+          "note": "仅捕获到站点域名，未取到具体文章直达链接"
+        }
+      ],
+      "note": "UGC(知乎/小红书/贴吧/抖音等)检索未查到有效本科住宿评价；东方理工2025年首招本科生，规模极小，满意度无阳光高考数据。仅保留官方来源。"
+    }
+  }
+]

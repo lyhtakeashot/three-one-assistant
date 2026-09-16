@@ -1,0 +1,531 @@
+[
+  {
+    "id": "zjweu",
+    "name": "浙江水利水电学院",
+    "satisfaction": {
+      "overall": 4.5,
+      "environment": 4.5,
+      "life": 4.5,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/820",
+      "sourceTitle": "阳光高考网 · 浙江水利水电学院 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [],
+      "note": "阳光高考wap页：综合满意度4.5(1810人)、环境满意度4.5(1518人)；生活满意度在该页以『查看更多』折叠未直读，采用同源阳光高考数据(ABC排名2026，统计2026-02)补录为4.5，建议人工复核。"
+    },
+    "dormitory": {
+      "description": "钱塘(下沙)校区以6人间为主(上下铺、独立卫浴、空调租赁)，南浔校区为新校区，2/4人间上床下桌、干湿分离、部分楼栋带电梯。",
+      "score": null,
+      "source": "阳光高考食宿条件页、中国教育在线南浔校区报道、未来人才聚合站",
+      "highlights": [
+        "南浔新校区二人寝干湿分离、部分楼栋带电梯，被称『酒店式体验』",
+        "空调全覆盖，宿舍楼配自习室/洗衣房/烘干/洗鞋",
+        "南浔校区周边宝龙广场、地铁1号线，生活便利"
+      ],
+      "drawbacks": [
+        "下沙(钱塘)校区六人间空间较拥挤、为公共卫浴",
+        "空调需租赁(约400元/年)，费用有争议",
+        "断电制度与频繁查寝被部分学生认为限制较多"
+      ],
+      "platforms": [
+        {
+          "name": "官方|阳光高考·食宿条件",
+          "url": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-820,categoryId-38409,mindex-8.dhtml",
+          "summary": "学生公寓设2/4/6人间，均配空调(自行租赁)、独立卫浴，提供洗衣洗鞋烘干；每幢书院内建24小时自习室与活动室。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "中国教育在线",
+          "url": "https://www.eol.cn/zhejiang/zhejiang_news/202505/t20250515_2668504.shtml",
+          "summary": "南浔校区四大书院：四人寝上床下桌+公共卫浴带USB插座；两人寝五室一厅二卫干湿分离+24h热水；书院配六部电梯、楼下有快递站。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "未来人才(保定)",
+          "url": "http://hbwlrc.cn:83/NewSchoolInfo.ashx?Type=School&Year=2024&Name=浙江水利水电学院&wl=理&Batch=本科",
+          "summary": "南浔四人间上床下桌独立阳台共用卫浴；下沙六人间上下铺独立卫浴，空调需租约400元/年；热水分时段，断电与频繁查寝被批形式化。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "聚合站，整理自学校公开信息与学长学姐评价"
+        }
+      ],
+      "note": "未检索到虎扑/知乎/小红书/抖音/贴吧/B站该校宿舍的可信直达帖子链接，故未收录；以上为官方与媒体/聚合站来源，供人工辨别。"
+    }
+  },
+  {
+    "id": "zjpc",
+    "name": "浙江警察学院",
+    "satisfaction": {
+      "overall": 3.9,
+      "environment": 3.6,
+      "life": 3.9,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/822",
+      "sourceTitle": "阳光高考网 · 浙江警察学院 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "高考100·院校满意度",
+          "url": "https://gk100.com/daxueku/manyidu_1900.htm",
+          "summary": "高考100镜像阳光高考：综合4.2(708人)、环境4.2(717人)、生活3.9(657人)；与阳光高考wap(综合3.9/环境3.6)存在差异，以wap为准。",
+          "collectedAt": "2026-09-13"
+        }
+      ],
+      "note": "阳光高考wap页：综合满意度3.9(932人)、环境满意度3.6(802人)；生活满意度折叠未直读，采用高考100镜像(生活3.9)补录。公安院校，满意度普遍偏低。"
+    },
+    "dormitory": {
+      "description": "公安院校，实行警务化公寓管理：本科多4人间，独立卫浴+空调，内务叠『豆腐块』、统一作息，原则上必须住校、走读极难。",
+      "score": null,
+      "source": "中国教育在线报道、易搜教育资讯、高考升学网",
+      "highlights": [
+        "独立卫浴、空调、24小时热水齐全",
+        "内务规范、管理严格，为公安院校特色养成教育",
+        "住宿费较低(约1000元/年)"
+      ],
+      "drawbacks": [
+        "作息严格：工作日22:30熄灯、门禁，早6:30出操",
+        "走读极难，须服从警务化统一管理",
+        "部分旧宿舍无独卫/为公共浴室(依楼栋而异)"
+      ],
+      "platforms": [
+        {
+          "name": "中国教育在线",
+          "url": "https://zhejiang.eol.cn/zhejiang_news/201603/t20160323_1379582_1.shtml",
+          "summary": "警院寝室实行『四统一五规范』，每寝配独立卫生间、空调，24h热水；内务被子叠豆腐块、物品一条线，被称警校寝室典范。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "易搜教育资讯",
+          "url": "https://xhlnet.com/gaoxiao/454382.html",
+          "summary": "实行严格公寓化管理：4人间独立卫浴配空调网络；工作日6:30起床、22:30熄灯就寝；内务『星级宿舍』评比，被子叠豆腐块。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "高考升学网",
+          "url": "http://www.creditsailing.com/ZheJiangGaoKao/522125.html",
+          "summary": "本科生4人间独立卫浴阳台空调，每幢负一层公共浴室热水房；住宿费1000元/年；宿舍23:30熄灯、门禁，晚归刷校园卡应急门。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "易搜教育资讯",
+          "url": "https://xhlnet.com/gaoxiao/419536.html",
+          "summary": "原则上必须住校，走读极其困难，仅特殊情形经大队、学工部、校领导三级审批；全封闭半军事化警务化管理，早操晚点名。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "说明警务化住校制度"
+        }
+      ],
+      "note": "公安院校，宿舍按警务化管理如实采集；未查到虎扑/小红书/知乎等可直达帖子链接，未收录。"
+    }
+  },
+  {
+    "id": "hzmc",
+    "name": "杭州医学院",
+    "satisfaction": {
+      "overall": 4.2,
+      "environment": 4.3,
+      "life": 3.9,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--dicCurId-73390084.dhtml",
+      "sourceTitle": "阳光高考网 · 杭州医学院 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "高考100·院校满意度",
+          "url": "https://gk100.com/daxueku/manyidu_1472.htm",
+          "summary": "高考100镜像阳光高考：综合4.2(935人)、环境4.3(1026人)、生活3.9(901人)，与阳光高考页一致。",
+          "collectedAt": "2026-09-13"
+        }
+      ],
+      "note": "阳光高考院校满意度页(综合1038人/环境1259人/生活1008人投票)，三项分数与高考100镜像一致。"
+    },
+    "dormitory": {
+      "description": "临安校区以4人间为主，独立卫生间+淋浴间+热水、可租空调；滨江校区4或6人间，设施相对旧一些。",
+      "score": null,
+      "source": "杭州医学院招生网、好教高考",
+      "highlights": [
+        "临安校区较新，四人寝上床下桌、独卫独浴",
+        "每层开水间、电吹风房、自助洗衣房",
+        "空调可租，配置较齐全"
+      ],
+      "drawbacks": [
+        "滨江校区宿舍相对老旧",
+        "晚上11点后断电断网(插板仍有电)",
+        "临安校区位置偏"
+      ],
+      "platforms": [
+        {
+          "name": "官方|招生网",
+          "url": "https://zs.hmc.edu.cn/art/2020/7/7/art_2403_156966.html",
+          "summary": "临安校区每间4人，独立卫生间+淋浴间+热水，可租空调，每层开水间电吹风房+自助洗衣房；滨江校区4或6人，省教育发展中心管理。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "好教高考",
+          "url": "http://www.haojiao.net/zjyxdt/20250812/809496.html",
+          "summary": "临安四人寝上床下桌独卫独浴空调；11点后断电断网(插板仍有电)；滨江校区稍旧，临安设施新；整体临安住宿评价较好。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "整理自学长学姐评价"
+        },
+        {
+          "name": "阳光高考·校园生活",
+          "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%9D%AD%E5%B7%9E%E5%8C%BB%E5%AD%A6%E9%99%A2",
+          "summary": "杭州医学院住宿4~6人间，住宿费1000~1200元/学年；生活评分3.9，环境评分4.2，综合评分4.2。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "搜狗聚合的阳光高考校园生活页"
+        }
+      ],
+      "note": "未查到小红书/知乎/虎扑等可直达帖子；『杭医袋鼠邦』公众号新生攻略提及临安六人间不断电不断水、门禁，但无文章直达链接未收录。"
+    }
+  },
+  {
+    "id": "lsu",
+    "name": "丽水学院",
+    "satisfaction": {
+      "overall": 4.2,
+      "environment": 4.4,
+      "life": 4.2,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-270.dhtml",
+      "sourceTitle": "阳光高考网 · 丽水学院 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "高考100·院校满意度",
+          "url": "https://gk100.com/daxueku/manyidu_787.htm",
+          "summary": "高考100镜像阳光高考：综合4.2(1886人)、环境4.4(1991人)、生活4.2(1768人)，与阳光高考页一致。",
+          "collectedAt": "2026-09-13"
+        }
+      ],
+      "note": "阳光高考院校满意度页(综合2019人/环境2344人/生活1904人投票)，三项分数与高考100镜像一致。"
+    },
+    "dormitory": {
+      "description": "莲都校区公寓600–1200元/年，4/5/6人间，全部装空调，配自习室、洗衣机、开水器、空气能热水器；部分六人间为公卫。",
+      "score": null,
+      "source": "搜狐校园报道、未来人才聚合站、阳光高考校园生活",
+      "highlights": [
+        "空调全覆盖、空气能热水器",
+        "公寓配自习室、洗衣机、开水器",
+        "东16幢带电梯，被称为『最豪华寝室』"
+      ],
+      "drawbacks": [
+        "六人公卫无阳台宿舍被认为空间局促",
+        "上课期间23:00断网",
+        "依分院分配，房型条件不一"
+      ],
+      "platforms": [
+        {
+          "name": "搜狐",
+          "url": "https://www.sohu.com/a/332891172_671398",
+          "summary": "丽水学院四大书院，每寝装空调有热水；4人寝独卫、6人寝公卫；上课期间23:00断网、24h通电，公寓6:00开门23:00关门。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "学校官方新媒体发布"
+        },
+        {
+          "name": "未来人才(保定)",
+          "url": "http://hbwlrc.cn:83/NewSchoolInfo.ashx?Type=School&Year=2024&Name=丽水学院&wl=理&Batch=本科",
+          "summary": "4/5/6人间费用960–1600元/年，空调全覆盖、空气能热水器；东16幢带电梯；六人公卫无阳台被评空间局促。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "聚合站"
+        },
+        {
+          "name": "阳光高考·校园生活",
+          "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E4%B8%BD%E6%B0%B4%E5%AD%A6%E9%99%A2",
+          "summary": "住宿费600–1200元/年，公寓配文体活动室、自习室、洗衣机、开水器、空气能热水器，全部装空调，以分院为单位统一分配。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "搜狗聚合的阳光高考校园生活页"
+        }
+      ],
+      "note": "未查到虎扑/知乎/小红书等可直达帖子链接；以上为媒体与聚合站来源。"
+    }
+  },
+  {
+    "id": "jxnh",
+    "name": "嘉兴南湖学院",
+    "satisfaction": {
+      "overall": 4.1,
+      "environment": 3.8,
+      "life": 3.8,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/1636",
+      "sourceTitle": "阳光高考网 · 嘉兴南湖学院 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "高考100·院校满意度",
+          "url": "https://gk100.com/read_347714.htm",
+          "summary": "高考100镜像阳光高考：综合4.1(734人)、环境4.2(807人)、生活3.8(694人)；阳光高考wap环境为3.8，以wap为准。",
+          "collectedAt": "2026-09-13"
+        }
+      ],
+      "note": "阳光高考wap页：综合满意度4.1(1004人)、环境满意度3.8(793人)；生活满意度折叠未直读，采用高考100/高三网镜像(生活3.8)补录。"
+    },
+    "dormitory": {
+      "description": "越秀校区公寓，女生多为4人间或教室改造的8人间(上床下桌)、无独卫用公共浴室；男生部分无独卫无阳台；住宿费640–1600元/年，空调需租赁。",
+      "score": null,
+      "source": "嘉兴南湖学院招生网(章程/入学须知)、好教高考、未来人才",
+      "highlights": [
+        "空调全覆盖(需租赁)",
+        "公寓八8人间空间大、上床下桌",
+        "大二多可换4人间独浴独卫"
+      ],
+      "drawbacks": [
+        "部分宿舍无独卫、用公共浴室",
+        "老宿舍无阳台、8人间隐私性差",
+        "熄灯与网络限制引部分学生不满"
+      ],
+      "platforms": [
+        {
+          "name": "官方|招生网·招生章程",
+          "url": "https://zsb.jxnhu.edu.cn/info/1077/4787.htm",
+          "summary": "嘉兴南湖学院2026招生章程：住宿费按政府及学校规定收取，学生住宿费不超过1600元/生·学年，按实际入住寝室标准缴纳。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "官方|新生入学须知(PDF)",
+          "url": "https://zsb.jxnhu.edu.cn/__local/5/FF/B3/984F5F6E15A27343634D1235BE2_B3C01BF1_A38BA2.pdf",
+          "summary": "2024级新生入学须知：住宿费960–1600元/年；空调租赁四年1700元/台，按寝室分摊；床上用品可自愿网上订购。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "好教高考",
+          "url": "http://www.haojiao.net/zjyxdt/20250812/809746.html",
+          "summary": "学长学姐评：大一女生多住公寓八8人寝(上床下桌)无独浴独卫用公共浴室；大二换4人间带独浴独卫；男生部分无独卫无阳台。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "整理自学长学姐评价"
+        },
+        {
+          "name": "未来人才(保定)",
+          "url": "http://hbwlrc.cn:83/NewSchoolInfo.ashx?Batch=本科&Name=嘉兴南湖学院&Type=School&Year=2025&wl=理",
+          "summary": "4–6人间，部分女生入住教室改造8人间；住宿费640–1600元/年，空调需租赁；不足：部分无独卫、8人间隐私差、熄灯断网引不满。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "聚合站"
+        }
+      ],
+      "note": "未查到虎扑/知乎/小红书/抖音/贴吧可直达帖子；新生指南类内容为聚合整理，已标注来源。"
+    }
+  },
+  {
+    "id": "wku",
+    "name": "温州肯恩大学",
+    "satisfaction": {
+      "overall": 3.8,
+      "environment": 4.3,
+      "life": 3.9,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-976553154,categoryId-976553158,mindex-1.dhtml",
+      "sourceTitle": "阳光高考网 · 温州肯恩大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "高三网·院校满意度",
+          "url": "https://m.gaosan.com/gaokao/1506959.html",
+          "summary": "高三网：综合3.8(145人)、环境4.3(185人)、生活3.9(144人)；阳光高考wap未直读，采用此同源数据。",
+          "collectedAt": "2026-09-13"
+        }
+      ],
+      "note": "阳光高考院校信息库页含院校满意度，wap评分未直读；三项分数采用高三网(同源阳光高考数据)补录，投票人数较少(约145人)，建议复核。"
+    },
+    "dormitory": {
+      "description": "温肯宿舍为美式公寓：高床/低床四人间、套间、双人间、单人间，均24h热水、不断电、免费WiFi、空调、独立卫浴；公共设施含健身房、厨房、洗衣房。",
+      "score": null,
+      "source": "温州肯恩大学官网·公寓介绍、学杂费标准、未来人才",
+      "highlights": [
+        "独立卫浴、空调、24h热水、不断电、免费WiFi",
+        "房型多样(套间/双人间/单人间)私密性好",
+        "楼栋配健身房、厨房、洗衣房、自习室"
+      ],
+      "drawbacks": [
+        "学费及住宿费远超普通公办(普通专业6.5万/年)",
+        "地处瓯海丽岙，距市区打车40–60分钟，位置偏"
+      ],
+      "platforms": [
+        {
+          "name": "官方|温州肯恩大学·公寓介绍",
+          "url": "https://wku.edu.cn/zh-hans/node/3338",
+          "summary": "十栋公寓，房型含高床四人间、四人套间、双人间、单人间；寝室内24h热水、不断电、免费WiFi、空调、独立淋浴卫浴；楼配台球室健身房洗衣房。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "官方|学杂费标准",
+          "url": "https://www.wku.edu.cn/zh-hans/jgsz/cwb/pfwj",
+          "summary": "学生公寓收费标准公示页：热水40元/吨、冷水3.5元/吨、电费0.54元/度；住宿费按房型面积浮动，每学年按十个月计(不含暑假)。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "未来人才(保定)",
+          "url": "http://hbwlrc.cn:83/phone/NewSchoolInfo.ashx?Type=School&Year=2024&Name=温州肯恩大学&wl=理&Batch=本科",
+          "summary": "三种房型：高端四人套间(两室一厅一卫)、温馨双人间、豪华单人间，独立卫浴空调24h热水WiFi，部分楼栋电梯；不足：费用高、位置偏。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "聚合站"
+        }
+      ],
+      "note": "未查到虎扑/知乎/小红书等可直达帖子；费用高与位置偏为该校普遍反馈。"
+    }
+  },
+  {
+    "id": "unnc",
+    "name": "宁波诺丁汉大学",
+    "satisfaction": {
+      "overall": 4.7,
+      "environment": 4.9,
+      "life": 4.0,
+      "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-405725.dhtml",
+      "sourceTitle": "阳光高考网 · 宁波诺丁汉大学 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "高考100·院校满意度",
+          "url": "https://m.gk100.com/read_18317804.htm",
+          "summary": "高考100镜像阳光高考：综合4.7(717人)、环境4.9(765人)、生活4.0(716人)，与阳光高考页一致。",
+          "collectedAt": "2026-09-13"
+        }
+      ],
+      "note": "阳光高考院校满意度页，三项分数与高考100镜像一致；环境满意度4.9为全省高位，生活满意度4.0相对偏低。"
+    },
+    "dormitory": {
+      "description": "宁诺本科生以四人间为主(3000–4500元/年)，另有单人间(最高1.6万/年)、单人四套间、八人四套间；均空调、独立卫浴、楼栋配电梯与洗衣房。",
+      "score": null,
+      "source": "宁波诺丁汉大学官网·学生公寓、社区生活、阳光高考校园生活",
+      "highlights": [
+        "空调、独立卫浴、楼栋电梯与洗衣房",
+        "房型选择多(四人间/套间/单人间)",
+        "环境满意度全省居前(4.9)"
+      ],
+      "drawbacks": [
+        "住宿费跨度大，单人间高达1.6万/年",
+        "生活满意度仅4.0，相对偏低",
+        "普通四人间住宿费高于多数公办院校"
+      ],
+      "platforms": [
+        {
+          "name": "官方|宁波诺丁汉大学·学生公寓",
+          "url": "https://www.nottingham.edu.cn/cn/accommodation/home.aspx",
+          "summary": "四人间3000–4500元/年(含热水电费额度、免费网络、月度保洁)；单人间1.6万/年；单人四套间8000–1.1万/年；均空调、独立卫浴、楼配电梯洗衣房。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "官方|社区生活",
+          "url": "https://www.nottingham.edu.cn/cn/department-of-campus-life/%E7%A4%BE%E5%8C%BA%E7%94%9F%E6%B4%BB/%E7%A4%BE%E5%8C%BA%E7%94%9F%E6%B4%BB.aspx",
+          "summary": "四种房型：四人间上床下桌、八人四套间、四人套间、单人间；公寓配电梯、冰箱、自助洗衣房、微波炉、直饮水；宿管7×24服务。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "阳光高考·校园生活",
+          "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E5%AE%81%E6%B3%A2%E8%AF%BA%E4%B8%81%E6%B1%89%E5%A4%A7%E5%AD%A6",
+          "summary": "本科四人间收费2000元/年，房配家具、电话、空调、热水、网络接口；生活评分4.0、环境评分4.9、综合4.7。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "搜狗聚合的阳光高考校园生活页"
+        }
+      ],
+      "note": "未查到虎扑/知乎/小红书等可直达帖子；生活满意度偏低(4.0)为阳光高考与多源一致反馈。"
+    }
+  },
+  {
+    "id": "zyu",
+    "name": "浙江越秀外国语学院",
+    "satisfaction": {
+      "overall": 4.0,
+      "environment": 3.4,
+      "life": 3.4,
+      "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/1273",
+      "sourceTitle": "阳光高考网 · 浙江越秀外国语学院 院校满意度",
+      "sourceYear": 2026,
+      "collectedAt": "2026-09-13",
+      "alternates": [
+        {
+          "name": "高考100·院校满意度",
+          "url": "https://gk100.com/daxueku/manyidu_1363.htm",
+          "summary": "高考100镜像阳光高考：综合3.8(1297人)、环境4.1(1429人)、生活3.4(1244人)；阳光高考wap综合为4.0/环境3.4，以wap为准。",
+          "collectedAt": "2026-09-13"
+        }
+      ],
+      "note": "阳光高考wap页：综合满意度4.0(1815人)、环境满意度3.4(1455人)；生活满意度折叠未直读，采用高考100镜像(生活3.4)补录。民办院校，满意度全省最低档。"
+    },
+    "dormitory": {
+      "description": "越秀宿舍4/6人间为主，镜湖校区较新(四人寝上床下桌、独卫阳台)，稽山校区部分六人间上下铺；均空调(租赁)、独立卫浴、热水器。",
+      "score": null,
+      "source": "浙江越秀外国语学院招生网、数字贸易学院新生指南、大学鹿、好教高考",
+      "highlights": [
+        "镜湖新校区四人寝上床下桌、独卫阳台",
+        "空调、独立卫浴、热水器齐全",
+        "宿舍楼配洗衣房、开水间"
+      ],
+      "drawbacks": [
+        "稽山老校区部分六人间上下铺、空间小、设施旧",
+        "空调需额外租赁(约340元/间·年)",
+        "洗澡热水仅早中晚三时段供应",
+        "生活满意度低(3.3–3.4)"
+      ],
+      "platforms": [
+        {
+          "name": "官方|招生网·考生问答",
+          "url": "https://zs.zyufl.edu.cn/2021/0623/c1270a43289/page.htm",
+          "summary": "招生网：宿舍主要4/6人间，含空调、独立卫生间、热水器，每栋配洗衣房开水间；两校区4个大型食堂与美食城。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "官方|数字贸易学院·新生指南",
+          "url": "https://jm.zyufl.edu.cn/2024/0929/c3089a68499/page.htm",
+          "summary": "镜湖校区寝室上床下桌，4或6人间，配阳台、洗漱台、独立卫生间与空调；每栋楼下洗衣房自助洗衣机；床帘建议高120cm。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": ""
+        },
+        {
+          "name": "大学鹿",
+          "url": "https://m.daxuelu.com/academy/sushe/788.html",
+          "summary": "镜湖四人寝为主少量六人，上床下桌有独卫阳台热水空调；稽山四/六人间混合，部分上下铺；空调租赁340元/间·年。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "聚合站，整理自学长学姐评价"
+        },
+        {
+          "name": "好教高考",
+          "url": "http://www.haojiao.net/zjyxdt/20250812/809467.html",
+          "summary": "稽山多六人寝上下铺有独卫阳台空调；镜湖新校区设施好；洗澡热水仅早中晚三时段供应，其余时间不开放。",
+          "rating": null,
+          "collectedAt": "2026-09-13",
+          "note": "整理自学长学姐评价"
+        }
+      ],
+      "note": "民办院校，生活满意度全省最低档；未查到虎扑/知乎/小红书等可直达帖子；热水限时与老校区陈旧为一致反馈。"
+    }
+  }
+]

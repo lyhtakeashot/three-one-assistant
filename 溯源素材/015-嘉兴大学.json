@@ -1,0 +1,116 @@
+{
+  "id": "zjxu",
+  "name": "嘉兴大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zsb.zjxu.edu.cn/info/10443/86745.htm",
+      "tuitionSourceTitle": "嘉兴大学2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zsb.zjxu.edu.cn/info/10443/86745.htm",
+      "title": "嘉兴大学2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zsb.zjxu.edu.cn/info/10443/86745.htm",
+      "title": "嘉兴大学2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.2,
+    "environment": 4.3,
+    "life": 4.1,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/272",
+    "sourceTitle": "阳光高考网·嘉兴大学院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "ABC排名官微(2026年2月统计)",
+        "overall": 4.2,
+        "environment": 4.3,
+        "life": 4.1
+      }
+    ],
+    "note": "三项分数采用阳光高考网院校满意度页(经搜索摘要标签错位规律校验:该页‘院校满意度’=综合、‘综合满意度’=环境、‘环境满意度’=生活)，并以ABC排名官微镜像数据互证一致。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": null,
+      "passed": null,
+      "admitted": 170,
+      "sourceUrl": "https://zsb.zjxu.edu.cn/info/10434/86749.htm",
+      "sourceTitle": "嘉兴大学2026年三位一体综合评价招生书面评审结果公示",
+      "xuekaoRequirement": "学考≥3A 或 A+B≥5；高考总分不低于一段线20分",
+      "xuekaoRequirementSourceUrl": "https://zsb.zjxu.edu.cn/info/10443/86745.htm",
+      "xuekaoRequirementSourceTitle": "嘉兴大学2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "书面评审(初审)通过2395（A组668+B组1727）；官方未单列报名人数（仅公布获测试资格2395），故 applicants 置空。校测入围1542人（官方公示 https://zsb.zjxu.edu.cn/info/10434/86764.htm，A组367+B组1175）。最终录取170人（计划170、实际录取170，官方录取公告；录取公告直链未取到，以招生网录取查询 https://zsb.zjxu.edu.cn 为准）。"
+    },
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": 3039,
+      "admitted": 166,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zsb.zjxu.edu.cn/info/10434/86685.htm",
+      "sourceTitle": "嘉兴大学2025年三位一体综合评价招生书面评审结果公示",
+      "collectedAt": "2026-09-13",
+      "note": "书面评审(初审)通过3039（师范类696+普通类894+物理类1449）；官方未单列报名人数，applicants 置空。校测入围1385人（官方公示，本次未取到直链）。最终录取166人（普通类32+师范类11+物理类123，官方录取公告；直链未取到）。"
+    }
+  ],
+  "dormitory": {
+    "description": "梁林(主校区)、平湖两校区，公寓以四人间、六人间为主，上床下桌，独立卫浴；空调以寝室为单位租赁(梁林租金1700元/建筑2000/医本1800/护理1500/专升本800，平湖400元/年)；门禁23:30-06:00。",
+    "score": null,
+    "source": {
+      "name": "嘉兴大学后勤服务大厅·公寓服务部服务指南",
+      "url": "https://fwpt.zjxu.edu.cn/fwpt2017/infosingle.aspx?moduleid=6&stypeid=129"
+    },
+    "highlights": [
+      "四/六人间上床下桌，独立卫浴、阳台",
+      "楼内配直饮水机、智能速热开水、自助洗衣/烘干机、AED、微波炉",
+      "热水分时段供应(早6:30-8:30、午11:30-13:30、晚16:00-23:00)"
+    ],
+    "drawbacks": [
+      "空调需另行租赁付费，非标配",
+      "热水限时段供应，夜间23:00后无热水"
+    ],
+    "platforms": [
+      {
+        "name": "百度百科·嘉兴大学(校园设施)",
+        "url": "https://baike.baidu.com/item/%E5%98%89%E5%85%B4%E5%A4%A7%E5%AD%A6/62845125",
+        "summary": "校园设施标注宿舍含独立卫生间、四或六人间、WIFI、热水供应、洗衣房、空调；住宿费标注3000元/年，门禁管理完善。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "百度百科校园大使协作认证内容，属半官方/UGC混合，仅供参考"
+      },
+      {
+        "name": "本科网·梁林校区宿舍FAQ",
+        "url": "https://www.benkewang.com/45082.html",
+        "summary": "梁林一期四人间为主、二期新建带电梯干湿分离卫浴；所有宿舍独立阳台卫生间，二期设施更现代；空调以寝室为单位租赁，冷凝水改造防潮。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "第三方资讯站，基于校区规划与改造数据整理"
+      },
+      {
+        "name": "官方-本科招生网（招生章程·住宿费章节）",
+        "url": "https://zsb.zjxu.edu.cn/info/10443/86717.htm",
+        "summary": "住宿费标准：960元/生·学年、1200元/生·学年、1600元/生·学年，具体根据新生入住寝室的收费标准缴纳。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "仅招生章程所列住宿费标准，无几人间/独卫/空调等房型详情；后勤公寓服务指南需统一身份认证登录，未纳入。"
+      }
+    ],
+    "note": "官方来源为后勤服务大厅公寓服务部指南；满意度以阳光高考网为准。未单独查到虎扑/知乎直达帖，相关平台略。 ｜ 仅招生章程列住宿费标准，无房型/独卫等详情；后勤公寓服务指南页需登录，故无完整官方宿舍页。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

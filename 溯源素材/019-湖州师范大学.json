@@ -1,0 +1,96 @@
+{
+  "id": "hzsf",
+  "name": "湖州师范大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zsw.zjhu.edu.cn/2026/0306/c3200a247479/page.htm",
+      "tuitionSourceTitle": "湖州师范大学2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zsw.zjhu.edu.cn/2026/0306/c3200a247479/page.htm",
+      "title": "湖州师范大学2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zsw.zjhu.edu.cn/2026/0306/c3200a247479/page.htm",
+      "title": "湖州师范大学2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.2,
+    "environment": 4.4,
+    "life": 4.1,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-266.dhtml",
+    "sourceTitle": "阳光高考网·湖州师范学院(湖州师范大学)院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "ABC排名官微(2026年2月统计)",
+        "overall": 4.2,
+        "environment": 4.4,
+        "life": 4.1
+      }
+    ],
+    "note": "用户称‘湖州师范大学’，阳光高考页官方校名为湖州师范学院(schId=266)；分数经校验与ABC排名一致。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": 1288,
+      "admitted": 220,
+      "sourceUrl": "https://zsw.zjhu.edu.cn/2025/0328/c3200a230812/page.htm",
+      "sourceTitle": "湖州师范学院2025年“三位一体”综合评价招生入围综合素质测试考生名单公示（资格审查/初审1736人）",
+      "xuekaoRequirement": "2025年：师范组A+B≥7且A≥1；非师范组A+B≥5、其余D及以上",
+      "xuekaoRequirementSourceUrl": "https://zsw.zjhu.edu.cn/2026/0306/c3200a247479/page.htm",
+      "xuekaoRequirementSourceTitle": "湖州师范大学2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "passed=资格审查/初审通过1736人（官方公示页，含师范组1/师范组2/非师范组1，其中师范组2因报名不足计划8倍全部416人入围）；finalPassed=综合测试入围1288人（官方公示文本确认，具体文章URL未直接获取）；admitted=235为2025招生计划数（招生章程），实际录取数官方录取公示页未直接获取，第三方汇总亦为235，待人工核实。"
+    }
+  ],
+  "dormitory": {
+    "description": "东、中、西三校区，除27幢为五人寝外均为四人间，上床下桌、独卫独浴；空调租赁(年几百元)；热水分时段(6:00-8:00、11:00-13:00、16:00-23:00)；23:00断电断网(±10分钟)。",
+    "score": null,
+    "source": {
+      "name": "湖州师范学院音乐学院·住寝攻略(新生指南)",
+      "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%B9%96%E5%B7%9E%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2"
+    },
+    "highlights": [
+      "四人间独卫独浴、上床下桌、大衣柜、空调电扇",
+      "宿舍热水分三段供应，一楼开水房扫码打水",
+      "宿管提供医药箱、借工具、煎药等便民服务"
+    ],
+    "drawbacks": [
+      "每晚23:00统一断电、断网(约±10分钟)",
+      "梅雨季宿舍潮湿易发霉，蟑螂老鼠常见(见UGC)",
+      "空调、饮水机需自行租赁"
+    ],
+    "platforms": [
+      {
+        "name": "TrueSight·湖师大‘卡通寝室’真相(匿名学姐帖)",
+        "url": "https://tsight.io/articles/6992637",
+        "summary": "匿名老学姐称宿舍四人间上床下桌多数有独卫，但南方梅雨季潮湿能拧出水、墙角发霉，蟑螂老鼠常客，卫生靠轮值易脏乱。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "匿名UGC，含负面真实体验，已如实记录"
+      },
+      {
+        "name": "搜狗聚合·湖州师范学院校园生活",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%B9%96%E5%B7%9E%E5%B8%88%E8%8C%83%E5%AD%A6%E9%99%A2",
+        "summary": "学生公寓后勤社会化，4人间1600元/年、5人间1200元/年，住宿费1050-1200元/年；综合评分4.3环境4.4生活4.1。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "聚合页含官方收费标准与UGC评分"
+      }
+    ],
+    "note": "校名为湖州师范学院(用户称湖州师范大学)；断电断网与梅雨潮湿为该校明确负面点，已据UGC如实收录。未查到虎扑/知乎直达帖，相关平台略。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

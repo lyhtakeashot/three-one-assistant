@@ -1,0 +1,270 @@
+[
+  {
+    "id": "nyush", "name": "上海纽约大学", "shortName": "上纽", "aliases": ["上纽", "NYU Shanghai"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "前滩校园", "address": "上海市浦东新区杨思西路567号"}],
+      "website": "https://shanghai.nyu.edu/cn/zsb", "admissionsPhone": "021-20595599", "consultQQ": null,
+      "tuitionGeneral": "第一、二学年20万元/年，第三、四学年23万元/年(2026年入学)", "tuitionSinoForeign": null, "healthRestrictions": null
+    },
+    "formula": {"xuekao": {}, "xiaokao": {"fullScore": null}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0, "xiaokao": 0, "gaokao": 1}},
+    "formulaNote": "综合评价招生，不设加权综合分：校园日表现决定「预录取(A)/待录取(B)」资格，高考成绩达浙江省特控线后按资格录取；高考为唯一硬性分数门槛",
+    "formulaSource": {"year": 2026, "title": "上海纽约大学2026年本科招生简章(中国大陆学生)", "url": "https://shanghai.nyu.edu/cn/zsb/fangan/mainland"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "both", "contentSummary": "全程英语的“校园日活动”，重点考察英语运用能力、求知欲、领导力、学习能力、适应能力、沟通表达能力、心理素质、团队精神等综合素质及与学校匹配度", "tips": "须提交英语语言测试成绩(托福/雅思/多邻国等)并由官方机构送分；校园日表现决定A/B资格，非按加权分排序"},
+    "transferRestriction": {"restricted": false, "detail": "入学不分专业，学生通过核心课程探索后最迟于大二结束前自主确定专业方向"},
+    "majors": [
+      {"name": "金融学(商学与金融)", "category": "商学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "经济学", "category": "商学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "计算机科学与技术(计算机科学)", "category": "计算机与工程", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "数据科学与大数据技术(数据科学)", "category": "计算机与工程", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "电子信息工程(电子工程)", "category": "计算机与工程", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "数学与应用数学(数学)", "category": "自然科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "物理学", "category": "自然科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "化学", "category": "自然科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "生物科学", "category": "自然科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "神经科学", "category": "自然科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "世界史(全球中国学/社会科学/综合人文)", "category": "人文社科", "requiredSubjects": ["不限"], "planCount": null}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": null, "passed": null, "admitted": 9, "minScore": 602, "avgScore": null, "xuekaoRequirement": "浙江2025年综合评价录取9人，高考分数区间602–653(纯高考分)。招生计划不分省；须达浙江省特殊类型招生控制线"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名(本科申请系统)", "description": "登录上海纽约大学本科申请系统实名注册，填写信息、上传材料并完成一篇文书", "deadline": "2026年2月1日", "materials": ["实名注册并填写申请系统", "完成一篇文书", "打印《校园日活动申请表》"]},
+      {"step": 2, "title": "寄送纸质申请材料", "description": "向招生办寄送书面申请材料", "deadline": "2026年2月1日", "materials": ["加盖公章的高中成绩单(含排名)", "学业水平考试成绩", "综合素质评价材料"]},
+      {"step": 3, "title": "填报英语测试成绩并送分", "description": "在申请系统填报英语测试成绩并由官方机构送分", "deadline": "2026年2月1日", "materials": ["托福/雅思/多邻国等英语测试成绩"]}
+    ],
+    "brochureUrl": "https://shanghai.nyu.edu/cn/zsb/fangan/mainland"
+  },
+  {
+    "id": "dku", "name": "昆山杜克大学", "shortName": "昆杜", "aliases": ["昆杜", "DKU"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "昆山校区", "address": "江苏省苏州市昆山市杜克大道8号"}],
+      "website": "https://admissions.dukekunshan.edu.cn", "admissionsPhone": "0512-36657028", "consultQQ": "425667325",
+      "tuitionGeneral": "2026年学费待定(2025年为19万元/学年)；住宿费1.65万元/学年(双人间)", "tuitionSinoForeign": null, "healthRestrictions": null
+    },
+    "formula": {"xuekao": {}, "xiaokao": {"fullScore": null}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0, "xiaokao": 0.40, "gaokao": 0.60}},
+    "formulaNote": "6-4模式：高考成绩60%+自主综合评估40%；2026年取消学业水平考试单独计分(2025年为5-4-1模式)，故学考权重记0",
+    "formulaSource": {"year": 2026, "title": "昆山杜克大学2026年本科综合评价招生简章(中国内地学生)", "url": "https://admissions.dukekunshan.edu.cn"},
+    "examFormat": {"hasWrittenTest": true, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": ["英文写作测试"], "interviewFormat": "individual", "contentSummary": "校园日含面试(1名考生对2名面试官)与笔试(英文写作测试)，全程英语，考察综合知识基础、思维能力、创新潜质、求知欲、团队精神、英语口头及书面表达能力", "tips": "2026年申请阶段新增人工智能(AI)面试；初审通过后受邀参加校园日；2026年取消学考单独计分"},
+    "transferRestriction": {"restricted": false, "detail": "入学不分专业，学生经自由选课后最迟于大二末自主选择专业(14个本科专业方向)"},
+    "majors": [
+      {"name": "材料科学与工程", "category": "自然科学/工程", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "数学与应用数学", "category": "自然科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "生物科学", "category": "自然科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "化学", "category": "自然科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "全球健康学", "category": "自然科学/社会科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "环境科学", "category": "自然科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "国际事务与国际关系", "category": "社会科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "历史学", "category": "人文", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "数据科学与大数据技术", "category": "计算机", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "经济学", "category": "社会科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "数字媒体艺术", "category": "艺术/跨学科", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "英语", "category": "人文", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "心理学", "category": "社会科学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "计算机科学与技术", "category": "计算机", "requiredSubjects": ["不限"], "planCount": null}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": null, "passed": null, "admitted": 23, "minScore": 610, "avgScore": null, "xuekaoRequirement": "浙江2025年综合评价录取23人，高考分数区间610–661(纯高考分)。全国不分省计划；入围考生高考须达浙江省特殊类型招生控制线"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "Slate系统提交申请", "description": "通过Slate入学申请系统提交申请，分两个轮次", "deadline": "第一轮2026年1月3日；第二轮2026年2月5日", "materials": ["注册Slate系统"]},
+      {"step": 2, "title": "提交材料并缴纳评估费", "description": "在系统内提交书面申请材料并缴费", "deadline": "2026年2月5日", "materials": ["高中成绩单(加盖公章含排名)", "综合素质评价表及荣誉证明(非必须)", "标准化考试成绩(非必须)", "评估费60元/人"]},
+      {"step": 3, "title": "人工智能(AI)面试", "description": "在招办指定窗口期内完成AI面试", "deadline": "2026年3月上旬", "materials": ["完成AI面试"]},
+      {"step": 4, "title": "校园日活动(面试+英文写作)", "description": "初审通过者受邀到校参加校园日考核", "deadline": "2026年3月中下旬", "materials": ["参加面试与英文写作测试"]}
+    ],
+    "brochureUrl": "https://admissions.dukekunshan.edu.cn"
+  },
+  {
+    "id": "bfsu", "name": "北京外国语大学", "shortName": "北外", "aliases": ["北外", "BFSU"], "type": "ministry",
+    "info": {
+      "campuses": [{"name": "东校区", "address": "北京市海淀区西三环北路2号"}, {"name": "西校区", "address": "北京市海淀区西三环北路19号"}],
+      "website": "https://joinus.bfsu.edu.cn", "admissionsPhone": "010-88816254", "consultQQ": "741177486",
+      "tuitionGeneral": "外国语言文学类等专业6000元/学年", "tuitionSinoForeign": null, "healthRestrictions": null
+    },
+    "formula": {"xuekao": {}, "xiaokao": {"fullScore": 50}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0, "xiaokao": 0.30, "gaokao": 0.70}},
+    "formulaNote": "综合评价成绩=高考实考分×70%+能力测试成绩×30%；能力测试为面试(满分50)，学考不单独计分",
+    "formulaSource": {"year": 2026, "title": "北京外国语大学2026年一带一路外语专业综合评价招生简章", "url": "https://joinus.bfsu.edu.cn/info/1072/11494.htm"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "individual", "contentSummary": "能力测试为面试，满分50分，含外语口试(25分)与中文面试(25分)；复语考生须加试口试(满分5分，达3分及以上作为附加分计入)", "tips": "合格线：总分≥30且外语口试≥15、中文面试≥15；测试预计6月中旬在北京校区进行；报名取消成绩排名限制"},
+    "transferRestriction": {"restricted": false, "detail": "综合评价录取考生入学后一年级下学期起可申请转专业，人数不超过本专业20%，原则上转入下一年级"},
+    "majors": [
+      {"name": "日语", "category": "文学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "俄语", "category": "文学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "德语", "category": "文学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "法语", "category": "文学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "西班牙语", "category": "文学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "葡萄牙语", "category": "文学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "阿拉伯语", "category": "文学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "意大利语", "category": "文学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "朝鲜语", "category": "文学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "俄语-大数据管理与应用双学位", "category": "文学(双学位)", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "德语-大数据管理与应用双学位", "category": "文学(双学位)", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "以及波斯语、希伯来语、土耳其语、斯瓦希里语等小语种专业(共37个专业及方向)", "category": "文学(小语种)", "requiredSubjects": ["不限"], "planCount": null}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": null, "passed": null, "admitted": 28, "minScore": 643.62, "avgScore": 651.94, "xuekaoRequirement": "浙江2025年综合评价录取28人；最低分643.62为综合评价成绩(=高考实考分×70%+能力测试×30%)，非纯高考分。高考实考分须达浙江省特殊类型招生控制线"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录北外本科招生网网上报名系统填写并提交材料，无需邮寄纸质材料", "deadline": "2026年4月26日24:00", "materials": ["填写报名材料", "推荐信、个人陈述视频(中+外语语种)"]},
+      {"step": 2, "title": "初审", "description": "专家组评审报名材料，评定“通过/未通过”并公示", "deadline": "2026年5月下旬", "materials": []},
+      {"step": 3, "title": "能力测试(面试)", "description": "初审通过者确认参加并在北京校区参加面试", "deadline": "2026年6月中旬", "materials": ["系统确认参加能力测试", "外语口试+中文面试(满分50)"]}
+    ],
+    "brochureUrl": "https://joinus.bfsu.edu.cn/info/1072/11494.htm"
+  },
+  {
+    "id": "shtech", "name": "上海科技大学", "shortName": "上科大", "aliases": ["上科大", "ShanghaiTech"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "浦东校区(主校区)", "address": "上海市浦东新区华夏中路393号"}, {"name": "岳阳路校区", "address": "上海市徐汇区岳阳路319号8号楼"}],
+      "website": "https://admission.shanghaitech.edu.cn", "admissionsPhone": "4009209393", "consultQQ": "748239654",
+      "tuitionGeneral": "7000元/学年；住宿费1200元/学年", "tuitionSinoForeign": null, "healthRestrictions": "参照《普通高等学校招生体检工作指导意见》"
+    },
+    "formula": {"xuekao": {}, "xiaokao": {"fullScore": 20}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0, "xiaokao": 0, "gaokao": 1}},
+    "formulaNote": "加分制而非加权：校园开放日成绩分A档20分/B档15分/C档10分，直接加到高考总分后排序录取；学考不单独计分",
+    "formulaSource": {"year": 2026, "title": "上海科技大学2026年综合评价招生简章", "url": "https://admission.shanghaitech.edu.cn"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "individual", "contentSummary": "以综合面试为主的“校园开放日”活动，由多名不同专业教授评审，考察综合素质、科学素养、创新思维、逻辑表达与发展潜力", "tips": "校园开放日成绩A档20分/B档15分/C档10分，直接计入高考总分后共同排序；未获成绩考生也可凭高考分填报"},
+    "transferRestriction": {"restricted": false, "detail": "录取即满足被录取考生第一专业志愿，入学后为符合条件的学生提供公开公正的再次选择专业机会"},
+    "majors": [
+      {"name": "物理学", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "化学", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "材料科学与工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "生物科学", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "生物技术", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "生物医学工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "电子信息工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "计算机科学与技术", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "数学与应用数学", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "工业设计", "category": "交叉/设计", "requiredSubjects": ["物理", "化学"], "planCount": null}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": null, "passed": null, "admitted": 28, "minScore": 648, "avgScore": null, "xuekaoRequirement": "浙江2025年综合评价录取28人，高考分数区间648–673(纯高考分)。所有省份均无单独浙江计划"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名(校园开放日)", "description": "登录报名系统在线填写“校园开放日”活动申请材料", "deadline": "2026年5月6日", "materials": ["自述信1封(800字内)", "自我介绍视频(3分钟内)", "高中成绩单及学业水平考试成绩", "其他证明材料"]},
+      {"step": 2, "title": "材料审核", "description": "学校审核申请材料，确定参加校园开放日名单", "deadline": "2026年5月底", "materials": []},
+      {"step": 3, "title": "校园开放日综合面试", "description": "通过初审者参加综合面试，获A/B/C档成绩", "deadline": "2026年6月10日–20日", "materials": ["参加综合面试"]}
+    ],
+    "brochureUrl": "https://admission.shanghaitech.edu.cn"
+  },
+  {
+    "id": "sustc", "name": "南方科技大学", "shortName": "南科大", "aliases": ["南科大", "SUSTech"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "深圳主校区", "address": "广东省深圳市南山区学苑大道1088号"}],
+      "website": "https://zs.sustech.edu.cn/", "admissionsPhone": "0755-88010500", "consultQQ": null,
+      "tuitionGeneral": "6000元/生·学年(物理学大类)", "tuitionSinoForeign": "135000元/生·学年(生物医学科学/生物医学工程 中外合作办学)", "healthRestrictions": null
+    },
+    "formula": {"xuekao": {"A": 7, "B": 6.5, "C": 6, "D": 5.5, "fullScore": 7}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.10, "xiaokao": 0.30, "gaokao": 0.60}},
+    "formulaNote": "631模式：高考60%+能力测试30%+学考10%；学考满分7分，按各科目等级赋分(A/B/C/D=7/6.5/6/5.5)取平均",
+    "formulaSource": {"year": 2026, "title": "南方科技大学2026年综合评价招生简章", "url": "https://zs.sustech.edu.cn/"},
+    "examFormat": {"hasWrittenTest": true, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": ["数学", "物理", "英语"], "interviewFormat": "group", "contentSummary": "能力测试含机试(数学40+物理40+英语20，满分100，选择题，难度高于高考、接近竞赛预赛)与小组面试(5人一组，含1分钟自我介绍、抽题作答、小组讨论、考官提问)。机试合格方可参加面试", "tips": "机试是核心拉分项(占校测25%、面试5%)；面试关注真实经历与独立思考，忌模板化回答"},
+    "transferRestriction": {"restricted": true, "detail": "生物医学科学(中外合作办学)、生物医学工程(中外合作办学)录取后不可转入其他专业；普通物理学大类学生入学后大一、大二自主选择专业"},
+    "majors": [
+      {"name": "物理学(大类招生)", "category": "物理学类", "requiredSubjects": ["物理", "化学"], "planCount": 56},
+      {"name": "生物医学科学(中外合作办学)", "category": "基础医学类", "requiredSubjects": ["物理", "化学"], "planCount": 1},
+      {"name": "生物医学工程(中外合作办学)", "category": "生物医学工程类", "requiredSubjects": ["物理", "化学"], "planCount": 1}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": null, "passed": null, "admitted": 60, "minScore": 639, "avgScore": null, "xuekaoRequirement": "2025年浙江综合评价录取60人，高考成绩区间约639–670(纯高考分)；平行志愿投档线660分"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录南科大本科招生报名系统(register.sustech.edu.cn)注册，上传自述信、高中成绩单等，资料完成度高于90%即报名成功", "deadline": "2026年4月30日", "materials": ["800字个人自述信", "高中成绩单(盖公章)", "获奖/特长证明(非必需)"]},
+      {"step": 2, "title": "材料初审", "description": "专家初审，5月中下旬公布初审通过(机试资格)名单", "deadline": "2026年5月中下旬", "materials": []},
+      {"step": 3, "title": "能力测试", "description": "6月13日全国统一机试；6月中下旬各省分别举行面试", "deadline": "2026年6月13日", "materials": []},
+      {"step": 4, "title": "志愿填报", "description": "高考后在提前批/综合评价试点批次第一志愿填报", "deadline": "", "materials": []}
+    ],
+    "brochureUrl": "https://zs.sustech.edu.cn/"
+  },
+  {
+    "id": "scut", "name": "华南理工大学", "shortName": "华工", "aliases": ["华工", "SCUT"], "type": "ministry",
+    "info": {
+      "campuses": [{"name": "广州国际校区", "address": "广东省广州市番禺区兴业大道东777号"}],
+      "website": "https://admission.scut.edu.cn/", "admissionsPhone": "020-87110737", "consultQQ": null,
+      "tuitionGeneral": "95000元/生·学年(广州国际校区综合评价专业)", "tuitionSinoForeign": null,
+      "healthRestrictions": "生物医学工程、软物质科学与工程(示范班)不招收色盲色弱考生"
+    },
+    "formula": {"xuekao": {"A": 0, "B": -12.5, "C": -25, "D": -75, "fullScore": 750}, "xiaokao": {"fullScore": 250}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.10, "xiaokao": 0.30, "gaokao": 0.60}},
+    "formulaNote": "631模式：高考60%+学校考核30%+学考10%；学考折算满分750分，6科合格性考试每出现一个B减12.5分、C减25分、D减75分(故本表学考A=0/B=-12.5/C=-25/D=-75)",
+    "formulaSource": {"year": 2026, "title": "华南理工大学2026年浙江省综合评价招生简章", "url": "https://xxgk.scut.edu.cn/2026/0407/c108a48738/page.htm"},
+    "examFormat": {"hasWrittenTest": true, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": ["数学", "物理", "化学", "英语"], "interviewFormat": "individual", "contentSummary": "学校考核含机试(满分150分，考查基础知识掌握及灵活运用)与面试(满分100分，多对一)。机试划定面试资格线，机试合格者入围面试；浙江考生线上参试", "tips": "机试侧重学科基础，面试重在综合素质；非英语语种考生须慎重报考(专业主要采用英语授课)"},
+    "transferRestriction": {"restricted": true, "detail": "综合评价录取考生在广州市国际校区专业就读，不可转入其他校区专业；国际校区内入校后有4次申请转专业的机会"},
+    "majors": [
+      {"name": "机器人工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "智能制造工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "微电子科学与工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "集成电路设计与集成系统", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "人工智能", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "数据科学与大数据技术", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "生物医学工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "软物质科学与工程(示范班)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": null, "passed": null, "admitted": 36, "minScore": 641, "avgScore": null, "xuekaoRequirement": "2025年浙江综合评价录取36人，高考分数区间641–659(来源网络，仅供参考)。高考投档成绩须达浙江省特殊类型招生控制线"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录高校特殊类型招生信息服务平台综合评价报名系统(bm.chsi.com.cn)完成网上报名", "deadline": "2026年5月7日17:00", "materials": ["个人陈述", "高中五次期末成绩+高三一次校级以上模考", "诚信承诺书(签字盖章)", "能力素养佐证(非必需)"]},
+      {"step": 2, "title": "材料初审", "description": "报名截止后组织专家初审，6月初公布初审通过名单", "deadline": "2026年6月初", "materials": []},
+      {"step": 3, "title": "学校考核", "description": "6月中旬组织机试与面试(机试合格方可入围面试)", "deadline": "2026年6月中旬", "materials": []},
+      {"step": 4, "title": "志愿填报", "description": "获入选资格考生在浙江省普通类提前批第一志愿填报", "deadline": "", "materials": []}
+    ],
+    "brochureUrl": "https://xxgk.scut.edu.cn/2026/0407/c108a48738/page.htm"
+  },
+  {
+    "id": "cuhksz", "name": "香港中文大学（深圳）", "shortName": "港中深", "aliases": ["港中深", "CUHK-SZ"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "深圳校区", "address": "广东省深圳市龙岗区龙翔大道2001号"}],
+      "website": "https://admissions.cuhk.edu.cn", "admissionsPhone": "0755-84273500", "consultQQ": null,
+      "tuitionGeneral": "140000元/生·学年", "tuitionSinoForeign": null, "healthRestrictions": null
+    },
+    "formula": {"xuekao": {"A": 0, "B": -1.5, "C": -2.25, "D": -7.5, "fullScore": 75}, "xiaokao": {"fullScore": 225}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.10, "xiaokao": 0.30, "gaokao": 0.60}},
+    "formulaNote": "631模式：高考60%+入学测试30%+学考10%；学考满分75分(占综合总分750的10%)，10门每出现一个B减1.5分、C减2.25分、D减7.5分(故本表学考A=0/B=-1.5/C=-2.25/D=-7.5)",
+    "formulaSource": {"year": 2026, "title": "香港中文大学（深圳）2026年浙江省三位一体综合评价招生简章", "url": "https://admissions.cuhk.edu.cn/node/2391"},
+    "examFormat": {"hasWrittenTest": true, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "individual", "contentSummary": "入学测试含初试(机考)与复试(中英文写作+面试)，于高考结束后、出分前举行。按不超过招生计划5倍确定入围名单", "tips": "机考+中英文写作为能力测试核心；入围后须在浙江省普通类提前录取第一院校志愿填报本校；课程以英文授课为主"},
+    "transferRestriction": {"restricted": false, "detail": "实行大类招生(经济管理试验班/人文科学试验班/理科试验班)，大一结束时在所属学院内自主选定主修专业；金融工程、临床医学等需在大一选课前直接选定"},
+    "majors": [
+      {"name": "经济管理试验班", "category": "经管类", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "人文科学试验班", "category": "人文类", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "理科试验班", "category": "理工类", "requiredSubjects": ["物理", "化学"], "planCount": null}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": null, "passed": null, "admitted": 260, "minScore": 614, "avgScore": null, "xuekaoRequirement": "2025年浙江综合评价录取260人，高考分数区间614–664。10门学考均须合格，综合素质评价须达B等及以上；高考成绩须达浙江省特殊类型招生控制线"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录本科招生网上申请平台-综合评价招生报名系统(ugapply.cuhk.edu.cn)注册，上传身份证、高中成绩单、学考成绩证明等", "deadline": "2026年5月8日17:00", "materials": ["身份证扫描件", "高中成绩单(盖公章)", "高中学业水平考试成绩证明", "综合素质材料(非必需)"]},
+      {"step": 2, "title": "材料审核", "description": "学校组织专家审核，5月下旬可查询审核结果", "deadline": "2026年5月下旬", "materials": []},
+      {"step": 3, "title": "入学测试", "description": "高考结束后、出分前进行初试(机考)与复试(中英文写作+面试)", "deadline": "", "materials": []},
+      {"step": 4, "title": "志愿填报", "description": "入围考生须在浙江省普通类提前录取院校志愿栏以第一院校志愿填报", "deadline": "", "materials": []}
+    ],
+    "brochureUrl": "https://admissions.cuhk.edu.cn/node/2391"
+  },
+  {
+    "id": "smbu", "name": "深圳北理莫斯科大学", "shortName": "深北莫", "aliases": ["深北莫", "SMBU"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "深圳校区", "address": "广东省深圳市龙岗区国际大学园路1号"}],
+      "website": "https://admission.smbu.edu.cn", "admissionsPhone": "0755-28323398", "consultQQ": null,
+      "tuitionGeneral": null, "tuitionSinoForeign": "双学籍专业70000元/生·学年；单学籍专业50000元/生·学年", "healthRestrictions": null
+    },
+    "formula": {"xuekao": {"A": 100, "B": 90, "C": 80, "D": null, "fullScore": 100}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.10, "xiaokao": 0.30, "gaokao": 0.60}},
+    "formulaNote": "631模式：高考60%+学校测试30%+学考10%；学考各科目折算成绩平均(合格按100；等级A/B/C=100/90/80)",
+    "formulaSource": {"year": 2026, "title": "深圳北理莫斯科大学2026年本科综合评价招生简章", "url": "https://zsb.smbu.edu.cn/info/1360/12152.htm"},
+    "examFormat": {"hasWrittenTest": true, "hasInterview": false, "hasPhysicalTest": false, "writtenTestSubjects": ["数学", "外语(英语/俄语)"], "interviewFormat": "none", "contentSummary": "学校测试6月12日举行，含科目一数学(笔试或机试，试题俄中对照，不需俄语基础)与科目二外语(英语或俄语，机试)，两科满分各100分，取平均计入校测成绩。无面试环节", "tips": "双学籍专业主要教学语言为俄语(生物科学英语教学除外)；高考成绩须达特殊类型招生控制线"},
+    "transferRestriction": {"restricted": false, "detail": "双学籍专业注册深北莫与莫斯科大学两校学籍，单学籍专业注册深北莫学籍；具体转专业政策以学校规定为准"},
+    "majors": [
+      {"name": "经济学(双学籍)", "category": "经济学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "俄语(双学籍)", "category": "文学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "数学与应用数学(双学籍)", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "生物科学(俄语教学，双学籍)", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "材料科学与工程(双学籍)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "金融科技(单学籍)", "category": "经济学", "requiredSubjects": ["物理"], "planCount": null},
+      {"name": "国际经济与贸易(单学籍)", "category": "经济学", "requiredSubjects": ["不限"], "planCount": null},
+      {"name": "智能感知工程(单学籍)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null},
+      {"name": "电子与计算机工程(单学籍)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": null}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": null, "passed": null, "admitted": 19, "minScore": 595, "avgScore": null, "xuekaoRequirement": "2025年浙江综合评价录取19人，最低高考分595(综评录取区间595–604，纯高考分)。10门学考均须合格，综合素质评价须达B等及以上；高考成绩须达特殊类型招生控制线"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录本科生招生信息网本科综合评价招生报名系统(admission.smbu.edu.cn)注册报名", "deadline": "2026年5月20日23:59", "materials": ["近期免冠证件照", "身份证正反面", "高中学习成绩单(盖公章)", "综合素质材料(非必需)"]},
+      {"step": 2, "title": "学校测试资格审核", "description": "5月1日起陆续公布获得学校测试资格的考生名单", "deadline": "2026年5月1日起", "materials": []},
+      {"step": 3, "title": "学校测试", "description": "6月12日举行数学+外语测试；5月30日-6月1日完成测试确认及缴费", "deadline": "2026年6月12日", "materials": []},
+      {"step": 4, "title": "志愿填报", "description": "高考成绩达特控线且校测合格者，在提前批第一志愿填报", "deadline": "", "materials": []}
+    ],
+    "brochureUrl": "https://zsb.smbu.edu.cn/info/1360/12152.htm"
+  }
+]

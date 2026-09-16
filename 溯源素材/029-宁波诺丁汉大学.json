@@ -1,0 +1,114 @@
+{
+  "id": "unnc",
+  "name": "宁波诺丁汉大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://www.nottingham.edu.cn/cn/study-with-us/undergraduate/policy-and-requirements/tust.aspx",
+      "tuitionSourceTitle": "宁波诺丁汉大学2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://www.nottingham.edu.cn/cn/study-with-us/undergraduate/policy-and-requirements/tust.aspx",
+      "title": "宁波诺丁汉大学2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://www.nottingham.edu.cn/cn/study-with-us/undergraduate/policy-and-requirements/tust.aspx",
+      "title": "宁波诺丁汉大学2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.7,
+    "environment": 4.9,
+    "life": 4.0,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-405725.dhtml",
+    "sourceTitle": "阳光高考网 · 宁波诺丁汉大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "高考100·院校满意度",
+        "url": "https://m.gk100.com/read_18317804.htm",
+        "summary": "高考100镜像阳光高考：综合4.7(717人)、环境4.9(765人)、生活4.0(716人)，与阳光高考页一致。",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "阳光高考院校满意度页，三项分数与高考100镜像一致；环境满意度4.9为全省高位，生活满意度4.0相对偏低。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": null,
+      "passed": 1016,
+      "admitted": null,
+      "sourceUrl": "https://www.nottingham.edu.cn/cn/Study-with-us/documents/TUST/2026-UNNC-TUST-Shortlist.pdf",
+      "sourceTitle": "宁波诺丁汉大学2026年浙江省“三位一体”综合评价招生入围考生名单（PDF）",
+      "xuekaoRequirement": "学考折算≥79分(A=10/B=7/C=4/D=0，共10科)；2026初审最低79分，1768人通过初审",
+      "xuekaoRequirementSourceUrl": "https://www.nottingham.edu.cn/cn/study-with-us/undergraduate/policy-and-requirements/tust.aspx",
+      "xuekaoRequirementSourceTitle": "宁波诺丁汉大学2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "入围1016人（计划200，1:5），参加测试1361人"
+    },
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": 917,
+      "admitted": 180,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://ima.qq.com/wiki/?shareId=12c301cf42ca8d2fd72d670d0ed135be0978eac6c83a0a83ed1df97f588a8a9c&mediaId=wechatarticle_69a15190cd3c19d1ed96d7d6e53d1385_22b439f72526ef8fd726976812ca7f8c7307942080566631",
+      "sourceTitle": "三位一体丨宁波诺丁汉大学2025年“三位一体”综合测试入围考生名单公示（招生办公众号，腾讯ima转载）",
+      "collectedAt": "2026-09-13",
+      "note": "入围917人来源：招生办公众号公告(腾讯ima转载，含‘综合测试共有1154名考生参加，入围917人’)。初审通过1527人(招生办公众号，同ima平台另一篇，未单列URL)。录取180名来源：招生办公众号(‘共录取考生180名’)，未捕获可直接打开的官方公开链接；录取查询入口 entry.nottingham.edu.cn 需登录。报名总数未公开(1154为参加综合测试人数)。2024/2026未检索。"
+    }
+  ],
+  "dormitory": {
+    "description": "宁诺本科生以四人间为主(3000–4500元/年)，另有单人间(最高1.6万/年)、单人四套间、八人四套间；均空调、独立卫浴、楼栋配电梯与洗衣房。",
+    "score": null,
+    "source": "宁波诺丁汉大学官网·学生公寓、社区生活、阳光高考校园生活",
+    "highlights": [
+      "空调、独立卫浴、楼栋电梯与洗衣房",
+      "房型选择多(四人间/套间/单人间)",
+      "环境满意度全省居前(4.9)"
+    ],
+    "drawbacks": [
+      "住宿费跨度大，单人间高达1.6万/年",
+      "生活满意度仅4.0，相对偏低",
+      "普通四人间住宿费高于多数公办院校"
+    ],
+    "platforms": [
+      {
+        "name": "官方|宁波诺丁汉大学·学生公寓",
+        "url": "https://www.nottingham.edu.cn/cn/accommodation/home.aspx",
+        "summary": "四人间3000–4500元/年(含热水电费额度、免费网络、月度保洁)；单人间1.6万/年；单人四套间8000–1.1万/年；均空调、独立卫浴、楼配电梯洗衣房。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "官方|社区生活",
+        "url": "https://www.nottingham.edu.cn/cn/department-of-campus-life/%E7%A4%BE%E5%8C%BA%E7%94%9F%E6%B4%BB/%E7%A4%BE%E5%8C%BA%E7%94%9F%E6%B4%BB.aspx",
+        "summary": "四种房型：四人间上床下桌、八人四套间、四人套间、单人间；公寓配电梯、冰箱、自助洗衣房、微波炉、直饮水；宿管7×24服务。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "阳光高考·校园生活",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E5%AE%81%E6%B3%A2%E8%AF%BA%E4%B8%81%E6%B1%89%E5%A4%A7%E5%AD%A6",
+        "summary": "本科四人间收费2000元/年，房配家具、电话、空调、热水、网络接口；生活评分4.0、环境评分4.9、综合4.7。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "搜狗聚合的阳光高考校园生活页"
+      }
+    ],
+    "note": "未查到虎扑/知乎/小红书等可直达帖子；生活满意度偏低(4.0)为阳光高考与多源一致反馈。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

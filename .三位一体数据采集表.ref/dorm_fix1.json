@@ -1,0 +1,152 @@
+[
+  {
+    "id": "zjxu",
+    "name": "嘉兴大学",
+    "platforms": [
+      {
+        "name": "官方-本科招生网（招生章程·住宿费章节）",
+        "url": "https://zsb.zjxu.edu.cn/info/10443/86717.htm",
+        "summary": "住宿费标准：960元/生·学年、1200元/生·学年、1600元/生·学年，具体根据新生入住寝室的收费标准缴纳。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "仅招生章程所列住宿费标准，无几人间/独卫/空调等房型详情；后勤公寓服务指南需统一身份认证登录，未纳入。"
+      }
+    ],
+    "note": "仅招生章程列住宿费标准，无房型/独卫等详情；后勤公寓服务指南页需登录，故无完整官方宿舍页。"
+  },
+  {
+    "id": "zucc",
+    "name": "浙大城市学院",
+    "platforms": [
+      {
+        "name": "官方-浙大城市学院（宿舍介绍）",
+        "url": "https://www.hzcu.edu.cn/info/1088/10807.htm",
+        "summary": "学生宿舍为4人间，独立卫生间、饮水机、电话、网络等生活设施齐全。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方-浙大城市学院（寝室条件）",
+        "url": "https://www.hzcu.edu.cn/info/1086/21185.htm",
+        "summary": "学生寝室4人一间，配独立卫生间；空调、热水器由学校统一安装，可租可购。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "nit",
+    "name": "浙大宁波理工学院",
+    "platforms": [
+      {
+        "name": "官方-招生网（宿舍条件）",
+        "url": "https://zsw.nbt.edu.cn/info/1016/2229.htm",
+        "summary": "A型4人自带卫生间，B型5人公共浴室，C型10–14人套间，D型4人公共浴室；均配空调插座、网络接口、热水器。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "hznu",
+    "name": "杭州师范大学",
+    "platforms": [
+      {
+        "name": "官方-马克思主义学院（新生寝室说明）",
+        "url": "https://marxism.hznu.edu.cn/c/2025-08-23/3172077.shtml",
+        "summary": "四人住六人寝，独立卫浴，上床下桌，配饮水机、电风扇、空调；门禁时间23:00/23:30。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方-本科生招生网（住宿费）",
+        "url": "https://undergrad.hznu.edu.cn/Details/20250515/310629202505150629052372.html",
+        "summary": "住宿费：仓前校区1600元（4人间），下沙校区1200元（6人间）/1600元（4人间）。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "hzsf",
+    "name": "湖州师范大学",
+    "platforms": [],
+    "note": "未找到官方宿舍页"
+  },
+  {
+    "id": "sxu",
+    "name": "绍兴大学",
+    "platforms": [
+      {
+        "name": "官方-本科招生网（寝室咨询回复）",
+        "url": "https://zs.usx.edu.cn/shbzxzx.jsp?b42921bt=1082&b42921bp=235&b42921bc=15&urltype=tree.treetempurl&wbtreeid=1036",
+        "summary": "我校学生公寓为4—6人间，由书院安排；寝室内空调、热水器、家具设备、卫生设施一应俱全，均有独立阳台与独立卫生间。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "来源：招生网“寝室”咨询的招办官方回复。"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "wzu",
+    "name": "温州大学",
+    "platforms": [
+      {
+        "name": "官方-机电工程学院（新生住宿指南PDF）",
+        "url": "https://jdxy.wzu.edu.cn/__local/7/A5/F1/4EEFAD093342FF7E4D9661ABE2A_5A345B50_1002663.pdf",
+        "summary": "寝室分四人间、六人间、十人套间；独立卫生间、开放式阳台、热水器、空调（自由租赁）、宽带网络齐全。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "来源：温州大学机电工程学院新生住宿指南PDF，含各校区宿舍配置说明。"
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "zisu",
+    "name": "浙江外国语学院",
+    "platforms": [
+      {
+        "name": "官方-后勤服务中心（公寓住宿）",
+        "url": "https://hq.zisu.edu.cn/zwshg/gyzs.htm",
+        "summary": "雅仪/雅正/雅致苑为4—5人间，24小时启用门禁；空调租赁（尼好校园），各楼配洗衣机、开水器、洗澡热水。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方-西语学院（宿舍说明）",
+        "url": "https://europe.zisu.edu.cn/info/1006/7072.htm",
+        "summary": "4—5人间，配备沐浴热水，租赁空调、共享洗衣机，生活便利设施齐全。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      }
+    ],
+    "note": ""
+  },
+  {
+    "id": "zjpc",
+    "name": "浙江警察学院",
+    "platforms": [
+      {
+        "name": "官方-招生信息网（入学指南）",
+        "url": "https://www.zjjcxy.cn/zsxxw/rxzn.html",
+        "summary": "按警务化管理要求，警服由学校配发；床上物品（棉被、被套、床垫、床单、凉席、枕芯、枕套等）及生活用品由学校统一采购。男生理平头、女生理短发。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "入学指南明确警务化管理与统一配发床上物品/生活用品、发型要求；熄灯时间、手机管理等细则以学校《学生管理规定》为准，官方未单列公开页。"
+      }
+    ],
+    "note": ""
+  }
+]

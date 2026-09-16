@@ -1,0 +1,474 @@
+[
+  {
+    "id": "sxu",
+    "name": "绍兴大学",
+    "admission": [
+      {
+        "year": 2026,
+        "stage": "报名",
+        "applicants": 7448,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://www.usx.edu.cn/info/1547/56366.htm",
+        "sourceTitle": "绍兴大学2026年“三位一体”综合评价招生报名及资格审查相关公告",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "报名人数7448人"
+      },
+      {
+        "year": 2026,
+        "stage": "初审通过",
+        "applicants": null,
+        "passed": 1043,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://www.usx.edu.cn/info/1547/56366.htm",
+        "sourceTitle": "绍兴大学2026年“三位一体”综合评价招生报名及资格审查相关公告",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "资格审查（初审）通过1043人"
+      },
+      {
+        "year": 2026,
+        "stage": "入围",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": 786,
+        "admitted": null,
+        "sourceUrl": "https://zs.usx.edu.cn/info/1097/7082.htm",
+        "sourceTitle": "绍兴大学2026年“三位一体”综合评价招生综合素质测试入围名单公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "入围786人（师范类213、理工类573）"
+      },
+      {
+        "year": 2026,
+        "stage": "录取",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": 135,
+        "sourceUrl": "https://zs.usx.edu.cn/info/1020/7154.htm",
+        "sourceTitle": "绍兴大学2026年“三位一体”综合评价招生录取名单公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "录取135人（师范40、理工95：土木20/地质10/纺织20/轻化20/药学25）"
+      }
+    ],
+    "note": "数据完整：报名/初审/入围/录取均有学校官方公示页直链。"
+  },
+  {
+    "id": "zisu",
+    "name": "浙江外国语学院",
+    "admission": [
+      {
+        "year": 2026,
+        "stage": "报名",
+        "applicants": 5210,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://xsc.zisu.edu.cn/info/1025/3051.htm",
+        "sourceTitle": "浙江外国语学院2026年“三位一体”综合评价招生报名相关公告",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "报名人数5210人"
+      },
+      {
+        "year": 2026,
+        "stage": "初审通过",
+        "applicants": null,
+        "passed": 1182,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://zs.zisu.edu.cn/info/1049/2154.htm",
+        "sourceTitle": "浙江外国语学院关于公布2026年三位一体招生资格审查入围考生名单的公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "资格审查（初审）通过1182人，分专业不超过1:9"
+      },
+      {
+        "year": 2026,
+        "stage": "入围",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": 691,
+        "admitted": null,
+        "sourceUrl": "https://zs.zisu.edu.cn/info/1049/2186.htm",
+        "sourceTitle": "浙江外国语学院关于公布2026年三位一体招生综合测试入围考生名单的公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "入围691人（计划115，分专业1:7）"
+      },
+      {
+        "year": 2026,
+        "stage": "录取",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": 115,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "录取115人（各专业计划合计）来自浙江外国语学院官微/招生办公布，未取得独立官方汇总公示页链接"
+      }
+    ],
+    "note": "报名/初审/入围均有官方公示页；录取115人来自官微，无独立官方直链。"
+  },
+  {
+    "id": "lsu",
+    "name": "丽水学院",
+    "admission": [
+      {
+        "year": 2026,
+        "stage": "报名",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "未找到官方报名人数汇总公示"
+      },
+      {
+        "year": 2026,
+        "stage": "初审通过",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://zsw.lsu.edu.cn/2026/0325/c616a365409/page.htm",
+        "sourceTitle": "丽水学院2026年“三位一体”综合评价招生资格审查入围名单公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "资格审查公告页，正文未含汇总人数（商业口径称初审约850人，非官方，不采用）"
+      },
+      {
+        "year": 2026,
+        "stage": "入围",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": 500,
+        "admitted": null,
+        "sourceUrl": "https://zsw.lsu.edu.cn/2026/0423/c616a366901/page.htm",
+        "sourceTitle": "丽水学院2026年“三位一体”综合评价招生入围考生名单公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "入围500人，入围线74分"
+      },
+      {
+        "year": 2026,
+        "stage": "录取",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://zsw.lsu.edu.cn/2026/0712/c619a369872/page.htm",
+        "sourceTitle": "丽水学院2026年“三位一体”综合评价招生录取分数表",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "录取分数表仅公布高考分/综合分区间（小学教育/学前教育/民族学），未含录取人数汇总"
+      }
+    ],
+    "note": "报名数、资格审查通过数无官方汇总；入围500有官方公示；录取人数仅分数表无汇总。"
+  },
+  {
+    "id": "jxnh",
+    "name": "嘉兴南湖学院",
+    "admission": [
+      {
+        "year": 2026,
+        "stage": "报名",
+        "applicants": 4294,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://www.jxnhu.edu.cn/info/1241/13410.htm",
+        "sourceTitle": "嘉兴南湖学院2026年“三位一体”综合评价招生综合素质测试圆满结束",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "有效报名4294人"
+      },
+      {
+        "year": 2026,
+        "stage": "初审通过",
+        "applicants": null,
+        "passed": 683,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://www.jxnhu.edu.cn/info/1241/13410.htm",
+        "sourceTitle": "嘉兴南湖学院2026年“三位一体”综合评价招生综合素质测试圆满结束",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "书面评审683人取得综合素质测试资格（另见初审名单公示 zsb.jxnhu.edu.cn/info/1084/4557.htm）"
+      },
+      {
+        "year": 2026,
+        "stage": "入围",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": 482,
+        "admitted": null,
+        "sourceUrl": "https://zsb.jxnhu.edu.cn/info/1084/4707.htm",
+        "sourceTitle": "嘉兴南湖学院2026年“三位一体”综合评价招生入围名单公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "入围482人（综合素质测试后公示，04-17）"
+      },
+      {
+        "year": 2026,
+        "stage": "录取",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": 60,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "录取60人（60个计划一次性足额录满）来自学校官微/新闻网录取工作回顾，未取得独立可直链公示页"
+      }
+    ],
+    "note": "报名/初审/入围均有官方页；录取60人来自学校录取工作回顾，无独立直链。"
+  },
+  {
+    "id": "unnc",
+    "name": "宁波诺丁汉大学",
+    "admission": [
+      {
+        "year": 2026,
+        "stage": "报名",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "未找到官方报名人数汇总公示"
+      },
+      {
+        "year": 2026,
+        "stage": "初审通过",
+        "applicants": null,
+        "passed": 1768,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "初审通过1768人来自官微/高考直通车整理，无官方独立汇总页"
+      },
+      {
+        "year": 2026,
+        "stage": "入围",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": 1016,
+        "admitted": null,
+        "sourceUrl": "https://www.nottingham.edu.cn/cn/Study-with-us/documents/TUST/2026-UNNC-TUST-Shortlist.pdf",
+        "sourceTitle": "宁波诺丁汉大学2026年浙江省“三位一体”综合评价招生入围考生名单（PDF）",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "入围1016人（计划200，1:5），参加测试1361人"
+      },
+      {
+        "year": 2026,
+        "stage": "录取",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": 200,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "录取200人（最低综合分76.24，各专业录取分表已核实）来自宁波诺丁汉大学官微录取公告，未取得文章直链"
+      }
+    ],
+    "note": "入围有官方PDF直链；报名数、初审通过数、录取数无独立官方直链（来自官微/商业整理）。"
+  },
+  {
+    "id": "zyu",
+    "name": "浙江越秀外国语学院",
+    "admission": [
+      {
+        "year": 2026,
+        "stage": "报名",
+        "applicants": 2236,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://www.zyufl.edu.cn/2026/0411/c2792a80220/page.htm",
+        "sourceTitle": "浙江越秀外国语学院2026年“三位一体”综合评价招生报名及资格审查结果公告",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "报名人数2236人"
+      },
+      {
+        "year": 2026,
+        "stage": "初审通过",
+        "applicants": null,
+        "passed": 1284,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://www.zyufl.edu.cn/2026/0411/c2792a80220/page.htm",
+        "sourceTitle": "浙江越秀外国语学院2026年“三位一体”综合评价招生报名及资格审查结果公告",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "资格审查（初审）通过1284人（另见 zs.zyufl.edu.cn/2026/0326/c1270a79842/page.htm）"
+      },
+      {
+        "year": 2026,
+        "stage": "入围",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": 840,
+        "admitted": null,
+        "sourceUrl": "https://zs.zyufl.edu.cn/2026/0419/c1270a81090/page.htm",
+        "sourceTitle": "浙江越秀外国语学院2026年“三位一体”综合评价招生入围考生名单公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "入围840人（日语64/朝鲜语48/泰语33/大数据215/网络与新媒体480）"
+      },
+      {
+        "year": 2026,
+        "stage": "录取",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://zs.zyufl.edu.cn/2026/0718/c1270a83357/page.htm",
+        "sourceTitle": "浙江越秀外国语学院2026年“三位一体”综合评价招生录取进度公告",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "录取进度页显示拟录取但未含人数汇总；2026计划120人"
+      }
+    ],
+    "note": "报名/初审/入围均有官方公示；录取仅进度页无人数汇总。"
+  },
+  {
+    "id": "nbfe",
+    "name": "宁波财经学院",
+    "admission": [
+      {
+        "year": 2026,
+        "stage": "报名",
+        "applicants": 7673,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://zsb.nbufe.edu.cn/st/zs_news.jsp?neId=157",
+        "sourceTitle": "宁波财经学院2026年“三位一体”综合评价招生报名及资格审查结果公告",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "报名人数7673人"
+      },
+      {
+        "year": 2026,
+        "stage": "初审通过",
+        "applicants": null,
+        "passed": 1662,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://zsb.nbufe.edu.cn/st/zs_news.jsp?neId=157",
+        "sourceTitle": "宁波财经学院2026年“三位一体”综合评价招生报名及资格审查结果公告",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "资格审查（初审）通过1662人"
+      },
+      {
+        "year": 2026,
+        "stage": "入围",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://zsb.nbufe.edu.cn/st/zs_news.jsp?neId=159",
+        "sourceTitle": "宁波财经学院2026年“三位一体”综合评价招生入围考生名单公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "入围公示页（附件名单），正文未含汇总人数"
+      },
+      {
+        "year": 2026,
+        "stage": "录取",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": 200,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "录取200人（各专业计划=录取合计）来自商业录取信息表，无独立官方公示页"
+      }
+    ],
+    "note": "报名/初审有官方公示；入围公示页无汇总人数；录取200无官方直链（计划推导）。"
+  },
+  {
+    "id": "wzbc",
+    "name": "温州商学院",
+    "admission": [
+      {
+        "year": 2026,
+        "stage": "报名",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "未找到官方报名人数汇总公示"
+      },
+      {
+        "year": 2026,
+        "stage": "初审通过",
+        "applicants": null,
+        "passed": 5006,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://xyw.wzbc.edu.cn/Art/Art_1273/Art_1273_137716.aspx",
+        "sourceTitle": "温州商学院2026年“三位一体”综合评价招生资格审查结果公告",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "资格审查（初审）通过5006人"
+      },
+      {
+        "year": 2026,
+        "stage": "入围",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": 1494,
+        "admitted": null,
+        "sourceUrl": "https://mp.weixin.qq.com/s/WTzVEYID839qbxlkB5yZdw",
+        "sourceTitle": "温州商学院2026“三位一体”第5号公告｜综合测试入围分数线公布",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "入围1494人（金融200/会计199/市场125/英语224/商务英语199/计算机274/新闻273），官微公告链接自招生网列出"
+      },
+      {
+        "year": 2026,
+        "stage": "录取",
+        "applicants": null,
+        "passed": null,
+        "shortlisted": null,
+        "admitted": null,
+        "sourceUrl": "https://mp.weixin.qq.com/s/TJ8crtY1aPVIndTgVP2tWg",
+        "sourceTitle": "温州商学院2026年录取公告（第1号）｜“三位一体”综合评价本科招生录取结果揭晓",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "录取公告（第1号）官微仅公布开通查询，未含录取人数汇总；2026计划300人"
+      }
+    ],
+    "note": "初审/入围有官方/官微直链；报名数、录取人数无官方汇总（计划300）。"
+  }
+]

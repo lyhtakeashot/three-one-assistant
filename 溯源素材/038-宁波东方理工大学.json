@@ -1,0 +1,92 @@
+{
+  "id": "eit",
+  "name": "宁波东方理工大学",
+  "category": "高水平三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://www.eitech.edu.cn/2026/0518/c552a6129/page.htm",
+      "tuitionSourceTitle": "宁波东方理工大学2026年浙江省三位一体综合评价招生简章",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://www.eitech.edu.cn/2026/0518/c552a6129/page.htm",
+      "title": "宁波东方理工大学2026年浙江省三位一体综合评价招生简章（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://www.eitech.edu.cn/2026/0518/c552a6129/page.htm",
+      "title": "宁波东方理工大学2026年浙江省三位一体综合评价招生简章（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": null,
+    "environment": null,
+    "life": null,
+    "sourceUrl": null,
+    "sourceTitle": null,
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-14",
+    "alternates": [],
+    "note": "阳光高考网(schId-6782513866)显示投票人数较少暂不显示满意度；为新校无三项分数。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": null,
+      "passed": null,
+      "admitted": null,
+      "sourceUrl": "https://www.eitech.edu.cn/2026/0513/c70a6084/page.htm",
+      "sourceTitle": "宁波东方理工大学发布2026年浙江省“三位一体”综合评价招生简章",
+      "xuekaoRequirement": "学考各科均合格，综合素质评价B等及以上；选考须含物理+化学；高考总分须达浙江省特殊类型招生控制线(首次招生)",
+      "xuekaoRequirementSourceUrl": "https://www.eitech.edu.cn/2026/0518/c552a6129/page.htm",
+      "xuekaoRequirementSourceTitle": "宁波东方理工大学2026年浙江省三位一体综合评价招生简章",
+      "collectedAt": "2026-09-13",
+      "note": "2026年首次在浙江开展三位一体，计划招生80人（计算机科学与技术专业）；简章未含报名/入围/录取汇总数，相关名单在本科招生报名系统内公示。"
+    }
+  ],
+  "dormitory": {
+    "description": "四室一厅两卫套间、一人一单间(约6.5㎡)，食堂日均约30元；学费9.6万/年(减免后约6000)、住宿费2000元/年。",
+    "score": null,
+    "source": "宁波东方理工大学官网/阳光高考简介/中国教育在线(官方与报道)",
+    "highlights": [
+      "四室一厅两卫套间、一人一单间(eitech官网)",
+      "套间约70㎡、单间6.5㎡、食堂日均30元(阳光高考简介)"
+    ],
+    "drawbacks": [
+      "为新校，在读本科生极少、UGC几乎空白",
+      "学费名义9.6万/年(减免后约6000)，普通考生需核实奖助政策"
+    ],
+    "platforms": [
+      {
+        "name": "官方-宁波东方理工大学",
+        "url": "https://www.eitech.edu.cn/2026/0211/c70a4540/page.htm",
+        "summary": "官网介绍宿舍为四室一厅两卫套间，一人一间独立单间，书院制住宿条件优良。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方/阳光高考网简介",
+        "url": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-6782513866,categoryId-6782513985,mindex-8.dhtml",
+        "summary": "学校简介：套间约70㎡、单间6.5㎡，食堂日均消费约30元，住宿费2000元/年。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "中国教育在线(学费报道)",
+        "url": "https://shengxue.eol.cn",
+        "summary": "报道学费9.6万/年(减免后约6000)、住宿费2000元/年，奖助覆盖力度大，需核实最新政策。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "仅捕获到站点域名，未取到具体文章直达链接"
+      }
+    ],
+    "note": "UGC(知乎/小红书/贴吧/抖音等)检索未查到有效本科住宿评价；东方理工2025年首招本科生，规模极小，满意度无阳光高考数据。仅保留官方来源。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

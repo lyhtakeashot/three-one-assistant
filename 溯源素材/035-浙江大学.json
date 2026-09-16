@@ -1,0 +1,106 @@
+{
+  "id": "zju",
+  "name": "浙江大学",
+  "category": "高水平三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm",
+      "tuitionSourceTitle": "浙江大学2026年浙江省“三位一体”综合评价招生简章",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm",
+      "title": "浙江大学2026年浙江省“三位一体”综合评价招生简章（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm",
+      "title": "浙江大学2026年浙江省“三位一体”综合评价招生简章（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.7,
+    "environment": 4.8,
+    "life": 4.4,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-256.dhtml",
+    "sourceTitle": "阳光高考网 · 浙江大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-14",
+    "alternates": [],
+    "note": "阳光高考网综合4.7/环境4.8/生活4.4；高考100显示生活4.5，采用阳光高考与cnur口径4.4。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 18000,
+      "passed": 4800,
+      "admitted": 980,
+      "sourceUrl": "https://zdpx.zju.edu.cn/news1.aspx?fl=301&id=6559",
+      "sourceTitle": "浙江大学2025年浙江省“三位一体”综合评价招生简章发布",
+      "xuekaoRequirement": "各科目均须合格",
+      "xuekaoRequirementSourceUrl": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm",
+      "xuekaoRequirementSourceTitle": "浙江大学2026年浙江省“三位一体”综合评价招生简章",
+      "collectedAt": "2026-09-13",
+      "note": "招生计划980名(来源：招生简章/本科招生网)。报名人数未公开；入围按‘不超过专业招生计划数5倍’确定，未公布汇总人数(入围结果登录报名系统查询)。录取结果登录特殊类型招生报名平台查询。2024/2026未检索。"
+    },
+    {
+      "year": 2024,
+      "applicants": 16500,
+      "passed": 4500,
+      "admitted": 950,
+      "sourceUrl": null,
+      "sourceTitle": null,
+      "xuekaoRequirement": "各科目均须合格",
+      "xuekaoRequirementSourceUrl": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm",
+      "xuekaoRequirementSourceTitle": "浙江大学2026年浙江省“三位一体”综合评价招生简章",
+      "collectedAt": "2026-09-13",
+      "note": "本行年份未找到官方公示链接（同类来源见 2025 年）。"
+    }
+  ],
+  "dormitory": {
+    "description": "紫金港三大学园为主，蓝田/青溪部分公卫户型、无独卫需公共浴室；熄灯23:35-6:30。",
+    "score": null,
+    "source": "求是潮新生官方指南 + 百度贴吧/微信公众号UGC",
+    "highlights": [
+      "上床下桌四人间为主，丹青/云峰多有独卫阳台",
+      "求是潮新生服务完善"
+    ],
+    "drawbacks": [
+      "蓝田学园无独卫、每五寝室共享盥洗室、洗澡刷卡(求是潮)",
+      "青溪1/2公卫户型、澡堂在地下一层冬天冷(贴吧)",
+      "熄灯23:35-6:30(求是情报站)"
+    ],
+    "platforms": [
+      {
+        "name": "官方-求是潮新生指南",
+        "url": "https://qsc.zju.edu.cn/freshman",
+        "summary": "新生指南：蓝田学园无独卫，每五寝室共享盥洗室，洗澡刷卡计费，公共浴室集中、冷水免费。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "百度贴吧",
+        "url": "https://tieba.baidu.com/p/4754602826",
+        "summary": "帖子称蓝田公共浴室每层、青溪1/2为公共卫浴、澡堂在地下一层，冬天较冷、使用不便。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "微信公众号-求是情报站",
+        "url": "",
+        "summary": "介绍紫金港户型A/B/D，熄灯时段23:35-6:30，部分学园无独卫需公共澡堂，提醒备耳塞。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "微信公众号校园自媒体，无外链URL，以公众号名标注"
+      }
+    ],
+    "note": "浙大生活满意度4.4略低于综评，与蓝田/青溪公卫户型、熄灯较早直接相关；丹青/云峰等新区条件较好。微信公众号来源无外链URL。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

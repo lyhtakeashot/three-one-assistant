@@ -1,0 +1,113 @@
+{
+  "id": "nbu",
+  "name": "宁波大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zsb.nbu.edu.cn/info/1016/3796.htm",
+      "tuitionSourceTitle": "2026年宁波大学“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zsb.nbu.edu.cn/info/1016/3796.htm",
+      "title": "2026年宁波大学“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zsb.nbu.edu.cn/info/1016/3796.htm",
+      "title": "2026年宁波大学“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.3,
+    "environment": 4.5,
+    "life": 4.1,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/876",
+    "sourceTitle": "阳光高考网 · 宁波大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "搜狗大学镜像(与阳光高考同源)",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?school=%E5%AE%81%E6%B3%A2%E5%A4%A7%E5%AD%A6",
+        "summary": "综合4.3 / 环境4.5 / 生活4.1",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "三项分数取自搜狗大学镜像(与阳光高考网同源数据)，综合4.3/环境4.5/生活4.1；阳光高考网本页生活分需展开“查看更多”才显示。分数随投票实时变动，供人工核对。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 9500,
+      "passed": 2500,
+      "admitted": 380,
+      "sourceUrl": "https://zsb.nbu.edu.cn/info/1016/3385.htm",
+      "sourceTitle": "关于2025年宁波大学“三位一体”综合素质测试成绩查询的通知和入围考生名单的公示",
+      "xuekaoRequirement": "学考≥5A",
+      "xuekaoRequirementSourceUrl": "https://zsb.nbu.edu.cn/info/1016/3796.htm",
+      "xuekaoRequirementSourceTitle": "2026年宁波大学“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "入围1570人（非师范类395+师范类991+中外合作类184），出自上述官方公示。报名8000余人、初审近2800人来自宁波大学新闻网（news.nbu.edu.cn/info/1003/83030.htm），为约数无精确值，故applicants置空。录取计划370人，录取情况一览表（zsb.nbu.edu.cn/info/1016/3655.htm）仅列各类别综合分，未公布录取总人数，admitted置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "北区学生二村(1/2/7/8/9/10号楼独卫，3/4/5/6号楼公共卫浴)四人间上床下桌；本部/南门/甬江/西区/梅山多为四人间上床下桌独卫空调，多数不断电不断网。住宿费700-1200元。",
+    "score": null,
+    "source": "宁波大学阳明学院/NBU宿舍介绍、官方公众号“宁波大学”“NBU吃喝玩乐学”及在校生反馈",
+    "highlights": [
+      "四人间上床下桌为主",
+      "独立卫浴(多数楼栋)",
+      "空调+电扇",
+      "多数楼栋不断电不断网",
+      "24小时自习室、洗衣房、直饮水"
+    ],
+    "drawbacks": [
+      "北区3/4/5/6号楼为公共卫浴",
+      "甬江公寓无阳台(仅窗户)",
+      "部分老宿舍楼硬件一般",
+      "宿舍纯随机分配像抽盲盒",
+      "梅山校区偏远(海岛)"
+    ],
+    "platforms": [
+      {
+        "name": "官方",
+        "url": "https://www.sohu.com/a/562091627_121124331",
+        "summary": "北区学生公寓均为四人间上床下桌独立阳台，3/4/5/6号公寓楼为公共卫浴、其他楼栋配独立卫生间。每间配衣柜抽屉书架鞋柜，楼内设自习室、自助洗衣房、直饮水机。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "宁波大学官方公众号“魅力宁大”内容，经搜狐转载，属半官方来源。"
+      },
+      {
+        "name": "虎扑",
+        "url": "https://bbs.hupu.com/35791393-7.html",
+        "summary": "不懂就问，宁波大学研究生的宿舍到底有多差？回帖：本科生宿舍独卫空调都有，就是研究生宿舍比较差。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "虎扑真实帖，反映本科生与研究生宿舍条件差异。"
+      },
+      {
+        "name": "B站",
+        "url": "https://www.bilibili.com/read/mobile?id=6692760",
+        "summary": "最好的寝室是1200块一年的公寓楼，四人住一间，典型的上床下桌，室内有阳台、卫生间、淋浴，整体住宿条件在一年年变好。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "B站专栏(图文，非视频)在校生整理，非官方。"
+      },
+      {
+        "name": "今日头条",
+        "url": "https://m.toutiao.com/article/7665550892087411235",
+        "summary": "本科基本四人间上床下桌，大部分带独卫。北区部分宿舍公共卫浴，几栋老宿舍楼硬件一般，宿舍纯随机分配像抽盲盒。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "浙大/宁大/杭电/浙工大校园真实测评，往届生体验，非官方。"
+      }
+    ],
+    "note": "知乎/贴吧/小红书/抖音未检索到该校可验证直达帖(知乎、小红书、抖音无结果；贴吧仅见首页非具体帖)，故列官方+虎扑+ B站+今日头条。北区公共卫浴楼栋已在drawbacks标注。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

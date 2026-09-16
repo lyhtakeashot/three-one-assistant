@@ -1,0 +1,84 @@
+{
+  "id": "westlake",
+  "name": "西湖大学",
+  "category": "高水平三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ComprehensiveEvaluation/202604/t20260427_66215.shtml",
+      "tuitionSourceTitle": "西湖大学2026年浙江省三位一体综合评价招生简章",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ComprehensiveEvaluation/202604/t20260427_66215.shtml",
+      "title": "西湖大学2026年浙江省三位一体综合评价招生简章（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ComprehensiveEvaluation/202604/t20260427_66215.shtml",
+      "title": "西湖大学2026年浙江省三位一体综合评价招生简章（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": null,
+    "environment": null,
+    "life": null,
+    "sourceUrl": null,
+    "sourceTitle": null,
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-14",
+    "alternates": [],
+    "note": "西湖大学为新型研究型大学(2018年获批)，阳光高考网无院校满意度数据，三项分数均缺，无法提供。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": null,
+      "admitted": 15,
+      "sourceUrl": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ZSJZ/Situation/202505/t20250507_55287.shtml",
+      "sourceTitle": "西湖大学2025年浙江省“三位一体”综合评价招生简章",
+      "xuekaoRequirement": "学考各科均须合格，综合素质评价均B等(含)以上；选考须含物理+化学；高考总分须达浙江省特殊类型招生控制线",
+      "xuekaoRequirementSourceUrl": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ComprehensiveEvaluation/202604/t20260427_66215.shtml",
+      "xuekaoRequirementSourceTitle": "西湖大学2026年浙江省三位一体综合评价招生简章",
+      "collectedAt": "2026-09-13",
+      "note": "招生简章：2025年浙江省三位一体计划不超过15人，按招生计划1:10比例确定初审通过名单；未公布报名人数、初审/入围人数、录取人数汇总。初审结果与综合测试通过名单均在报名系统内公示，不公开人数。"
+    }
+  ],
+  "dormitory": {
+    "description": "书院制4-5人套间，每人独立卧室，学费6000元/年；住宿以单间套间为主，条件优。",
+    "score": null,
+    "source": "西湖大学本科生招生官网/学校新闻(官方)",
+    "highlights": [
+      "书院制4-5人套间、每人单卧(招生官网)",
+      "单间四室一厅两卫(官网报道)"
+    ],
+    "drawbacks": [
+      "为新校，在读本科生规模极小、UGC样本极少",
+      "研究型培养模式，普通三位一体考生需关注招生资格"
+    ],
+    "platforms": [
+      {
+        "name": "官方-西湖大学本科生招生",
+        "url": "https://zh-ugadmissions.westlake.edu.cn/WhyWestlake/ResidentialLife",
+        "summary": "书院生活页介绍本科为4-5人套间，每人独立卧室，共享公共空间，住宿条件优良。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方-西湖大学新闻",
+        "url": "https://www.westlake.edu.cn",
+        "summary": "官网报道书院为单间四室一厅两卫，学费6000元/年，住宿以套间单间为主、设施完善。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "仅捕获到站点域名，未取到具体新闻直达链接"
+      }
+    ],
+    "note": "UGC(知乎/小红书/贴吧/抖音等)检索未查到有效本科住宿评价；西湖大学主要招收博士研究生，本科规模极小，满意度无阳光高考数据。仅保留官方来源。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

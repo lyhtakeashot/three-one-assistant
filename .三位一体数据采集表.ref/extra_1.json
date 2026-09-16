@@ -1,0 +1,436 @@
+[
+  {
+    "id": "zcmu", "name": "浙江中医药大学", "shortName": "浙中医大", "aliases": ["浙中医大", "ZCMU"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "滨文校区", "address": "杭州市滨江区滨文路548号"}, {"name": "富春校区", "address": "杭州市富阳区百川街260号"}],
+      "website": "https://zsb.zcmu.edu.cn", "admissionsPhone": "0571-86613520", "consultQQ": null,
+      "tuitionGeneral": "5300-6900元/年", "tuitionSinoForeign": null, "healthRestrictions": null
+    },
+    "formula": {"xuekao": {"A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60}},
+    "formulaSource": {"year": 2026, "title": "浙江中医药大学2026年三位一体综合评价招生章程", "url": "https://zsb.zcmu.edu.cn/info/1075/4871.htm"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "group", "contentSummary": "面试，考查综合素质、专业基础素养与专业潜质，满分100分，按1:6确定入围（成绩须≥60分）", "tips": "了解中医药行业动态，准备专业认知与自我陈述，注重逻辑表达与临场应变"},
+    "transferRestriction": {"restricted": false, "detail": "按学校相关文件执行（章程第二十一条）"},
+    "majors": [
+      {"name": "中医学(5+3一体化)", "category": "医学", "requiredSubjects": ["化学"], "planCount": 10},
+      {"name": "中医学", "category": "医学", "requiredSubjects": ["化学"], "planCount": 30},
+      {"name": "临床医学", "category": "医学", "requiredSubjects": ["物理", "化学"], "planCount": 40},
+      {"name": "中西医临床医学", "category": "医学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "中药学", "category": "医学", "requiredSubjects": ["物理", "化学"], "planCount": 35},
+      {"name": "护理学(卓越班)", "category": "医学", "requiredSubjects": ["化学"], "planCount": 10},
+      {"name": "护理学", "category": "医学", "requiredSubjects": ["化学"], "planCount": 25},
+      {"name": "公共事业管理", "category": "管理学", "requiredSubjects": ["不限"], "planCount": 10},
+      {"name": "健康服务与管理", "category": "管理学", "requiredSubjects": ["不限"], "planCount": 10}
+    ],
+    "admission": [
+      {"year": 2026, "applicants": 3992, "passed": 906, "admitted": 180, "minScore": 76.485, "avgScore": null, "xuekaoRequirement": "各组学考折算门槛(满分100)：中医学类≥82/临床医学类≥79/中药学类≥70/护理学类≥61/管理学类≥67"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录本科招生网或校园网进入三位一体报名系统填报，限报1个组别", "deadline": "2026年3月7日9:00—3月20日17:00", "materials": ["身份证(系统读取)"]},
+      {"step": 2, "title": "入围资格查询与缴费", "description": "查询入围面试资格并网上缴费", "deadline": "2026年4月1日—4月6日", "materials": ["140元报考费"]},
+      {"step": 3, "title": "准考证打印", "description": "考生自主打印准考证", "deadline": "2026年4月13日—4月18日", "materials": ["准考证"]},
+      {"step": 4, "title": "综合测试(面试)", "description": "到校参加面试，满分100分", "deadline": "2026年4月19日", "materials": ["身份证", "准考证"]},
+      {"step": 5, "title": "成绩查询与志愿填报录取", "description": "普通类提前录取须第一志愿；高考总分要求：中医/临床类≥特控线98%，中药/护理/管理类≥特控线90%", "deadline": "志愿填报6月下旬；录取7月中旬", "materials": []}
+    ],
+    "brochureUrl": "https://zsb.zcmu.edu.cn/info/1075/4871.htm"
+  },
+  {
+    "id": "zwu", "name": "浙江万里学院", "shortName": "万里学院", "aliases": ["万里", "ZWU"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "钱湖校区", "address": "宁波市鄞州区钱湖南路8号"}, {"name": "余姚校区", "address": "宁波市余姚市(部分专业高年级)"}],
+      "website": "https://zsw.zwu.edu.cn", "admissionsPhone": "0574-88222065", "consultQQ": null,
+      "tuitionGeneral": "32000-33000元/年", "tuitionSinoForeign": "58000-65000元/年(中外合作办学)", "healthRestrictions": null
+    },
+    "formula": {"xuekao": {"A": 12, "B": 9, "C": 6, "D": 4, "fullScore": 100}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60}},
+    "formulaSource": {"year": 2026, "title": "浙江万里学院2026年三位一体综合评价招生章程", "url": "https://zsw.zwu.edu.cn/_t296/4e/ed/c4804a216813/page.htm"},
+    "examFormat": {"hasWrittenTest": true, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": ["英语听说读写(仅B组笔试)"], "interviewFormat": "group", "contentSummary": "A组无领导小组讨论(语言表达、认知观察、逻辑思辨、协作沟通、创新发展)，满分100分；B组笔试(英语)，满分100分。按1:6入围", "tips": "A组重点练无领导小组讨论与团队协作；B组强化英语综合应用能力"},
+    "transferRestriction": {"restricted": true, "detail": "视觉传达设计、广告学、艺术与科技(均中外合作办学)不能转专业；其余按《浙江万里学院本科学生转专业管理办法》执行"},
+    "majors": [
+      {"name": "日语", "category": "文学", "requiredSubjects": ["不限"], "planCount": 15},
+      {"name": "电子商务", "category": "管理学", "requiredSubjects": ["不限"], "planCount": 10},
+      {"name": "金融工程", "category": "经济学", "requiredSubjects": ["物理"], "planCount": 10},
+      {"name": "电子信息工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "生物技术", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": 15},
+      {"name": "生物工程类", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 25},
+      {"name": "环境科学与工程类", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 25},
+      {"name": "食品质量与安全", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "食品营养与健康", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "网络空间安全", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "智能影像工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "电气工程及其自动化", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 15},
+      {"name": "机械电子工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 15},
+      {"name": "物流管理", "category": "管理学", "requiredSubjects": ["不限"], "planCount": 40},
+      {"name": "艺术与科技(中外合作办学)", "category": "艺术学", "requiredSubjects": ["不限"], "planCount": 40},
+      {"name": "广告学(中外合作办学)", "category": "文学", "requiredSubjects": ["不限"], "planCount": 45},
+      {"name": "视觉传达设计(中外合作办学)", "category": "艺术学", "requiredSubjects": ["不限"], "planCount": 45}
+    ],
+    "admission": [
+      {"year": 2026, "applicants": 10847, "passed": 2090, "admitted": 350, "minScore": null, "avgScore": null, "xuekaoRequirement": "各专业学考折算门槛60-70分(英语科目A计15分)；A=12/B=9/C=6/D=4"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录本科招生网点击三位一体报名，限报1个专业(类)，无需上传材料", "deadline": "2026年3月7日9:00—3月20日17:00", "materials": ["身份证(系统读取)"]},
+      {"step": 2, "title": "审核合格名单公布", "description": "按1:9确定初审通过名单", "deadline": "2026年3月27日", "materials": []},
+      {"step": 3, "title": "缴费与准考证打印", "description": "初审通过考生缴费并自主打印准考证", "deadline": "缴费2026年4月3日—4月13日；准考证4月14日13:00—4月19日", "materials": ["140元报考费", "准考证"]},
+      {"step": 4, "title": "综合素质测试", "description": "A组面试/B组笔试，满分100分", "deadline": "2026年4月19日", "materials": ["身份证", "准考证"]},
+      {"step": 5, "title": "入围公示与志愿填报录取", "description": "普通类提前录取须第一志愿；跨专业(类)无效", "deadline": "入围公示2026年4月25日前；录取7月中旬", "materials": []}
+    ],
+    "brochureUrl": "https://zsw.zwu.edu.cn/_t296/4e/ed/c4804a216813/page.htm"
+  },
+  {
+    "id": "zust", "name": "浙江科技大学", "shortName": "浙科大", "aliases": ["浙科大", "ZUST"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "小和山校区", "address": "杭州市西湖区留和路318号"}, {"name": "安吉校区", "address": "湖州市安吉县"}],
+      "website": "https://zsb.zust.edu.cn", "admissionsPhone": "0571-85070165", "consultQQ": null,
+      "tuitionGeneral": "4800-6300元/年", "tuitionSinoForeign": "经济学(中美合作办学)28800元/年", "healthRestrictions": null
+    },
+    "formula": {"xuekao": {"A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60}},
+    "formulaSource": {"year": 2026, "title": "浙江科技大学2026年三位一体综合评价招生章程", "url": "https://zsb.zust.edu.cn/wzxq/17fb059cbe524fdab969f9c168a7806a"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "group", "contentSummary": "面试，考查综合素质、创新精神、培养潜质、专业素养，满分100分，入围不超过计划6倍且成绩≥60分", "tips": "提升综合表达与临场应变，关注专业背景与中德/中澳国际交流特色"},
+    "transferRestriction": {"restricted": false, "detail": "按学校相关规定执行（章程第二十六条）"},
+    "majors": [
+      {"name": "车辆工程(实验班)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 30},
+      {"name": "环境工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "工业设计", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "机械类(中德联合培养)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 30},
+      {"name": "电气类(中德联合培养)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "土木类(中德联合培养)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "机器人工程(中澳联合培养)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 30},
+      {"name": "国际商务(中澳联合培养)", "category": "管理学", "requiredSubjects": ["不限"], "planCount": 30},
+      {"name": "经济学(中美合作办学)", "category": "经济学", "requiredSubjects": ["不限"], "planCount": 40},
+      {"name": "德语", "category": "文学", "requiredSubjects": ["不限"], "planCount": 20}
+    ],
+    "admission": [
+      {"year": 2026, "applicants": null, "passed": null, "admitted": 240, "minScore": 74.91, "avgScore": null, "xuekaoRequirement": "学考A+B不少于6门，各科目均D及以上；高考总分≥特控线90%"},
+      {"year": 2025, "applicants": null, "passed": null, "admitted": 240, "minScore": 72.29, "avgScore": null, "xuekaoRequirement": null}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录学校报名系统，限报1个报考类别(默认兼报该类别下所有专业)", "deadline": "2026年3月7日9:00—3月20日17:00", "materials": ["身份证(系统读取)"]},
+      {"step": 2, "title": "初审与缴费", "description": "通过初审不超过计划数8倍；缴费后未参加测试不退费", "deadline": "初审2026年3月25日—3月31日；缴费3月31日—4月8日17:00", "materials": ["140元报考费"]},
+      {"step": 3, "title": "网上报到与准考证", "description": "报名系统网上报到并打印综合测试通知单", "deadline": "2026年4月17日—18日", "materials": ["综合测试通知单"]},
+      {"step": 4, "title": "综合素质测试(面试)", "description": "面试，满分100分", "deadline": "2026年4月19日", "materials": ["身份证", "综合测试通知单"]},
+      {"step": 5, "title": "成绩查询与录取", "description": "普通类提前录取须第一志愿；外语单科要求：中德/中澳105分、德语110分", "deadline": "录取7月中旬", "materials": []}
+    ],
+    "brochureUrl": "https://zsb.zust.edu.cn/wzxq/17fb059cbe524fdab969f9c168a7806a"
+  },
+  {
+    "id": "zjxu", "name": "嘉兴大学", "shortName": "嘉大", "aliases": ["嘉大", "ZJXU"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "梁林校区", "address": "嘉兴市广穹路899号"}, {"name": "平湖校区", "address": "嘉兴市平湖市宏建路888号"}],
+      "website": "https://zsb.zjxu.edu.cn", "admissionsPhone": "0573-83640000", "consultQQ": "248810354",
+      "tuitionGeneral": "4800-6325元/年", "tuitionSinoForeign": null,
+      "healthRestrictions": "轻度色觉异常(色弱)原则上不予录取：药学、临床医学、麻醉学、化学工程与工艺、应用化学、生物工程、环境工程"
+    },
+    "formula": {"xuekao": {"A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60}},
+    "formulaSource": {"year": 2026, "title": "嘉兴大学2026年三位一体综合评价招生章程", "url": "https://zsb.zjxu.edu.cn/info/10443/86745.htm"},
+    "examFormat": {"hasWrittenTest": true, "hasInterview": false, "hasPhysicalTest": false, "writtenTestSubjects": ["综合素质笔试(无考试大纲)"], "interviewFormat": "none", "contentSummary": "笔试，满分100分，由学校命题专家组封闭命题，无考试大纲，按各测试类别计划数10倍入围", "tips": "拓宽知识面，训练逻辑思维、综合分析与应用能力"},
+    "transferRestriction": {"restricted": false, "detail": "章程未单独限制，按学校转专业相关规定执行"},
+    "majors": [
+      {"name": "人力资源管理", "category": "管理学", "requiredSubjects": ["不限"], "planCount": 10},
+      {"name": "跨境电子商务", "category": "经济学", "requiredSubjects": ["不限"], "planCount": 10},
+      {"name": "英语", "category": "文学", "requiredSubjects": ["不限"], "planCount": 10},
+      {"name": "服装设计与工程", "category": "工学", "requiredSubjects": ["不限"], "planCount": 10},
+      {"name": "金融数学", "category": "经济学", "requiredSubjects": ["物理"], "planCount": 10},
+      {"name": "工程管理", "category": "管理学", "requiredSubjects": ["物理"], "planCount": 10},
+      {"name": "数学与应用数学", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "应用统计学", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "临床医学", "category": "医学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "麻醉学", "category": "医学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "药学", "category": "医学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "化学工程与工艺", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "应用化学", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "环境工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "生物工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "纺织工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "高分子材料与工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10}
+    ],
+    "admission": [
+      {"year": 2026, "applicants": null, "passed": null, "admitted": 170, "minScore": 73.02, "avgScore": null, "xuekaoRequirement": "学考≥3A 或 A+B≥5；高考总分不低于一段线20分"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录本科招生网报名系统填报，限报1个专业", "deadline": "2026年3月7日9:00—3月20日17:00", "materials": ["身份证(系统读取)"]},
+      {"step": 2, "title": "书面评审与缴费", "description": "按1:10确定入围；学考A+B≥8且A≥4可直接入围", "deadline": "评审2026年3月21日—3月26日；缴费3月27日9:00—3月31日17:00", "materials": ["140元报考费"]},
+      {"step": 3, "title": "测试通知书打印", "description": "自主打印测试通知书", "deadline": "2026年4月14日—4月19日", "materials": ["测试通知书"]},
+      {"step": 4, "title": "综合素质测试(笔试)", "description": "笔试，满分100分", "deadline": "2026年4月19日", "materials": ["身份证", "测试通知书"]},
+      {"step": 5, "title": "成绩查询与录取", "description": "普通类提前录取须第一志愿；可填≤6个专业志愿", "deadline": "成绩查询2026年4月23日9:00起；录取7月中旬", "materials": []}
+    ],
+    "brochureUrl": "https://zsb.zjxu.edu.cn/info/10443/86745.htm"
+  },
+  {
+    "id": "zucc", "name": "浙大城市学院", "shortName": "浙大城院", "aliases": ["浙大城院", "ZUCC"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "校本部", "address": "杭州市拱墅区湖州街51号"}],
+      "website": "https://zs.hzcu.edu.cn", "admissionsPhone": "0571-88018551", "consultQQ": null,
+      "tuitionGeneral": "5500元/年", "tuitionSinoForeign": "工业设计(中外合作办学)63000元/年", "healthRestrictions": null
+    },
+    "formula": {"xuekao": {"A": 10, "B": 8, "C": 6, "D": 0, "fullScore": 100}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60}},
+    "formulaSource": {"year": 2026, "title": "浙大城市学院2026年三位一体综合评价招生章程", "url": "https://zs.hzcu.edu.cn/guide/show-898.html"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "group", "contentSummary": "面试，考查学习潜质和综合素质，满分100分，按专业计划1:5入围", "tips": "准备专业认知、时事热点与综合素质类问题，练习结构化表达"},
+    "transferRestriction": {"restricted": true, "detail": "中外合作办学专业与非中外合作办学专业之间不能互转（章程第二十三条）"},
+    "majors": [
+      {"name": "护理学", "category": "医学", "requiredSubjects": ["化学"], "planCount": 70},
+      {"name": "药学", "category": "医学", "requiredSubjects": ["物理", "化学"], "planCount": 40},
+      {"name": "土木工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 40},
+      {"name": "工业设计(中外合作办学)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 50}
+    ],
+    "admission": [
+      {"year": 2026, "applicants": null, "passed": 792, "admitted": 200, "minScore": 75.888, "avgScore": null, "xuekaoRequirement": "学考折算≥60分(语数外A计15分)；高考总分须达一段线"},
+      {"year": 2025, "applicants": null, "passed": null, "admitted": 160, "minScore": 74.016, "avgScore": null, "xuekaoRequirement": null}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录本科招生网三位一体模块报名，限报1个专业，无需上传材料", "deadline": "2026年3月7日9:00—3月20日17:00", "materials": ["身份证(系统读取)"]},
+      {"step": 2, "title": "资格评审与缴费", "description": "按专业计划1:6确定评审名单；学考折算100分直接入围", "deadline": "评审2026年3月21日—4月1日；缴费4月2日—4月12日", "materials": ["140元报考费"]},
+      {"step": 3, "title": "准考证打印", "description": "自主打印准考证", "deadline": "2026年4月15日起", "materials": ["准考证"]},
+      {"step": 4, "title": "综合素质测试(面试)", "description": "面试，满分100分", "deadline": "2026年4月19日", "materials": ["身份证", "准考证"]},
+      {"step": 5, "title": "入围与录取", "description": "普通类提前录取须第一志愿；工业设计(中外合作)外语单科≥100分", "deadline": "入围2026年4月30日起；录取7月中旬", "materials": []}
+    ],
+    "brochureUrl": "https://zs.hzcu.edu.cn/guide/show-898.html"
+  },
+  {
+    "id": "nit", "name": "浙大宁波理工学院", "shortName": "浙大宁理", "aliases": ["浙大宁理", "NIT"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "校本部", "address": "宁波市钱湖南路1号"}],
+      "website": "https://zsw.nbt.edu.cn", "admissionsPhone": "0574-88229100", "consultQQ": null,
+      "tuitionGeneral": "5500-6325元/年", "tuitionSinoForeign": "国际经济与贸易/金融学(中外合作办学)28800元/年",
+      "healthRestrictions": "化学工程与工艺、高分子材料与工程不录取色弱/色盲考生；材料科学与工程慎报色盲"
+    },
+    "formula": {"xuekao": {"A": 10, "B": 8, "C": 5, "D": 0, "fullScore": 100}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60}},
+    "formulaSource": {"year": 2026, "title": "浙大宁波理工学院2026年三位一体综合评价招生章程", "url": "https://zsw.nbt.edu.cn/info/1033/3492.htm"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "group", "contentSummary": "面试为主，考查综合素质和专业学习潜质，中外合作办学专业加试英语口语，满分100分，按专业计划1:6入围", "tips": "练习综合面试表达；报考中外合作专业须强化英语口语"},
+    "transferRestriction": {"restricted": true, "detail": "普通专业按学校转专业政策执行；中外合作办学专业(项目)入学后不能转出该专业(项目)"},
+    "majors": [
+      {"name": "高分子材料与工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "材料科学与工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "化学工程与工艺", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "机械设计制造及其自动化", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 8},
+      {"name": "土木工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 8},
+      {"name": "工业设计", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 8},
+      {"name": "国际经济与贸易(中外合作办学)", "category": "经济学", "requiredSubjects": ["不限"], "planCount": 8},
+      {"name": "金融学(中外合作办学)", "category": "经济学", "requiredSubjects": ["不限"], "planCount": 8}
+    ],
+    "admission": [
+      {"year": 2026, "applicants": null, "passed": 371, "admitted": 70, "minScore": 75.60, "avgScore": null, "xuekaoRequirement": "学考折算≥60分；高考总分须达一段线；中外合作专业外语单科≥100分"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录招生网三位一体栏目报名，限报1个专业，无需上传材料", "deadline": "2026年3月7日9:00—3月20日17:00", "materials": ["身份证(系统读取)"]},
+      {"step": 2, "title": "书面评审与缴费", "description": "按分专业计划1:10确定测试资格", "deadline": "评审2026年3月21日—3月31日；缴费4月1日9:00—4月10日16:00", "materials": ["140元报考费"]},
+      {"step": 3, "title": "准考证打印", "description": "自主打印综合素质测试通知书", "deadline": "2026年4月15日—4月19日", "materials": ["准考证"]},
+      {"step": 4, "title": "综合素质测试(面试)", "description": "面试为主(中外合作加试英语口语)，满分100分", "deadline": "2026年4月19日", "materials": ["身份证", "准考证"]},
+      {"step": 5, "title": "成绩查询与录取", "description": "普通类提前录取须第一志愿；专业志愿须为入围专业", "deadline": "录取7月中旬", "materials": []}
+    ],
+    "brochureUrl": "https://zsw.nbt.edu.cn/info/1033/3492.htm"
+  },
+  {
+    "id": "hzsf", "name": "湖州师范大学", "shortName": "湖州师范", "aliases": ["湖州师范学院", "湖师院"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "主校区(东校区)", "address": "湖州市吴兴区二环东路759号"}],
+      "website": "https://zsw.zjhu.edu.cn/", "admissionsPhone": "0572-2599888", "consultQQ": null,
+      "tuitionGeneral": "4800-6300元/年", "tuitionSinoForeign": null,
+      "healthRestrictions": "色弱不予录取：化学(师范)、水产养殖学(卓越班)、护理学、生物工程、制药工程"
+    },
+    "formula": {"xuekao": {"A": 10, "B": 6, "C": 2, "D": 0, "fullScore": 100}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60}},
+    "formulaSource": {"year": 2026, "title": "湖州师范大学2026年三位一体综合评价招生章程", "url": "https://zsw.zjhu.edu.cn/2026/0306/c3200a247479/page.htm"},
+    "examFormat": {"hasWrittenTest": true, "hasInterview": false, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "none", "contentSummary": "综合素质测试为笔试(满分100分)，考查知识储备、逻辑思维、理解与书面表达能力；2026年由原面试改为笔试", "tips": "报名条件：综合素质评价B等及以上、学考A+B≥5且其余D及以上；每组限报一个组别，不得兼报"},
+    "transferRestriction": {"restricted": false, "detail": ""},
+    "majors": [
+      {"name": "小学教育(师范)", "category": "教育学", "requiredSubjects": ["不限"], "planCount": 15},
+      {"name": "英语(师范)", "category": "文学", "requiredSubjects": ["不限"], "planCount": 15},
+      {"name": "知识产权", "category": "法学", "requiredSubjects": ["不限"], "planCount": 15},
+      {"name": "新闻学", "category": "文学", "requiredSubjects": ["不限"], "planCount": 15},
+      {"name": "电子商务", "category": "管理学", "requiredSubjects": ["不限"], "planCount": 15},
+      {"name": "数学与应用数学(师范)", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "物理学(师范)", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "化学(师范)", "category": "理学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "新能源材料与器件", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "制药工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "生物工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "水产养殖学(卓越班)", "category": "农学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "护理学", "category": "医学", "requiredSubjects": ["化学"], "planCount": 20}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": null, "passed": 1288, "admitted": 220, "minScore": 67.94, "avgScore": null, "xuekaoRequirement": "2025年：师范组A+B≥7且A≥1；非师范组A+B≥5、其余D及以上"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录本科招生网报名系统填报，每位考生限报一个组别", "deadline": "2026年3月20日17:00", "materials": []},
+      {"step": 2, "title": "资格审查与入围公布", "description": "按学考成绩择优，各组不超过计划1:8", "deadline": "2026年3月25日", "materials": []},
+      {"step": 3, "title": "缴费", "description": "公共支付缴费140元/人", "deadline": "2026年4月3日16:30", "materials": []},
+      {"step": 4, "title": "准考证打印", "description": "登录报名系统打印准考证", "deadline": "2026年4月13日起", "materials": []},
+      {"step": 5, "title": "综合素质测试(笔试)", "description": "笔试，满分100分", "deadline": "2026年4月19日", "materials": ["身份证", "准考证"]},
+      {"step": 6, "title": "成绩查询与入围公布", "description": "查询校测成绩，按各组1:8确定入围名单", "deadline": "2026年4月29日起", "materials": []}
+    ],
+    "brochureUrl": "https://zsw.zjhu.edu.cn/2026/0306/c3200a247479/page.htm"
+  },
+  {
+    "id": "sxu", "name": "绍兴大学", "shortName": "绍兴大学", "aliases": ["绍兴文理学院", "绍大"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "南山校区(主校区)", "address": "绍兴市越城区城南大道1077号"}],
+      "website": "https://zs.usx.edu.cn/", "admissionsPhone": "0575-88345555", "consultQQ": null,
+      "tuitionGeneral": "5500元/年", "tuitionSinoForeign": "25000元/年(学前教育中外合作办学)",
+      "healthRestrictions": "色觉异常(色盲、色弱)者谨慎报考学前教育(中外合作办学)(师范)、轻化工程、药学等专业"
+    },
+    "formula": {"xuekao": {"A": 10, "B": 8, "C": 6, "D": 4, "fullScore": 100}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60}},
+    "formulaSource": {"year": 2026, "title": "绍兴大学2026年三位一体综合评价招生章程", "url": "https://zs.usx.edu.cn/info/1010/7025.htm"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "individual", "contentSummary": "面试12分钟/人(含审题作答)；师范类含必答题测试+自我展示，理工类含必答题测试+自我陈述；满分100分", "tips": "无自荐信要求；转专业政策放宽(学前教育中外合作办学除外)"},
+    "transferRestriction": {"restricted": true, "detail": "学前教育(中外合作办学)(师范)录取学生不得申请转专业；其余三位一体录取学生入学一学期后可申请转专业"},
+    "majors": [
+      {"name": "学前教育(中外合作办学)(师范)", "category": "教育学", "requiredSubjects": ["不限"], "planCount": 40},
+      {"name": "土木工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "地质工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "纺织工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "轻化工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 20},
+      {"name": "药学", "category": "医学", "requiredSubjects": ["物理", "化学"], "planCount": 25}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": 1978, "passed": 820, "admitted": 135, "minScore": 72.16, "avgScore": null, "xuekaoRequirement": "2025年：学考3A或A+B≥5、其余D及以上"},
+      {"year": 2026, "applicants": 7448, "passed": 1043, "admitted": null, "minScore": null, "avgScore": null, "xuekaoRequirement": "2026年：学考各科目合格、学考折算≥60分(A=10,B=8,C=6,D=4)"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录招生网报名系统，限报师范类或理工类一类", "deadline": "2026年3月20日17:00", "materials": []},
+      {"step": 2, "title": "资格审查", "description": "学考成绩90%+中学综合表现10%，按各类计划8倍入围", "deadline": "2026年3月27日", "materials": []},
+      {"step": 3, "title": "缴费", "description": "支付宝/微信扫码缴费140元/人", "deadline": "2026年4月2日", "materials": []},
+      {"step": 4, "title": "准考证打印", "description": "登录报名系统打印准考证", "deadline": "2026年4月7日起", "materials": []},
+      {"step": 5, "title": "综合素质测试(面试)", "description": "面试12分钟/人", "deadline": "2026年4月11日", "materials": ["身份证", "准考证"]},
+      {"step": 6, "title": "入围公布", "description": "按各类计划6倍确定入围资格名单", "deadline": "2026年4月11日后", "materials": []}
+    ],
+    "brochureUrl": "https://zs.usx.edu.cn/info/1010/7025.htm"
+  },
+  {
+    "id": "zisu", "name": "浙江外国语学院", "shortName": "浙外", "aliases": ["浙外", "ZISU"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "小和山校区(主校区)", "address": "杭州市西湖区留和路299号"}],
+      "website": "https://zs.zisu.edu.cn/", "admissionsPhone": "0571-88213107", "consultQQ": null,
+      "tuitionGeneral": "4800-5500元/年", "tuitionSinoForeign": "25000元/年(西班牙语中外合作办学)",
+      "healthRestrictions": "《指导意见》第一条所列六类疾病原则上不予录取"
+    },
+    "formula": {"xuekao": {"A": 15, "B": 9, "C": 3, "D": 0, "fullScore": 150}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.10, "xiaokao": 0.30, "gaokao": 0.60}},
+    "formulaSource": {"year": 2026, "title": "浙江外国语学院2026年三位一体综合评价招生章程", "url": "https://swyt.zisu.edu.cn/Default/NewsShow?newsId=142"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "individual", "contentSummary": "面试，考查专业素养、专业潜质及综合素质，满分100分", "tips": "每位考生限报一个专业；中外合作办学专业三位一体录取后不能转专业"},
+    "transferRestriction": {"restricted": true, "detail": "西班牙语(中外合作办学)(旅游方向)三位一体招录学生入校后不能转专业"},
+    "majors": [
+      {"name": "汉语言文学(师范)", "category": "教育学", "requiredSubjects": ["历史"], "planCount": 15},
+      {"name": "小学教育(师范)", "category": "教育学", "requiredSubjects": ["不限"], "planCount": 20},
+      {"name": "西班牙语(中外合作办学)(旅游方向)", "category": "文学", "requiredSubjects": ["不限"], "planCount": 25},
+      {"name": "葡萄牙语", "category": "文学", "requiredSubjects": ["不限"], "planCount": 10},
+      {"name": "俄语", "category": "文学", "requiredSubjects": ["不限"], "planCount": 10},
+      {"name": "阿拉伯语", "category": "文学", "requiredSubjects": ["不限"], "planCount": 10},
+      {"name": "日语", "category": "文学", "requiredSubjects": ["不限"], "planCount": 15},
+      {"name": "朝鲜语", "category": "文学", "requiredSubjects": ["不限"], "planCount": 5},
+      {"name": "意大利语", "category": "文学", "requiredSubjects": ["不限"], "planCount": 5}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": 6049, "passed": 654, "admitted": 115, "minScore": null, "avgScore": null, "xuekaoRequirement": "学考至少1门A等或6个B等及以上(A=15,B=9,C=3,D=0,满分150)"},
+      {"year": 2026, "applicants": null, "passed": 691, "admitted": null, "minScore": null, "avgScore": null, "xuekaoRequirement": "学考至少1门A等或6个B等及以上"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录招生网报名，每位考生限报一个专业", "deadline": "2026年3月20日17:00", "materials": []},
+      {"step": 2, "title": "资格审查与缴费", "description": "按学考折算成绩不超过1:9确定综合测试名单并缴费140元/人", "deadline": "2026年4月12日16:00", "materials": []},
+      {"step": 3, "title": "准考证打印", "description": "登录系统打印通知书", "deadline": "2026年4月17日16:00", "materials": []},
+      {"step": 4, "title": "报到抽签", "description": "网上报名系统报到抽签", "deadline": "2026年4月18日09:00-16:00", "materials": []},
+      {"step": 5, "title": "综合素质测试(面试)", "description": "面试，满分100分", "deadline": "2026年4月19日", "materials": ["身份证", "准考证"]},
+      {"step": 6, "title": "入围公布与成绩查询", "description": "公布入围名单及校测成绩", "deadline": "2026年4月29日起", "materials": []}
+    ],
+    "brochureUrl": "https://swyt.zisu.edu.cn/Default/NewsShow?newsId=142"
+  },
+  {
+    "id": "zjweu", "name": "浙江水利水电学院", "shortName": "浙水院", "aliases": ["浙水院", "浙江水院"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "钱塘校区(主校区)", "address": "杭州市钱塘区2号大街508号"}, {"name": "南浔校区", "address": "湖州市南浔区联谊路68号"}],
+      "website": "https://zhaosheng.zuwe.edu.cn/", "admissionsPhone": "0571-86929123", "consultQQ": null,
+      "tuitionGeneral": "5500-6325元/年", "tuitionSinoForeign": null, "healthRestrictions": "按教育部和浙江省有关规定执行"
+    },
+    "formula": {"xuekao": {"A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60}},
+    "formulaSource": {"year": 2026, "title": "浙江水利水电学院2026年三位一体综合评价招生章程", "url": "https://zhaosheng.zuwe.edu.cn/newstudent/view/aid/1210/tag/zsjz"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "individual", "contentSummary": "半结构化现场面试，10分钟/人，考查综合素质、科学素养、专业潜质、创新潜质，满分100分", "tips": "报名时不分专业，高考后填志愿再选专业；初审按学考6倍、校测按1:5入围"},
+    "transferRestriction": {"restricted": false, "detail": "三位一体录取学生转专业条件与普通类录取学生一致"},
+    "majors": [
+      {"name": "水利水电工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "港口航道与海岸工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "给排水科学与工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "环境生态工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "土木工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "道路桥梁与渡河工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "测绘工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "遥感科学与技术", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "材料成型及控制工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10},
+      {"name": "新能源科学与工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 10}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": null, "passed": 453, "admitted": 100, "minScore": null, "avgScore": null, "xuekaoRequirement": "学考各科目合格；普通类书面评审线66分(约8B2C)"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录招生网三位一体报名系统，不分专业类别报名", "deadline": "2026年3月20日17:00", "materials": []},
+      {"step": 2, "title": "资格审查", "description": "按学考折算不超过6倍计划确定综合测试资格", "deadline": "2026年3月26日", "materials": []},
+      {"step": 3, "title": "缴费", "description": "缴费140元/人", "deadline": "2026年4月3日17:00", "materials": []},
+      {"step": 4, "title": "准考证打印", "description": "登录系统打印准考证", "deadline": "2026年4月11日17:00", "materials": []},
+      {"step": 5, "title": "综合素质测试(面试)", "description": "半结构化面试，满分100分", "deadline": "2026年4月12日", "materials": ["身份证", "准考证"]},
+      {"step": 6, "title": "成绩查询", "description": "综合测试结束一周后查询", "deadline": "2026年4月中旬", "materials": []}
+    ],
+    "brochureUrl": "https://zhaosheng.zuwe.edu.cn/newstudent/view/aid/1210/tag/zsjz"
+  },
+  {
+    "id": "zjpc", "name": "浙江警察学院", "shortName": "浙警", "aliases": ["浙警", "ZJPC", "浙江警院"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "滨江校区", "address": "杭州市滨江区滨文路555号"}, {"name": "临安校区", "address": "杭州市临安区农林大路2559号"}],
+      "website": "https://www.zjjcxy.cn/zsxxw", "admissionsPhone": "0571-87787029", "consultQQ": null,
+      "tuitionGeneral": "治安学/侦查学/经济犯罪侦查6000元/年；涉外警务/警务指挥与战术6900元/年；刑事科学技术/交通管理工程/网络安全与执法/数据警务技术6600元/年",
+      "tuitionSinoForeign": null,
+      "healthRestrictions": "身高男≥170cm、女≥160cm；BMI男17.3-27.3、女17.1-25.7；双眼裸眼视力≥4.8；无色盲色弱；无文身、无明显瘢痕等(详见公安院校体检标准)"
+    },
+    "formula": {"xuekao": {"A": 10, "B": 8, "C": 5, "D": 2, "fullScore": 100}, "xiaokao": {"fullScore": 300}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.10, "xiaokao": 0.15, "gaokao": 0.75}},
+    "formulaSource": {"year": 2026, "title": "浙江警察学院2026年三位一体综合评价招生章程", "url": "https://www.zjjcxy.cn/zsxxw/xwgg/271286.html"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": true, "writtenTestSubjects": [], "interviewFormat": "individual", "contentSummary": "综合测试含面试+心理测试+体能测试，任一项不合格则综合测试不合格。体能测试为50米跑、立定跳远、1000米(男)/800米(女)、引体向上(男)/仰卧起坐(女)四项，三项合格即体能合格；50米/立定跳远/1000(800)米为计分项(单项满分100、总分300)", "tips": "须参加浙江公安警察院校招生综合测试；报考涉外警务外语≥120分；报考警务指挥与战术体能测试≥260分；志愿单列"},
+    "transferRestriction": {"restricted": true, "detail": "公安院校公安专业，入学后实行警务化管理，按公安专业培养，原则上不得转专业"},
+    "majors": [
+      {"name": "治安学", "category": "法学", "requiredSubjects": ["政治"], "planCount": 130},
+      {"name": "侦查学", "category": "法学", "requiredSubjects": ["政治"], "planCount": 90},
+      {"name": "涉外警务", "category": "法学", "requiredSubjects": ["政治"], "planCount": 80},
+      {"name": "经济犯罪侦查", "category": "法学", "requiredSubjects": ["政治"], "planCount": 90},
+      {"name": "警务指挥与战术", "category": "法学", "requiredSubjects": ["政治"], "planCount": 60},
+      {"name": "刑事科学技术", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 100},
+      {"name": "交通管理工程(智能交通方向)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 100},
+      {"name": "网络安全与执法", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 190},
+      {"name": "数据警务技术", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 80},
+      {"name": "数据警务技术(低空安全管理方向)", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 30}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": null, "passed": null, "admitted": 950, "minScore": null, "avgScore": null, "xuekaoRequirement": "学考无不合格科目、综合素质评价不低于B等；学考折算A=10/B=8/C=5/D=2；录取按综合分(高考×75%+学考×10%+体能×15%)，分市分性别划线"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录招生信息网进入浙江公安招生报名系统，缴纳报名费160元", "deadline": "2026年4月7日", "materials": []},
+      {"step": 2, "title": "综合测试确认", "description": "再次登录系统确认参加综合测试", "deadline": "2026年4月19日17:00", "materials": []},
+      {"step": 3, "title": "综合测试(面试+心理+体能)", "description": "滨江校区，5月1-4日分地市进行", "deadline": "2026年5月4日", "materials": ["身份证", "高考报名证", "健康状况承诺书"]},
+      {"step": 4, "title": "高考", "description": "参加2026年普通高考，选考科目符合专业要求", "deadline": "2026年6月", "materials": []},
+      {"step": 5, "title": "志愿填报", "description": "普通类提前录取填报，志愿单列；高考成绩须达一段线", "deadline": "2026年6月底", "materials": []},
+      {"step": 6, "title": "政治考察", "description": "按综合成绩1:1.1划定政治考察分数线，由公安机关考察", "deadline": "2026年7月上旬", "materials": []},
+      {"step": 7, "title": "录取", "description": "先政治考察后录取，先录全省统招专业后录分市招生专业", "deadline": "2026年7月上旬", "materials": []}
+    ],
+    "brochureUrl": "https://www.zjjcxy.cn/zsxxw/xwgg/271286.html"
+  },
+  {
+    "id": "hzmc", "name": "杭州医学院", "shortName": "杭医", "aliases": ["杭医", "HMC"], "type": "provincial",
+    "info": {
+      "campuses": [{"name": "临安校区(主校区)", "address": "杭州市临安区颐康街8号"}, {"name": "滨江校区", "address": "杭州市滨江区滨文路481号"}, {"name": "黄龙校区", "address": "杭州市西湖区天目山路182号"}],
+      "website": "https://zs.hmc.edu.cn/", "admissionsPhone": "0571-87692654", "consultQQ": null,
+      "tuitionGeneral": "5500-6300元/年", "tuitionSinoForeign": null,
+      "healthRestrictions": "轻度色觉异常(色弱)、色盲或不能准确识别颜色的考生，临床医学、智能医学工程原则上不予录取"
+    },
+    "formula": {"xuekao": {"A": 10, "B": 9, "C": 7, "D": 4, "fullScore": 100}, "xiaokao": {"fullScore": 100}, "gaokao": {"fullScore": 750}, "weights": {"xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60}},
+    "formulaSource": {"year": 2026, "title": "杭州医学院2026年三位一体综合评价招生章程", "url": "https://swyt.hmc.edu.cn/st/zs_news.jsp?neId=151"},
+    "examFormat": {"hasWrittenTest": false, "hasInterview": true, "hasPhysicalTest": false, "writtenTestSubjects": [], "interviewFormat": "individual", "contentSummary": "半结构化面试，考查专业素养、专业能力、综合素质和个性特长，满分100分", "tips": "临床医学高考须达一段线70分以上、智能医学工程达一段线30分以上；书面评审按6倍、校测按4倍入围"},
+    "transferRestriction": {"restricted": false, "detail": ""},
+    "majors": [
+      {"name": "临床医学", "category": "医学", "requiredSubjects": ["物理", "化学"], "planCount": 15},
+      {"name": "智能医学工程", "category": "工学", "requiredSubjects": ["物理", "化学"], "planCount": 15}
+    ],
+    "admission": [
+      {"year": 2025, "applicants": 956, "passed": 120, "admitted": 17, "minScore": 74.20, "avgScore": null, "xuekaoRequirement": "学考各科目D等及以上；临床医学折算≥90(或≥85+专项)，医学信息工程≥85(或≥80+专项)；A=10,B=9,C=7,D=4"}
+    ],
+    "applicationSteps": [
+      {"step": 1, "title": "网上报名", "description": "登录招生网三位一体报名系统，限报1个专业", "deadline": "2026年3月20日17:00", "materials": []},
+      {"step": 2, "title": "书面评审", "description": "按学考折算成绩排序，各专业计划6倍确定综合测试名单", "deadline": "2026年3月30日", "materials": []},
+      {"step": 3, "title": "缴费", "description": "通过评审者缴费140元/人", "deadline": "2026年4月6日16:30", "materials": []},
+      {"step": 4, "title": "准考证打印", "description": "自主打印准考证", "deadline": "2026年4月10日16:30", "materials": []},
+      {"step": 5, "title": "综合素质测试(面试)", "description": "半结构化面试，满分100分", "deadline": "2026年4月11日", "materials": ["身份证", "准考证"]},
+      {"step": 6, "title": "入围公布与成绩查询", "description": "按各专业计划4倍确定入围名单", "deadline": "2026年4月17日", "materials": []}
+    ],
+    "brochureUrl": "https://swyt.hmc.edu.cn/st/zs_news.jsp?neId=151"
+  }
+]

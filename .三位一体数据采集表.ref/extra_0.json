@@ -1,0 +1,237 @@
+[
+  {
+    "id": "zju",
+    "formulaSource": {
+      "year": 2026,
+      "title": "浙江大学2026年浙江省“三位一体”综合评价招生简章",
+      "url": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm"
+    },
+    "brochureUrl": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm",
+    "formula": {
+      "xuekao": { "A": 10, "B": 9, "C": 8, "D": 6, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.05, "xiaokao": 0.10, "gaokao": 0.85 }
+    },
+    "formulaNote": "综合成绩按高考85%+面试10%+学考5%折算（非标准15/25/60），学考满分100且D计6分。"
+  },
+  {
+    "id": "hdu",
+    "formulaSource": {
+      "year": 2026,
+      "title": "杭州电子科技大学2026年“三位一体”综合评价招生章程",
+      "url": "https://zhaosheng.hdu.edu.cn/art.php?aid=2427"
+    },
+    "brochureUrl": "https://zhaosheng.hdu.edu.cn/art.php?aid=2427",
+    "formula": {
+      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+    },
+    "formulaNote": null
+  },
+  {
+    "id": "zufe",
+    "formulaSource": {
+      "year": 2026,
+      "title": "浙江财经大学2026年“三位一体”综合评价招生章程",
+      "url": "https://zs.zufe.edu.cn/info/1075/4688.htm"
+    },
+    "brochureUrl": "https://zs.zufe.edu.cn/info/1075/4688.htm",
+    "formula": {
+      "xuekao": { "A": 15, "B": 9, "C": 3, "D": 0, "fullScore": 150 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60 }
+    },
+    "formulaNote": "综合成绩按学考20%+校测20%+高考60%计算（非标准15/25/60）。"
+  },
+  {
+    "id": "nbu",
+    "formulaSource": {
+      "year": 2026,
+      "title": "2026年宁波大学“三位一体”综合评价招生章程",
+      "url": "https://zsb.nbu.edu.cn/info/1016/3796.htm"
+    },
+    "brochureUrl": "https://zsb.nbu.edu.cn/info/1016/3796.htm",
+    "formula": {
+      "xuekao": { "A": 10, "B": 8, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+    },
+    "formulaNote": "学考按满分100分折算（非标准150分）。"
+  },
+  {
+    "id": "wzu",
+    "formulaSource": {
+      "year": 2026,
+      "title": "温州大学2026年“三位一体”综合评价招生章程",
+      "url": "https://zs.wzu.edu.cn/info/1247/10044.htm"
+    },
+    "brochureUrl": "https://zs.wzu.edu.cn/info/1247/10044.htm",
+    "formula": {
+      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+    },
+    "formulaNote": null
+  },
+  {
+    "id": "zjut",
+    "formulaSource": {
+      "year": 2026,
+      "title": "浙江工业大学2026年“三位一体”综合评价招生章程",
+      "url": "https://zs.zjut.edu.cn/html/n2546.html"
+    },
+    "brochureUrl": "https://zs.zjut.edu.cn/html/n2546.html",
+    "formula": null,
+    "formulaNote": null
+  },
+  {
+    "id": "zjnu",
+    "formulaSource": {
+      "year": 2026,
+      "title": "浙江师范大学2026年“三位一体”综合评价招生章程",
+      "url": "https://zs.zjnu.edu.cn/2026/0306/c6886a547727/page.htm"
+    },
+    "brochureUrl": "https://zs.zjnu.edu.cn/2026/0306/c6886a547727/page.htm",
+    "formula": {
+      "xuekao": { "A": 10, "B": 8, "C": 6, "D": 2, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+    },
+    "formulaNote": "学考按满分100分折算，且D计2分（非标准150分且D=0）。"
+  },
+  {
+    "id": "wmu",
+    "formulaSource": {
+      "year": 2026,
+      "title": "温州医科大学2026年“三位一体”综合评价招生章程",
+      "url": "https://zhaosheng.wmu.edu.cn/info/1172/17152.htm"
+    },
+    "brochureUrl": "https://zhaosheng.wmu.edu.cn/info/1172/17152.htm",
+    "formula": {
+      "xuekao": { "A": 10, "B": 9, "C": 7, "D": 4, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60 }
+    },
+    "formulaNote": "综合成绩按学考20%+校测20%+高考60%计算（非标准15/25/60），学考满分100。"
+  },
+  {
+    "id": "zjgsu",
+    "formulaSource": {
+      "year": 2026,
+      "title": "浙江工商大学2026年“三位一体”综合评价招生章程",
+      "url": "https://zhaoban.zjgsu.edu.cn/?news/266.html"
+    },
+    "brochureUrl": "https://zhaoban.zjgsu.edu.cn/?news/266.html",
+    "formula": {
+      "xuekao": { "A": 10, "B": 8, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60 }
+    },
+    "formulaNote": "综合成绩按学考20%+校测20%+高考60%计算，学考满分100（非标准15/25/60、非标准150分）。"
+  },
+  {
+    "id": "zstu",
+    "formulaSource": {
+      "year": 2026,
+      "title": "浙江理工大学2026年“三位一体”综合评价招生章程",
+      "url": "https://zs.zstu.edu.cn//info/1033/4033.htm"
+    },
+    "brochureUrl": "https://zs.zstu.edu.cn//info/1033/4033.htm",
+    "formula": {
+      "xuekao": { "A": 10, "B": 8, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60 }
+    },
+    "formulaNote": "综合成绩按学考20%+校测20%+高考60%计算，学考满分100（非标准15/25/60、非标准150分）。"
+  },
+  {
+    "id": "zjou",
+    "formulaSource": {
+      "year": 2026,
+      "title": "浙江海洋大学2026年“三位一体”综合评价招生章程",
+      "url": "https://zs.zjou.edu.cn/info/1050/6890.htm"
+    },
+    "brochureUrl": "https://zs.zjou.edu.cn/info/1050/6890.htm",
+    "formula": {
+      "xuekao": { "A": 15, "B": 10, "C": 6, "D": 1, "fullScore": 150 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+    },
+    "formulaNote": "学考折算D计1分（非标准D=0）。"
+  },
+  {
+    "id": "zafu",
+    "formulaSource": {
+      "year": 2026,
+      "title": "浙江农林大学2026年“三位一体”综合评价招生章程",
+      "url": "https://zs.zafu.edu.cn/info/1020/5002.htm"
+    },
+    "brochureUrl": "https://zs.zafu.edu.cn/info/1020/5002.htm",
+    "formula": {
+      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+    },
+    "formulaNote": null
+  },
+  {
+    "id": "cjlu",
+    "formulaSource": {
+      "year": 2026,
+      "title": "中国计量大学2026年“三位一体”综合评价招生章程",
+      "url": "https://zs.cjlu.edu.cn/info/1037/8403.htm"
+    },
+    "brochureUrl": "https://zs.cjlu.edu.cn/info/1037/8403.htm",
+    "formula": {
+      "xuekao": { "A": 10, "B": 9, "C": 8, "D": 7, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+    },
+    "formulaNote": "学考按满分100分折算，且D计7分（非标准150分且D=0）。"
+  },
+  {
+    "id": "hznu",
+    "formulaSource": {
+      "year": 2026,
+      "title": "杭州师范大学2026年“三位一体”综合评价招生章程",
+      "url": "https://undergrad.hznu.edu.cn/Details/20260305/410257202603050257729421.html"
+    },
+    "brochureUrl": "https://undergrad.hznu.edu.cn/Details/20260305/410257202603050257729421.html",
+    "formula": {
+      "xuekao": { "A": 10, "B": 7, "C": 4, "D": 1, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.10, "xiaokao": 0.30, "gaokao": 0.60 }
+    },
+    "formulaNote": "综合成绩按学考10%+校测30%+高考60%计算（非标准15/25/60）。"
+  },
+  {
+    "id": "wku",
+    "formulaSource": {
+      "year": 2026,
+      "title": "温州肯恩大学2026年“三位一体”综合评价招生章程",
+      "url": "https://admission.wku.edu.cn/zh-hans/node/3271"
+    },
+    "brochureUrl": "https://admission.wku.edu.cn/zh-hans/node/3271",
+    "formula": {
+      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.10, "xiaokao": 0.30, "gaokao": 0.60 }
+    },
+    "formulaNote": "综合成绩按学考10%+校测30%+高考60%计算（非标准15/25/60）。"
+  }
+]

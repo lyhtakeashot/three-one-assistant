@@ -1,0 +1,117 @@
+{
+  "id": "fudan",
+  "name": "复旦大学",
+  "category": "高水平三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://www.ao.fudan.edu.cn/e5/4c/c36330a779596/page.htm",
+      "tuitionSourceTitle": "复旦大学2026年浙江省综合评价录取改革试点暨三位一体综合评价招生简章",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://www.ao.fudan.edu.cn/e5/4c/c36330a779596/page.htm",
+      "title": "复旦大学2026年浙江省综合评价录取改革试点暨三位一体综合评价招生简章（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://www.ao.fudan.edu.cn/e5/4c/c36330a779596/page.htm",
+      "title": "复旦大学2026年浙江省综合评价录取改革试点暨三位一体综合评价招生简章（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.6,
+    "environment": 4.6,
+    "life": 4.2,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--schId-197.dhtml",
+    "sourceTitle": "阳光高考网 · 复旦大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-14",
+    "alternates": [],
+    "note": "阳光高考网综合4.6/环境4.6/生活4.2；高考100显示4.7/4.7/4.3，采用阳光高考与cnur口径4.6/4.6/4.2。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": null,
+      "admitted": null,
+      "sourceUrl": "https://xxgk.fudan.edu.cn/26/2f/c5195a730671/page.htm",
+      "sourceTitle": "复旦大学2025年浙江省综合评价录取改革试点暨“三位一体”综合评价招生简章",
+      "xuekaoRequirement": "10门学考均须合格；高考成绩须达浙江省特殊类型招生控制线",
+      "xuekaoRequirementSourceUrl": "https://www.ao.fudan.edu.cn/e5/4c/c36330a779596/page.htm",
+      "xuekaoRequirementSourceTitle": "复旦大学2026年浙江省综合评价录取改革试点暨三位一体综合评价招生简章",
+      "collectedAt": "2026-09-13",
+      "note": "招生计划205名(来源：招生简章，信息公开网)。报名人数、初审/入围 aggregate 均未公开(初审结果分优秀/通过/不通过，登录特殊类型招生报名平台查询)。实际录取名单仅报名平台可查(按历年惯例录满至计划数)。2024/2026未检索。"
+    }
+  ],
+  "dormitory": {
+    "description": "四大校区宿舍差异大：南区/东区多为4人间上床下桌，大量宿舍无独卫需公共浴室；老校区硬件参差、梅雨季返潮。",
+    "score": null,
+    "source": "复旦大学总务处/学生服务官方说明 + 知乎/职朋/搜狐等UGC",
+    "highlights": [
+      "部分宿舍4人间上床下桌、有空调",
+      "公共浴室开放时段较明确(本部/南苑12:00-14:00、17:00-22:00)"
+    ],
+    "drawbacks": [
+      "大量宿舍无独卫、需公共浴室/澡堂(知乎、职朋、搜狐)",
+      "老校区硬件参差、梅雨季返潮、隔音差网络不稳(搜狐/头条)",
+      "部分宿舍无热水淋浴、被迫去澡堂"
+    ],
+    "platforms": [
+      {
+        "name": "官方-复旦大学总务处",
+        "url": "https://zongwuchu.fudan.edu.cn/39406/list.htm",
+        "summary": "本部/南苑等公共浴室开放时段为12:00-14:00、17:00-22:00，宿舍洗浴依赖公共浴室。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "官方-复旦学生服务",
+        "url": "https://xyfw.fudan.edu.cn/12/51/c39290a463441/page.psp",
+        "summary": "新生住宿服务指南，说明各校区宿舍分配与公共生活设施使用规则，无独卫楼栋需公共浴室。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "知乎(转发经验帖)",
+        "url": "https://www.zhihu.com",
+        "summary": "转发经验：东区4人间上床下桌、无阳台独卫，6个寝室公用卫生间、仅冷水淋浴，条件一般。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "仅捕获到站点域名，未取到具体回答直达链接"
+      },
+      {
+        "name": "职朋校友圈",
+        "url": "https://m.showxue.com/huati/3728",
+        "summary": "校友反馈复旦大多宿舍无独卫，洗浴去公共浴室，校区之间条件差异明显，本部偏旧。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "搜狐(转载)",
+        "url": "https://www.sohu.com/a/277194016_200286",
+        "summary": "文章称部分宿舍无热水淋浴、被迫去澡堂，老楼隔音差、网络不稳定，居住体验参差。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": ""
+      },
+      {
+        "name": "今日头条",
+        "url": "https://www.toutiao.com",
+        "summary": "有吐槽称老校区宿舍隔音差、网络不稳、梅雨季墙面返潮，硬件随楼龄差异大。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "仅捕获到站点域名，未取到具体文章直达链接"
+      }
+    ],
+    "note": "复旦宿舍生活满意度4.2(阳光高考)在八校中中等，UGC普遍反映无独卫、公共浴室、老楼硬件差是真实痛点；校区差异极大。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

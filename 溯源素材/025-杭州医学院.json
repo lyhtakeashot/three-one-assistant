@@ -1,0 +1,101 @@
+{
+  "id": "hzmc",
+  "name": "杭州医学院",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://swyt.hmc.edu.cn/st/zs_news.jsp?neId=151",
+      "tuitionSourceTitle": "杭州医学院2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://swyt.hmc.edu.cn/st/zs_news.jsp?neId=151",
+      "title": "杭州医学院2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://swyt.hmc.edu.cn/st/zs_news.jsp?neId=151",
+      "title": "杭州医学院2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.2,
+    "environment": 4.3,
+    "life": 3.9,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfoMain--dicCurId-73390084.dhtml",
+    "sourceTitle": "阳光高考网 · 杭州医学院 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "高考100·院校满意度",
+        "url": "https://gk100.com/daxueku/manyidu_1472.htm",
+        "summary": "高考100镜像阳光高考：综合4.2(935人)、环境4.3(1026人)、生活3.9(901人)，与阳光高考页一致。",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "阳光高考院校满意度页(综合1038人/环境1259人/生活1008人投票)，三项分数与高考100镜像一致。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 956,
+      "passed": 120,
+      "admitted": 17,
+      "sourceUrl": "https://zs.hmc.edu.cn/art/2025/9/16/art_2402_165106.html",
+      "sourceTitle": "杭州医学院2025年“三位一体”综合评价招生录取结果公告（录取17人）",
+      "xuekaoRequirement": "学考各科目D等及以上；临床医学折算≥90(或≥85+专项)，医学信息工程≥85(或≥80+专项)；A=10,B=9,C=7,D=4",
+      "xuekaoRequirementSourceUrl": "https://swyt.hmc.edu.cn/st/zs_news.jsp?neId=151",
+      "xuekaoRequirementSourceTitle": "杭州医学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "applicants=报名956人；passed=书面评审230人（临床113+医信117）；finalPassed=综合测试入围120人（临床60+医信60）；以上三项见官方公示文本（杭州医学院招生网zs.hmc.edu.cn及招生办官微），具体文章URL未直接获取故sources对应填null。admitted=录取17人（临床8+医信9，官方招生网文章）。"
+    }
+  ],
+  "dormitory": {
+    "description": "临安校区以4人间为主，独立卫生间+淋浴间+热水、可租空调；滨江校区4或6人间，设施相对旧一些。",
+    "score": null,
+    "source": "杭州医学院招生网、好教高考",
+    "highlights": [
+      "临安校区较新，四人寝上床下桌、独卫独浴",
+      "每层开水间、电吹风房、自助洗衣房",
+      "空调可租，配置较齐全"
+    ],
+    "drawbacks": [
+      "滨江校区宿舍相对老旧",
+      "晚上11点后断电断网(插板仍有电)",
+      "临安校区位置偏"
+    ],
+    "platforms": [
+      {
+        "name": "官方|招生网",
+        "url": "https://zs.hmc.edu.cn/art/2020/7/7/art_2403_156966.html",
+        "summary": "临安校区每间4人，独立卫生间+淋浴间+热水，可租空调，每层开水间电吹风房+自助洗衣房；滨江校区4或6人，省教育发展中心管理。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "好教高考",
+        "url": "http://www.haojiao.net/zjyxdt/20250812/809496.html",
+        "summary": "临安四人寝上床下桌独卫独浴空调；11点后断电断网(插板仍有电)；滨江校区稍旧，临安设施新；整体临安住宿评价较好。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "整理自学长学姐评价"
+      },
+      {
+        "name": "阳光高考·校园生活",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%9D%AD%E5%B7%9E%E5%8C%BB%E5%AD%A6%E9%99%A2",
+        "summary": "杭州医学院住宿4~6人间，住宿费1000~1200元/学年；生活评分3.9，环境评分4.2，综合评分4.2。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "搜狗聚合的阳光高考校园生活页"
+      }
+    ],
+    "note": "未查到小红书/知乎/虎扑等可直达帖子；『杭医袋鼠邦』公众号新生攻略提及临安六人间不断电不断水、门禁，但无文章直达链接未收录。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

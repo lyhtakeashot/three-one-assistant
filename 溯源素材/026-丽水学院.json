@@ -1,0 +1,122 @@
+{
+  "id": "lsu",
+  "name": "丽水学院",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zsw.lsu.edu.cn/2026/0305/c617a363505/page.htm",
+      "tuitionSourceTitle": "丽水学院2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zsw.lsu.edu.cn/2026/0305/c617a363505/page.htm",
+      "title": "丽水学院2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zsw.lsu.edu.cn/2026/0305/c617a363505/page.htm",
+      "title": "丽水学院2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.2,
+    "environment": 4.4,
+    "life": 4.2,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-270.dhtml",
+    "sourceTitle": "阳光高考网 · 丽水学院 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "高考100·院校满意度",
+        "url": "https://gk100.com/daxueku/manyidu_787.htm",
+        "summary": "高考100镜像阳光高考：综合4.2(1886人)、环境4.4(1991人)、生活4.2(1768人)，与阳光高考页一致。",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "阳光高考院校满意度页(综合2019人/环境2344人/生活1904人投票)，三项分数与高考100镜像一致。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": null,
+      "passed": null,
+      "admitted": null,
+      "sourceUrl": "https://zsw.lsu.edu.cn/2026/0325/c616a365409/page.htm",
+      "sourceTitle": "丽水学院2026年“三位一体”综合评价招生资格审查入围名单公示",
+      "xuekaoRequirement": "学考折算≥67分(10门：A=10/B=7/C=4/D=1)且综合素质评价均不低于B等",
+      "xuekaoRequirementSourceUrl": "https://zsw.lsu.edu.cn/2026/0305/c617a363505/page.htm",
+      "xuekaoRequirementSourceTitle": "丽水学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "资格审查公告页，正文未含汇总人数（商业口径称初审约850人，非官方，不采用）"
+    },
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": 1059,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zsw.lsu.edu.cn/2025/0324/c581a352916/page.htm",
+      "sourceTitle": "丽水学院2025年“三位一体”综合评价招生资格审查入围名单公示（资格审查1059人）",
+      "collectedAt": "2026-09-13",
+      "note": "passed=资格审查1059人（官方招生网公示页）；finalPassed=综合测试入围499人（官方招生网公示页）；applicants=报名人数未找到；admitted=录取数未找到（2025招生计划100人）。"
+    }
+  ],
+  "dormitory": {
+    "description": "莲都校区公寓600–1200元/年，4/5/6人间，全部装空调，配自习室、洗衣机、开水器、空气能热水器；部分六人间为公卫。",
+    "score": null,
+    "source": "搜狐校园报道、未来人才聚合站、阳光高考校园生活",
+    "highlights": [
+      "空调全覆盖、空气能热水器",
+      "公寓配自习室、洗衣机、开水器",
+      "东16幢带电梯，被称为『最豪华寝室』"
+    ],
+    "drawbacks": [
+      "六人公卫无阳台宿舍被认为空间局促",
+      "上课期间23:00断网",
+      "依分院分配，房型条件不一"
+    ],
+    "platforms": [
+      {
+        "name": "搜狐",
+        "url": "https://www.sohu.com/a/332891172_671398",
+        "summary": "丽水学院四大书院，每寝装空调有热水；4人寝独卫、6人寝公卫；上课期间23:00断网、24h通电，公寓6:00开门23:00关门。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "学校官方新媒体发布"
+      },
+      {
+        "name": "未来人才(保定)",
+        "url": "http://hbwlrc.cn:83/NewSchoolInfo.ashx?Type=School&Year=2024&Name=丽水学院&wl=理&Batch=本科",
+        "summary": "4/5/6人间费用960–1600元/年，空调全覆盖、空气能热水器；东16幢带电梯；六人公卫无阳台被评空间局促。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "聚合站"
+      },
+      {
+        "name": "阳光高考·校园生活",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E4%B8%BD%E6%B0%B4%E5%AD%A6%E9%99%A2",
+        "summary": "住宿费600–1200元/年，公寓配文体活动室、自习室、洗衣机、开水器、空气能热水器，全部装空调，以分院为单位统一分配。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "搜狗聚合的阳光高考校园生活页"
+      },
+      {
+        "name": "官方",
+        "url": "https://www.lsu.edu.cn/2022/0628/c2596a316716/page.htm",
+        "summary": "丽水学院住宿费按楼栋分档：4人寝独卫1600元/年，6人寝公卫960元/年，部分6人寝独卫1200元/年。全部公寓装空调、空气能热水器，配洗衣机、开水器、自习室。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "来源为丽水学院官网「2022-2023学费及住宿费收费标准公示」，表格含各楼栋几人间、独卫/公卫及对应住宿费。"
+      }
+    ],
+    "note": "未查到虎扑/知乎/小红书等可直达帖子链接；以上为媒体与聚合站来源。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

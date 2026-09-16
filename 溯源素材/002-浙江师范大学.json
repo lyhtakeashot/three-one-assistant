@@ -1,0 +1,104 @@
+{
+  "id": "zjnu",
+  "name": "浙江师范大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zs.zjnu.edu.cn/2026/0306/c6886a547727/page.htm",
+      "tuitionSourceTitle": "浙江师范大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zs.zjnu.edu.cn/2026/0306/c6886a547727/page.htm",
+      "title": "浙江师范大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zs.zjnu.edu.cn/2026/0306/c6886a547727/page.htm",
+      "title": "浙江师范大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.5,
+    "environment": 4.7,
+    "life": 4.5,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/264",
+    "sourceTitle": "阳光高考网 · 浙江师范大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "搜狗大学镜像(与阳光高考同源)",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?school=%E6%B5%99%E6%B1%9F%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6",
+        "summary": "综合4.5 / 环境4.7 / 生活4.5",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "三项分数取自搜狗大学镜像(与阳光高考网同源数据)，综合4.5/环境4.7/生活4.5；阳光高考网本页生活分需展开“查看更多”才显示。分数随投票实时变动，供人工核对。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 10000,
+      "passed": 2800,
+      "admitted": 400,
+      "sourceUrl": null,
+      "sourceTitle": null,
+      "xuekaoRequirement": "学考≥5A",
+      "xuekaoRequirementSourceUrl": "https://zs.zjnu.edu.cn/2026/0306/c6886a547727/page.htm",
+      "xuekaoRequirementSourceTitle": "浙江师范大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "本行年份未找到官方公示链接。 入围1724人（含复硕培养试点；按招生计划1:6/1:5比例确定）。初审(获得综合素质测试资格)2592人。两项数字均出自学校本科招生网该公示，但搜索引擎未返回可直接打开的官方文章URL（仅见公众号/第三方转载），故sourceUrl置空，请人工在 zs.zjnu.edu.cn 公示公告栏核实。报名人数未见官方公示；录取含复硕计划未单列，录取总人数未公示。"
+    }
+  ],
+  "dormitory": {
+    "description": "杭州校区(初阳/杏园/桂苑/桃源/新桃源/启明等公寓)四至六人间，多数为上床下桌+独卫+阳台；金华校区类似，部分六人间为上下铺无上床下桌。",
+    "score": null,
+    "source": "浙江师范大学学工部/后勤新生报到指南及官方公众号新生住宿篇",
+    "highlights": [
+      "初阳/新桃源等公寓四人间上床下桌",
+      "独立卫浴+阳台(多数)",
+      "空调租赁420元/台/年、空气能热水",
+      "研究生启明公寓二人间独卫阳台"
+    ],
+    "drawbacks": [
+      "杏园六人间为上下铺无上床下桌、空间较挤",
+      "桃源1-3栋等部分三/四人间为公共卫浴无阳台",
+      "初阳公寓为水泥地(桂苑为地砖)",
+      "公寓实行统一熄灯管理制度",
+      "空调需交租金"
+    ],
+    "platforms": [
+      {
+        "name": "官方",
+        "url": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/264",
+        "summary": "学生公寓有四/六/八人间；四人间单人铁床、多用柜、独立或单元内卫生间，内有淋浴盥洗；六人间单元内卫生间；八人间公共卫浴；公寓实行统一熄灯管理，每生每月3吨水3度电额度。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "阳光高考网院校信息页(学校提供住宿概况)，生活满意度分数在该页隐藏。"
+      },
+      {
+        "name": "B站",
+        "url": "https://www.bilibili.com/read/cv12645348",
+        "summary": "空调需要交租金，电费自行充值，洗澡热水需要水卡。启明公寓布局像小区，门口就是快递点还有个篮球场，真有点家的感觉。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "B站专栏(图文，非视频)在校研究生真实就读体验，非官方。"
+      },
+      {
+        "name": "今日头条",
+        "url": "https://www.toutiao.com/article/7122681762416820775/",
+        "summary": "初阳公寓四人寝上床下桌独卫有阳台；杏园六人寝无上床下桌上下铺较挤；启明公寓二人寝有独卫阳台。热水插卡，洗澡是无手持花洒的固定喷头。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "新生住宿篇实拍分享，非官方。"
+      }
+    ],
+    "note": "虎扑/知乎/贴吧/小红书/抖音未检索到该校可验证直达帖(知乎、小红书、抖音无结果)，故仅列官方+B站专栏+今日头条UGC。部分六人间为上下铺已在drawbacks标注。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

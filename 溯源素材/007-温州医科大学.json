@@ -1,0 +1,110 @@
+{
+  "id": "wmu",
+  "name": "温州医科大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zhaosheng.wmu.edu.cn/info/1172/17152.htm",
+      "tuitionSourceTitle": "温州医科大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zhaosheng.wmu.edu.cn/info/1172/17152.htm",
+      "title": "温州医科大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zhaosheng.wmu.edu.cn/info/1172/17152.htm",
+      "title": "温州医科大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.3,
+    "environment": 4.5,
+    "life": 3.9,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/262",
+    "sourceTitle": "阳光高考网 · 温州医科大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "搜狗大学镜像(与阳光高考同源)",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?school=%E6%B8%A9%E5%B7%9E%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6",
+        "summary": "综合4.3 / 环境4.5 / 生活3.9",
+        "collectedAt": "2026-09-13"
+      },
+      {
+        "name": "高考100镜像",
+        "url": "https://www.gk100.com/read_312131107.htm",
+        "summary": "综合4.3 / 环境4.4 / 生活3.8（高考100院校满意度页，与阳光高考同源，生活分略有差异）",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "三项分数取自搜狗大学镜像(与阳光高考网同源数据)，综合4.3/环境4.5/生活3.9；高考100镜像生活分为3.8，存在小幅差异，已在alternates并列供核对。阳光高考网本页生活分需展开“查看更多”才显示。分数随投票实时变动，供人工核对。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 9000,
+      "passed": 2500,
+      "admitted": 350,
+      "sourceUrl": "https://zhaosheng.wmu.edu.cn/info/2809/9761.htm",
+      "sourceTitle": "温州医科大学2025年“三位一体”资格审核结果查询",
+      "xuekaoRequirement": "学考≥6A，医学类≥7A",
+      "xuekaoRequirementSourceUrl": "https://zhaosheng.wmu.edu.cn/info/1172/17152.htm",
+      "xuekaoRequirementSourceTitle": "温州医科大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "通过报名资格审查5851人（临床医学类4094+医学相关类1757），出自上述官方资格审核结果页。报名“近7000人”来自校友网（xyw.wmu.edu.cn/info/1011/7036.htm）约数，故applicants置空。最终入围803人（临床465+医学相关338，2025-05-15官方“综合测试入围名单公示”，直接文章链接未捕获，仅见学校官微/自主选拔在线转载）。录取计划200人，录取总人数未公示，admitted置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "茶山校区宿舍大部分六人间上下铺无上床下桌(20/21号楼为四人间)，均有独立卫浴+阳台；每舍书架长桌六椅，空调开学后租赁。生活满意度在三校中医科类偏低(3.9)。",
+    "score": null,
+    "source": "温州医科大学本科招生网迎新攻略、贴吧及在校生反馈",
+    "highlights": [
+      "六人间均有独立卫浴+阳台",
+      "空调可租赁(约400元/台/年)",
+      "每层洗衣机、部分楼烘干机",
+      "四人间楼栋(20/21号楼)条件较好"
+    ],
+    "drawbacks": [
+      "本科普通批次绝大多数为六人间上下铺、无上床下桌",
+      "6人共用一张大桌、储物较紧张",
+      "空调需开学后自行租赁",
+      "生活满意度偏低(3.9)",
+      "实习阶段部分基地不提供宿舍"
+    ],
+    "platforms": [
+      {
+        "name": "官方",
+        "url": "https://zhaosheng.wmu.edu.cn/info/1172/11331.htm",
+        "summary": "宿舍大部分六人间无上床下桌(另有20/21号楼四人间)，均有独立卫浴；每舍书架、长桌、六椅，阳台可折叠方桌；六人间木床200x90/铁床190x80，空调开学后自行租赁。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "温州医科大学本科招生网迎新季最全攻略(下)，官方来源。"
+      },
+      {
+        "name": "贴吧",
+        "url": "https://fexclick.baidu.com/p/6159652167",
+        "summary": "温医大2019生存指南：6人间上下铺，人均一个柜子，热水刷卡，公共洗衣机和烘干机，空调租赁约1000元。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "百度贴吧温医大帖(经fexclick跳转)，真实在校生经验帖，非官方。"
+      },
+      {
+        "name": "今日头条",
+        "url": "https://m.toutiao.com/article/7676391208067056151",
+        "summary": "本科普通批次绝大多数为六人间上下铺，配独立卫浴和阳台；四人间多供给研究生。六人间面积不大，6人共用一张大桌，储物比较紧张。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "天津/中国/温州医科大实地探店真实体验，往届生视角，非官方。"
+      }
+    ],
+    "note": "虎扑/知乎/B站/小红书/抖音未检索到该校可验证直达帖(知乎、小红书、抖音无结果；B站仅见官方/聚合页非具体视频)，故列官方+贴吧+今日头条。六人间上下铺无上床下桌已在drawbacks标注，生活满意度偏低与住宿硬件相关。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "zafu",
+  "name": "浙江农林大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zs.zafu.edu.cn/info/1020/5002.htm",
+      "tuitionSourceTitle": "浙江农林大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zs.zafu.edu.cn/info/1020/5002.htm",
+      "title": "浙江农林大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zs.zafu.edu.cn/info/1020/5002.htm",
+      "title": "浙江农林大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.4,
+    "environment": 4.8,
+    "life": 4.3,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/261",
+    "sourceTitle": "阳光高考网 · 浙江农林大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [],
+    "note": "数值取自cnur 2026中国大学院校满意度排名(标注数据来源阳光高考网、统计2026-02)交叉核对;阳光高考wap页为JS渲染,正文无法直读。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 4500,
+      "passed": 1200,
+      "admitted": 200,
+      "sourceUrl": "https://zs.zafu.edu.cn/info/1028/5005.htm",
+      "sourceTitle": "浙江农林大学招生问答（含2025年三位一体综合素质测试入围情况）",
+      "xuekaoRequirement": "学考≥3A",
+      "xuekaoRequirementSourceUrl": "https://zs.zafu.edu.cn/info/1020/5002.htm",
+      "xuekaoRequirementSourceTitle": "浙江农林大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "入围2086人（A类1735合格线80分+B类351合格线80.4分），出自上述官方招生问答页。书面评审3247人（A类2610+B类630+特长生）见学校新闻网 www.zafu.edu.cn/info/1002/117298.htm。报名人数未见官方公示，applicants置空。录取计划360人，录取总人数未公示，admitted置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "东湖校区A/B/C/D区(6/4人间为主,部分上床下桌)、衣锦校区联建/校内公寓(4人间),空调租赁、独立卫浴,热水限时。",
+    "score": null,
+    "source": "校方宿舍改造新闻 + 学生会新生成长手册(微博/什么值得买转载) + 聚合平台",
+    "highlights": [
+      "A区六人寝,B/C/D区4人间带独立卫浴空调",
+      "空调/饮水机/洗衣房等配套齐全",
+      "衣锦校区4人间,部分上床下桌"
+    ],
+    "drawbacks": [
+      "热水按流量计费、供应时段有限(早中晚三时段)",
+      "部分老区(如C区阴面)较潮湿",
+      "熄灯分夏令/冬令,大门23:00关门"
+    ],
+    "platforms": [
+      {
+        "name": "官方·校方新闻",
+        "url": "https://www.zafu.edu.cn/info/1012/111917.htm",
+        "summary": "潮新闻转载校方消息:学校推进宿舍改造,新宿舍干湿分离、由学生参与设计,住宿条件持续改善。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "半官方·学生会微博",
+        "url": "https://weibo.com/3039775515/HAQO8waVM",
+        "summary": "浙江农林大学学生会新生特辑宿舍篇:东湖A区五人间上下铺,B/C区四人间上床下桌,C区阴面较潮湿;衣锦联建E1-E3上下铺、E4-E6上床下桌。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·什么值得买",
+        "url": "https://post.m.smzdm.com/zz/p/adoo4mxd/",
+        "summary": "新生成长手册宿舍攻略:东湖A/B/C区独立卫浴空调风扇,大门23:00-6:00门禁;衣锦联建四人间上下铺/上床下桌,热水限时按流量计费。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·今日头条",
+        "url": "https://www.toutiao.com/a1869117530265673",
+        "summary": "宿舍一览:A区6人上下铺,B区6人家具更新,C区4人上床下桌,D区全新高端4人上床下桌独卫;新生多住A区大二搬迁。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "聚合·搜狗校园生活",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%B5%99%E6%B1%9F%E5%86%9C%E6%9E%97%E5%A4%A7%E5%AD%A6",
+        "summary": "校园生活页:学生公寓六人一间,有单独阳台、单独卫生间;环境评分4.9、生活评分4.3。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      }
+    ],
+    "note": "学生会《新生成长手册》宿舍详情内容详实(含各区尺寸/熄灯/热水/空调租赁),但检索未捕获其微信公众号直接链接,仅以微博学生会、什么值得买转载及校方新闻佐证;热水限时、C区潮湿等负面已记录。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

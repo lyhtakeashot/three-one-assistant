@@ -1,0 +1,491 @@
+[
+  {
+    "id": "nit",
+    "formula": {
+      "xuekao": { "A": 10, "B": 8, "C": 5, "D": 0, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60 }
+    },
+    "formulaNote": "学考折算：物化组语文/数学/外语A等计15分，不限科目组语文/数学A等计15分、外语A等计20分，其余科目A=10/B=8/C=5/D=0，折算超过100分按100分计；综合成绩=学考(折算满100)×20%+校测(满100)×20%+高考(折算满100)×60%。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "浙大宁波理工学院2025年“三位一体”综合评价招生章程",
+      "url": "https://zsw.nbt.edu.cn/info/1029/3392.htm"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "综合素质测试以面试为主（中外合作办学专业需加试英语口语测试），考察学生综合素质和专业学习潜质，满分100分；按专业招生计划数1:6确定入围名单。",
+      "tips": ""
+    },
+    "transferRestriction": {
+      "restricted": true,
+      "detail": "国际经济与贸易（中外合作办学）、金融学（中外合作办学）专业录取后不能转出该专业（项目）；其余专业按学校转专业办法执行。"
+    },
+    "majors": [
+      { "name": "高分子材料与工程", "category": "物化组", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "材料科学与工程", "category": "物化组", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "化学工程与工艺", "category": "物化组", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "机械设计制造及其自动化", "category": "物化组", "requiredSubjects": ["物理","化学"], "planCount": 8 },
+      { "name": "土木工程", "category": "物化组", "requiredSubjects": ["物理","化学"], "planCount": 8 },
+      { "name": "工业设计", "category": "物化组", "requiredSubjects": ["物理","化学"], "planCount": 8 },
+      { "name": "国际经济与贸易（中外合作办学）", "category": "不限科目组", "requiredSubjects": ["不限"], "planCount": 8 },
+      { "name": "金融学（中外合作办学）", "category": "不限科目组", "requiredSubjects": ["不限"], "planCount": 8 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 3914,
+        "passed": 3777,
+        "admitted": 70,
+        "minScore": 71.44,
+        "avgScore": null,
+        "xuekaoRequirement": "高中学考各科目成绩合格且折算成绩≥60分（A=10/B=8/C=5/D=0，语数外或语数/外语加权，满100封顶）；综合素质评价各项目达B等及以上。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录浙大宁波理工学院招生网“三位一体”栏目报名系统报名，限报一个专业，不得兼报。", "deadline": "2025-03-13 17:00", "materials": [] },
+      { "step": 2, "title": "书面评审", "description": "学校专家委员会审核并按书面评审成绩分专业确定获测资格名单（不超过计划10倍）。", "deadline": "2025-03-27", "materials": [] },
+      { "step": 3, "title": "结果查询与缴费", "description": "查询书面评审结果并网上缴费（140元/人）。", "deadline": "2025-04-10 16:00", "materials": [] },
+      { "step": 4, "title": "综合素质测试", "description": "4月20日面试（中外合作办学专业加试英语口语）。", "deadline": "2025-04-20", "materials": ["身份证","准考证"] },
+      { "step": 5, "title": "入围公布与志愿填报", "description": "测试结束约10个工作日后公布入围名单；普通类提前录取第一志愿填报我校。", "deadline": "", "materials": [] }
+    ],
+    "brochureUrl": "https://zsw.nbt.edu.cn/info/1029/3392.htm"
+  },
+  {
+    "id": "hznu",
+    "formula": {
+      "xuekao": { "A": 10, "B": 7, "C": 4, "D": 1, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.10, "xiaokao": 0.30, "gaokao": 0.60 }
+    },
+    "formulaNote": "学考折算A=10/B=7/C=4/D=1（满分100）；综合成绩=学考(折算满100)×10%+校测(满100)×30%+高考(折算满100)×60%。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "杭州师范大学2025年“三位一体”综合评价招生章程",
+      "url": "https://undergrad.hznu.edu.cn/Details/20250301/410234202503010234668932.html"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "分专业面试，考察专业素养与专业潜质（含仪态仪表、思维品质、语言表达、书写/绘画/才艺展示、情景测试等）；满分100分，合格线60分；小学教育/学前/特教按计划1:7、护理学按计划1:5入围。",
+      "tips": ""
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "入校后学生有不少于3次机会申请转入普通类专业。"
+    },
+    "majors": [
+      { "name": "小学教育（经亨颐实验班）（师范）", "category": "", "requiredSubjects": ["不限"], "planCount": 70 },
+      { "name": "学前教育（经亨颐实验班）（师范）", "category": "", "requiredSubjects": ["不限"], "planCount": 60 },
+      { "name": "特殊教育（经亨颐实验班）（师范）", "category": "", "requiredSubjects": ["不限"], "planCount": 30 },
+      { "name": "护理学", "category": "", "requiredSubjects": ["化学"], "planCount": 160 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 6755,
+        "passed": 4438,
+        "admitted": 320,
+        "minScore": 76.92,
+        "avgScore": null,
+        "xuekaoRequirement": "学考各科目合格；折算A=10/B=7/C=4/D=1；小学教育(师范)≥75分、学前教育(师范)/特殊教育(师范)≥65分、护理学≥45分（满分100）。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录杭州师范大学本科招生网“三位一体、复硕培养试点报考系统”报名，限报一个专业。", "deadline": "2025-03-13 17:00", "materials": [] },
+      { "step": 2, "title": "资格审查与缴费", "description": "查询审核结果，网上确认、缴费、打印准考证。", "deadline": "2025-03-26 12:00", "materials": [] },
+      { "step": 3, "title": "打印准考证", "description": "登录报考系统打印准考证。", "deadline": "2025-04-13", "materials": [] },
+      { "step": 4, "title": "综合素质测试", "description": "4月12日（师范类三专业）面试，4月13日（护理学）面试。", "deadline": "2025-04-13", "materials": ["身份证","准考证"] },
+      { "step": 5, "title": "入围公布与志愿填报", "description": "普通类提前录取第一志愿填报我校，专业须与报名一致。", "deadline": "", "materials": [] }
+    ],
+    "brochureUrl": "https://undergrad.hznu.edu.cn/Details/20250301/410234202503010234668932.html"
+  },
+  {
+    "id": "hzsf",
+    "formula": {
+      "xuekao": { "A": 10, "B": 6, "C": 2, "D": 0, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60 }
+    },
+    "formulaNote": "学考折算A=10/B=6/C=2/D=0（新高考前往届生C等不计分，满分100）；综合成绩=学考×20%+校测×20%+高考(折算满100)×60%。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "湖州师范学院2025年“三位一体”综合评价招生章程",
+      "url": "https://zsw.zjhu.edu.cn/"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "结构化面试，时长8分钟以内，考察教师职业技能与素质（师范组）或综合素质、专业素养与潜质（非师范组）；满分100分，按各组计划1:8入围。",
+      "tips": ""
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": ""
+    },
+    "majors": [
+      { "name": "小学教育（师范）", "category": "师范组1", "requiredSubjects": ["不限"], "planCount": 20 },
+      { "name": "数学与应用数学（师范）", "category": "师范组1", "requiredSubjects": ["物理","化学"], "planCount": 20 },
+      { "name": "物理学（师范）", "category": "师范组1", "requiredSubjects": ["物理","化学"], "planCount": 20 },
+      { "name": "化学（师范）", "category": "师范组2", "requiredSubjects": ["物理","化学"], "planCount": 15 },
+      { "name": "教育技术学（师范）", "category": "师范组2", "requiredSubjects": ["物理"], "planCount": 15 },
+      { "name": "护理学", "category": "师范组2", "requiredSubjects": ["化学"], "planCount": 30 },
+      { "name": "水产养殖学（卓越班）", "category": "师范组2", "requiredSubjects": ["物理","化学"], "planCount": 20 },
+      { "name": "生物工程", "category": "师范组2", "requiredSubjects": ["物理","化学"], "planCount": 20 },
+      { "name": "电气工程及其自动化", "category": "师范组2", "requiredSubjects": ["物理","化学"], "planCount": 15 },
+      { "name": "计算机科学与技术", "category": "非师范组1", "requiredSubjects": ["物理","化学"], "planCount": 15 },
+      { "name": "制药工程", "category": "非师范组1", "requiredSubjects": ["物理","化学"], "planCount": 15 },
+      { "name": "新能源材料与器件", "category": "非师范组1", "requiredSubjects": ["物理","化学"], "planCount": 15 },
+      { "name": "数据科学与大数据技术", "category": "非师范组1", "requiredSubjects": ["物理","化学"], "planCount": 15 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 1736,
+        "admitted": 235,
+        "minScore": 67.94,
+        "avgScore": null,
+        "xuekaoRequirement": "师范组1/师范组2：A等与B等之和≥7门且A等≥1门，其余D等及以上；非师范组1：A等与B等之和≥5门，其余D等及以上；综合素质评价B等及以上。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录湖州师范学院本科招生网“报名系统”报名，限报一个组别。", "deadline": "2025-03-13 17:00", "materials": [] },
+      { "step": 2, "title": "材料上传", "description": "符合条件的获奖/证书考生上传申请材料扫描件。", "deadline": "2025-03-20 17:00", "materials": ["获奖或资格证明材料扫描件"] },
+      { "step": 3, "title": "资格审查与缴费", "description": "公布入围测试名单并缴费（140元/人）。", "deadline": "2025-04-03 16:30", "materials": [] },
+      { "step": 4, "title": "综合素质测试", "description": "4月12日结构化面试（8分钟内）。", "deadline": "2025-04-12", "materials": ["身份证","准考证"] },
+      { "step": 5, "title": "入围公布与志愿填报", "description": "4月22日起查询成绩；普通类提前录取第一志愿填报我校，不可跨组。", "deadline": "", "materials": [] }
+    ],
+    "brochureUrl": "https://zsw.zjhu.edu.cn/"
+  },
+  {
+    "id": "sxu",
+    "formula": {
+      "xuekao": { "A": 10, "B": 8, "C": 6, "D": 4, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60 }
+    },
+    "formulaNote": "学考折算A=10/B=8/C=6/D=4（满分100）；综合成绩=学考×20%+校测×20%+高考(折算满100)×60%。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "绍兴文理学院2025年“三位一体”综合评价招生章程",
+      "url": "https://zs.usx.edu.cn/info/1033/6696.htm"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "面试时长约12分钟，含自我陈述与必答题，考察专业素养、综合素质与潜质；满分100分，按各类别计划1:6入围。",
+      "tips": ""
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": ""
+    },
+    "majors": [
+      { "name": "土木工程", "category": "理工1类", "requiredSubjects": ["物理","化学"], "planCount": 35 },
+      { "name": "地质工程", "category": "理工1类", "requiredSubjects": ["物理","化学"], "planCount": 15 },
+      { "name": "纺织工程", "category": "理工2类", "requiredSubjects": ["不限"], "planCount": 25 },
+      { "name": "轻化工程", "category": "理工2类", "requiredSubjects": ["不限"], "planCount": 20 },
+      { "name": "高分子材料与工程", "category": "理工3类", "requiredSubjects": ["物理","化学"], "planCount": 20 },
+      { "name": "新能源材料与器件", "category": "理工3类", "requiredSubjects": ["物理","化学"], "planCount": 20 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 1978,
+        "passed": 820,
+        "admitted": 135,
+        "minScore": 72.16,
+        "avgScore": null,
+        "xuekaoRequirement": "学考折算A等与B等之和≥5门且其中A等≥3门（或A等≥3门），其余D等及以上；高考文化成绩须达到普通类第一段分数线加30分（含）。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录绍兴文理学院招生网“三位一体”报名系统报名。", "deadline": "2025-03-13 17:00", "materials": [] },
+      { "step": 2, "title": "材料上传", "description": "上传相关证明材料。", "deadline": "2025-03-20 17:00", "materials": ["证明材料扫描件"] },
+      { "step": 3, "title": "资格评审与缴费", "description": "书面评审确定入围测试名单并缴费。", "deadline": "2025-04-07", "materials": [] },
+      { "step": 4, "title": "综合素质测试", "description": "面试（自我陈述+必答题，约12分钟）。", "deadline": "2025-04-12", "materials": ["身份证","准考证"] },
+      { "step": 5, "title": "入围公布与志愿填报", "description": "普通类提前录取第一志愿填报我校入围类别内专业。", "deadline": "", "materials": [] }
+    ],
+    "brochureUrl": "https://zs.usx.edu.cn/info/1033/6696.htm"
+  },
+  {
+    "id": "wzu",
+    "formula": {
+      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+    },
+    "formulaNote": "学考原始折算A=15/B=10/C=5/D=0（满分150）；综合成绩按750分制计算：学考(折算满750)×15%+校测(折算满750)×25%+高考(满750)×60%。本表minScore为百分制，由750制综合分÷7.5折算（如生物技术538.33÷7.5≈71.78）。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "温州大学2025年“三位一体”综合评价招生章程",
+      "url": "https://swyt.wzu.edu.cn/st/zs_news.jsp?neId=182"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "综合素质测试以面试方式为主，分师范类、非师范类两种报考类别进行，无才艺表演，考察综合素质和专业潜质；满分100分，按各类别计划1:7入围。",
+      "tips": ""
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "录取考生与普通类录取学生享受同等转专业政策，按《温州大学本科学生转专业实施条例》执行。"
+    },
+    "majors": [
+      { "name": "汉语言文学（师范）", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 7 },
+      { "name": "思想政治教育（师范）", "category": "师范类", "requiredSubjects": ["思想政治"], "planCount": 7 },
+      { "name": "小学教育（师范）", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 25 },
+      { "name": "学前教育（师范）", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 13 },
+      { "name": "应用心理学（师范）", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 15 },
+      { "name": "教育技术学（师范）", "category": "师范类", "requiredSubjects": ["物理"], "planCount": 7 },
+      { "name": "数学与应用数学（师范）", "category": "师范类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
+      { "name": "物理学（师范）", "category": "师范类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
+      { "name": "化学（师范）", "category": "师范类", "requiredSubjects": ["物理","化学"], "planCount": 7 },
+      { "name": "英语（师范）", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 7 },
+      { "name": "历史学（师范）", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 7 },
+      { "name": "生物科学（师范）", "category": "师范类", "requiredSubjects": ["物理","化学"], "planCount": 7 },
+      { "name": "法学", "category": "非师范类", "requiredSubjects": ["不限"], "planCount": 10 },
+      { "name": "行政管理", "category": "非师范类", "requiredSubjects": ["不限"], "planCount": 7 },
+      { "name": "国际经贸规则", "category": "非师范类", "requiredSubjects": ["不限"], "planCount": 7 },
+      { "name": "电气工程及其自动化（卓工超豪示范班）", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 12 },
+      { "name": "电子信息科学与技术", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 12 },
+      { "name": "集成电路设计与集成系统", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 7 },
+      { "name": "材料科学与工程", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "应用化学", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "能源化学", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "工业工程", "category": "非师范类", "requiredSubjects": ["物理"], "planCount": 10 },
+      { "name": "车辆工程", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "机械工程（卓工超豪示范班）", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 15 },
+      { "name": "智能制造工程", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "建筑学", "category": "非师范类", "requiredSubjects": ["不限"], "planCount": 15 },
+      { "name": "土木工程", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 12 },
+      { "name": "城市地下空间工程", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 7 },
+      { "name": "计算机科学与技术", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 7 },
+      { "name": "数据科学与大数据技术", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "人工智能", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "网络工程（卓工超豪示范班）", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 7 },
+      { "name": "应用统计学", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "信息与计算科学", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "生态学", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "环境工程", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "生物技术", "category": "非师范类", "requiredSubjects": ["物理","化学"], "planCount": 10 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 5617,
+        "passed": 2821,
+        "admitted": 327,
+        "minScore": 71.78,
+        "avgScore": null,
+        "xuekaoRequirement": "学考各科目D等及以上；师范类折算≥110分、非师范类折算≥100分（A=15/B=10/C=5/D=0，满分150）；高考文化成绩须超过普通类一段线40分（含）。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录温州大学本科招生网“三位一体报名系统”报名，师范/非师范两类限报一类。", "deadline": "2025-03-13 17:00", "materials": [] },
+      { "step": 2, "title": "材料上传", "description": "特长组考生上传佐证材料。", "deadline": "2025-03-20 17:00", "materials": ["特长佐证材料扫描件"] },
+      { "step": 3, "title": "资格评审与缴费", "description": "资格评审并缴费。", "deadline": "2025-03-31", "materials": [] },
+      { "step": 4, "title": "综合素质测试", "description": "4月13日面试（分师范类/非师范类）。", "deadline": "2025-04-13", "materials": ["身份证","准考证"] },
+      { "step": 5, "title": "入围公布与志愿填报", "description": "4月30日前公布入围；普通类提前录取第一志愿填报温州大学，可填类别内多专业。", "deadline": "", "materials": [] }
+    ],
+    "brochureUrl": "https://swyt.wzu.edu.cn/st/zs_news.jsp?neId=182"
+  },
+  {
+    "id": "zisu",
+    "formula": {
+      "xuekao": { "A": 15, "B": 9, "C": 3, "D": 0, "fullScore": 150 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.10, "xiaokao": 0.30, "gaokao": 0.60 }
+    },
+    "formulaNote": "学考原始折算A=15/B=9/C=3/D=0（满分150）；计入综合成绩时折算成满分100（÷1.5）；综合成绩=学考(折算满100)×10%+校测(满100)×30%+高考(折算满100)×60%。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "浙江外国语学院2025年“三位一体”综合评价招生章程",
+      "url": "https://wlxy.zisu.edu.cn/info/1113/9920.htm"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "综合测试采用面试方式，考察专业素养、专业潜质及综合素质；满分100分，各专业按不超过1:6的比例入围。",
+      "tips": ""
+    },
+    "transferRestriction": {
+      "restricted": true,
+      "detail": "中外合作办学专业（西班牙语、意大利语中外合作办学）通过“三位一体”招录的学生入校后不能转专业；其他专业按学校规定执行。"
+    },
+    "majors": [
+      { "name": "汉语言文学（师范）", "category": "普通类", "requiredSubjects": ["历史"], "planCount": 10 },
+      { "name": "小学教育（师范）", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 20 },
+      { "name": "西班牙语（中外合作办学）（旅游方向）", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 20 },
+      { "name": "意大利语（中外合作办学）", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 20 },
+      { "name": "葡萄牙语", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 10 },
+      { "name": "俄语", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 10 },
+      { "name": "阿拉伯语", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 10 },
+      { "name": "日语", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 5 },
+      { "name": "朝鲜语", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 5 },
+      { "name": "意大利语", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 5 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 654,
+        "admitted": 115,
+        "minScore": null,
+        "avgScore": null,
+        "xuekaoRequirement": "学考各科目合格，综合素质评价均为B等及以上；学考至少一门为A等，或具有相关专业特长（特长项目见报名系统）。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录浙江外国语学院招生网“三位一体”报名系统报名，限报一个专业。", "deadline": "2025-03-13 17:00", "materials": [] },
+      { "step": 2, "title": "特长生材料上传", "description": "符合特长条件的考生上传获奖证书等材料。", "deadline": "2025-03-20 17:00", "materials": ["获奖证书扫描件"] },
+      { "step": 3, "title": "资格审查与缴费", "description": "查询资格审查结果并缴费（140元/人）。", "deadline": "2025-04-02 16:00", "materials": [] },
+      { "step": 4, "title": "综合素质测试", "description": "4月13日面试（4月12日报到抽签）。", "deadline": "2025-04-13", "materials": ["身份证","准考证"] },
+      { "step": 5, "title": "入围公布与志愿填报", "description": "4月15日起公布入围；普通类提前批第一志愿填报我校，专业须与入围一致。", "deadline": "", "materials": [] }
+    ],
+    "brochureUrl": "https://wlxy.zisu.edu.cn/info/1113/9920.htm"
+  },
+  {
+    "id": "zjweu",
+    "formula": {
+      "xuekao": { "A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokao": { "fullScore": 100 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+    },
+    "formulaNote": "学考折算A=10/B=7/C=4/D=0（满分100）；综合成绩=学考(折算满100)×15%+校测(满100)×25%+高考(折算满100)×60%。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "浙江水利水电学院2025年“三位一体”综合评价招生章程",
+      "url": "https://www.zizzs.com/gk/zhejiangxingaokao/193249.html"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": false,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "综合测试采用半结构化现场面试，不分类别不分专业统一组织，考察综合素质、科学素养、专业潜质与创新潜质；满分100分，按招生计划1:5入围。",
+      "tips": ""
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "通过“三位一体”录取的学生转专业条件与普通类录取学生一致。"
+    },
+    "majors": [
+      { "name": "水利水电工程", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "港口航道与海岸工程", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "给排水科学与工程", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "环境生态工程", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "土木工程", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "道路桥梁与渡河工程", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "测绘工程", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "遥感科学与技术", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "材料成型及控制工程", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 10 },
+      { "name": "新能源科学与工程", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 10 }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 662,
+        "admitted": 100,
+        "minScore": null,
+        "avgScore": null,
+        "xuekaoRequirement": "学考各科目成绩均合格，符合招生专业选考科目要求，综合素质评价达到B等及以上（素质特长类须满足专项条件之一）。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录浙江水利水电学院招生网“三位一体综合评价招生报名系统”报名，不分专业不分类别。", "deadline": "2025-03-13 17:00", "materials": [] },
+      { "step": 2, "title": "材料上传", "description": "上传身份证及获奖/资格证明材料。", "deadline": "2025-03-20 17:00", "materials": ["身份证正反面","获奖或资格证明材料"] },
+      { "step": 3, "title": "书面评审与缴费", "description": "资格审查、书面评审确定入围名单并缴费（140元/人）。", "deadline": "2025-04-07", "materials": [] },
+      { "step": 4, "title": "综合素质测试", "description": "4月13日半结构化面试（钱塘校区）。", "deadline": "2025-04-13", "materials": ["身份证","准考证"] },
+      { "step": 5, "title": "入围公布与志愿填报", "description": "测试结束一周后查询成绩；普通类提前录取第一志愿填报我校，高考后按专业填报志愿。", "deadline": "", "materials": [] }
+    ],
+    "brochureUrl": "https://www.zizzs.com/gk/zhejiangxingaokao/193249.html"
+  },
+  {
+    "id": "zjpc",
+    "formula": {
+      "xuekao": { "A": 10, "B": 8, "C": 5, "D": 2, "E": 0, "fullScore": 100 },
+      "xiaokao": { "fullScore": 300 },
+      "gaokao": { "fullScore": 750 },
+      "weights": { "xuekao": 0.10, "xiaokao": 0.15, "gaokao": 0.75 }
+    },
+    "formulaNote": "综合成绩=高考文化成绩×75%+高中学业水平考试成绩×750/100×10%+体能测试成绩×750/300×15%，满分750（本表minScore字段因分市分性别划线不适用，置null）。学考10门折算满分100（A=10/B=8/C=5/D=2/E=0）；体能测试为50米跑、立定跳远、1000米跑(男)/800米跑(女)三项计分，单项满分100、总分300；面试、心理测试为合格性门槛（任一不合格则综合测试不合格），不计入分数。",
+    "formulaSource": {
+      "year": 2025,
+      "title": "浙江省公安厅 浙江省教育厅关于做好2025年公安警察院校招生考试工作的通知（浙江警察学院“三位一体”综合评价招生）",
+      "url": "https://www.zjzs.net/art/2025/3/17/art_45_10967.html"
+    },
+    "examFormat": {
+      "hasWrittenTest": false,
+      "hasInterview": true,
+      "hasPhysicalTest": true,
+      "writtenTestSubjects": [],
+      "interviewFormat": "individual",
+      "contentSummary": "综合测试包括面试、心理测试与体能测试，三项顺序进行，任一不合格则综合测试不合格。面试考察报考动机、思想意识、思维表达能力、身体条件；心理测试机考；体能测试为50米跑、立定跳远、1000米(男)/800米(女)、引体向上(男)/仰卧起坐(女)四项，其中三项合格即体测合格，50米/立定跳远/长跑三项计分（满分300）。",
+      "tips": "报考涉外警务专业高考外语成绩不得低于120分；报考警务指挥与战术专业体能测试成绩不得低于260分；高考文化成绩须达普通类第一段分数线；志愿单列，分市分性别划线，须政治考察合格。"
+    },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "入校后实行警务化管理，统一着制式服装；转专业按学校相关规定执行（公安专业特殊性，原则上不鼓励转专业）。"
+    },
+    "majors": [
+      { "name": "数据警务技术", "category": "全省统招", "requiredSubjects": ["物理","化学"], "planCount": null },
+      { "name": "治安学", "category": "分市-公安学类", "requiredSubjects": ["政治"], "planCount": null },
+      { "name": "侦查学", "category": "分市-公安学类", "requiredSubjects": ["政治"], "planCount": null },
+      { "name": "涉外警务", "category": "分市-公安学类", "requiredSubjects": ["政治"], "planCount": null },
+      { "name": "经济犯罪侦查", "category": "分市-公安学类", "requiredSubjects": ["政治"], "planCount": null },
+      { "name": "警务指挥与战术", "category": "分市-公安学类", "requiredSubjects": ["政治"], "planCount": null },
+      { "name": "刑事科学技术", "category": "分市-公安技术类", "requiredSubjects": ["物理","化学"], "planCount": null },
+      { "name": "交通管理工程（智能交通方向）", "category": "分市-公安技术类", "requiredSubjects": ["物理","化学"], "planCount": null },
+      { "name": "网络安全与执法", "category": "分市-公安技术类", "requiredSubjects": ["物理","化学"], "planCount": null }
+    ],
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": 1050,
+        "minScore": null,
+        "avgScore": null,
+        "xuekaoRequirement": "高中学考无不合格科目，高中阶段综合素质评价不低于B等；高考文化成绩须达普通类第一段分数线；分市分性别划线，按综合成绩1:1.1划定政治考察分数线；涉外警务外语≥120分、警务指挥与战术体能≥260分；须通过体检、面试、心理测试、体能测试及政治考察。综合分(750制)示例：杭州男公安学类625.13/女655.50，统招数据警务男648.75/女659.63。"
+      }
+    ],
+    "applicationSteps": [
+      { "step": 1, "title": "网上报名", "description": "登录浙江警察学院招生信息网网上报名专栏（浙江公安招生网上报名系统）报名并缴费（160元）。", "deadline": "2025-04-07", "materials": ["身份证","高考报名证"] },
+      { "step": 2, "title": "综合测试确认", "description": "再次登录系统确认参加综合测试。", "deadline": "2025-04-20 17:00", "materials": ["健康状况承诺书"] },
+      { "step": 3, "title": "综合测试", "description": "5月1日-5月4日（按地市分批）在滨江校区参加面试、心理测试、体能测试。", "deadline": "2025-05-04", "materials": ["身份证","高考报名证","健康状况承诺书"] },
+      { "step": 4, "title": "政治考察", "description": "在体检、综合测试合格考生中按综合成绩划定政治考察分数线，由户籍地公安机关政治考察。", "deadline": "", "materials": [] },
+      { "step": 5, "title": "志愿填报与录取", "description": "普通类提前录取前完成录取，志愿单列；先录全省统招专业，后录分市招生专业（分数优先、平行志愿）。", "deadline": "", "materials": [] }
+    ],
+    "brochureUrl": "https://www.zjzs.net/art/2025/3/17/art_45_10967.html"
+  }
+]

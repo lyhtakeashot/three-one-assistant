@@ -1,0 +1,146 @@
+[
+  {
+    "id": "zjnu",
+    "name": "浙江师范大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "官方本科招生网 zs.zjnu.edu.cn 公示栏2025年发布：初审(书面评审)通过2592人（三位一体2066＋复硕培养试点526）、综合素质测试入围1724人、最终录取381人（含复硕80）；报名总人数未公开。入围公示正文见于 ima.qq.com 镜像及 zizzs.com 初审名单PDF（均非官方域名）。本会话未捕获到这些公示的官方静态文章URL，故结构化人数留空、sourceUrl=null，未编造链接/标题/年份/人数。"
+      }
+    ],
+    "note": "2025官方数据存在（初审2592/入围1724/录取381），但未捕获到免登录官方静态URL，结构化字段留空。"
+  },
+  {
+    "id": "zjweu",
+    "name": "浙江水利水电学院",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "官方招生网（zhaosheng.zjweu.edu.cn / zuwe.edu.cn）2025年公示：书面评审(初审)入围综合测试662人（3月28日）、综合素质测试入围453人、最终录取100人（计划满额，7月12日完成）。以上数字见于官方公示，但本会话仅捕获到 ima.qq.com、youzy.cn 等镜像，未捕获到官方静态文章URL；录取查询系统 zsbm.zjweu.edu.cn/query/gk 需登录（非免登录）。故结构化人数留空、sourceUrl=null，未编造链接/数字。"
+      }
+    ],
+    "note": "2025官方数据存在（初审662/入围453/录取100），但未捕获到免登录官方静态URL，结构化字段留空。"
+  },
+  {
+    "id": "zjpc",
+    "name": "浙江警察学院",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "官方招生信息网 www.zjjcxy.cn/zsxxw 发布《2025年“三位一体”综合评价招生章程》(xwgg/245606.html，官方)：面向浙江籍生源招生计划1050人（公安学类520/公安技术类530），分市地公布。报名、综合素质测试（面试+心理+体能）、录取均按综合成绩分市地/分性别在报名系统及官网公布，无单列汇总的“报名人数/初审通过人数/最终录取人数”公示（录取查询在官网“相关查询→录取查询”，需考生信息）。计划数1050引自官方章程；结构化报名/入围/录取人数留空、sourceUrl=null。"
+      }
+    ],
+    "note": "2025仅官方章程有招生计划1050（分市地），无汇总报名/入围/录取人数公示，结构化字段留空。"
+  },
+  {
+    "id": "nyush",
+    "name": "上海纽约大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "官方招生新闻 shanghai.nyu.edu/cn/node/43068（2025-02-26，官方）：2025本科全球申请总数近2.4万人（创历史新高），计划录取中国籍学生251名、国际学生249名；中国籍申请人数近三年累计增长47%，未给出中国籍精确报名数，也未给出实际录取数（仅计划）。本会话未捕获到中国籍精确报名数或实际录取数的官方静态页，故结构化人数留空、sourceUrl=null（上述官方新闻URL仅作线索，未含可填的汇总数字）。"
+      }
+    ],
+    "note": "2025官方申请新闻有（全球申请近2.4万/计划录中国籍251），但无中国籍精确报名数与实际录取数，结构化字段留空。"
+  },
+  {
+    "id": "dku",
+    "name": "昆山杜克大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "据昆山杜克大学官方招生发布及多家媒体转述：2025中国籍有效申请6002份（全球申请近1.2万，含国际5882），全国入围1540人，全国录取385人（中国385/国际165）；浙江省入围95人、录取23人。官方录取名单公示发布于 admissions.dukekunshan.edu.cn / newstatic.dukekunshan.edu.cn（公示期8月7–20日），本会话未捕获到可直接打开的 https 官方静态文章/PDF 精确URL（仅见 jszs.com 为 http、及 gaokzx.com / 163.com / 浙考圈 等镜像）。故结构化人数留空、sourceUrl=null，未编造链接/数字。"
+      }
+    ],
+    "note": "2025官方数据存在（中国申请6002/全国录385/浙江录23），但未捕获到免登录 https 官方静态URL，结构化字段留空。"
+  },
+  {
+    "id": "shtech",
+    "name": "上海科技大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "官方招生网 admission.shanghaitech.edu.cn 及物质学院页 spst.shanghaitech.edu.cn/2025/0622/c8918a1112102/page.htm（2025-06-23，官方）发布《2025年“校园开放日”综合评价分档成绩公示》——即获得 A/B/C 档（入围）的考生名单（名单形式，无汇总人数）。全国综评录取534人见于招生办通稿，但本会话未捕获官方静态URL。本会话未捕获到含汇总“报名/初审/录取人数”的免登录官方页，故结构化人数留空、sourceUrl=null；上述分档公示页为官方入围名单（因无汇总数字，未填入 sourceUrl 字段，URL见本note）。"
+      }
+    ],
+    "note": "2025有官方入围分档公示页（名单，无汇总人数），无报名/初审/录取汇总数直链，结构化字段留空。"
+  },
+  {
+    "id": "sustc",
+    "name": "南方科技大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": 72000,
+        "passed": 29000,
+        "admitted": null,
+        "sourceUrl": "https://newshub.sustech.edu.cn/html/202508/46720.html",
+        "sourceTitle": "南科大2025年本科招生实现“量”“质”双提升",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "官方新闻网 newshub.sustech.edu.cn/html/202508/46720.html（2025-07-30，官方）发布《南科大2025年本科招生实现“量”“质”双提升》：2025年综合评价报名人数7.2万人（全国口径），近2.9万名考生通过初审进入能力测试机试（全国口径）；24省份共录取新生1397人（为本科总录取，含综合评价+普通批，未单列综合评价录取数）。浙江省：2025年南科大在浙增设普通本科批次，综合评价在浙录取约60人（该数字本会话未捕获官方静态URL，未填入字段）。已采用全国口径的报名/初审数并附官方链接；录取数因未单列留空。"
+      }
+    ],
+    "note": "2025取得官方直链：全国报名7.2万/初审2.9万（newshub.sustech.edu.cn）；录取数未单列留空。"
+  },
+  {
+    "id": "smbu",
+    "name": "深圳北理莫斯科大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "官方招生网 zsb.smbu.edu.cn/info/1360/11902.htm 发布《2025年本科综合评价招生简章(适用于“3+3”高考改革省份)》（含浙江，官方），但该简章无人数汇总。2025年全国综合评价录取727人（录取名单公示于 admission.smbu.edu.cn，公示期约7月21–23日），浙江省初审通过183人、浙江录取人数未单独公示（均见于名校综合评价/高考直通车等镜像，未捕获官方静态URL）。故结构化人数留空、sourceUrl=null，未编造链接/数字。"
+      }
+    ],
+    "note": "2025官方简章有（含浙江），但无汇总人数官方直链（全国录727见于镜像），结构化字段留空。"
+  }
+]

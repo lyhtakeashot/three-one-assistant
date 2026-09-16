@@ -1,0 +1,362 @@
+[
+  {
+    "id": "zcmu",
+    "name": "浙江中医药大学",
+    "admission": [
+      {
+        "year": 2026,
+        "applicants": 3992,
+        "passed": 1521,
+        "admitted": null,
+        "sourceUrl": "https://zsb.zcmu.edu.cn/info/1101/4912.htm",
+        "sourceTitle": "浙江中医药大学2026年三位一体综合评价招生申请信息审核结果公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "报名3992、申请信息审核入围(初审)1521。校测入围906人见官方公示 https://zsb.zcmu.edu.cn/info/1101/4921.htm（中医学类240/临床医学类232/中药学类167/护理学类173/管理学类94）。最终录取官方仅公布分专业综合分（本科招生网录取查询），未单列录取总人数，故 admitted 置空。"
+      },
+      {
+        "year": 2025,
+        "applicants": 5148,
+        "passed": 1472,
+        "admitted": null,
+        "sourceUrl": "https://www.zcmu.edu.cn/info/10498/11554.htm",
+        "sourceTitle": "学校顺利完成2025年三位一体综合评价招生综合测试",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "报名5148、材料评审入围(初审)1472。校测入围官方公示分组合计870（中医学类185/临床医学类277/中药学类150/护理学类157/管理学类101；二次源zizzs误报843，以官方公示为准）。最终录取官方仅公布分专业综合分，未单列总人数，admitted 置空。"
+      },
+      {
+        "year": 2024,
+        "applicants": 6885,
+        "passed": 1748,
+        "admitted": null,
+        "sourceUrl": "https://zsb.zcmu.edu.cn/info/1113/4361.htm",
+        "sourceTitle": "浙江中医药大学2024年三位一体综合评价招生申请信息审核结果公示",
+        "sourceYear": 2024,
+        "collectedAt": "2026-09-14",
+        "note": "报名6885、初审通过1748。最终录取官方仅公布分专业投档情况（本科招生网录取查询/浙江省教育考试院），未单列总人数，admitted 置空。"
+      }
+    ],
+    "note": "2024/2025/2026 报名与初审均有官方公示来源；校测入围与最终录取多数年份仅公布分专业数据或录取查询系统，无单列汇总人数。"
+  },
+  {
+    "id": "cjlu",
+    "name": "中国计量大学",
+    "admission": [
+      {
+        "year": 2026,
+        "applicants": 6748,
+        "passed": 2967,
+        "admitted": null,
+        "sourceUrl": "https://zs.cjlu.edu.cn/info/1019/8553.htm",
+        "sourceTitle": "中国计量大学2026年三位一体综合评价招生书面评审结果公告",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "报考人数6748（来源：https://www.cjlu.edu.cn/info/1101/59163.htm）、书面评审(初审)通过2967。最终录取官方仅公布分专业录取数（录取查询 https://zs.cjlu.edu.cn/lqcx.htm），未单列总人数，admitted 置空。"
+      },
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 2647,
+        "admitted": null,
+        "sourceUrl": "https://zs.cjlu.edu.cn/info/1019/7482.htm",
+        "sourceTitle": "中国计量大学2025年三位一体综合评价招生书面评审结果公告",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "书面评审(初审)通过2647（A类2597+B类专项50）。报名人数本次未取到官方汇总，admitted 置空。校测入围1840人见官方公示 https://zs.cjlu.edu.cn/zhongguojiliangdaxue2025niansanweiyitizonghepingjiazhaoshengruweikaoshengmingdangongshi.pdf。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": 2771,
+        "admitted": null,
+        "sourceUrl": "https://zs.cjlu.edu.cn/info/1019/6552.htm",
+        "sourceTitle": "中国计量大学2024年三位一体综合评价招生书面评审结果公告",
+        "sourceYear": 2024,
+        "collectedAt": "2026-09-14",
+        "note": "书面评审(初审)通过2771。报名人数与校测入围、录取汇总本次未取到官方直链，admitted 置空。"
+      }
+    ],
+    "note": "2024/2025/2026 初审(书面评审)均有官方公告；仅2026有官方报名汇总(6748)。"
+  },
+  {
+    "id": "zwu",
+    "name": "浙江万里学院",
+    "admission": [
+      {
+        "year": 2026,
+        "applicants": 10847,
+        "passed": 3420,
+        "admitted": null,
+        "sourceUrl": "https://zsw.zwu.edu.cn/50/9d/c4804a217245/pagem.htm",
+        "sourceTitle": "浙江万里学院2026年三位一体综合评价招生资格初审结果",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "报名10847、初审(资格审核)通过3420。校测入围2090人（官方入围公示）。最终录取官方仅公布分专业综合分（https://zsw.zwu.edu.cn/58/51/c4804a219217/pagem.htm），未单列总人数，admitted 置空。"
+      },
+      {
+        "year": 2025,
+        "applicants": 13514,
+        "passed": 3589,
+        "admitted": null,
+        "sourceUrl": "https://zsw.zwu.edu.cn/2e/bd/c4804a208573/page.htm",
+        "sourceTitle": "浙江万里学院2025年三位一体综合评价招生资格初审结果公示",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "报名13514、初审通过3589（含特长生410）。校测入围2082人（官方公示 http://zsw.zjwu.net/31/d6/c4804a209366/page.htm，为http站点）。最终录取见官方公示 https://zsw.zwu.edu.cn/3d/eb/c4804a212459/page.htm 分专业综合分，无单列总人数，admitted 置空。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": "https://zsw.zwu.edu.cn/1a/73/c4804a203379/page.htm",
+        "sourceTitle": "浙江万里学院2024年三位一体综合评价招生录取公示",
+        "sourceYear": 2024,
+        "collectedAt": "2026-09-14",
+        "note": "本次仅取到2024录取公示（分专业），报名人数与初审通过人数未取到官方汇总，均置空。"
+      }
+    ],
+    "note": "2025/2026 报名与初审齐备；2024 仅录取公示。"
+  },
+  {
+    "id": "zust",
+    "name": "浙江科技大学",
+    "admission": [
+      {
+        "year": 2026,
+        "applicants": 6584,
+        "passed": 2253,
+        "admitted": null,
+        "sourceUrl": "https://zsb.zust.edu.cn/wzxq/09b776e7ee104623968d5f685116f1e4",
+        "sourceTitle": "浙江科技大学2026年三位一体综合评价招生初审结果",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "报名6584、初审通过2253（A组1386+B组867）。最终录取官方仅公布分专业最低综合分（https://zsb.zust.edu.cn/wzxq/9ddf6338ddc042ee8afe8aec4dfb38b8），未单列总人数，admitted 置空。"
+      },
+      {
+        "year": 2025,
+        "applicants": 7030,
+        "passed": 2850,
+        "admitted": null,
+        "sourceUrl": "https://zsb.zust.edu.cn/wzxq/635afe03e3544e9ab5ab990d720e2231",
+        "sourceTitle": "浙江科技大学2025年三位一体综合评价招生初审结果",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "报名7030、初审通过2850（含特长类104）。校测入围1442人（官方公示 https://zsb.zust.edu.cn/wzxq/7dcd6e19b2de491f9107b6393a891d6f）。最终录取官方仅公布分专业最低综合分，未单列总人数，admitted 置空。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": 2198,
+        "admitted": null,
+        "sourceUrl": "https://zsb.zust.edu.cn/wzxq/1564724dab5c40fb9723a3b18eeb69a2",
+        "sourceTitle": "浙江科技大学2024年三位一体综合评价招生初审结果",
+        "sourceYear": 2024,
+        "collectedAt": "2026-09-14",
+        "note": "初审通过2198。报名人数、校测入围与录取汇总本次未取到官方直链，admitted 置空。"
+      }
+    ],
+    "note": "2024/2025/2026 初审均有官方公示；报名数仅2025/2026有官方汇总。"
+  },
+  {
+    "id": "zufe",
+    "name": "浙江财经大学",
+    "admission": [
+      {
+        "year": 2026,
+        "applicants": 8489,
+        "passed": 3210,
+        "admitted": null,
+        "sourceUrl": "https://zs.zufe.edu.cn/info/1086/4703.htm",
+        "sourceTitle": "浙江财经大学2026年三位一体综合评价招生材料评审结果公示及缴费须知",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "报名8489、材料评审(资格审查)通过3210。最终录取官方仅公布分专业综合分（本科招生网录取查询 https://zs.zufe.edu.cn），未单列总人数，admitted 置空。"
+      },
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 3449,
+        "admitted": null,
+        "sourceUrl": "https://zs.zufe.edu.cn/info/1086/4657.htm",
+        "sourceTitle": "浙江财经大学2025年三位一体综合评价招生录取情况",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "材料评审(资格审查)通过3449（A组1248+B组1430+C组771），来源为官方公示内容（本次未取到材料评审公示直链，二次源zizzs/gk/zhejiangxingaokao/196728仅作线索、非sourceUrl）。录取见官方公示(info/1086/4657.htm)分专业综合分，无单列总人数，admitted 置空。报名人数未取到。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": 3346,
+        "admitted": null,
+        "sourceUrl": "https://zs.zufe.edu.cn/info/1086/4231.htm",
+        "sourceTitle": "浙江财经大学2024年三位一体综合评价招生材料评审结果公示",
+        "sourceYear": 2024,
+        "collectedAt": "2026-09-14",
+        "note": "材料评审(资格审查)通过3346。报名人数与录取汇总未取到官方直链，admitted 置空。"
+      }
+    ],
+    "note": "2024/2025/2026 材料评审(资格审查)均有官方来源；2025 材料评审直链缺失、以二次源佐证；报名数仅2026有官方汇总。"
+  },
+  {
+    "id": "zjxu",
+    "name": "嘉兴大学",
+    "admission": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": 2395,
+        "admitted": 170,
+        "sourceUrl": "https://zsb.zjxu.edu.cn/info/10434/86749.htm",
+        "sourceTitle": "嘉兴大学2026年三位一体综合评价招生书面评审结果公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "书面评审(初审)通过2395（A组668+B组1727）；官方未单列报名人数（仅公布获测试资格2395），故 applicants 置空。校测入围1542人（官方公示 https://zsb.zjxu.edu.cn/info/10434/86764.htm，A组367+B组1175）。最终录取170人（计划170、实际录取170，官方录取公告；录取公告直链未取到，以招生网录取查询 https://zsb.zjxu.edu.cn 为准）。"
+      },
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 3039,
+        "admitted": 166,
+        "sourceUrl": "https://zsb.zjxu.edu.cn/info/10434/86685.htm",
+        "sourceTitle": "嘉兴大学2025年三位一体综合评价招生书面评审结果公示",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "书面评审(初审)通过3039（师范类696+普通类894+物理类1449）；官方未单列报名人数，applicants 置空。校测入围1385人（官方公示，本次未取到直链）。最终录取166人（普通类32+师范类11+物理类123，官方录取公告；直链未取到）。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "sourceYear": 2024,
+        "collectedAt": "2026-09-14",
+        "note": "未找到嘉兴大学2024年三位一体官方公示直链（报名/初审/录取均未取到），各项置空。"
+      }
+    ],
+    "note": "2025/2026 初审与录取均有官方汇总（录取166/170）；2024 未找到官方来源。"
+  },
+  {
+    "id": "zucc",
+    "name": "浙大城市学院",
+    "admission": [
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": "https://zs.hzcu.edu.cn/guide/show-910.html",
+        "sourceTitle": "浙大城市学院2026年三位一体综合评价招生入围名单公示",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "校测入围792人（护理学268+药学155+土木工程155+工业设计(中外合作)214，官方公示 show-910.html）。初审通过名单为PDF（https://zs.hzcu.edu.cn/upload/202604/01/202604010857493260.pdf）未单列汇总人数，报名人数未取到，故 applicants/passed 置空。最终录取见本科招生网录取查询（https://zs.hzcu.edu.cn/），无单列总人数，admitted 置空。"
+      },
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": 1228,
+        "admitted": null,
+        "sourceUrl": "https://www.hzcu.edu.cn/info/1086/32847.htm",
+        "sourceTitle": "浙大城市学院2025年三位一体综合评价招生初审结果",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "初审通过1228。报名人数未取到。校测入围926人（官方公示 https://zs.hzcu.edu.cn/guide/show-839.html）。最终录取见官方录取情况表（本科招生网录取查询），分专业无单列总人数，admitted 置空。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": "https://zs.hzcu.edu.cn/guide/show-819.html",
+        "sourceTitle": "浙大城市学院2024年三位一体综合评价招生录取公示",
+        "sourceYear": 2024,
+        "collectedAt": "2026-09-14",
+        "note": "本次仅取到2024录取公示（分专业），报名人数与初审通过人数未取到官方汇总，均置空。"
+      }
+    ],
+    "note": "2025 初审(1228)与校测入围(926)有官方公示；2026 仅校测入围；2024 仅录取公示。"
+  },
+  {
+    "id": "nit",
+    "name": "浙大宁波理工学院",
+    "admission": [
+      {
+        "year": 2026,
+        "applicants": 4361,
+        "passed": 775,
+        "admitted": null,
+        "sourceUrl": "https://zsw.nbt.edu.cn/info/1029/3501.htm",
+        "sourceTitle": "浙大宁波理工学院关于公布2026年入围三位一体综合素质测试考生名单的通知",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "提交报考申请4361（其中188人报名无效，4173人进入书面评审），书面评审(初审)通过775。校测入围名单同见该公示。最终录取见招生网录取查询（https://zsw.nbt.edu.cn/），无单列总人数，admitted 置空。"
+      },
+      {
+        "year": 2025,
+        "applicants": 3914,
+        "passed": 753,
+        "admitted": null,
+        "sourceUrl": "https://zsw.nbt.edu.cn/info/1029/3413.htm",
+        "sourceTitle": "浙大宁波理工学院关于公布2025年入围三位一体综合素质测试考生名单的通知",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "提交报考申请3914（137人无效，3777人进入书面评审），书面评审(初审)通过753。校测入围420人（官方公示 https://zsw.nbt.edu.cn/info/1029/3422.htm）。最终录取见官方公示 https://zsw.nbt.edu.cn/info/1034/3435.htm 分专业最低综合分，无单列总人数，admitted 置空。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": "https://zsw.nbt.edu.cn/bkzn/lnsj.htm",
+        "sourceTitle": "浙大宁波理工学院本科招生网-历年数据",
+        "sourceYear": 2024,
+        "collectedAt": "2026-09-14",
+        "note": "本次仅取到历年数据栏目(导航页)，2024 报名/初审/录取汇总未取到官方直链，均置空。"
+      }
+    ],
+    "note": "2025/2026 报名与初审(书面评审)齐备且有官方公示；2024 仅历年数据栏目。"
+  },
+  {
+    "id": "hznu",
+    "name": "杭州师范大学",
+    "admission": [
+      {
+        "year": 2026,
+        "applicants": 5148,
+        "passed": 2118,
+        "admitted": null,
+        "sourceUrl": "https://undergrad.hznu.edu.cn/Details/20260325/110222202603250222308947.html",
+        "sourceTitle": "杭州师范大学2026年三位一体综合评价招生资格审查结果公告",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "报名5148（小学教育1096/学前874/特教764/护理2414）、资格审查通过2118（小学教育508/学前185/特教272/护理1153）。校测拟入围名单官方公示（本次未取到直链，三位一体1776+复硕503）。最终录取分专业录取数合计277（小学教育57+学前30+特教30+护理160，官方录取情况公告；直链未取到），admitted 置空。"
+      },
+      {
+        "year": 2025,
+        "applicants": 6755,
+        "passed": 4438,
+        "admitted": null,
+        "sourceUrl": "https://undergrad.hznu.edu.cn/Details/20250320/110821202503200821875427.html",
+        "sourceTitle": "杭州师范大学2025年三位一体综合评价和复硕培养试点招生资格审核结果公告",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "报名6755、资格审查通过4438（小学教育813/学前614/特教400/护理1421/物理527/历史663）。校测拟入围1776人（三位一体，官方公示本次未取到直链）。最终录取分专业录取数合计320（小学教育70+学前60+特教30+护理160，官方录取情况公告；直链未取到），admitted 置空。"
+      },
+      {
+        "year": 2024,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": "",
+        "sourceTitle": "",
+        "sourceYear": 2024,
+        "collectedAt": "2026-09-14",
+        "note": "未找到杭州师范大学2024年三位一体官方公示直链（报名/初审/录取均未取到），各项置空。"
+      }
+    ],
+    "note": "2025/2026 报名与资格审查均有官方公告；2024 未找到官方来源。"
+  }
+]

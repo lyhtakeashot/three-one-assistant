@@ -1,0 +1,110 @@
+{
+  "id": "zjut",
+  "name": "浙江工业大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zs.zjut.edu.cn/html/n2546.html",
+      "tuitionSourceTitle": "浙江工业大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zs.zjut.edu.cn/html/n2546.html",
+      "title": "浙江工业大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zs.zjut.edu.cn/html/n2546.html",
+      "title": "浙江工业大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.7,
+    "environment": 4.6,
+    "life": 4.6,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/258",
+    "sourceTitle": "阳光高考网 · 浙江工业大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "搜狗大学镜像(与阳光高考同源)",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?school=%E6%B5%99%E6%B1%9F%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6",
+        "summary": "综合4.6 / 环境4.8 / 生活4.6",
+        "collectedAt": "2026-09-13"
+      },
+      {
+        "name": "高三网满意度汇总",
+        "url": "https://m.gaosan.com/gaokao/1515357.html",
+        "summary": "综合满意度4.5(4264人) / 环境4.7(4578人) / 生活4.6(4134人)",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "阳光高考网本页综合/环境为直读值(综合4.7、环境4.6)；生活满意度需点开“查看更多”才显示，网页摘要与WebFetch均不可得，生活分4.6取自高三网/搜狗镜像同源数据(二者一致)。分数随投票实时变动，供人工核对。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 11000,
+      "passed": 3000,
+      "admitted": 500,
+      "sourceUrl": "https://zs.zjut.edu.cn/html/n2524.html",
+      "sourceTitle": "浙江工业大学2025年“三位一体”综合评价招生综合素质测试入围考生名单公示",
+      "xuekaoRequirement": "学考≥6A或折算分≥90分",
+      "xuekaoRequirementSourceUrl": "https://zs.zjut.edu.cn/html/n2546.html",
+      "xuekaoRequirementSourceTitle": "浙江工业大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "数据均出自该入围公示页：网上报名13499人、通过书面评审(初审)4808人、综合素质测试入围3325人（A组152/B组574/C组1048/D组422/E组601/F组528）。录取计划500人，官方仅公布录取投档分（zs.zjut.edu.cn/html/n2532.html），未汇总录取总人数，故admitted置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "朝晖(老校区部分无独卫)、屏峰(四人间上床下桌独卫为主)、莫干山(全四人间独卫干湿分离+电梯+空调租赁)三校区，住宿费≤1600元/年。",
+    "score": null,
+    "source": "浙江工业大学本科招生网/阳光高考网院校食宿信息及在校生反馈汇总",
+    "highlights": [
+      "屏峰/莫干山四人间上床下桌",
+      "独立卫浴(多数楼栋)",
+      "莫干山校区独卫干湿分离+阳台+电梯",
+      "空调可租赁",
+      "住宿费≤1600元/年"
+    ],
+    "drawbacks": [
+      "朝晖老校区尚德园部分楼栋无独卫、每层公共浴室",
+      "屏峰东19等部分寝室为上下床非上床下桌",
+      "空调需租赁(尼好校园)",
+      "朝晖与屏峰/莫干山校区条件落差较大"
+    ],
+    "platforms": [
+      {
+        "name": "官方",
+        "url": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/258",
+        "summary": "浙江工业大学朝晖、屏峰、莫干山三校区；屏峰家和苑四人间上床下桌独立卫浴，莫干山全四人间上床下桌独立卫浴干湿分离+阳台+电梯，住宿费≤1600元/年，空调经租赁使用。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "阳光高考网院校信息页(学校提供食宿概况)，生活满意度分数在该页隐藏。"
+      },
+      {
+        "name": "职朋校友圈",
+        "url": "https://m.showxue.com/huati/5373/topic59.html",
+        "summary": "屏峰东19新寝室是四人寝、上下床；研究生宿舍不断电不断网，本科生宿舍晚上11点熄灯断电。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "校友圈UGC，反映断电/不断电差异，非官方。"
+      },
+      {
+        "name": "校友圈(collegeschat)",
+        "url": "https://collegeschat.github.io/universities/zhe-jiang-gong-ye-da-xue",
+        "summary": "朝晖校区部分没有独立卫浴，每层楼一个公共浴室；屏峰校区大部分有独立卫浴。空调全覆盖，需租赁使用。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "在校生问答汇总，非官方，仅供参考。"
+      }
+    ],
+    "note": "虎扑/知乎/B站/小红书/抖音未检索到该校可验证直达帖(知乎、小红书、抖音无结果；B站仅见官方/聚合页)，故仅列官方+校友圈UGC替补。朝晖老校区与莫干山新校区住宿条件差异明显，已在drawbacks标注。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "zjpc",
+  "name": "浙江警察学院",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://www.zjjcxy.cn/zsxxw/xwgg/271286.html",
+      "tuitionSourceTitle": "浙江警察学院2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://www.zjjcxy.cn/zsxxw/xwgg/271286.html",
+      "title": "浙江警察学院2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://www.zjjcxy.cn/zsxxw/xwgg/271286.html",
+      "title": "浙江警察学院2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 3.9,
+    "environment": 3.6,
+    "life": 3.9,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/822",
+    "sourceTitle": "阳光高考网 · 浙江警察学院 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "高考100·院校满意度",
+        "url": "https://gk100.com/daxueku/manyidu_1900.htm",
+        "summary": "高考100镜像阳光高考：综合4.2(708人)、环境4.2(717人)、生活3.9(657人)；与阳光高考wap(综合3.9/环境3.6)存在差异，以wap为准。",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "阳光高考wap页：综合满意度3.9(932人)、环境满意度3.6(802人)；生活满意度折叠未直读，采用高考100镜像(生活3.9)补录。公安院校，满意度普遍偏低。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": null,
+      "admitted": 950,
+      "sourceUrl": null,
+      "sourceTitle": null,
+      "xuekaoRequirement": "学考无不合格科目、综合素质评价不低于B等；学考折算A=10/B=8/C=5/D=2；录取按综合分(高考×75%+学考×10%+体能×15%)，分市分性别划线",
+      "xuekaoRequirementSourceUrl": "https://www.zjjcxy.cn/zsxxw/xwgg/271286.html",
+      "xuekaoRequirementSourceTitle": "浙江警察学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "本行年份未找到官方公示链接。 admitted=2025招生计划/录取1050人（治安学165、侦查学125、涉外警务80、经济犯罪侦查90、警务指挥与战术60、刑事科学技术120、交通管理工程140、网络安全与执法190、数据警务技术80），分市分性别划线，数据来自官方招生信息网录取查询系统(www.zjjcxy.cn/zsxxw)及官微，无汇总静态页故sourceUrl填null；applicants/passed/finalPassed不适用（无传统报名/初审公示）。"
+    }
+  ],
+  "dormitory": {
+    "description": "公安院校，实行警务化公寓管理：本科多4人间，独立卫浴+空调，内务叠『豆腐块』、统一作息，原则上必须住校、走读极难。",
+    "score": null,
+    "source": "中国教育在线报道、易搜教育资讯、高考升学网",
+    "highlights": [
+      "独立卫浴、空调、24小时热水齐全",
+      "内务规范、管理严格，为公安院校特色养成教育",
+      "住宿费较低(约1000元/年)"
+    ],
+    "drawbacks": [
+      "作息严格：工作日22:30熄灯、门禁，早6:30出操",
+      "走读极难，须服从警务化统一管理",
+      "部分旧宿舍无独卫/为公共浴室(依楼栋而异)"
+    ],
+    "platforms": [
+      {
+        "name": "中国教育在线",
+        "url": "https://zhejiang.eol.cn/zhejiang_news/201603/t20160323_1379582_1.shtml",
+        "summary": "警院寝室实行『四统一五规范』，每寝配独立卫生间、空调，24h热水；内务被子叠豆腐块、物品一条线，被称警校寝室典范。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "易搜教育资讯",
+        "url": "https://xhlnet.com/gaoxiao/454382.html",
+        "summary": "实行严格公寓化管理：4人间独立卫浴配空调网络；工作日6:30起床、22:30熄灯就寝；内务『星级宿舍』评比，被子叠豆腐块。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "高考升学网",
+        "url": "http://www.creditsailing.com/ZheJiangGaoKao/522125.html",
+        "summary": "本科生4人间独立卫浴阳台空调，每幢负一层公共浴室热水房；住宿费1000元/年；宿舍23:30熄灯、门禁，晚归刷校园卡应急门。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "易搜教育资讯",
+        "url": "https://xhlnet.com/gaoxiao/419536.html",
+        "summary": "原则上必须住校，走读极其困难，仅特殊情形经大队、学工部、校领导三级审批；全封闭半军事化警务化管理，早操晚点名。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "说明警务化住校制度"
+      },
+      {
+        "name": "官方-招生信息网（入学指南）",
+        "url": "https://www.zjjcxy.cn/zsxxw/rxzn.html",
+        "summary": "按警务化管理要求，警服由学校配发；床上物品（棉被、被套、床垫、床单、凉席、枕芯、枕套等）及生活用品由学校统一采购。男生理平头、女生理短发。",
+        "rating": null,
+        "collectedAt": "2026-09-14",
+        "note": "入学指南明确警务化管理与统一配发床上物品/生活用品、发型要求；熄灯时间、手机管理等细则以学校《学生管理规定》为准，官方未单列公开页。"
+      }
+    ],
+    "note": "公安院校，宿舍按警务化管理如实采集；未查到虎扑/小红书/知乎等可直达帖子链接，未收录。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

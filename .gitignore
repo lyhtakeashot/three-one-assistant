@@ -20,3 +20,13 @@ e2e_test*.cjs
 fix*.cjs
 fix*.js
 git_*.cjs
+
+# 运行时数据（live-app 本地服务生成的树洞/计数/纠错，含用户提交内容，不入库）
+live-app/data/
+
+# 数据管道内的临时产物（不入库）
+.三位一体数据采集表.ref/_jxnh_tmp.pdf
+
+# IDE 数据目录（项目数据，不入库）
+.codebuddy/
+.workbuddy/

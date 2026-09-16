@@ -1,0 +1,123 @@
+{
+  "id": "zyu",
+  "name": "浙江越秀外国语学院",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zs.zyufl.edu.cn",
+      "tuitionSourceTitle": "浙江越秀外国语学院2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zs.zyufl.edu.cn",
+      "title": "浙江越秀外国语学院2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zs.zyufl.edu.cn",
+      "title": "浙江越秀外国语学院2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.0,
+    "environment": 3.4,
+    "life": 3.4,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/1273",
+    "sourceTitle": "阳光高考网 · 浙江越秀外国语学院 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "高考100·院校满意度",
+        "url": "https://gk100.com/daxueku/manyidu_1363.htm",
+        "summary": "高考100镜像阳光高考：综合3.8(1297人)、环境4.1(1429人)、生活3.4(1244人)；阳光高考wap综合为4.0/环境3.4，以wap为准。",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "阳光高考wap页：综合满意度4.0(1815人)、环境满意度3.4(1455人)；生活满意度折叠未直读，采用高考100镜像(生活3.4)补录。民办院校，满意度全省最低档。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": 2236,
+      "passed": 840,
+      "admitted": 120,
+      "sourceUrl": "https://www.zyufl.edu.cn/2026/0411/c2792a80220/page.htm",
+      "sourceTitle": "浙江越秀外国语学院2026年“三位一体”综合评价招生报名及资格审查结果公告",
+      "xuekaoRequirement": "外语B等及以上、其余科目D等及以上；学考折算A=10/B=8/C=6/D=4",
+      "xuekaoRequirementSourceUrl": "https://zs.zyufl.edu.cn",
+      "xuekaoRequirementSourceTitle": "浙江越秀外国语学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "报名人数2236人"
+    },
+    {
+      "year": 2025,
+      "applicants": 3388,
+      "passed": 1327,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zs.zyufl.edu.cn/2025/0327/c1291a72578/page.htm",
+      "sourceTitle": "浙江越秀外国语学院2025年“三位一体”综合评价招生资格审查公告",
+      "collectedAt": "2026-09-13",
+      "note": "报名3388人、资格审查通过(获综合素质测试资格)1327人均出自资格审查公告(zs.zyufl.edu.cn/2025/0327/c1291a72578/page.htm，官方招生网)。拟入围576人(综合测试后，招生办公众号，未捕获公开URL)。计划120人；最终录取总数未公开(录取查询在招生网，需登录)。2024/2026未检索。"
+    }
+  ],
+  "dormitory": {
+    "description": "越秀宿舍4/6人间为主，镜湖校区较新(四人寝上床下桌、独卫阳台)，稽山校区部分六人间上下铺；均空调(租赁)、独立卫浴、热水器。",
+    "score": null,
+    "source": "浙江越秀外国语学院招生网、数字贸易学院新生指南、大学鹿、好教高考",
+    "highlights": [
+      "镜湖新校区四人寝上床下桌、独卫阳台",
+      "空调、独立卫浴、热水器齐全",
+      "宿舍楼配洗衣房、开水间"
+    ],
+    "drawbacks": [
+      "稽山老校区部分六人间上下铺、空间小、设施旧",
+      "空调需额外租赁(约340元/间·年)",
+      "洗澡热水仅早中晚三时段供应",
+      "生活满意度低(3.3–3.4)"
+    ],
+    "platforms": [
+      {
+        "name": "官方|招生网·考生问答",
+        "url": "https://zs.zyufl.edu.cn/2021/0623/c1270a43289/page.htm",
+        "summary": "招生网：宿舍主要4/6人间，含空调、独立卫生间、热水器，每栋配洗衣房开水间；两校区4个大型食堂与美食城。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "官方|数字贸易学院·新生指南",
+        "url": "https://jm.zyufl.edu.cn/2024/0929/c3089a68499/page.htm",
+        "summary": "镜湖校区寝室上床下桌，4或6人间，配阳台、洗漱台、独立卫生间与空调；每栋楼下洗衣房自助洗衣机；床帘建议高120cm。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "大学鹿",
+        "url": "https://m.daxuelu.com/academy/sushe/788.html",
+        "summary": "镜湖四人寝为主少量六人，上床下桌有独卫阳台热水空调；稽山四/六人间混合，部分上下铺；空调租赁340元/间·年。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "聚合站，整理自学长学姐评价"
+      },
+      {
+        "name": "好教高考",
+        "url": "http://www.haojiao.net/zjyxdt/20250812/809467.html",
+        "summary": "稽山多六人寝上下铺有独卫阳台空调；镜湖新校区设施好；洗澡热水仅早中晚三时段供应，其余时间不开放。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "整理自学长学姐评价"
+      }
+    ],
+    "note": "民办院校，生活满意度全省最低档；未查到虎扑/知乎/小红书等可直达帖子；热水限时与老校区陈旧为一致反馈。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

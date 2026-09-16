@@ -1,0 +1,193 @@
+[
+  {
+    "id": "westlake",
+    "name": "西湖大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ZSJZ/Situation/202505/t20250507_55287.shtml",
+        "sourceTitle": "西湖大学2025年浙江省“三位一体”综合评价招生简章",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "招生简章：2025年浙江省三位一体计划不超过15人，按招生计划1:10比例确定初审通过名单；未公布报名人数、初审/入围人数、录取人数汇总。初审结果与综合测试通过名单均在报名系统内公示，不公开人数。"
+      }
+    ],
+    "note": "2025找到官方招生简章链接（含计划与比例，无汇总人数）。"
+  },
+  {
+    "id": "eit",
+    "name": "宁波东方理工大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "2025年无三位一体/综合评价招生（首届本科生于普通类平行志愿录取，约74人）。首次三位一体在2026年。"
+      },
+      {
+        "year": 2026,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": "https://www.eitech.edu.cn/2026/0513/c70a6084/page.htm",
+        "sourceTitle": "宁波东方理工大学发布2026年浙江省“三位一体”综合评价招生简章",
+        "sourceYear": 2026,
+        "collectedAt": "2026-09-14",
+        "note": "2026年首次在浙江开展三位一体，计划招生80人（计算机科学与技术专业）；简章未含报名/入围/录取汇总数，相关名单在本科招生报名系统内公示。"
+      }
+    ],
+    "note": "2025无三一；2026找到首次三一招生简章链接。"
+  },
+  {
+    "id": "nyush",
+    "name": "上海纽约大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "官方《2025年本科招生流程公告(中国大陆学生)》(shanghai.nyu.edu.cn)仅公布全国招生251人、不做分省安排，未发布浙江分省报名/入围/录取人数。网传浙江2025录取约9人、2024约5人，仅见于商业媒体，未找到官方公示。"
+      }
+    ],
+    "note": "未找到官方浙江分省公示链接。"
+  },
+  {
+    "id": "dku",
+    "name": "昆山杜克大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "商业媒体(浙考圈)称浙江2025入围95人、录取23人(全国385)，引用“学校官网”但未捕获官方公示深链；官方招生网admissions.dukekunshan.edu.cn为单页应用，建议人工在站内检索“2025年本科综合评价招生录取名单”核对。"
+      }
+    ],
+    "note": "未找到官方公示深链（商业媒体线索：浙江入围95/录取23）。"
+  },
+  {
+    "id": "bfsu",
+    "name": "北京外国语大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": "https://joinus.bfsu.edu.cn/info/1072/10464.htm",
+        "sourceTitle": "北京外国语大学2025年综合评价录取名单公示",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "录取名单公示页（附件PDF含完整名单）；页面未列浙江分省录取汇总数。浙江2025综合评价招生计划28人（据招生简章）。初审通过名单见 joinus.bfsu.edu.cn/info/1033/9414.htm，能力测试合格见 info/1033/9994.htm。"
+      }
+    ],
+    "note": "2025找到官方录取名单公示链接。"
+  },
+  {
+    "id": "shtech",
+    "name": "上海科技大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "浙江综评录取人数(网传2025约28人、2024约26人)仅见于商业媒体(搜狐/自主选拔在线)；官方招生网admission.shanghaitech.edu.cn未捕获浙江分省公示深链，建议人工核实。"
+      }
+    ],
+    "note": "未找到官方浙江分省公示链接。"
+  },
+  {
+    "id": "sustc",
+    "name": "南方科技大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "官方本科招生网(zs.sustech.edu.cn)2025-07-14发布【浙江】南方科技大学2025年新生录取名单，正文写明“录取60名浙江考生”(共3页名单)；该站为单页应用，浙江分省文章深链未能捕获，建议人工在站内核对。报名/初审人数未见官方浙江分省汇总（全国报名约7.2万人见newshub.sustech.edu.cn官方新闻）。"
+      }
+    ],
+    "note": "官方确认浙江录取60人，但深链未捕获，未作为sourceUrl。"
+  },
+  {
+    "id": "scut",
+    "name": "华南理工大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": "https://xxgk.scut.edu.cn/2025/0712/c132a48329/page.htm",
+        "sourceTitle": "关于公布2025年浙江省综合评价录取名单的通知",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "浙江省综合评价录取名单公示通知（名单见附件PDF）；页面未列浙江录取汇总数。浙江2025综合评价招生计划36人。"
+      }
+    ],
+    "note": "2025找到官方录取名单公示链接。"
+  },
+  {
+    "id": "cuhksz",
+    "name": "香港中文大学（深圳）",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": "https://admissions.cuhk.edu.cn/node/2227",
+        "sourceTitle": "香港中文大学（深圳）2025年浙江省“三位一体”综合评价招生录取考生名单公示",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "浙江省三位一体综合评价招生录取考生名单公示页（名单见页面）；浙江录取人数(网传约260人)需人工核对页面名单。入学测试入围名单于2025-06-22在招生网公告栏目发布。"
+      }
+    ],
+    "note": "2025找到官方录取名单公示链接。"
+  },
+  {
+    "id": "smbu",
+    "name": "深圳北理莫斯科大学",
+    "admission": [
+      {
+        "year": 2025,
+        "applicants": null,
+        "passed": null,
+        "admitted": null,
+        "sourceUrl": null,
+        "sourceTitle": "",
+        "sourceYear": 2025,
+        "collectedAt": "2026-09-14",
+        "note": "官方招生网(zsb.smbu.edu.cn)2025年7月下旬发布本科综合评价招生录取名单公示（全国727人，商业媒体数据）；浙江分省录取数未见官方公示，且2025录取名单文章深链未能捕获，建议人工在招生网“招生信息”栏目核对。"
+      }
+    ],
+    "note": "未找到官方公示深链（商业媒体：全国727）。"
+  }
+]

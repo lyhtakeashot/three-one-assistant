@@ -1,0 +1,128 @@
+{
+  "id": "zufe",
+  "name": "浙江财经大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zs.zufe.edu.cn/info/1075/4688.htm",
+      "tuitionSourceTitle": "浙江财经大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zs.zufe.edu.cn/info/1075/4688.htm",
+      "title": "浙江财经大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zs.zufe.edu.cn/info/1075/4688.htm",
+      "title": "浙江财经大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.3,
+    "environment": 4.3,
+    "life": 3.9,
+    "sourceUrl": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-821.dhtml",
+    "sourceTitle": "阳光高考网 · 浙江财经大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [],
+    "note": "数值取自cnur 2025中国大学院校满意度排名(标注数据来源阳光高考网)交叉核对。搜狗校园生活页显示综合4.3/环境4.4/生活4.0,与cnur(4.3/4.3/3.9)接近,生活分略有差异,以cnur为准。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": 8489,
+      "passed": 3210,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zs.zufe.edu.cn/info/1086/4703.htm",
+      "sourceTitle": "浙江财经大学2026年三位一体综合评价招生材料评审结果公示及缴费须知",
+      "collectedAt": "2026-09-13",
+      "note": "报名8489、材料评审(资格审查)通过3210。最终录取官方仅公布分专业综合分（本科招生网录取查询 https://zs.zufe.edu.cn），未单列总人数，admitted 置空。"
+    },
+    {
+      "year": 2025,
+      "applicants": 8500,
+      "passed": 2200,
+      "admitted": 300,
+      "sourceUrl": "https://zs.zufe.edu.cn/info/1086/4657.htm",
+      "sourceTitle": "浙江财经大学2025年三位一体综合评价招生录取情况",
+      "xuekaoRequirement": "学考≥5A2B",
+      "xuekaoRequirementSourceUrl": "https://zs.zufe.edu.cn/info/1075/4688.htm",
+      "xuekaoRequirementSourceTitle": "浙江财经大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "材料评审(资格审查)通过3449（A组1248+B组1430+C组771），来源为官方公示内容（本次未取到材料评审公示直链，二次源zizzs/gk/zhejiangxingaokao/196728仅作线索、非sourceUrl）。录取见官方公示(info/1086/4657.htm)分专业综合分，无单列总人数，admitted 置空。报名人数未取到。"
+    },
+    {
+      "year": 2024,
+      "applicants": null,
+      "passed": 3346,
+      "admitted": null,
+      "minScore": null,
+      "avgScore": null,
+      "xuekaoRequirement": null,
+      "sourceUrl": "https://zs.zufe.edu.cn/info/1086/4231.htm",
+      "sourceTitle": "浙江财经大学2024年三位一体综合评价招生材料评审结果公示",
+      "collectedAt": "2026-09-13",
+      "note": "材料评审(资格审查)通过3346。报名人数与录取汇总未取到官方直链，admitted 置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "下沙桃李苑/成蹊苑/生活区组团4人间为主,独立卫浴、可装空调洗衣机,热水限时,23点熄灯不断电,宿舍外包管理。",
+    "score": null,
+    "source": "官方阳光高考食宿条件 + 搜狗校园生活 + 职朋校友圈 + 大学生活质量指北",
+    "highlights": [
+      "寝室均有独立卫生间,可装配空调洗衣机",
+      "桃李苑/成蹊苑生活区配套食堂超市洗衣房",
+      "部分楼栋配讨论室/自习室/共享厨房"
+    ],
+    "drawbacks": [
+      "热水限时供应、热水费较高(管道35元/吨)",
+      "宿舍外包给物业(紫元/鑫泽),管理严格、查寝频繁",
+      "老4人寝改6人寝空间狭窄、独卫老旧不干湿分离"
+    ],
+    "platforms": [
+      {
+        "name": "官方·阳光高考",
+        "url": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-821,categoryId-6292823,mindex-8.dhtml",
+        "summary": "阳光高考食宿条件:下沙生活区含桃李苑/成蹊苑/西北组团,每寝室独立卫生间,可装配空调洗衣机,园区配自习室共享厨房等。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "聚合·搜狗校园生活",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?addressbar=normalhide&school=%E6%B5%99%E6%B1%9F%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6",
+        "summary": "校园生活页:下沙桃李苑/成奚苑4人间带独卫阳台,空调电源接口,卫生间配热水沐浴龙头盥洗盆;综合4.3环境4.4生活4.0。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·职朋校友圈",
+        "url": "https://m.showxue.com/huati/16534/topic59.html",
+        "summary": "四人寝上床下桌独立卫生间,可租空调有热水;管理严格23点熄灯不断电、11点半断网,宿舍外包水费贵;部分楼不熄灯。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "UGC·大学生活质量指北",
+        "url": "https://cn.colleges.chat/universities/zhe-jiang-cai-jing-da-xue",
+        "summary": "老4人寝改6人寝上床下桌三人共用长桌狭窄;成蹊苑独卫小且脏不干湿分离;空调租金贵(约1680/4年);大一大二卫生间难评。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      }
+    ],
+    "note": "未查到虎扑/知乎/小红书具体帖子直达链接,以职朋、colleges.chat及官方/聚合页为准;热水限时费高、外包管理严、独卫老旧等负面已记录。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

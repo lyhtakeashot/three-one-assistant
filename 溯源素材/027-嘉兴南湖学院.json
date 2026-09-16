@@ -1,0 +1,122 @@
+{
+  "id": "jxnh",
+  "name": "嘉兴南湖学院",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zsb.jxnhu.edu.cn/info/1012/4337.htm",
+      "tuitionSourceTitle": "嘉兴南湖学院2026年三位一体综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zsb.jxnhu.edu.cn/info/1012/4337.htm",
+      "title": "嘉兴南湖学院2026年三位一体综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zsb.jxnhu.edu.cn/info/1012/4337.htm",
+      "title": "嘉兴南湖学院2026年三位一体综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.1,
+    "environment": 3.8,
+    "life": 3.8,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/1636",
+    "sourceTitle": "阳光高考网 · 嘉兴南湖学院 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "高考100·院校满意度",
+        "url": "https://gk100.com/read_347714.htm",
+        "summary": "高考100镜像阳光高考：综合4.1(734人)、环境4.2(807人)、生活3.8(694人)；阳光高考wap环境为3.8，以wap为准。",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "阳光高考wap页：综合满意度4.1(1004人)、环境满意度3.8(793人)；生活满意度折叠未直读，采用高考100/高三网镜像(生活3.8)补录。"
+  },
+  "admission": [
+    {
+      "year": 2026,
+      "applicants": 4294,
+      "passed": 683,
+      "admitted": null,
+      "sourceUrl": "https://www.jxnhu.edu.cn/info/1241/13410.htm",
+      "sourceTitle": "嘉兴南湖学院2026年“三位一体”综合评价招生综合素质测试圆满结束",
+      "xuekaoRequirement": "学考折算≥68分(A=10/B=7/C=3/D=0)；2026初审最后一名为3A5B1C1D=68分",
+      "xuekaoRequirementSourceUrl": "https://zsb.jxnhu.edu.cn/info/1012/4337.htm",
+      "xuekaoRequirementSourceTitle": "嘉兴南湖学院2026年三位一体综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "有效报名4294人"
+    },
+    {
+      "year": 2025,
+      "applicants": null,
+      "passed": null,
+      "admitted": 60,
+      "sourceUrl": "https://zsb.jxnhu.edu.cn/info/1084/3287.htm",
+      "sourceTitle": "嘉兴南湖学院2025年“三位一体”综合评价招生综合测试入围名单公告（入围471人）",
+      "xuekaoRequirement": null,
+      "xuekaoRequirementSourceUrl": null,
+      "xuekaoRequirementSourceTitle": null,
+      "collectedAt": "2026-09-13",
+      "note": "passed=书面评审678人（官方招生网PDF公示）；finalPassed=综合测试入围471人（官方招生网公告）；applicants=报名人数未找到；admitted=录取数未找到（2025招生计划60人）。"
+    }
+  ],
+  "dormitory": {
+    "description": "越秀校区公寓，女生多为4人间或教室改造的8人间(上床下桌)、无独卫用公共浴室；男生部分无独卫无阳台；住宿费640–1600元/年，空调需租赁。",
+    "score": null,
+    "source": "嘉兴南湖学院招生网(章程/入学须知)、好教高考、未来人才",
+    "highlights": [
+      "空调全覆盖(需租赁)",
+      "公寓八8人间空间大、上床下桌",
+      "大二多可换4人间独浴独卫"
+    ],
+    "drawbacks": [
+      "部分宿舍无独卫、用公共浴室",
+      "老宿舍无阳台、8人间隐私性差",
+      "熄灯与网络限制引部分学生不满"
+    ],
+    "platforms": [
+      {
+        "name": "官方|招生网·招生章程",
+        "url": "https://zsb.jxnhu.edu.cn/info/1077/4787.htm",
+        "summary": "嘉兴南湖学院2026招生章程：住宿费按政府及学校规定收取，学生住宿费不超过1600元/生·学年，按实际入住寝室标准缴纳。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "官方|新生入学须知(PDF)",
+        "url": "https://zsb.jxnhu.edu.cn/__local/5/FF/B3/984F5F6E15A27343634D1235BE2_B3C01BF1_A38BA2.pdf",
+        "summary": "2024级新生入学须知：住宿费960–1600元/年；空调租赁四年1700元/台，按寝室分摊；床上用品可自愿网上订购。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": ""
+      },
+      {
+        "name": "好教高考",
+        "url": "http://www.haojiao.net/zjyxdt/20250812/809746.html",
+        "summary": "学长学姐评：大一女生多住公寓八8人寝(上床下桌)无独浴独卫用公共浴室；大二换4人间带独浴独卫；男生部分无独卫无阳台。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "整理自学长学姐评价"
+      },
+      {
+        "name": "未来人才(保定)",
+        "url": "http://hbwlrc.cn:83/NewSchoolInfo.ashx?Batch=本科&Name=嘉兴南湖学院&Type=School&Year=2025&wl=理",
+        "summary": "4–6人间，部分女生入住教室改造8人间；住宿费640–1600元/年，空调需租赁；不足：部分无独卫、8人间隐私差、熄灯断网引不满。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "聚合站"
+      }
+    ],
+    "note": "未查到虎扑/知乎/小红书/抖音/贴吧可直达帖子；新生指南类内容为聚合整理，已标注来源。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}

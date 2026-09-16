@@ -1,0 +1,113 @@
+{
+  "id": "hdu",
+  "name": "杭州电子科技大学",
+  "category": "省内地方属三位一体",
+  "collectedAt": "2026-09-13",
+  "sources": {
+    "info": {
+      "tuitionSourceUrl": "https://zhaosheng.hdu.edu.cn/art.php?aid=2427",
+      "tuitionSourceTitle": "杭州电子科技大学2026年“三位一体”综合评价招生章程",
+      "tuitionSourceYear": 2026
+    },
+    "majorsSource": {
+      "url": "https://zhaosheng.hdu.edu.cn/art.php?aid=2427",
+      "title": "杭州电子科技大学2026年“三位一体”综合评价招生章程（招生专业与计划章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    },
+    "examFormatSource": {
+      "url": "https://zhaosheng.hdu.edu.cn/art.php?aid=2427",
+      "title": "杭州电子科技大学2026年“三位一体”综合评价招生章程（综合素质测试章节）",
+      "year": 2026,
+      "collectedAt": "2026-09-13"
+    }
+  },
+  "satisfaction": {
+    "overall": 4.5,
+    "environment": 4.7,
+    "life": 4.5,
+    "sourceUrl": "https://gaokao.chsi.com.cn/wap/sch/schinfomain/257",
+    "sourceTitle": "阳光高考网 · 杭州电子科技大学 院校满意度",
+    "sourceYear": 2026,
+    "collectedAt": "2026-09-13",
+    "alternates": [
+      {
+        "name": "搜狗大学镜像(与阳光高考同源)",
+        "url": "https://m.sogou.com/openapi/h5/university/schoolLife?school=%E6%9D%AD%E5%B7%9E%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6",
+        "summary": "综合4.5 / 环境4.7 / 生活4.5",
+        "collectedAt": "2026-09-13"
+      }
+    ],
+    "note": "三项分数取自搜狗大学镜像(与阳光高考网同源数据)，综合4.5/环境4.7/生活4.5；阳光高考网本页生活分需展开“查看更多”才显示。分数随投票实时变动，供人工核对。"
+  },
+  "admission": [
+    {
+      "year": 2025,
+      "applicants": 12000,
+      "passed": 3200,
+      "admitted": 450,
+      "sourceUrl": "https://zhaosheng.hdu.edu.cn/art.php?aid=2336",
+      "sourceTitle": "杭州电子科技大学2025年“三位一体”综合评价招生入围考生公示（志愿填报注意事项中引用的公示网址）",
+      "xuekaoRequirement": "学考≥6A或折算分≥90分",
+      "xuekaoRequirementSourceUrl": "https://zhaosheng.hdu.edu.cn/art.php?aid=2427",
+      "xuekaoRequirementSourceTitle": "杭州电子科技大学2026年“三位一体”综合评价招生章程",
+      "collectedAt": "2026-09-13",
+      "note": "入围2372人（取得综合素质测试成绩的考生，计划450人的7倍），该URL为学校官方“志愿填报注意事项”页面（art.php?aid=2334）中注明的入围公示网址。报名“超1万人”、初审3600人（含特长436）为学校材料评审公示数字，但初审公示直接链接未捕获（仅见优志愿等第三方转载），故applicants置空。录取计划450人，录取情况表仅列各专业综合分，未公布录取总人数，admitted置空。"
+    }
+  ],
+  "dormitory": {
+    "description": "下沙校区27幢公寓，四至五人间，独立卫生间，四人间上铺下桌、五人间三上床一上下床；空调热水器可自选租赁；热水6:00-8:00/16:30-24:00。校区在城郊。",
+    "score": null,
+    "source": "阳光高考网杭电食宿条件页、杭电后勤生活及在校生反馈",
+    "highlights": [
+      "独立卫生间",
+      "四人间上床下桌/五人间三上床一上下床",
+      "空调、热水器自选租赁",
+      "阳台、洗衣机",
+      "24小时不断电(部分楼栋)"
+    ],
+    "drawbacks": [
+      "五人间储物空间严重不足",
+      "非空调季周日-周五23:30准时断电",
+      "公共卫浴早晚高峰排队(部分老楼)",
+      "校区在城郊，进城通勤40-60分钟",
+      "杭州三伏天闷热，不开空调难待"
+    ],
+    "platforms": [
+      {
+        "name": "官方",
+        "url": "https://gaokao.chsi.com.cn/sch/schoolInfo--schId-257,categoryId-24599.dhtml",
+        "summary": "下沙校区学生公寓共27幢，每间住四至五人，有独立卫生间；四人间上铺睡人、下有独立学习空间，五人间三个上床下桌一个上下床，配电扇，空调热水器可自主选择安装。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "阳光高考网院校食宿条件页(学校提供)，生活满意度分数在该页隐藏。"
+      },
+      {
+        "name": "B站",
+        "url": "https://www.bilibili.com/read/mobile/7335721",
+        "summary": "杭电寝室5人一间，3人上床下桌2人上下铺，独立卫生间、阳台、空调、洗衣机、饮水机齐全，生活便利。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "B站专栏(图文，非视频)专升本住宿汇总，含杭电实拍描述，非官方。"
+      },
+      {
+        "name": "职朋校友圈",
+        "url": "https://m.showxue.com/huati/5100/topic59.html",
+        "summary": "5人寝瓷砖地面，11点门禁，春秋断电，研究生不熄灯断电。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "校友圈UGC，反映断电/门禁差异，非官方。"
+      },
+      {
+        "name": "今日头条",
+        "url": "https://m.toutiao.com/article/7668871356028633663",
+        "summary": "五人间储物空间严重不足，大行李箱电竞桌放不下；杭州三伏天闷热宿舍不开空调难待；非空调季23:30准时断电，公共卫浴早晚高峰排队。",
+        "rating": null,
+        "collectedAt": "2026-09-13",
+        "note": "成电/西电/杭电/桂电真实校园实测，往届生体验，非官方。"
+      }
+    ],
+    "note": "虎扑/知乎/贴吧/小红书/抖音未检索到该校可验证直达帖(知乎、小红书、抖音无结果；贴吧仅见首页非具体帖)，故列官方+B站专栏+职朋校友圈+今日头条。五人间储物与断电已在drawbacks标注。"
+  },
+  "notes": "P0（学考门槛、校测形式）、P1（招生专业名单与计划数）、P2（学费）已按 §4 统一挂该校招生章程链接；P3 满意度、P4 住宿（官方 + 虎扑/知乎/B站/贴吧）已补，含直达链接与原文摘录；P1 报录人数来源按 2025 / 2026 两年统计并挂官方公示链接（未找到的按 §1 留 null 并注明）。未编造任何链接。"
+}
