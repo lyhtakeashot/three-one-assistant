@@ -535,15 +535,20 @@ function getUserId(){
   Lset('uid',fresh);
   return fresh;
 }
-// 计数口径（2026-09-17 改为「访问次数」）：每次页面会话 +1；首屏 App/HomePage 两处调用由
-// counterQueue 合并，一次会话只发一次计数请求；失败不写缓存、本次回调 offline，下次访问自然再 +1。
+// 计数口径（2026-09-17 改为「访问次数」）：每个标签页会话只计 1 次（sessionStorage 标记，
+// 同一标签页内刷新 / SW 更新自动重载不重复计数；新开标签页或关闭后重开才再计 1 次）。
+// 首屏 App/HomePage 两处调用由 counterQueue 合并为一次请求；失败不写标记，下次访问自然再计。
+function sessionCounted(){try{return !!sessionStorage.getItem('3in1_counted')}catch(e){return false}}
+function markSessionCounted(){try{sessionStorage.setItem('3in1_counted','1')}catch(e){}}
 var counterQueue=null;
 function getUserCounter(cb){
+  if(sessionCounted()){cb({count:Lget('counter')||0});return;}
   if(counterQueue){counterQueue.push(cb);return;}
   counterQueue=[cb];
   apiGet('/api/counter',function(data){
     var queue=counterQueue;counterQueue=null;
     if(data&&data.count){
+      markSessionCounted();
       Lset('counter',data.count);
       queue.forEach(function(f){f(data)});
     }else{
