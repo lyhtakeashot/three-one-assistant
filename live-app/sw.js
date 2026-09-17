@@ -1,4 +1,4 @@
-const CACHE_NAME='3in1-v14';
+const CACHE_NAME='3in1-v15';
 const APP_SHELL=[
   '/',
   '/manifest.json',
