@@ -535,25 +535,16 @@ function getUserId(){
   Lset('uid',fresh);
   return fresh;
 }
-// 计数口径（2026-09-17 修复）：仅「本机首次」（localStorage 无 uid）时不带 userId 请求一次
-// /api/counter，由服务端 count+1 并返回新 uid，存下后后续一律带 uid 幂等；首屏两处调用用
-// counterQueue 去重，保证只计数一次且两处都能拿到真实计数（失败不写 uid，下次可重试）。
+// 计数口径（2026-09-17 改为「访问次数」）：每次页面会话 +1；首屏 App/HomePage 两处调用由
+// counterQueue 合并，一次会话只发一次计数请求；失败不写缓存、本次回调 offline，下次访问自然再 +1。
 var counterQueue=null;
 function getUserCounter(cb){
-  var uid=Lget('uid');
-  if(uid){
-    apiGet('/api/counter?userId='+uid,function(data){
-      if(data){Lset('counter',data.count);cb(data);}
-      else{cb({count:Lget('counter')||0,userId:uid,offline:true});}
-    });
-    return;
-  }
   if(counterQueue){counterQueue.push(cb);return;}
   counterQueue=[cb];
   apiGet('/api/counter',function(data){
     var queue=counterQueue;counterQueue=null;
-    if(data&&data.userId){
-      Lset('uid',data.userId);Lset('counter',data.count);
+    if(data&&data.count){
+      Lset('counter',data.count);
       queue.forEach(function(f){f(data)});
     }else{
       var off={count:Lget('counter')||0,offline:true};
@@ -1314,16 +1305,16 @@ function HomePage(props){
   var favState=React.useState(function(){return Lget('favs')||[]});var favs=favState[0];
   var qState=React.useState(function(){return ENCOURAGE_DATA[Math.floor(Math.random()*ENCOURAGE_DATA.length)]});var quote=qState[0],setQuote=qState[1];
   var bannerState=React.useState(function(){return !Lget('counterShown')});var showBanner=bannerState[0],setShowBanner=bannerState[1];
-  var countState=React.useState(Lget('counter')||0);var userCount=countState[0],setUserCount=countState[1];
+  var countState=React.useState(Lget('counter')||0);var visitCount=countState[0],setVisitCount=countState[1];
   var postsState=React.useState(function(){return Lget('treehole')||[]});var posts=postsState[0],setPosts=postsState[1];
-  React.useEffect(function(){getUserCounter(function(data){if(data&&data.count)setUserCount(data.count)})},[]);
+  React.useEffect(function(){getUserCounter(function(data){if(data&&data.count)setVisitCount(data.count)})},[]);
   React.useEffect(function(){apiGet('/api/treehole',function(data){if(data&&data.posts)setPosts(data.posts)})},[]);
 
   function go(p){props.setPage(p)}
 
-  var counterBanner=showBanner&&userCount>0?React.createElement('div',{className:'bg-p50 text-p p3 text-center text-sm'},
+  var counterBanner=showBanner&&visitCount>0?React.createElement('div',{className:'bg-p50 text-p p3 text-center text-sm'},
     React.createElement('div',{className:'flex items-center justify-center gap3'},
-      React.createElement('span',null,'你是第 ',userCount,' 位使用者，一起把信息差补齐！'),
+      React.createElement('span',null,'这是第 ',visitCount,' 次访问，一起把信息差补齐！'),
       React.createElement('button',{onClick:function(){Lset('counterShown',true);setShowBanner(false)},className:'text-xs px3 py1 rounded-lg bg-w text-p'},'知道了'))):null;
 
   var q=(quote&&quote.text)?quote:ENCOURAGE_DATA[0];
@@ -2703,12 +2694,12 @@ function App(){
   var navState=React.useState(false);var navOpen=navState[0],setNavOpen=navState[1];
   var nmState=React.useState(function(){var v=Lget('navMode');return(v==='open'||v==='closed')?v:'auto'});var navMode=nmState[0],setNavMode=nmState[1];
   var thState=React.useState(function(){return Lget('theme')==='dark'?'dark':'light'});var theme=thState[0],setTheme=thState[1];
-  var cState=React.useState(Lget('counter')||0);var totalUsers=cState[0],setTotalUsers=cState[1];
+  var cState=React.useState(Lget('counter')||0);var totalVisits=cState[0],setTotalVisits=cState[1];
   var onState=React.useState(true);var online=onState[0],setOnline=onState[1];
   // 年份模式提到 App 层：顶栏计数与各页可见院校范围保持联动
   var ymState=React.useState(function(){return currentYearMode()});var yearMode=ymState[0],setYearModeState=ymState[1];
   React.useEffect(function(){if(!Lget('introDismissed'))setIntroOpen(true)},[]);
-  React.useEffect(function(){getUserCounter(function(data){if(data&&data.count)setTotalUsers(data.count);if(data&&data.offline)setOnline(false)})},[]);
+  React.useEffect(function(){getUserCounter(function(data){if(data&&data.count)setTotalVisits(data.count);if(data&&data.offline)setOnline(false)})},[]);
   React.useEffect(function(){
     try{
       var root=document&&document.documentElement;
@@ -2773,7 +2764,7 @@ function App(){
       })),
     React.createElement('div',{className:'sidebar-foot'},
       React.createElement('div',{className:'sidebar-foot-line'},React.createElement(Icon,{name:'database',size:13}),React.createElement('span',{className:'sidebar-foot-text'},'38 所院校 · 2026')),
-      React.createElement('div',{className:'sidebar-foot-line mt1'},React.createElement(Icon,{name:'users',size:13}),React.createElement('span',{className:'sidebar-foot-text'},'已有 '+totalUsers+' 位使用者')),
+      React.createElement('div',{className:'sidebar-foot-line mt1'},React.createElement(Icon,{name:'users',size:13}),React.createElement('span',{className:'sidebar-foot-text'},'累计 '+totalVisits+' 次访问')),
       React.createElement('div',{className:'flex items-center gap1 mt2 sidebar-foot-btns'},
         React.createElement('button',{onClick:function(){setIntroOpen(true)},title:'什么是三位一体',className:'icon-btn'},React.createElement(Icon,{name:'help',size:17})),
         React.createElement('button',{onClick:function(){setFlowOpen(true)},title:'录取流程',className:'icon-btn'},React.createElement(Icon,{name:'layers',size:17})),

@@ -46,7 +46,7 @@ module.exports = async function run(t) {
   await sleep(1000);
 
   try {
-    // ---- counter ----
+    // ---- counter（访问次数口径：每次请求无条件 +1）----
     let r = await api(TEST_PORT, 'GET', '/api/counter');
     const c1 = JSON.parse(r.body);
     check(t, r.status === 200 && c1.count >= 1 && !!c1.userId, 'counter 首次访问返回 count+userId');
@@ -55,7 +55,7 @@ module.exports = async function run(t) {
     check(t, c2.count === c1.count + 1, 'counter 连续访问 +1');
     r = await api(TEST_PORT, 'GET', '/api/counter?userId=' + c1.userId);
     const c3 = JSON.parse(r.body);
-    check(t, c3.count === c2.count && c3.userId === c1.userId, 'counter 带 userId 不重复计数');
+    check(t, c3.count === c2.count + 1 && !!c3.userId, 'counter 带 userId 参数不影响计数（无幂等去重）');
 
     // ---- treehole 发帖 ----
     r = await api(TEST_PORT, 'POST', '/api/treehole', { content: '测试：互相鼓励一起上岸！', category: '互助' });

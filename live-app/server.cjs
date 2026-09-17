@@ -72,16 +72,13 @@ http.createServer((req,res)=>{
     res.end();return;
   }
 
-  // ---------- 用户计数 ----------
+  // ---------- 访问次数计数（与线上 functions/api/counter.js 同口径：每次请求 +1） ----------
   if(req.method==='GET'&&url==='/api/counter'){
     const counter=readJson('counter.json',{count:0,lastAnon:0});
-    const uq=req.url.split('?')[1]||'';
-    const userId=(uq.match(/userId=([^&]+)/)||[])[1]||null;
-    if(!userId){counter.count+=1;}
+    counter.count+=1;
     counter.lastAnon=counter.lastAnon||0;
-    const uid=userId||genId();
     writeJson('counter.json',counter);
-    sendJson(res,200,{count:counter.count,userId:uid});
+    sendJson(res,200,{count:counter.count,userId:genId()});
     return;
   }
 
