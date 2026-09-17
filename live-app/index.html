@@ -14,14 +14,16 @@
 <link rel="icon" type="image/svg+xml" href="icon.svg">
 <style>
 *,::before,::after{box-sizing:border-box;margin:0;padding:0}
-::root{--p50:#EFF6FF;--p100:#DBEAFE;--p500:#3B82F6;--p600:#2563EB;--p700:#1D4ED8;--p800:#1E40AF;--s8:#1E293B;--s5:#64748B;--s4:#94A3B8;--s3:#CBD5E1;--s2:#E5E7EB;--s1:#F1F5F9;--bg:#F8FAFC;--w:#FFF;--g:#16A34A;--y:#F59E0B;--r:#EF4444;--nav-w:248px;--nav-w-mini:68px;--topbar-h:60px;--line:#E5E7EB;--fill:#F1F5F9;--ring:rgba(59,130,246,.28);--grad:linear-gradient(135deg,#3B82F6,#6366F1)}
+::root{--p50:#EFF6FF;--p100:#DBEAFE;--p500:#3B82F6;--p600:#2563EB;--p700:#1D4ED8;--p800:#1E40AF;--s8:#1E293B;--s5:#64748B;--s4:#94A3B8;--s3:#CBD5E1;--s2:#E5E7EB;--s1:#F1F5F9;--bg:#FFFFFF;--w:#FFF;--g:#16A34A;--y:#F59E0B;--r:#EF4444;--nav-w:248px;--nav-w-mini:68px;--topbar-h:60px;--line:#E5E7EB;--fill:#F1F5F9;--ring:rgba(59,130,246,.28);--grad:linear-gradient(135deg,#3B82F6,#6366F1)}
 /* 深色主题：仅重指向语义 token + 少量硬编码类覆盖，不改动类名 */
 [data-theme="dark"]{color-scheme:dark;--p50:#17253F;--p100:#1E3A5F;--p600:#3B82F6;--p700:#60A5FA;--p800:#93C5FD;--s8:#E6EDF7;--s5:#94A3B8;--s4:#7C8CA3;--s3:#5A6B85;--s2:#25324A;--s1:#17223A;--bg:#0B1220;--w:#121C2E;--g:#22C55E;--y:#FBBF24;--r:#F26D6D;--line:#22304A;--fill:#182238}
-/* 底色兜底：即使 var(--bg) 失效也保持不透明色，避免只绘制 html 背景的渲染器透出宿主底色 */
-html,body{background:#F8FAFC}
-html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent;background:var(--bg)}
-body{font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;background:var(--bg);color:var(--s8);-webkit-font-smoothing:antialiased;line-height:1.6}
-#root{min-height:100vh;background:var(--bg)}
+/* 浅色页面底色：字面量纯白（不依赖 var，渲染器必然绘制），与顶栏同一实色，不透出 IDE 底色 */
+html,body{background:#FFFFFF}
+html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent}
+body{font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;background:#FFFFFF;color:var(--s8);-webkit-font-smoothing:antialiased;line-height:1.6}
+#root{min-height:100vh;background:#FFFFFF}
+/* 深色主题：页面底色沿用 #0B1220（字面量覆盖，确保同样必然绘制，不被上面的浅色规则压住） */
+[data-theme="dark"] html,[data-theme="dark"] body,[data-theme="dark"] #root,[data-theme="dark"] .console{background:#0B1220}
 a{color:inherit;text-decoration:none}
 button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
 input,select,textarea{font-family:inherit}
@@ -145,7 +147,7 @@ hr{border:none;border-top:1px solid var(--s1)}
 .bar-fill{height:100%;border-radius:999px;background:var(--grad)}
 
 /* ---------- 骨架：侧边栏是文档流内的兄弟容器，主区由 flex 自动让位/回填，任何宽度下都不会互相压住 ---------- */
-.console{display:flex;min-height:100vh;background:var(--bg);color:var(--s8);--nav-cur:var(--nav-w)}
+.console{display:flex;min-height:100vh;background:#FFFFFF;color:var(--s8);--nav-cur:var(--nav-w)}
 .console[data-nav="open"]{--nav-cur:var(--nav-w)}
 .console[data-nav="closed"]{--nav-cur:var(--nav-w-mini)}
 .console-main{flex:1 1 auto;min-width:0;display:flex;flex-direction:column}
@@ -207,7 +209,7 @@ hr{border:none;border-top:1px solid var(--s1)}
 }
 
 /* ---------- 顶栏 ---------- */
-.topbar{position:sticky;top:0;z-index:50;height:var(--topbar-h);display:flex;align-items:center;gap:12px;padding:0 22px;background:rgba(255,255,255,.88);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.topbar{position:sticky;top:0;z-index:50;height:var(--topbar-h);display:flex;align-items:center;gap:12px;padding:0 22px;background:#FFFFFF;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .topbar-titles{min-width:0;flex:1}
 .topbar-title{font-size:16px;font-weight:700;letter-spacing:.2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .topbar-sub{font-size:11.5px;color:var(--s4);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:1px}
