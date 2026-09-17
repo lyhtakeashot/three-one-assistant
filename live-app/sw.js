@@ -1,10 +1,12 @@
-const CACHE_NAME='3in1-v12';
+const CACHE_NAME='3in1-v13';
 const APP_SHELL=[
   '/',
   '/manifest.json',
   '/icon.svg',
   '/icon-192.png',
-  '/icon-512.png'
+  '/icon-512.png',
+  '/vendor/react.production.min.js',
+  '/vendor/react-dom.production.min.js'
 ];
 
 self.addEventListener('install',function(e){

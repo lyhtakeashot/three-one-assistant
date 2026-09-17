@@ -1,0 +1,296 @@
+[
+ {
+  "id": "hdu",
+  "year": 2026,
+  "name": "杭州电子科技大学",
+  "ok": true,
+  "our": {
+   "xuekao": {"A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": {"A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6},
+   "note": "综合成绩=学业水平考试成绩×15%+综合素质测试成绩×25%+高考成绩×60%，三项成绩统一折算为百分制"
+  },
+  "diff": [],
+  "quote": "综合成绩=学业水平考试成绩×15%+综合素质测试成绩×25%+高考成绩×60%（三项成绩统一折算为百分制）",
+  "source": "https://zhaosheng.hdu.edu.cn/art.php?aid=2427",
+  "note": ""
+ },
+ {
+  "id": "zcmu",
+  "year": 2026,
+  "name": "浙江中医药大学",
+  "ok": true,
+  "our": {
+   "xuekao": {"A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": {"A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6},
+   "note": "综合成绩=学业水平测试成绩(折算满分100)×15%＋综合测试(折算满分100)×25%+高考(折算满分100)×60%"
+  },
+  "diff": [],
+  "quote": "综合成绩=“学业水平测试成绩（折算成满分100分）×15％＋综合测试成绩（折算成满分100分）×25%+高考总分（折算成满分100分）×60%”",
+  "source": "https://zsb.zcmu.edu.cn/info/1075/4871.htm",
+  "note": ""
+ },
+ {
+  "id": "zucc",
+  "year": 2026,
+  "name": "浙大城市学院",
+  "ok": true,
+  "our": {
+   "xuekao": {"A": 10, "B": 8, "C": 6, "D": 0, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": {"A": 10, "B": 8, "C": 6, "D": 0, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6},
+   "note": "高中学考A等计10分（其中语文、数学、外语三门主要科目计15分/科），B等8、C等6、D等不计分，折算总分超100按100计；综合成绩=学考(满分100)×20%＋综合测试(满分100)×20%＋高考(折算满分100)×60%"
+  },
+  "diff": [],
+  "quote": "综合成绩按“高中学考成绩（满分100分）×20%＋综合素质测试成绩（满分100分）×20%＋高考总分（折算成满分100分）×60%”计算形成",
+  "source": "https://zs.hzcu.edu.cn/guide/show-898.html",
+  "note": "官方A等基础分10分，但语文/数学/外语三门主要科目A计15分/科（我方按基础A=10记录，基本一致）"
+ },
+ {
+  "id": "zisu",
+  "year": 2026,
+  "name": "浙江外国语学院",
+  "ok": true,
+  "our": {
+   "xuekao": {"A": 15, "B": 9, "C": 3, "D": 0, "fullScore": 150},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": {"A": 15, "B": 9, "C": 3, "D": 0, "fullScore": 150},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6},
+   "note": "综合成绩=学业水平考试成绩(折算满分100)×10%+综合测试(满分100)×30%+高考(折算满分100)×60%"
+  },
+  "diff": [],
+  "quote": "综合成绩=学业水平考试成绩（折算成满分100分）×10%+综合测试成绩（满分100分）×30%+高考总分（折算成满分100分）×60%",
+  "source": "https://swyt.zisu.edu.cn/Default/NewsShow?newsId=142",
+  "note": ""
+ },
+ {
+  "id": "wku",
+  "year": 2026,
+  "name": "温州肯恩大学",
+  "ok": true,
+  "our": {
+   "xuekao": {"A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": {"A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6},
+   "note": "综合成绩=学业水平测试×10%+综合测试×30%+高考×60%，三项统一折算为百分制"
+  },
+  "diff": [],
+  "quote": "对进档考生按综合成绩从高到低进行排序，综合成绩按“学业水平测试成绩×10%+综合测试成绩×30%+高考成绩×60%”计算形成（三项成绩统一折算为百分制）",
+  "source": "https://admission.wku.edu.cn/zh-hans/node/3271",
+  "note": ""
+ },
+ {
+  "id": "sjtu",
+  "year": 2026,
+  "name": "上海交通大学",
+  "ok": true,
+  "our": {
+   "xuekao": {"A": 3, "B": 2.7, "C": 2.4, "D": 1.8, "fullScore": 30},
+   "xiaokaoFS": 120,
+   "weights": {"xuekao": 0.03, "xiaokao": 0.12, "gaokao": 0.85}
+  },
+  "official": {
+   "xuekao": {"A": 100, "B": 90, "C": 80, "D": 60, "fullScore": 30},
+   "xiaokaoFS": 120,
+   "weights": {"xuekao": 0.03, "xiaokao": 0.12, "gaokao": 0.85},
+   "note": "高中学业水平考试按A=100、B=90、C=80、D=60分折算，10科折算后再按比例折算为学考满分30分计入综合成绩；综合成绩(满分1000)=高考折算(满分850)+学考折算(满分30)+面试折算(满分120)，即高考85%、学考3%、面试12%"
+  },
+  "diff": [],
+  "quote": "综合成绩（满分1000分）=高考投档成绩折算成绩（满分850分）+高中学业水平折算成绩（满分30分）+面试折算成绩（满分120分）",
+  "source": "https://admissions.sjtu.edu.cn/newDetails?contentsID=3810000004258",
+  "note": "我方xuekao(A3/B2.7/C2.4/D1.8、满分30)即官方A=100折算到满分30分后之值，二者等价"
+ },
+ {
+  "id": "zjnu",
+  "year": 2025,
+  "name": "浙江师范大学",
+  "ok": false,
+  "our": {
+   "xuekao": {"A": 10, "B": 8, "C": 6, "D": 2, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": null,
+   "xiaokaoFS": null,
+   "weights": null,
+   "note": "提供的url（https://zs.zjnu.edu.cn）仅为学校招生网首页，未定位到2025年三位一体招生章程正文，无法核实折算口径"
+  },
+  "diff": ["无法核实：url仅为招生网首页，无2025章程正文"],
+  "quote": "",
+  "source": "https://zs.zjnu.edu.cn",
+  "note": "页面打不开对应正文，official关键字段置null"
+ },
+ {
+  "id": "zjou",
+  "year": 2025,
+  "name": "浙江海洋大学",
+  "ok": true,
+  "our": {
+   "xuekao": {"A": 15, "B": 10, "C": 6, "D": 1, "fullScore": 150},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": {"A": 15, "B": 10, "C": 6, "D": 1, "fullScore": 150},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6},
+   "note": "综合成绩=学业水平测试折算成绩(折算满分100)×15%+综合素质测试(满分100)×25%+高考(折算满分100)×60%"
+  },
+  "diff": [],
+  "quote": "综合成绩换算公式：学业水平测试折算成绩（折算成满分100分）×15%+综合素质测试成绩（满分100分）×25%+高考总分（折算成满分100分）×60%",
+  "source": "https://zs.zjou.edu.cn//info/1050/6502.htm",
+  "note": ""
+ },
+ {
+  "id": "zufe",
+  "year": 2025,
+  "name": "浙江财经大学",
+  "ok": false,
+  "our": {
+   "xuekao": {"A": 15, "B": 9, "C": 3, "D": 0, "fullScore": 150},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": {"A": 15, "B": 9, "C": 3, "D": 0, "fullScore": 150},
+   "xiaokaoFS": 300,
+   "weights": {"xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6},
+   "note": "综合成绩(满分750)=学业水平考试(折算满分750)×20%+综合测试(折算满分750)×20%+高考(满分750)×60%"
+  },
+  "diff": ["校测满分：我们 100 → 官方 300"],
+  "quote": "综合测试...采用面试方式进行，满分为300分。",
+  "source": "https://zs.zufe.edu.cn/info/1075/4549.htm",
+  "note": ""
+ },
+ {
+  "id": "sxu",
+  "year": 2025,
+  "name": "绍兴大学",
+  "ok": true,
+  "our": {
+   "xuekao": {"A": 10, "B": 8, "C": 6, "D": 4, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": {"A": 10, "B": 8, "C": 6, "D": 4, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6},
+   "note": "综合成绩＝学考(折算满分100)×20%＋综合测试×20%＋高考(折算满分100)×60%；章程标题为“绍兴文理学院”（该校2025年更名绍兴大学）"
+  },
+  "diff": [],
+  "quote": "综合成绩＝学业水平测试成绩（折算成满分100分）×20%＋综合素质测试成绩×20%＋高考成绩（折算成满分100分）×60%",
+  "source": "https://zs.usx.edu.cn/info/1033/6696.htm",
+  "note": ""
+ },
+ {
+  "id": "zjweu",
+  "year": 2025,
+  "name": "浙江水利水电学院",
+  "ok": true,
+  "our": {
+   "xuekao": {"A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": {"A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6},
+   "note": "综合成绩=学业水平测试折算成绩(折算满分100)×15%+综合测试(折算满分100)×25%+高考成绩总分(折算满分100)×60%"
+  },
+  "diff": [],
+  "quote": "综合成绩按“学业水平测试折算成绩（折算成满分100分）×15%+综合测试成绩（折算成满分100分）×25%+高考成绩总分（折算成满分100分，原始成绩）×60%”计算",
+  "source": "https://www.zizzs.com/gk/zhejiangxingaokao/193249.html",
+  "note": ""
+ },
+ {
+  "id": "jxnh",
+  "year": 2025,
+  "name": "嘉兴南湖学院",
+  "ok": true,
+  "our": {
+   "xuekao": {"A": 10, "B": 7, "C": 3, "D": 0, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": {"A": 10, "B": 7, "C": 3, "D": 0, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6},
+   "note": "综合评价成绩=学业水平测试成绩×10%+综合素质测试成绩×30%+高考成绩×60%，三项成绩统一折算为百分制"
+  },
+  "diff": [],
+  "quote": "综合评价成绩=学业水平测试成绩×10%+综合素质测试成绩×30%+高考成绩×60%（三项成绩统一折算为百分制）",
+  "source": "https://zsb.jxnhu.edu.cn/__local/A/11/8A/836FE66032ECEDF54FE5EFE0596_2EDC0362_32450.pdf",
+  "note": ""
+ },
+ {
+  "id": "jhc",
+  "year": 2025,
+  "name": "金华职业技术大学",
+  "ok": false,
+  "our": {
+   "xuekao": {"A": 30, "B": 25, "C": 21, "D": 18, "fullScore": 300},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": null,
+   "xiaokaoFS": null,
+   "weights": null,
+   "note": "提供的url（https://zsw.jhc.edu.cn）仅为招生网首页，未定位到2025年三位一体招生章程正文，无法核实折算口径"
+  },
+  "diff": ["无法核实：url仅为招生网首页，无2025章程正文"],
+  "quote": "",
+  "source": "https://zsw.jhc.edu.cn",
+  "note": "页面打不开对应正文，official关键字段置null"
+ },
+ {
+  "id": "westlake",
+  "year": 2025,
+  "name": "西湖大学",
+  "ok": true,
+  "our": {
+   "xuekao": {"A": 10, "B": 9, "C": 8, "D": 6, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6}
+  },
+  "official": {
+   "xuekao": {"A": 10, "B": 9, "C": 8, "D": 6, "fullScore": 100},
+   "xiaokaoFS": 100,
+   "weights": {"xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6},
+   "note": "综合总分=（高考÷750×100）×60%+学校综合测试(满分100)×30%+高中学业水平考试(满分100)×10%"
+  },
+  "diff": [],
+  "quote": "综合总分=（高考总分÷750×100）×60%+学校综合测试成绩（满分100分）×30%+高中学业水平考试成绩（满分100分）×10%",
+  "source": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ComprehensiveEvaluation/202511/t20251121_61450.shtml",
+  "note": ""
+ }
+]

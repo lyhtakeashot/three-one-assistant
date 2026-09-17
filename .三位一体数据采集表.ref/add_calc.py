@@ -26,6 +26,50 @@ TARGETS = [
     (os.path.join(BASE, "三位一体数据采集表-2025.xlsx"), "schools_44.json", 2025, (39, 5)),
 ]
 
+# ---------- 修正溯源：读 6 批章程核对结果 ----------
+VERIFY = []
+for _i in range(1, 7):
+    _p = os.path.join(REF, "verify_out_%d.json" % _i)
+    if os.path.exists(_p):
+        with open(_p, "r", encoding="utf-8") as _fh:
+            VERIFY += json.load(_fh)
+# 只保留「需留档」的条目：已修正 + 无法核实（后者也留档，状态标「待核实」）
+APPLIED = []
+for e in VERIFY:
+    if e.get("ok"):
+        continue
+    off = e.get("official") or {}
+    if not off or all(off.get(k) in (None, {}) for k in ("xuekao", "xiaokaoFS", "weights")):
+        if e.get("diff") or e.get("note"):
+            e = dict(e)
+            e["_unverified"] = True
+            APPLIED.append(e)
+        continue
+    APPLIED.append(e)
+
+
+def fix_rows_for(year, title_of):
+    rows = []
+    for i, e in enumerate([x for x in APPLIED if x.get("year") == year], start=1):
+        for item in (e.get("diff") or ["（口径/说明性修订）"]):
+            if e.get("_unverified") or ("无法核实" in item) or ("未提供" in item) or ("链接失效" in item):
+                status = "待核实"
+            elif ("未明确" in item) or ("未公布" in item):
+                status = "说明性（已补注）"
+            else:
+                status = "已修正"
+            rows.append([
+                i, year, e["name"], e["id"], item, status,
+                e.get("source"), title_of.get(e["id"], (e["name"] + " 招生章程")),
+                e.get("quote") or "", e.get("note") or "", "2026-09-17",
+            ])
+    return rows
+
+
+FIX_HEADERS = ["序号", "年份", "院校全称", "id", "修正项（原值 → 官方值）", "状态",
+               "来源链接", "来源标题", "章程原文摘录", "备注", "核对日期"]
+FIX_WIDTHS = [6, 8, 18, 9, 52, 14, 46, 34, 60, 40, 12]
+
 
 def xl_color(css):
     v = css.removeprefix("#").upper()
@@ -156,5 +200,40 @@ for xlsx, jsname, year, counts in TARGETS:
     last = 2 + len(rows)
     ws.auto_filter.ref = "A2:%s%d" % (get_column_letter(ncol), last)
     ws.freeze_panes = "E3"
+
+    # ---- 修正溯源表：逐项对应官方章程链接与原文 ----
+    if "修正溯源" in wb.sheetnames:
+        del wb["修正溯源"]
+    idx2 = wb.sheetnames.index("院校清单") if "院校清单" in wb.sheetnames else len(wb.sheetnames)
+    ws2 = wb.create_sheet("修正溯源", idx2)
+    title_of = {s.get("id"): ((s.get("formulaSource") or {}).get("title") or (str(s.get("name")) + " 招生章程"))
+                for s in schools}
+    frows = fix_rows_for(year, title_of)
+    n2 = len(FIX_HEADERS)
+    ws2.merge_cells(start_row=1, start_column=1, end_row=1, end_column=n2)
+    t2 = ws2.cell(row=1, column=1,
+                  value="%d 年折算口径修正溯源 · 每项修正对应官方章程链接与原文摘录（章程核对日期 2026-09-17）" % year)
+    t2.font = font_title
+    t2.fill = FILL_TITLE
+    t2.alignment = Alignment(horizontal="left", vertical="center")
+    ws2.row_dimensions[1].height = 28
+    for j, h in enumerate(FIX_HEADERS, start=1):
+        c = ws2.cell(row=2, column=j, value=h)
+        c.font = font_hdr
+        c.fill = FILL_HDR
+        c.alignment = A_HDR
+        c.border = BORDER
+    ws2.row_dimensions[2].height = 30
+    for i2, rv in enumerate(frows):
+        r2 = 3 + i2
+        for j in range(1, n2 + 1):
+            c = ws2.cell(row=r2, column=j, value=rv[j - 1])
+            c.font = font_body
+            c.alignment = A_CENTER if j in (1, 2, 4, 6, 11) else A_WRAP
+            c.border = BORDER
+    for j, w in enumerate(FIX_WIDTHS, start=1):
+        ws2.column_dimensions[get_column_letter(j)].width = w
+    ws2.freeze_panes = "C3"
+
     wb.save(xlsx)
-    print("OK", os.path.basename(xlsx), "折算规则表 rows =", len(rows), "| sheets:", wb.sheetnames)
+    print("OK", os.path.basename(xlsx), "折算规则表", len(rows), "行 | 修正溯源", len(frows), "行 | sheets:", wb.sheetnames)

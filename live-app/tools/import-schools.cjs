@@ -437,7 +437,7 @@ function main() {
   });
 
   const notes = list.filter(function (s) { return s.formulaNote; }).length;
-  const nonStandard = list.filter(function (s) { return !(s.formula.weights.xuekao > 0 && s.formula.xuekao.fullScore > 0); }).length;
+  const nonStandard = list.filter(function (s) { return !(s.formula.weights.xuekao > 0 && s.formula.xuekao.fullScore > 0 && (s.formula.xuekao.A + s.formula.xuekao.B + s.formula.xuekao.C + s.formula.xuekao.D) > 0); }).length;
   console.log('带 formulaNote：' + notes + ' 所；折算口径特殊：' + nonStandard + ' 所');
   console.log('今年(2026)已发布：' + published + ' 所；今年未发布(用去年数据)：' + unpublished + ' 所；其中改用去年专业名单：' + switched + ' 所；沿用源 majorsYear：' + kept + ' 所');
   const majorsYears = {};

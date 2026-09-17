@@ -1,0 +1,1643 @@
+[
+ {
+  "id": "zjut",
+  "name": "浙江工业大学",
+  "year": 2026,
+  "url": "https://zs.zjut.edu.cn/html/n2546.html",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 6,
+   "D": 1,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "zjnu",
+  "name": "浙江师范大学",
+  "year": 2026,
+  "url": "https://zs.zjnu.edu.cn/2026/0306/c6886a547727/page.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 6,
+   "D": 2,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "nbu",
+  "name": "宁波大学",
+  "year": 2026,
+  "url": "https://zsb.nbu.edu.cn/info/1016/3796.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "hdu",
+  "name": "杭州电子科技大学",
+  "year": 2026,
+  "url": "https://zhaosheng.hdu.edu.cn/art.php?aid=2427",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 5,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "zjgsu",
+  "name": "浙江工商大学",
+  "year": 2026,
+  "url": "https://zhaoban.zjgsu.edu.cn/?news/266.html",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 5
+ },
+ {
+  "id": "zstu",
+  "name": "浙江理工大学",
+  "year": 2026,
+  "url": "https://zs.zstu.edu.cn//info/1033/4033.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 6
+ },
+ {
+  "id": "wmu",
+  "name": "温州医科大学",
+  "year": 2026,
+  "url": "https://zhaosheng.wmu.edu.cn/info/1172/17152.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 9,
+   "C": 7,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "zjou",
+  "name": "浙江海洋大学",
+  "year": 2026,
+  "url": "https://zs.zjou.edu.cn/info/1050/6890.htm",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 6,
+   "D": 1,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "zafu",
+  "name": "浙江农林大学",
+  "year": 2026,
+  "url": "https://zs.zafu.edu.cn/info/1020/5002.htm",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 5,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "zcmu",
+  "name": "浙江中医药大学",
+  "year": 2026,
+  "url": "https://zsb.zcmu.edu.cn/info/1075/4871.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "cjlu",
+  "name": "中国计量大学",
+  "year": 2026,
+  "url": "https://zs.cjlu.edu.cn/info/1037/8403.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 9,
+   "C": 8,
+   "D": 7,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 5
+ },
+ {
+  "id": "zwu",
+  "name": "浙江万里学院",
+  "year": 2026,
+  "url": "https://zsw.zwu.edu.cn/_t296/4e/ed/c4804a216813/page.htm",
+  "xuekao": {
+   "A": 12,
+   "B": 9,
+   "C": 6,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 6
+ },
+ {
+  "id": "zust",
+  "name": "浙江科技大学",
+  "year": 2026,
+  "url": "https://zsb.zust.edu.cn/wzxq/17fb059cbe524fdab969f9c168a7806a",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 5,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "zufe",
+  "name": "浙江财经大学",
+  "year": 2026,
+  "url": "https://zs.zufe.edu.cn/info/1075/4688.htm",
+  "xuekao": {
+   "A": 15,
+   "B": 9,
+   "C": 3,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "zjxu",
+  "name": "嘉兴大学",
+  "year": 2026,
+  "url": "https://zsb.zjxu.edu.cn/info/10443/86745.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "zucc",
+  "name": "浙大城市学院",
+  "year": 2026,
+  "url": "https://zs.hzcu.edu.cn/guide/show-898.html",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 6,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "nit",
+  "name": "浙大宁波理工学院",
+  "year": 2026,
+  "url": "https://zsw.nbt.edu.cn/info/1033/3492.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 5,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 5
+ },
+ {
+  "id": "hznu",
+  "name": "杭州师范大学",
+  "year": 2026,
+  "url": "https://undergrad.hznu.edu.cn/Details/20260305/410257202603050257729421.html",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 1,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 6
+ },
+ {
+  "id": "hzsf",
+  "name": "湖州师范大学",
+  "year": 2026,
+  "url": "https://zsw.zjhu.edu.cn/2026/0306/c3200a247479/page.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 6,
+   "C": 2,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "sxu",
+  "name": "绍兴大学",
+  "year": 2026,
+  "url": "https://zs.usx.edu.cn/info/1010/7025.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 6,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "wzu",
+  "name": "温州大学",
+  "year": 2026,
+  "url": "https://zs.wzu.edu.cn/info/1247/10044.htm",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 5,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "zisu",
+  "name": "浙江外国语学院",
+  "year": 2026,
+  "url": "https://swyt.zisu.edu.cn/Default/NewsShow?newsId=142",
+  "xuekao": {
+   "A": 15,
+   "B": 9,
+   "C": 3,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "zjweu",
+  "name": "浙江水利水电学院",
+  "year": 2026,
+  "url": "https://zhaosheng.zuwe.edu.cn/newstudent/view/aid/1210/tag/zsjz",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 5
+ },
+ {
+  "id": "zjpc",
+  "name": "浙江警察学院",
+  "year": 2026,
+  "url": "https://www.zjjcxy.cn/zsxxw/xwgg/271286.html",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 5,
+   "D": 2,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 300,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.15,
+   "gaokao": 0.75
+  },
+  "batch": 6
+ },
+ {
+  "id": "hzmc",
+  "name": "杭州医学院",
+  "year": 2026,
+  "url": "https://swyt.hmc.edu.cn/st/zs_news.jsp?neId=151",
+  "xuekao": {
+   "A": 10,
+   "B": 9,
+   "C": 7,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "lsu",
+  "name": "丽水学院",
+  "year": 2026,
+  "url": "https://zsw.lsu.edu.cn/2026/0305/c617a363505/page.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 1,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "jxnh",
+  "name": "嘉兴南湖学院",
+  "year": 2026,
+  "url": "https://zsb.jxnhu.edu.cn/info/1012/4337.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 3,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "wku",
+  "name": "温州肯恩大学",
+  "year": 2026,
+  "url": "https://admission.wku.edu.cn/zh-hans/node/3271",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 5,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "unnc",
+  "name": "宁波诺丁汉大学",
+  "year": 2026,
+  "url": "https://www.nottingham.edu.cn/cn/study-with-us/undergraduate/policy-and-requirements/tust.aspx",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 5
+ },
+ {
+  "id": "zyu",
+  "name": "浙江越秀外国语学院",
+  "year": 2026,
+  "url": "https://zs.zyufl.edu.cn",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 6,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.15,
+   "gaokao": 0.7
+  },
+  "batch": 6
+ },
+ {
+  "id": "nbfe",
+  "name": "宁波财经学院",
+  "year": 2026,
+  "url": "https://zsb.nbufe.edu.cn/st/zs_news.jsp?neId=155",
+  "xuekao": {
+   "A": 15,
+   "B": 9,
+   "C": 6,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "wzbc",
+  "name": "温州商学院",
+  "year": 2026,
+  "url": "https://www.wzbc.edu.cn/Art/Art_46/Art_46_135842.aspx",
+  "xuekao": {
+   "A": 12,
+   "B": 10,
+   "C": 9,
+   "D": 8,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "fudan",
+  "name": "复旦大学",
+  "year": 2026,
+  "url": "https://www.ao.fudan.edu.cn/e5/4c/c36330a779596/page.htm",
+  "xuekao": {
+   "A": 5,
+   "B": 4.5,
+   "C": 4,
+   "D": 3,
+   "fullScore": 50
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.05,
+   "xiaokao": 0.1,
+   "gaokao": 0.85
+  },
+  "batch": 3
+ },
+ {
+  "id": "sjtu",
+  "name": "上海交通大学",
+  "year": 2026,
+  "url": "https://admissions.sjtu.edu.cn/newDetails?contentsID=3810000004258",
+  "xuekao": {
+   "A": 3,
+   "B": 2.7,
+   "C": 2.4,
+   "D": 1.8,
+   "fullScore": 30
+  },
+  "xiaokaoFS": 120,
+  "weights": {
+   "xuekao": 0.03,
+   "xiaokao": 0.12,
+   "gaokao": 0.85
+  },
+  "batch": 4
+ },
+ {
+  "id": "zju",
+  "name": "浙江大学",
+  "year": 2026,
+  "url": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 9,
+   "C": 8,
+   "D": 6,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.05,
+   "xiaokao": 0.1,
+   "gaokao": 0.85
+  },
+  "batch": 5
+ },
+ {
+  "id": "ucas",
+  "name": "中国科学院大学",
+  "year": 2026,
+  "url": "https://admission.ucas.ac.cn/ShowArticle/Article/dc7dc7f7-1b95-4d46-80e9-b6b29c4278a2/c4d614c6-6ad0-4d04-b154-a43a1c1d7366",
+  "xuekao": {
+   "A": 0,
+   "B": 0,
+   "C": 0,
+   "D": 0,
+   "fullScore": 0
+  },
+  "xiaokaoFS": 750,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 6
+ },
+ {
+  "id": "westlake",
+  "name": "西湖大学",
+  "year": 2026,
+  "url": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ComprehensiveEvaluation/202604/t20260427_66215.shtml",
+  "xuekao": {
+   "A": 0,
+   "B": 0,
+   "C": 0,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "eit",
+  "name": "宁波东方理工大学",
+  "year": 2026,
+  "url": "https://www.eitech.edu.cn/2026/0518/c552a6129/page.htm",
+  "xuekao": {
+   "A": 7.5,
+   "B": 6,
+   "C": 5.25,
+   "D": 0,
+   "fullScore": 75
+  },
+  "xiaokaoFS": 150,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.2,
+   "gaokao": 0.7
+  },
+  "batch": 2
+ },
+ {
+  "id": "zjut",
+  "name": "浙江工业大学",
+  "year": 2025,
+  "url": "https://www.zizzs.com/gk/zhejiangxingaokao/191327.html",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 0,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "zjnu",
+  "name": "浙江师范大学",
+  "year": 2025,
+  "url": "https://zs.zjnu.edu.cn",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 6,
+   "D": 2,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "nbu",
+  "name": "宁波大学",
+  "year": 2025,
+  "url": "https://zsb.nbu.edu.cn/info/1011/3645.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 5
+ },
+ {
+  "id": "hdu",
+  "name": "杭州电子科技大学",
+  "year": 2025,
+  "url": "https://zhaosheng.hdu.edu.cn/art.php?aid=2322",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 5,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 6
+ },
+ {
+  "id": "zjgsu",
+  "name": "浙江工商大学",
+  "year": 2025,
+  "url": "https://zhaoban.zjgsu.edu.cn/?news/119.html",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 150,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "zstu",
+  "name": "浙江理工大学",
+  "year": 2025,
+  "url": "https://zs.zstu.edu.cn/info/1034/3893.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 150,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "wmu",
+  "name": "温州医科大学",
+  "year": 2025,
+  "url": "https://www.gaokzx.com/gk/zizhao/136118.html",
+  "xuekao": {
+   "A": 10,
+   "B": 9,
+   "C": 7,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "zjou",
+  "name": "浙江海洋大学",
+  "year": 2025,
+  "url": "https://zs.zjou.edu.cn//info/1050/6502.htm",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 6,
+   "D": 1,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "zafu",
+  "name": "浙江农林大学",
+  "year": 2025,
+  "url": "https://www.gaokzx.com/gk/zizhao/136121.html",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 5,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 5
+ },
+ {
+  "id": "zcmu",
+  "name": "浙江中医药大学",
+  "year": 2025,
+  "url": "https://m.zizzs.com/gk/zhejiangxingaokao/191955.html",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 6
+ },
+ {
+  "id": "cjlu",
+  "name": "中国计量大学",
+  "year": 2025,
+  "url": "https://zs.cjlu.edu.cn/info/1019/7362.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 9,
+   "C": 8,
+   "D": 7,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "zwu",
+  "name": "浙江万里学院",
+  "year": 2025,
+  "url": "https://zsw.zwu.edu.cn/2c/91/c4926a208017/page.htm",
+  "xuekao": {
+   "A": 12,
+   "B": 9,
+   "C": 6,
+   "D": 4,
+   "fullScore": 120
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "zust",
+  "name": "浙江科技大学",
+  "year": 2025,
+  "url": "https://aiie.zust.edu.cn/info/1057/1156.htm",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 5,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "zufe",
+  "name": "浙江财经大学",
+  "year": 2025,
+  "url": "https://zs.zufe.edu.cn/info/1075/4549.htm",
+  "xuekao": {
+   "A": 15,
+   "B": 9,
+   "C": 3,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "zjxu",
+  "name": "嘉兴大学",
+  "year": 2025,
+  "url": "https://zsb.zjxu.edu.cn/info/10443/86664.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 5
+ },
+ {
+  "id": "zucc",
+  "name": "浙大城市学院",
+  "year": 2025,
+  "url": "https://zs.hzcu.edu.cn/guide/show-828.html",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 6,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 6
+ },
+ {
+  "id": "nit",
+  "name": "浙大宁波理工学院",
+  "year": 2025,
+  "url": "https://zsw.nbt.edu.cn/info/1029/3392.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 5,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "hznu",
+  "name": "杭州师范大学",
+  "year": 2025,
+  "url": "https://undergrad.hznu.edu.cn/Details/20250301/410234202503010234668932.html",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 1,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "hzsf",
+  "name": "湖州师范大学",
+  "year": 2025,
+  "url": "https://zsw.zjhu.edu.cn/",
+  "xuekao": {
+   "A": 10,
+   "B": 6,
+   "C": 2,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "sxu",
+  "name": "绍兴大学",
+  "year": 2025,
+  "url": "https://zs.usx.edu.cn/info/1033/6696.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 6,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "tzc",
+  "name": "台州学院",
+  "year": 2025,
+  "url": "https://zs.tzc.edu.cn/info/1013/2936.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 6,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 5
+ },
+ {
+  "id": "wzu",
+  "name": "温州大学",
+  "year": 2025,
+  "url": "https://swyt.wzu.edu.cn/st/zs_news.jsp?neId=182",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 5,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 6
+ },
+ {
+  "id": "zisu",
+  "name": "浙江外国语学院",
+  "year": 2025,
+  "url": "https://wlxy.zisu.edu.cn/info/1113/9920.htm",
+  "xuekao": {
+   "A": 15,
+   "B": 9,
+   "C": 3,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "nbut",
+  "name": "宁波工程学院",
+  "year": 2025,
+  "url": "https://zs.nbut.edu.cn/",
+  "xuekao": {
+   "A": 10,
+   "B": 5,
+   "C": 3,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "qzc",
+  "name": "衢州学院",
+  "year": 2025,
+  "url": "https://zs.qzc.edu.cn/2025/0301/c116a76540/page.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "zjweu",
+  "name": "浙江水利水电学院",
+  "year": 2025,
+  "url": "https://www.zizzs.com/gk/zhejiangxingaokao/193249.html",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "zjpc",
+  "name": "浙江警察学院",
+  "year": 2025,
+  "url": "https://www.zjzs.net/art/2025/3/17/art_45_10967.html",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 5,
+   "D": 2,
+   "E": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 300,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.15,
+   "gaokao": 0.75
+  },
+  "batch": 5
+ },
+ {
+  "id": "hzmc",
+  "name": "杭州医学院",
+  "year": 2025,
+  "url": "https://zs.hmc.edu.cn/art/2025/3/1/art_2362_164906.html",
+  "xuekao": {
+   "A": 10,
+   "B": 9,
+   "C": 7,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 6
+ },
+ {
+  "id": "lsu",
+  "name": "丽水学院",
+  "year": 2025,
+  "url": "https://zsw.lsu.edu.cn/2025/0301/c616a352098/page.htm",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 1,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 1
+ },
+ {
+  "id": "hzxy",
+  "name": "湖州学院",
+  "year": 2025,
+  "url": "https://www.zizzs.com/gk/zhejiangxingaokao/192832.html",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "wzut",
+  "name": "温州理工学院",
+  "year": 2025,
+  "url": "https://zhejiang.eol.cn/zhejiang_gkkx/202503/t20250310_2657708.shtml",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.2,
+   "xiaokao": 0.2,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "jxnh",
+  "name": "嘉兴南湖学院",
+  "year": 2025,
+  "url": "https://zsb.jxnhu.edu.cn/__local/A/11/8A/836FE66032ECEDF54FE5EFE0596_2EDC0362_32450.pdf",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 3,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "wku",
+  "name": "温州肯恩大学",
+  "year": 2025,
+  "url": "https://admission.wku.edu.cn/zh-hans/node/3124",
+  "xuekao": {
+   "A": 15,
+   "B": 10,
+   "C": 5,
+   "D": 0,
+   "fullScore": 150
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 5
+ },
+ {
+  "id": "unnc",
+  "name": "宁波诺丁汉大学",
+  "year": 2025,
+  "url": "https://www.nottingham.edu.cn/cn/study-with-us/undergraduate/policy-and-requirements/tust.aspx",
+  "xuekao": {
+   "A": 10,
+   "B": 7,
+   "C": 4,
+   "D": 0,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 6
+ },
+ {
+  "id": "zyu",
+  "name": "浙江越秀外国语学院",
+  "year": 2025,
+  "url": "http://swyt.zyufl.edu.cn/st/zs_news.jsp?neId=146",
+  "xuekao": {
+   "A": 10,
+   "B": 8,
+   "C": 6,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.15,
+   "gaokao": 0.7
+  },
+  "batch": 1
+ },
+ {
+  "id": "nbfe",
+  "name": "宁波财经学院",
+  "year": 2025,
+  "url": "https://zsb.nbufe.edu.cn/st/zs_news.jsp?neId=148",
+  "xuekao": {
+   "A": 15,
+   "B": 9,
+   "C": 6,
+   "D": 4,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 2
+ },
+ {
+  "id": "wzbc",
+  "name": "温州商学院",
+  "year": 2025,
+  "url": "https://www.wzbc.edu.cn/Art/Art_46/Art_46_129175.aspx",
+  "xuekao": {
+   "A": 12,
+   "B": 10,
+   "C": 8,
+   "D": 7,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.15,
+   "xiaokao": 0.25,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "jhc",
+  "name": "金华职业技术大学",
+  "year": 2025,
+  "url": "https://zsw.jhc.edu.cn",
+  "xuekao": {
+   "A": 30,
+   "B": 25,
+   "C": 21,
+   "D": 18,
+   "fullScore": 300
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ },
+ {
+  "id": "nbyz",
+  "name": "宁波幼儿师范高等专科学校",
+  "year": 2025,
+  "url": "https://www.ncec.edu.cn/2025/0301/c41a16971/page.htm",
+  "xuekao": {
+   "A": 30,
+   "B": 25,
+   "C": 21,
+   "D": 18,
+   "fullScore": 300
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 5
+ },
+ {
+  "id": "fudan",
+  "name": "复旦大学",
+  "year": 2025,
+  "url": "https://ao.fudan.edu.cn/24/19/c36330a730137/page.htm",
+  "xuekao": {
+   "A": 5,
+   "B": 4.5,
+   "C": 4,
+   "D": 3,
+   "fullScore": 50
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.05,
+   "xiaokao": 0.1,
+   "gaokao": 0.85
+  },
+  "batch": 6
+ },
+ {
+  "id": "sjtu",
+  "name": "上海交通大学",
+  "year": 2025,
+  "url": "https://admissions.sjtu.edu.cn/newDetails?contentsID=3810000004064",
+  "xuekao": {
+   "A": 100,
+   "B": 90,
+   "C": 80,
+   "D": 60,
+   "fullScore": 30
+  },
+  "xiaokaoFS": 120,
+  "weights": {
+   "xuekao": 0.03,
+   "xiaokao": 0.12,
+   "gaokao": 0.85
+  },
+  "batch": 1
+ },
+ {
+  "id": "zju",
+  "name": "浙江大学",
+  "year": 2025,
+  "url": "https://zjui.intl.zju.edu.cn/en/node/3033",
+  "xuekao": {
+   "A": 10,
+   "B": 9,
+   "C": 8,
+   "D": 6,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.05,
+   "xiaokao": 0.1,
+   "gaokao": 0.85
+  },
+  "batch": 2
+ },
+ {
+  "id": "ucas",
+  "name": "中国科学院大学",
+  "year": 2025,
+  "url": "https://admission.ucas.ac.cn/ShowArticle/Article/dc7dc7f7-1b95-4d46-80e9-b6b29c4278a2/19ca7dff-dfca-4405-be00-6128c219798912",
+  "xuekao": {
+   "A": null,
+   "B": null,
+   "C": null,
+   "D": null,
+   "fullScore": 750
+  },
+  "xiaokaoFS": 750,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 3
+ },
+ {
+  "id": "westlake",
+  "name": "西湖大学",
+  "year": 2025,
+  "url": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ComprehensiveEvaluation/202511/t20251121_61450.shtml",
+  "xuekao": {
+   "A": 10,
+   "B": 9,
+   "C": 8,
+   "D": 6,
+   "fullScore": 100
+  },
+  "xiaokaoFS": 100,
+  "weights": {
+   "xuekao": 0.1,
+   "xiaokao": 0.3,
+   "gaokao": 0.6
+  },
+  "batch": 4
+ }
+]

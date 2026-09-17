@@ -32,7 +32,9 @@ def load(name):
 with open(SRC15, "r", encoding="utf-8") as fh:
     _ALL = json.load(fh)["schools"]
 
-if len(_ALL) >= 46:
+_IDS = {s["id"] for s in _ALL}
+# 权威来源判定：应用侧数据集（38 所三位一体 + 7 所 2026 未招 = 45 所）以 eit/zufe 存在为准
+if len(_ALL) >= 38 and {"zufe", "eit"} <= _IDS:
     # 权威来源：live-app/open-data/schools.json（应用侧 46 所，已含溯源字段）
     BY_ID = {s["id"]: s for s in _ALL}
     print("数据源：live-app/open-data/schools.json（%d 所）" % len(_ALL))

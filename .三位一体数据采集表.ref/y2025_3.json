@@ -2,10 +2,24 @@
   {
     "id": "zafu",
     "formula": {
-      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
-      "xiaokao": { "fullScore": 100 },
-      "gaokao": { "fullScore": 750 },
-      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+      "xuekao": {
+        "A": 15,
+        "B": 10,
+        "C": 5,
+        "D": 0,
+        "fullScore": 150
+      },
+      "xiaokao": {
+        "fullScore": 100
+      },
+      "gaokao": {
+        "fullScore": 750
+      },
+      "weights": {
+        "xuekao": 0.15,
+        "xiaokao": 0.25,
+        "gaokao": 0.6
+      }
     },
     "formulaNote": null,
     "formulaSource": {
@@ -22,46 +36,342 @@
       "contentSummary": "按测试类别采取集体面试，考察专业精神、分析理解能力、沟通表达能力、实践创新能力；综合素质测试满分100分，按招生计划7倍入围。",
       "tips": ""
     },
-    "transferRestriction": { "restricted": false, "detail": "" },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": ""
+    },
     "majors": [
-      { "name": "农学", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "植物保护", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "林学", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "生物技术", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "生态学", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "农业资源与环境", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "环境科学与工程", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "测绘工程", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "木材科学与工程", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "家具设计与工程", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "应用化学", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "高分子材料与工程", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "土木工程", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "动物科学", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 15 },
-      { "name": "工业设计", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 15 },
-      { "name": "应用统计学", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "数据科学与大数据技术", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "智能科学与技术", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "物联网工程", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "机械设计制造及其自动化", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 30 },
-      { "name": "电子信息工程", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "食品科学与工程", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "食品质量与安全", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "中药学", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "生物制药", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "园艺", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 25 },
-      { "name": "茶学", "category": "A类", "requiredSubjects": ["物理","化学"], "planCount": 15 },
-      { "name": "园林", "category": "A类", "requiredSubjects": ["生物学"], "planCount": 15 },
-      { "name": "金融工程", "category": "A类", "requiredSubjects": ["物理"], "planCount": 10 },
-      { "name": "地理信息科学", "category": "B类", "requiredSubjects": ["地理"], "planCount": 15 },
-      { "name": "风景园林", "category": "B类", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "城乡规划", "category": "B类", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "建筑学", "category": "B类", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "农林经济管理", "category": "B类", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "国际经济与贸易", "category": "B类", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "工商管理", "category": "B类", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "英语", "category": "B类", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "文化产业管理(茶文化)", "category": "B类", "requiredSubjects": ["不限"], "planCount": 5 }
+      {
+        "name": "农学",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "植物保护",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "林学",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "生物技术",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "生态学",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "农业资源与环境",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "环境科学与工程",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "测绘工程",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "木材科学与工程",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "家具设计与工程",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "应用化学",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "高分子材料与工程",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "土木工程",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "动物科学",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "工业设计",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "应用统计学",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "数据科学与大数据技术",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "智能科学与技术",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "物联网工程",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "机械设计制造及其自动化",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "电子信息工程",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "食品科学与工程",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "食品质量与安全",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "中药学",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "生物制药",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "园艺",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 25
+      },
+      {
+        "name": "茶学",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "园林",
+        "category": "A类",
+        "requiredSubjects": [
+          "生物学"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "金融工程",
+        "category": "A类",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "地理信息科学",
+        "category": "B类",
+        "requiredSubjects": [
+          "地理"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "风景园林",
+        "category": "B类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "城乡规划",
+        "category": "B类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "建筑学",
+        "category": "B类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "农林经济管理",
+        "category": "B类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "国际经济与贸易",
+        "category": "B类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "工商管理",
+        "category": "B类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "英语",
+        "category": "B类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "文化产业管理(茶文化)",
+        "category": "B类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      }
     ],
     "admission": [
       {
@@ -75,21 +385,70 @@
       }
     ],
     "applicationSteps": [
-      { "step": 1, "title": "网上报名", "description": "登录浙江农林大学本科招生网“三位一体”报名系统报名，限报一个类别。", "deadline": "2025-03-13 17:00", "materials": [] },
-      { "step": 2, "title": "特长生材料提交", "description": "特长生上传获奖/资格证明材料扫描件（普通考生无需）。", "deadline": "2025-03-20 17:00", "materials": ["获奖证书或资格证明材料扫描件"] },
-      { "step": 3, "title": "资格评审与缴费", "description": "书面评审结果公示后网上缴费、抽签、打印准考证。", "deadline": "2025-04-03 16:00", "materials": [] },
-      { "step": 4, "title": "综合素质测试", "description": "4月12日报到，4月13日集体面试（东湖校区）。", "deadline": "2025-04-13", "materials": ["身份证","准考证"] },
-      { "step": 5, "title": "入围公布与志愿填报", "description": "入围名单公示备案；普通类提前录取第一志愿填报。", "deadline": "", "materials": [] }
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录浙江农林大学本科招生网“三位一体”报名系统报名，限报一个类别。",
+        "deadline": "2025-03-13 17:00",
+        "materials": []
+      },
+      {
+        "step": 2,
+        "title": "特长生材料提交",
+        "description": "特长生上传获奖/资格证明材料扫描件（普通考生无需）。",
+        "deadline": "2025-03-20 17:00",
+        "materials": [
+          "获奖证书或资格证明材料扫描件"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "资格评审与缴费",
+        "description": "书面评审结果公示后网上缴费、抽签、打印准考证。",
+        "deadline": "2025-04-03 16:00",
+        "materials": []
+      },
+      {
+        "step": 4,
+        "title": "综合素质测试",
+        "description": "4月12日报到，4月13日集体面试（东湖校区）。",
+        "deadline": "2025-04-13",
+        "materials": [
+          "身份证",
+          "准考证"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "入围公布与志愿填报",
+        "description": "入围名单公示备案；普通类提前录取第一志愿填报。",
+        "deadline": "",
+        "materials": []
+      }
     ],
     "brochureUrl": "https://www.gaokzx.com/gk/zizhao/136121.html"
   },
   {
     "id": "zcmu",
     "formula": {
-      "xuekao": { "A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100 },
-      "xiaokao": { "fullScore": 100 },
-      "gaokao": { "fullScore": 750 },
-      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+      "xuekao": {
+        "A": 10,
+        "B": 7,
+        "C": 4,
+        "D": 0,
+        "fullScore": 100
+      },
+      "xiaokao": {
+        "fullScore": 100
+      },
+      "gaokao": {
+        "fullScore": 750
+      },
+      "weights": {
+        "xuekao": 0.15,
+        "xiaokao": 0.25,
+        "gaokao": 0.6
+      }
     },
     "formulaNote": null,
     "formulaSource": {
@@ -106,16 +465,78 @@
       "contentSummary": "综合测试采用面试，考察综合素质、专业基础素养、专业潜质；满分100分，按招生计划1:5入围且成绩≥60分。",
       "tips": ""
     },
-    "transferRestriction": { "restricted": false, "detail": "录取后转专业政策按学校相关文件执行，未单独限制。" },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "录取后转专业政策按学校相关文件执行，未单独限制。"
+    },
     "majors": [
-      { "name": "中医学（“5+3”一体化）", "category": "中医学类", "requiredSubjects": ["化学"], "planCount": 10 },
-      { "name": "中医学", "category": "中医学类", "requiredSubjects": ["化学"], "planCount": 25 },
-      { "name": "临床医学", "category": "临床医学类", "requiredSubjects": ["物理","化学"], "planCount": 40 },
-      { "name": "儿科学", "category": "临床医学类", "requiredSubjects": ["物理","化学"], "planCount": 15 },
-      { "name": "中药学", "category": "中药学类", "requiredSubjects": ["物理","化学"], "planCount": 30 },
-      { "name": "护理学", "category": "护理学类", "requiredSubjects": ["化学"], "planCount": 40 },
-      { "name": "公共事业管理", "category": "管理学类", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "健康服务与管理", "category": "管理学类", "requiredSubjects": ["不限"], "planCount": 10 }
+      {
+        "name": "中医学（“5+3”一体化）",
+        "category": "中医学类",
+        "requiredSubjects": [
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "中医学",
+        "category": "中医学类",
+        "requiredSubjects": [
+          "化学"
+        ],
+        "planCount": 25
+      },
+      {
+        "name": "临床医学",
+        "category": "临床医学类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 40
+      },
+      {
+        "name": "儿科学",
+        "category": "临床医学类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "中药学",
+        "category": "中药学类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "护理学",
+        "category": "护理学类",
+        "requiredSubjects": [
+          "化学"
+        ],
+        "planCount": 40
+      },
+      {
+        "name": "公共事业管理",
+        "category": "管理学类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "健康服务与管理",
+        "category": "管理学类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      }
     ],
     "admission": [
       {
@@ -129,21 +550,71 @@
       }
     ],
     "applicationSteps": [
-      { "step": 1, "title": "网上报名", "description": "登录本科招生网“三位一体招生”报名系统报名，限报一个组别。", "deadline": "2025-03-13 17:00", "materials": [] },
-      { "step": 2, "title": "信息填报与材料上传", "description": "B类考生上传专项条件获奖证书等；无需邮寄纸质材料。", "deadline": "2025-03-20 17:00", "materials": ["诚信承诺书","B类专项证明材料"] },
-      { "step": 3, "title": "入围查询与缴费", "description": "查询入围面试资格并网上缴费。", "deadline": "2025-04-05", "materials": [] },
-      { "step": 4, "title": "综合测试", "description": "4月13日报到并面试。", "deadline": "2025-04-13", "materials": ["身份证","准考证"] },
-      { "step": 5, "title": "入围公布与志愿填报", "description": "普通类提前录取第一志愿填报，限入围组别内专业。", "deadline": "", "materials": [] }
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录本科招生网“三位一体招生”报名系统报名，限报一个组别。",
+        "deadline": "2025-03-13 17:00",
+        "materials": []
+      },
+      {
+        "step": 2,
+        "title": "信息填报与材料上传",
+        "description": "B类考生上传专项条件获奖证书等；无需邮寄纸质材料。",
+        "deadline": "2025-03-20 17:00",
+        "materials": [
+          "诚信承诺书",
+          "B类专项证明材料"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "入围查询与缴费",
+        "description": "查询入围面试资格并网上缴费。",
+        "deadline": "2025-04-05",
+        "materials": []
+      },
+      {
+        "step": 4,
+        "title": "综合测试",
+        "description": "4月13日报到并面试。",
+        "deadline": "2025-04-13",
+        "materials": [
+          "身份证",
+          "准考证"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "入围公布与志愿填报",
+        "description": "普通类提前录取第一志愿填报，限入围组别内专业。",
+        "deadline": "",
+        "materials": []
+      }
     ],
     "brochureUrl": "https://m.zizzs.com/gk/zhejiangxingaokao/191955.html"
   },
   {
     "id": "cjlu",
     "formula": {
-      "xuekao": { "A": 10, "B": 9, "C": 8, "D": 7, "fullScore": 100 },
-      "xiaokao": { "fullScore": 100 },
-      "gaokao": { "fullScore": 750 },
-      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+      "xuekao": {
+        "A": 10,
+        "B": 9,
+        "C": 8,
+        "D": 7,
+        "fullScore": 100
+      },
+      "xiaokao": {
+        "fullScore": 100
+      },
+      "gaokao": {
+        "fullScore": 750
+      },
+      "weights": {
+        "xuekao": 0.15,
+        "xiaokao": 0.25,
+        "gaokao": 0.6
+      }
     },
     "formulaNote": "报名门槛折算A=20/B=10/C、D不计分（满分200）；综合成绩折算A=10/B=9/C=8/D=7（满分100）。两者口径不同。",
     "formulaSource": {
@@ -160,36 +631,259 @@
       "contentSummary": "综合素质测试采用面试，考察综合素质、专业素养、专业潜质和创新能力；满分100分，按招生计划1:7入围。",
       "tips": ""
     },
-    "transferRestriction": { "restricted": false, "detail": "与普通批次录取考生转专业政策一致，按学校相关文件执行。" },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "与普通批次录取考生转专业政策一致，按学校相关文件执行。"
+    },
     "majors": [
-      { "name": "自动化", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "电气工程及其自动化", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "机械设计制造及其自动化", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "机械电子工程", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "测控技术与仪器", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 20 },
-      { "name": "智能感知工程", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "电子信息工程", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 3 },
-      { "name": "通信工程", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 3 },
-      { "name": "计算机科学与技术", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "人工智能", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "光电信息科学与工程", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 25 },
-      { "name": "电子科学与技术", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 15 },
-      { "name": "功能材料", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "材料科学与工程", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "应用化学", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "能源与动力工程", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "安全工程", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "环境工程", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 6 },
-      { "name": "信息管理与信息系统", "category": "普通类提前录取", "requiredSubjects": ["物理"], "planCount": 15 },
-      { "name": "数学与应用数学", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "应用物理学", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 8 },
-      { "name": "声学", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "食品质量与安全", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "生物工程", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 15 },
-      { "name": "工业设计", "category": "普通类提前录取", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "标准化工程", "category": "普通类提前录取", "requiredSubjects": ["物理"], "planCount": 15 },
-      { "name": "质量管理工程", "category": "普通类提前录取", "requiredSubjects": ["物理"], "planCount": 20 },
-      { "name": "工业工程", "category": "普通类提前录取", "requiredSubjects": ["物理"], "planCount": 5 }
+      {
+        "name": "自动化",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "电气工程及其自动化",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "机械设计制造及其自动化",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "机械电子工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "测控技术与仪器",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "智能感知工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "电子信息工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 3
+      },
+      {
+        "name": "通信工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 3
+      },
+      {
+        "name": "计算机科学与技术",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "人工智能",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "光电信息科学与工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 25
+      },
+      {
+        "name": "电子科学与技术",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "功能材料",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "材料科学与工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "应用化学",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "能源与动力工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "安全工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "环境工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 6
+      },
+      {
+        "name": "信息管理与信息系统",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "数学与应用数学",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "应用物理学",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 8
+      },
+      {
+        "name": "声学",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "食品质量与安全",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "生物工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "工业设计",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "标准化工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "质量管理工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "工业工程",
+        "category": "普通类提前录取",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 5
+      }
     ],
     "admission": [
       {
@@ -203,23 +897,73 @@
       }
     ],
     "applicationSteps": [
-      { "step": 1, "title": "网上报名", "description": "登录本科招生网“三位一体”报名系统报名（浙江省三位一体报名系统）。", "deadline": "2025-03-13 17:00", "materials": [] },
-      { "step": 2, "title": "B类材料邮寄", "description": "B类考生邮寄身份证复印件及获奖/资格证明复印件（A类无需）。", "deadline": "2025-03-13", "materials": ["身份证复印件","获奖/资格证明材料复印件"] },
-      { "step": 3, "title": "书面评审与缴费", "description": "书面评审后查询初审，4月2日-4月7日16:00缴费。", "deadline": "2025-04-07 16:00", "materials": [] },
-      { "step": 4, "title": "综合素质测试", "description": "4月13日面试。", "deadline": "2025-04-13", "materials": ["身份证","准考证"] },
-      { "step": 5, "title": "入围公布与志愿填报", "description": "普通类提前录取第一志愿填报。", "deadline": "", "materials": [] }
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录本科招生网“三位一体”报名系统报名（浙江省三位一体报名系统）。",
+        "deadline": "2025-03-13 17:00",
+        "materials": []
+      },
+      {
+        "step": 2,
+        "title": "B类材料邮寄",
+        "description": "B类考生邮寄身份证复印件及获奖/资格证明复印件（A类无需）。",
+        "deadline": "2025-03-13",
+        "materials": [
+          "身份证复印件",
+          "获奖/资格证明材料复印件"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "书面评审与缴费",
+        "description": "书面评审后查询初审，4月2日-4月7日16:00缴费。",
+        "deadline": "2025-04-07 16:00",
+        "materials": []
+      },
+      {
+        "step": 4,
+        "title": "综合素质测试",
+        "description": "4月13日面试。",
+        "deadline": "2025-04-13",
+        "materials": [
+          "身份证",
+          "准考证"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "入围公布与志愿填报",
+        "description": "普通类提前录取第一志愿填报。",
+        "deadline": "",
+        "materials": []
+      }
     ],
     "brochureUrl": "https://zs.cjlu.edu.cn/info/1019/7362.htm"
   },
   {
     "id": "zwu",
     "formula": {
-      "xuekao": { "A": 12, "B": 9, "C": 6, "D": 4, "fullScore": 120 },
-      "xiaokao": { "fullScore": 100 },
-      "gaokao": { "fullScore": 750 },
-      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+      "xuekao": {
+        "A": 12,
+        "B": 9,
+        "C": 6,
+        "D": 4,
+        "fullScore": 100
+      },
+      "xiaokao": {
+        "fullScore": 100
+      },
+      "gaokao": {
+        "fullScore": 750
+      },
+      "weights": {
+        "xuekao": 0.15,
+        "xiaokao": 0.25,
+        "gaokao": 0.6
+      }
     },
-    "formulaNote": "学考原始折算A=12/B=9/C=6/D=4（10科满分120，英语科目A=15）；计入综合成绩时按满分100计，超过100按100计。",
+    "formulaNote": "学业水平测试成绩（满分100分，超过100分的按100分计）×15%＋综合素质测试（满分100）×25%＋高考总分÷7.5×60%；其中外语科目 A=15/B=12/C=10/D=8，其余科目 A=12/B=9/C=6/D=4。",
     "formulaSource": {
       "year": 2025,
       "title": "浙江万里学院2025年“三位一体”综合评价招生章程",
@@ -229,35 +973,204 @@
       "hasWrittenTest": true,
       "hasInterview": true,
       "hasPhysicalTest": false,
-      "writtenTestSubjects": ["英语"],
+      "writtenTestSubjects": [
+        "英语"
+      ],
       "interviewFormat": "group",
       "contentSummary": "A组内专业面试（无领导小组讨论），考察语言表达、认知观察、逻辑思辨、协作沟通、创新发展；B组内专业笔试（英语听说读写）。满分均100分。",
       "tips": ""
     },
-    "transferRestriction": { "restricted": false, "detail": "视觉传达设计(中外合作办学)、广告学(中外合作办学)专业不可转专业，其余按学校转专业办法执行。" },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "视觉传达设计(中外合作办学)、广告学(中外合作办学)专业不可转专业，其余按学校转专业办法执行。"
+    },
     "majors": [
-      { "name": "日语", "category": "A组", "requiredSubjects": ["不限"], "planCount": 20 },
-      { "name": "创业管理", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "物流管理", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "金融工程", "category": "A组", "requiredSubjects": ["物理"], "planCount": 10 },
-      { "name": "电子信息工程", "category": "A组", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "生物技术", "category": "A组", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "生物工程类", "category": "A组", "requiredSubjects": ["物理","化学"], "planCount": 20 },
-      { "name": "环境科学与工程类", "category": "A组", "requiredSubjects": ["物理","化学"], "planCount": 20 },
-      { "name": "食品科学与工程类", "category": "A组", "requiredSubjects": ["物理","化学"], "planCount": 20 },
-      { "name": "食品营养与健康", "category": "A组", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "区块链工程", "category": "A组", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "网络空间安全", "category": "A组", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "智能影像工程", "category": "A组", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "机械电子工程", "category": "A组", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "供应链管理", "category": "B组", "requiredSubjects": ["不限"], "planCount": 40 },
-      { "name": "国际经济与贸易(中外2+2双学位班)", "category": "B组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "会展经济与管理(中德2+2双学位班)", "category": "B组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "广告学(中德2+2双学位班)", "category": "B组", "requiredSubjects": ["不限"], "planCount": 20 },
-      { "name": "视觉传达设计(中德2+2双学位班)", "category": "B组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "艺术与科技(中德2+2双学位班)", "category": "B组", "requiredSubjects": ["不限"], "planCount": 20 },
-      { "name": "广告学(中外合作办学)", "category": "B组", "requiredSubjects": ["不限"], "planCount": 40 },
-      { "name": "视觉传达设计(中外合作办学)", "category": "B组", "requiredSubjects": ["不限"], "planCount": 30 }
+      {
+        "name": "日语",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "创业管理",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "物流管理",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "金融工程",
+        "category": "A组",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "电子信息工程",
+        "category": "A组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "生物技术",
+        "category": "A组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "生物工程类",
+        "category": "A组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "环境科学与工程类",
+        "category": "A组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "食品科学与工程类",
+        "category": "A组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "食品营养与健康",
+        "category": "A组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "区块链工程",
+        "category": "A组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "网络空间安全",
+        "category": "A组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "智能影像工程",
+        "category": "A组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "机械电子工程",
+        "category": "A组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "供应链管理",
+        "category": "B组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 40
+      },
+      {
+        "name": "国际经济与贸易(中外2+2双学位班)",
+        "category": "B组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "会展经济与管理(中德2+2双学位班)",
+        "category": "B组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "广告学(中德2+2双学位班)",
+        "category": "B组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "视觉传达设计(中德2+2双学位班)",
+        "category": "B组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "艺术与科技(中德2+2双学位班)",
+        "category": "B组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "广告学(中外合作办学)",
+        "category": "B组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 40
+      },
+      {
+        "name": "视觉传达设计(中外合作办学)",
+        "category": "B组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 30
+      }
     ],
     "admission": [
       {
@@ -271,21 +1184,70 @@
       }
     ],
     "applicationSteps": [
-      { "step": 1, "title": "网上报名", "description": "登录本科招生网“三位一体”报名系统，限报一个专业（类）。", "deadline": "2025-03-13 17:00", "materials": [] },
-      { "step": 2, "title": "特长类材料上传", "description": "特长类考生上传获奖/资格材料。", "deadline": "2025-03-20 17:00", "materials": ["获奖证书或资格证明材料"] },
-      { "step": 3, "title": "初审与缴费", "description": "初审通过后缴费、打印准考证。", "deadline": "2025-04-06", "materials": [] },
-      { "step": 4, "title": "综合素质测试", "description": "4月13日测试：A组面试、B组笔试。", "deadline": "2025-04-13", "materials": ["身份证","准考证"] },
-      { "step": 5, "title": "入围公布与志愿填报", "description": "普通类提前录取第一志愿填报，专业须与报名一致。", "deadline": "", "materials": [] }
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录本科招生网“三位一体”报名系统，限报一个专业（类）。",
+        "deadline": "2025-03-13 17:00",
+        "materials": []
+      },
+      {
+        "step": 2,
+        "title": "特长类材料上传",
+        "description": "特长类考生上传获奖/资格材料。",
+        "deadline": "2025-03-20 17:00",
+        "materials": [
+          "获奖证书或资格证明材料"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "初审与缴费",
+        "description": "初审通过后缴费、打印准考证。",
+        "deadline": "2025-04-06",
+        "materials": []
+      },
+      {
+        "step": 4,
+        "title": "综合素质测试",
+        "description": "4月13日测试：A组面试、B组笔试。",
+        "deadline": "2025-04-13",
+        "materials": [
+          "身份证",
+          "准考证"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "入围公布与志愿填报",
+        "description": "普通类提前录取第一志愿填报，专业须与报名一致。",
+        "deadline": "",
+        "materials": []
+      }
     ],
     "brochureUrl": "https://zsw.zwu.edu.cn/2c/91/c4926a208017/page.htm"
   },
   {
     "id": "zust",
     "formula": {
-      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
-      "xiaokao": { "fullScore": 100 },
-      "gaokao": { "fullScore": 750 },
-      "weights": { "xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60 }
+      "xuekao": {
+        "A": 15,
+        "B": 10,
+        "C": 5,
+        "D": 0,
+        "fullScore": 150
+      },
+      "xiaokao": {
+        "fullScore": 100
+      },
+      "gaokao": {
+        "fullScore": 750
+      },
+      "weights": {
+        "xuekao": 0.2,
+        "xiaokao": 0.2,
+        "gaokao": 0.6
+      }
     },
     "formulaNote": "学考原始满分150（A=15/B=10/C=5/D=0），综合成绩折算成满分100分计入。",
     "formulaSource": {
@@ -297,23 +1259,108 @@
       "hasWrittenTest": true,
       "hasInterview": true,
       "hasPhysicalTest": false,
-      "writtenTestSubjects": ["综合素质","专业素养","专业潜质"],
+      "writtenTestSubjects": [
+        "综合素质",
+        "专业素养",
+        "专业潜质"
+      ],
       "interviewFormat": "group",
       "contentSummary": "科技创新类专业采用笔试（综合素质、专业素养、专业潜质）；科技创新类(国际)、商科类(国际)专业采用综合测试（面试）。",
       "tips": ""
     },
-    "transferRestriction": { "restricted": false, "detail": "转专业按《浙江科技大学普通全日制本科生转专业管理规定》执行；中澳联合培养专业原则上不允许转专业，中外合作办学专业转出不超过计划2%。" },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "转专业按《浙江科技大学普通全日制本科生转专业管理规定》执行；中澳联合培养专业原则上不允许转专业，中外合作办学专业转出不超过计划2%。"
+    },
     "majors": [
-      { "name": "计算机科学与技术", "category": "科技创新类", "requiredSubjects": ["物理","化学"], "planCount": 15 },
-      { "name": "电气工程及其自动化", "category": "科技创新类", "requiredSubjects": ["物理","化学"], "planCount": 20 },
-      { "name": "车辆工程(实验班)", "category": "科技创新类", "requiredSubjects": ["物理","化学"], "planCount": 30 },
-      { "name": "计算机类(中德联合培养)", "category": "科技创新类(国际)", "requiredSubjects": ["物理","化学"], "planCount": 5 },
-      { "name": "电气类(中德联合培养)", "category": "科技创新类(国际)", "requiredSubjects": ["物理","化学"], "planCount": 30 },
-      { "name": "机器人工程(中澳联合培养)", "category": "科技创新类(国际)", "requiredSubjects": ["物理","化学"], "planCount": 30 },
-      { "name": "土木工程(中法合作办学)", "category": "科技创新类(国际)", "requiredSubjects": ["物理","化学"], "planCount": 30 },
-      { "name": "数据科学与大数据技术(中法合作办学)", "category": "科技创新类(国际)", "requiredSubjects": ["物理","化学"], "planCount": 30 },
-      { "name": "国际商务(中澳联合培养)", "category": "商科类(国际)", "requiredSubjects": ["不限"], "planCount": 30 },
-      { "name": "经济学(中美合作办学)", "category": "商科类(国际)", "requiredSubjects": ["不限"], "planCount": 20 }
+      {
+        "name": "计算机科学与技术",
+        "category": "科技创新类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "电气工程及其自动化",
+        "category": "科技创新类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "车辆工程(实验班)",
+        "category": "科技创新类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "计算机类(中德联合培养)",
+        "category": "科技创新类(国际)",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "电气类(中德联合培养)",
+        "category": "科技创新类(国际)",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "机器人工程(中澳联合培养)",
+        "category": "科技创新类(国际)",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "土木工程(中法合作办学)",
+        "category": "科技创新类(国际)",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "数据科学与大数据技术(中法合作办学)",
+        "category": "科技创新类(国际)",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "国际商务(中澳联合培养)",
+        "category": "商科类(国际)",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "经济学(中美合作办学)",
+        "category": "商科类(国际)",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 20
+      }
     ],
     "admission": [
       {
@@ -327,23 +1374,72 @@
       }
     ],
     "applicationSteps": [
-      { "step": 1, "title": "网上报名", "description": "登录本科招生网“三位一体”报名系统，按报考类别报名（不得兼报）。", "deadline": "2025-03-13 17:00", "materials": [] },
-      { "step": 2, "title": "材料提交", "description": "按章程要求提交报名材料及专项条件证明。", "deadline": "2025-03-20 17:00", "materials": ["专项条件证明材料"] },
-      { "step": 3, "title": "初审与缴费", "description": "查询初审结果并缴费。", "deadline": "", "materials": [] },
-      { "step": 4, "title": "综合素质测试", "description": "按报考类别笔试或面试。", "deadline": "2025-04-13", "materials": ["身份证","准考证"] },
-      { "step": 5, "title": "入围公布与志愿填报", "description": "普通类提前录取第一志愿填报入围大类内专业。", "deadline": "", "materials": [] }
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录本科招生网“三位一体”报名系统，按报考类别报名（不得兼报）。",
+        "deadline": "2025-03-13 17:00",
+        "materials": []
+      },
+      {
+        "step": 2,
+        "title": "材料提交",
+        "description": "按章程要求提交报名材料及专项条件证明。",
+        "deadline": "2025-03-20 17:00",
+        "materials": [
+          "专项条件证明材料"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "初审与缴费",
+        "description": "查询初审结果并缴费。",
+        "deadline": "",
+        "materials": []
+      },
+      {
+        "step": 4,
+        "title": "综合素质测试",
+        "description": "按报考类别笔试或面试。",
+        "deadline": "2025-04-13",
+        "materials": [
+          "身份证",
+          "准考证"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "入围公布与志愿填报",
+        "description": "普通类提前录取第一志愿填报入围大类内专业。",
+        "deadline": "",
+        "materials": []
+      }
     ],
     "brochureUrl": "https://aiie.zust.edu.cn/info/1057/1156.htm"
   },
   {
     "id": "zufe",
     "formula": {
-      "xuekao": { "A": 15, "B": 9, "C": 3, "D": 0, "fullScore": 150 },
-      "xiaokao": { "fullScore": 100 },
-      "gaokao": { "fullScore": 750 },
-      "weights": { "xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60 }
+      "xuekao": {
+        "A": 15,
+        "B": 9,
+        "C": 3,
+        "D": 0,
+        "fullScore": 150
+      },
+      "xiaokao": {
+        "fullScore": 300
+      },
+      "gaokao": {
+        "fullScore": 750
+      },
+      "weights": {
+        "xuekao": 0.2,
+        "xiaokao": 0.2,
+        "gaokao": 0.6
+      }
     },
-    "formulaNote": "综合成绩满分750：学考(折算750)×0.2+校测(折算750)×0.2+高考×0.6；学考原始A=15/B=9/C=3/D=0，满分150（折算750需×5）。",
+    "formulaNote": "综合成绩（满分750）=学考（折算750）×20%+综合测试（折算750）×20%+高考×60%；学考 A=15/B=9/C=3/D 及以下不计分，满分150；综合测试（面试）满分 300 分。",
     "formulaSource": {
       "year": 2025,
       "title": "浙江财经大学2025年“三位一体”综合评价招生章程",
@@ -358,39 +1454,262 @@
       "contentSummary": "综合测试采用面试，考察综合素质、专业素养和学习潜质；满分300分，按各组别计划8倍入围。",
       "tips": ""
     },
-    "transferRestriction": { "restricted": false, "detail": "录取学生与高考统招学生享有同等校内政策，未单独限制转专业。" },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "录取学生与高考统招学生享有同等校内政策，未单独限制转专业。"
+    },
     "majors": [
-      { "name": "财政学类（财政学、税收学、国际税收）", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "公共管理类（劳动与社会保障、土地资源管理、行政管理）", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "城乡规划", "category": "A组", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "会计学", "category": "A组", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "财务管理", "category": "A组", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "审计学", "category": "A组", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "金融学", "category": "A组", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "投资学", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "工商管理类（工商管理、人力资源管理、市场营销、供应链管理）", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "电子商务", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "经济学", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "国际经济与贸易（含数字贸易方向）", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "法学", "category": "A组", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "社会工作", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "外国语言文学类（英语、商务英语）", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "汉语言文学", "category": "A组", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "新闻传播学类（广告学、网络与新媒体）", "category": "A组", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "金融工程", "category": "B组", "requiredSubjects": ["物理"], "planCount": 15 },
-      { "name": "数字经济", "category": "B组", "requiredSubjects": ["物理"], "planCount": 15 },
-      { "name": "工程管理", "category": "B组", "requiredSubjects": ["物理"], "planCount": 20 },
-      { "name": "信息管理与信息系统", "category": "B组", "requiredSubjects": ["物理"], "planCount": 15 },
-      { "name": "计算机类（人工智能、软件工程、计算机科学与技术）", "category": "B组", "requiredSubjects": ["物理","化学"], "planCount": 20 },
-      { "name": "应用统计学", "category": "B组", "requiredSubjects": ["物理","化学"], "planCount": 15 },
-      { "name": "数据科学与大数据技术", "category": "B组", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "经济统计学", "category": "B组", "requiredSubjects": ["物理"], "planCount": 15 },
-      { "name": "金融数学", "category": "B组", "requiredSubjects": ["物理"], "planCount": 20 },
-      { "name": "金融科技", "category": "B组", "requiredSubjects": ["物理"], "planCount": 20 },
-      { "name": "金融工程（金融科创）", "category": "B组", "requiredSubjects": ["物理"], "planCount": 10 },
-      { "name": "会计学(中外合作办学)", "category": "C组", "requiredSubjects": ["不限"], "planCount": 30 },
-      { "name": "金融学(中外合作办学)", "category": "C组", "requiredSubjects": ["不限"], "planCount": 30 },
-      { "name": "市场营销(中外合作办学)", "category": "C组", "requiredSubjects": ["不限"], "planCount": 30 }
+      {
+        "name": "财政学类（财政学、税收学、国际税收）",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "公共管理类（劳动与社会保障、土地资源管理、行政管理）",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "城乡规划",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "会计学",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "财务管理",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "审计学",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "金融学",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "投资学",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "工商管理类（工商管理、人力资源管理、市场营销、供应链管理）",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "电子商务",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "经济学",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "国际经济与贸易（含数字贸易方向）",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "法学",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "社会工作",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "外国语言文学类（英语、商务英语）",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "汉语言文学",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "新闻传播学类（广告学、网络与新媒体）",
+        "category": "A组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "金融工程",
+        "category": "B组",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "数字经济",
+        "category": "B组",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "工程管理",
+        "category": "B组",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "信息管理与信息系统",
+        "category": "B组",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "计算机类（人工智能、软件工程、计算机科学与技术）",
+        "category": "B组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "应用统计学",
+        "category": "B组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "数据科学与大数据技术",
+        "category": "B组",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "经济统计学",
+        "category": "B组",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 15
+      },
+      {
+        "name": "金融数学",
+        "category": "B组",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "金融科技",
+        "category": "B组",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 20
+      },
+      {
+        "name": "金融工程（金融科创）",
+        "category": "B组",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "会计学(中外合作办学)",
+        "category": "C组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "金融学(中外合作办学)",
+        "category": "C组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "市场营销(中外合作办学)",
+        "category": "C组",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 30
+      }
     ],
     "admission": [
       {
@@ -404,21 +1723,72 @@
       }
     ],
     "applicationSteps": [
-      { "step": 1, "title": "网上报名与材料邮寄", "description": "登录本科招生网报名；专项条件考生线下邮寄+线上提交佐证材料。", "deadline": "2025-03-13 17:00", "materials": ["专项条件佐证材料（EMS邮寄+系统上传）"] },
-      { "step": 2, "title": "线上提交专项材料", "description": "符合专项条件考生线上提交佐证。", "deadline": "2025-03-20 17:00", "materials": ["专项条件证书照片/扫描件"] },
-      { "step": 3, "title": "材料评审与缴费", "description": "评审结果查询并缴费。", "deadline": "2025-04-02 17:00", "materials": [] },
-      { "step": 4, "title": "综合测试", "description": "4月12日面试。", "deadline": "2025-04-12", "materials": ["身份证","测试通知书"] },
-      { "step": 5, "title": "入围公布与志愿填报", "description": "普通类提前录取第一志愿填报入围组别内专业。", "deadline": "", "materials": [] }
+      {
+        "step": 1,
+        "title": "网上报名与材料邮寄",
+        "description": "登录本科招生网报名；专项条件考生线下邮寄+线上提交佐证材料。",
+        "deadline": "2025-03-13 17:00",
+        "materials": [
+          "专项条件佐证材料（EMS邮寄+系统上传）"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "线上提交专项材料",
+        "description": "符合专项条件考生线上提交佐证。",
+        "deadline": "2025-03-20 17:00",
+        "materials": [
+          "专项条件证书照片/扫描件"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "材料评审与缴费",
+        "description": "评审结果查询并缴费。",
+        "deadline": "2025-04-02 17:00",
+        "materials": []
+      },
+      {
+        "step": 4,
+        "title": "综合测试",
+        "description": "4月12日面试。",
+        "deadline": "2025-04-12",
+        "materials": [
+          "身份证",
+          "测试通知书"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "入围公布与志愿填报",
+        "description": "普通类提前录取第一志愿填报入围组别内专业。",
+        "deadline": "",
+        "materials": []
+      }
     ],
     "brochureUrl": "https://zs.zufe.edu.cn/info/1075/4549.htm"
   },
   {
     "id": "zjxu",
     "formula": {
-      "xuekao": { "A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100 },
-      "xiaokao": { "fullScore": 100 },
-      "gaokao": { "fullScore": 750 },
-      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.60 }
+      "xuekao": {
+        "A": 10,
+        "B": 7,
+        "C": 4,
+        "D": 0,
+        "fullScore": 100
+      },
+      "xiaokao": {
+        "fullScore": 100
+      },
+      "gaokao": {
+        "fullScore": 750
+      },
+      "weights": {
+        "xuekao": 0.15,
+        "xiaokao": 0.25,
+        "gaokao": 0.6
+      }
     },
     "formulaNote": null,
     "formulaSource": {
@@ -430,32 +1800,183 @@
       "hasWrittenTest": true,
       "hasInterview": true,
       "hasPhysicalTest": false,
-      "writtenTestSubjects": ["综合素质","专业素养"],
+      "writtenTestSubjects": [
+        "综合素质",
+        "专业素养"
+      ],
       "interviewFormat": "group",
       "contentSummary": "师范类综合素质测试采用面试，普通类和物理类采用笔试；满分均100分，按各类别计划1:8入围。",
       "tips": ""
     },
-    "transferRestriction": { "restricted": false, "detail": "" },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": ""
+    },
     "majors": [
-      { "name": "小学教育（师范）", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 5 },
-      { "name": "学前教育（师范）", "category": "师范类", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "英语", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 8 },
-      { "name": "日语", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 8 },
-      { "name": "跨境电子商务", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 8 },
-      { "name": "服装设计与工程", "category": "普通类", "requiredSubjects": ["不限"], "planCount": 8 },
-      { "name": "工程管理", "category": "物理类", "requiredSubjects": ["物理"], "planCount": 8 },
-      { "name": "药学", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 8 },
-      { "name": "化学工程与工艺", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 8 },
-      { "name": "应用化学", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 8 },
-      { "name": "工业设计", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 8 },
-      { "name": "环境工程", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 8 },
-      { "name": "生物工程", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "纺织工程", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "轻化工程", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "高分子材料与工程", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "非织造材料与工程", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "建筑环境与能源应用工程", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 10 },
-      { "name": "土木工程", "category": "物理类", "requiredSubjects": ["物理","化学"], "planCount": 15 }
+      {
+        "name": "小学教育（师范）",
+        "category": "师范类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 5
+      },
+      {
+        "name": "学前教育（师范）",
+        "category": "师范类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "英语",
+        "category": "普通类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 8
+      },
+      {
+        "name": "日语",
+        "category": "普通类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 8
+      },
+      {
+        "name": "跨境电子商务",
+        "category": "普通类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 8
+      },
+      {
+        "name": "服装设计与工程",
+        "category": "普通类",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 8
+      },
+      {
+        "name": "工程管理",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理"
+        ],
+        "planCount": 8
+      },
+      {
+        "name": "药学",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 8
+      },
+      {
+        "name": "化学工程与工艺",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 8
+      },
+      {
+        "name": "应用化学",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 8
+      },
+      {
+        "name": "工业设计",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 8
+      },
+      {
+        "name": "环境工程",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 8
+      },
+      {
+        "name": "生物工程",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "纺织工程",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "轻化工程",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "高分子材料与工程",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "非织造材料与工程",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "建筑环境与能源应用工程",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "土木工程",
+        "category": "物理类",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 15
+      }
     ],
     "admission": [
       {
@@ -469,21 +1990,71 @@
       }
     ],
     "applicationSteps": [
-      { "step": 1, "title": "网上报名", "description": "登录招生网“三位一体”报名系统报名，限报一个测试类别。", "deadline": "2025-03-13 17:00", "materials": [] },
-      { "step": 2, "title": "上传材料", "description": "上传诚信承诺书；特长生上传专项条件证明。", "deadline": "2025-03-20 17:00", "materials": ["诚信承诺书","特长生专项证明材料"] },
-      { "step": 3, "title": "书面评审与缴费", "description": "评审结果查询、缴费。", "deadline": "2025-03-31 17:00", "materials": [] },
-      { "step": 4, "title": "综合素质测试", "description": "4月20日测试：师范类面试、普通/物理类笔试。", "deadline": "2025-04-20", "materials": ["身份证","准考证"] },
-      { "step": 5, "title": "入围公布与志愿填报", "description": "普通类提前录取第一志愿，按测试类别填报。", "deadline": "", "materials": [] }
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录招生网“三位一体”报名系统报名，限报一个测试类别。",
+        "deadline": "2025-03-13 17:00",
+        "materials": []
+      },
+      {
+        "step": 2,
+        "title": "上传材料",
+        "description": "上传诚信承诺书；特长生上传专项条件证明。",
+        "deadline": "2025-03-20 17:00",
+        "materials": [
+          "诚信承诺书",
+          "特长生专项证明材料"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "书面评审与缴费",
+        "description": "评审结果查询、缴费。",
+        "deadline": "2025-03-31 17:00",
+        "materials": []
+      },
+      {
+        "step": 4,
+        "title": "综合素质测试",
+        "description": "4月20日测试：师范类面试、普通/物理类笔试。",
+        "deadline": "2025-04-20",
+        "materials": [
+          "身份证",
+          "准考证"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "入围公布与志愿填报",
+        "description": "普通类提前录取第一志愿，按测试类别填报。",
+        "deadline": "",
+        "materials": []
+      }
     ],
     "brochureUrl": "https://zsb.zjxu.edu.cn/info/10443/86664.htm"
   },
   {
     "id": "zucc",
     "formula": {
-      "xuekao": { "A": 10, "B": 8, "C": 6, "D": 0, "fullScore": 100 },
-      "xiaokao": { "fullScore": 100 },
-      "gaokao": { "fullScore": 750 },
-      "weights": { "xuekao": 0.20, "xiaokao": 0.20, "gaokao": 0.60 }
+      "xuekao": {
+        "A": 10,
+        "B": 8,
+        "C": 6,
+        "D": 0,
+        "fullScore": 100
+      },
+      "xiaokao": {
+        "fullScore": 100
+      },
+      "gaokao": {
+        "fullScore": 750
+      },
+      "weights": {
+        "xuekao": 0.2,
+        "xiaokao": 0.2,
+        "gaokao": 0.6
+      }
     },
     "formulaNote": "学考A=10（语文、数学、外语三门主要科目计15分）/B=8/C=6/D不计分，超过100分按100分计。",
     "formulaSource": {
@@ -500,14 +2071,62 @@
       "contentSummary": "综合素质测试采用面试（含英文朗诵和无领导小组讨论），考察学习潜质和综合素质；满分100分，按专业计划1:5入围。",
       "tips": ""
     },
-    "transferRestriction": { "restricted": false, "detail": "学生转专业按学校相关规定执行；中外合作办学专业与非中外合作办学专业之间不能互转。" },
+    "transferRestriction": {
+      "restricted": false,
+      "detail": "学生转专业按学校相关规定执行；中外合作办学专业与非中外合作办学专业之间不能互转。"
+    },
     "majors": [
-      { "name": "英语", "category": "", "requiredSubjects": ["不限"], "planCount": 10 },
-      { "name": "护理学", "category": "", "requiredSubjects": ["化学"], "planCount": 30 },
-      { "name": "药学", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 40 },
-      { "name": "土木工程", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 40 },
-      { "name": "会展经济与管理(中外合作办学)", "category": "", "requiredSubjects": ["不限"], "planCount": 30 },
-      { "name": "工业设计(中外合作办学)", "category": "", "requiredSubjects": ["物理","化学"], "planCount": 50 }
+      {
+        "name": "英语",
+        "category": "",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 10
+      },
+      {
+        "name": "护理学",
+        "category": "",
+        "requiredSubjects": [
+          "化学"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "药学",
+        "category": "",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 40
+      },
+      {
+        "name": "土木工程",
+        "category": "",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 40
+      },
+      {
+        "name": "会展经济与管理(中外合作办学)",
+        "category": "",
+        "requiredSubjects": [
+          "不限"
+        ],
+        "planCount": 30
+      },
+      {
+        "name": "工业设计(中外合作办学)",
+        "category": "",
+        "requiredSubjects": [
+          "物理",
+          "化学"
+        ],
+        "planCount": 50
+      }
     ],
     "admission": [
       {
@@ -521,11 +2140,44 @@
       }
     ],
     "applicationSteps": [
-      { "step": 1, "title": "网上报名", "description": "登录本科招生网“三位一体”模块报名，限报1个专业，无需邮寄材料。", "deadline": "2025-03-13 17:00", "materials": [] },
-      { "step": 2, "title": "材料评审", "description": "按专业以不超过计划1:6确定通过材料评审名单。", "deadline": "2025-03-25", "materials": [] },
-      { "step": 3, "title": "评审结果查询与缴费", "description": "查询资格并缴费、打印准考证。", "deadline": "2025-04-06", "materials": [] },
-      { "step": 4, "title": "综合素质测试", "description": "4月12日面试。", "deadline": "2025-04-12", "materials": ["身份证","准考证"] },
-      { "step": 5, "title": "入围公布与志愿填报", "description": "普通类提前录取第一志愿填报入围专业，高考总分须达一段线。", "deadline": "", "materials": [] }
+      {
+        "step": 1,
+        "title": "网上报名",
+        "description": "登录本科招生网“三位一体”模块报名，限报1个专业，无需邮寄材料。",
+        "deadline": "2025-03-13 17:00",
+        "materials": []
+      },
+      {
+        "step": 2,
+        "title": "材料评审",
+        "description": "按专业以不超过计划1:6确定通过材料评审名单。",
+        "deadline": "2025-03-25",
+        "materials": []
+      },
+      {
+        "step": 3,
+        "title": "评审结果查询与缴费",
+        "description": "查询资格并缴费、打印准考证。",
+        "deadline": "2025-04-06",
+        "materials": []
+      },
+      {
+        "step": 4,
+        "title": "综合素质测试",
+        "description": "4月12日面试。",
+        "deadline": "2025-04-12",
+        "materials": [
+          "身份证",
+          "准考证"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "入围公布与志愿填报",
+        "description": "普通类提前录取第一志愿填报入围专业，高考总分须达一段线。",
+        "deadline": "",
+        "materials": []
+      }
     ],
     "brochureUrl": "https://zs.hzcu.edu.cn/guide/show-828.html"
   }

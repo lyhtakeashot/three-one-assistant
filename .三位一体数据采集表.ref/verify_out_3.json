@@ -1,0 +1,282 @@
+[
+  {
+    "id": "nbu",
+    "year": 2026,
+    "name": "宁波大学",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 10, "B": 8, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 10, "B": 8, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "A等折计10分，B等折计8分，C等折计4分，D等及以下不计分；综合成绩=学业水平测试成绩（折算成满分100分）×15%+综合素质测试成绩（折算成满分100分）×25%+高考总分（折算成满分100分）×60%",
+    "source": "https://zsb.nbu.edu.cn/info/1016/3796.htm",
+    "note": ""
+  },
+  {
+    "id": "zafu",
+    "year": 2026,
+    "name": "浙江农林大学",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "A等计15分，B等计10分，C等计5分，D等不计分，满分为150分；综合成绩=学业水平测试成绩（折算满分150）×15%+综合素质测试成绩（折算满分100）×25%+高考总分（折算满分100）×60%",
+    "source": "https://zs.zafu.edu.cn/info/1020/5002.htm",
+    "note": ""
+  },
+  {
+    "id": "zjxu",
+    "year": 2026,
+    "name": "嘉兴大学",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "学业水平测试成绩A等计10分、B等计7分、C等计4分、D等不计分，满分100分；综合成绩=学业水平测试成绩×15%+综合素质测试成绩×25%+高考总分×60%",
+    "source": "https://zsb.zjxu.edu.cn/info/10443/86745.htm",
+    "note": ""
+  },
+  {
+    "id": "wzu",
+    "year": 2026,
+    "name": "温州大学",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.15, "xiaokao": 0.25, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "综合成绩=学业水平测试成绩（折算成满分750分）×15%+综合素质测试成绩（折算成满分750分）×25%+高考文化成绩（满分750分）×60%",
+    "source": "https://zs.wzu.edu.cn/info/1247/10044.htm",
+    "note": "章程公式为学考(折算满分750)×15%+综测(折算满分750)×25%+高考(满分750)×60%，三项均折算到750后合成；学考A=15/B=10/C=5/D不计分(折算满分150)、综测实际满分100均与our一致，权重0.15/0.25/0.6与our一致"
+  },
+  {
+    "id": "jxnh",
+    "year": 2026,
+    "name": "嘉兴南湖学院",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 10, "B": 7, "C": 3, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 10, "B": 7, "C": 3, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "学业水平测试成绩A等计10分、B等计7分、C等计3分、D等不计分，满分100分；综合成绩=学业水平测试成绩×10%+综合素质测试成绩×30%+高考总分×60%",
+    "source": "https://zsb.jxnhu.edu.cn/info/1012/4337.htm",
+    "note": ""
+  },
+  {
+    "id": "fudan",
+    "year": 2026,
+    "name": "复旦大学",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 5, "B": 4.5, "C": 4, "D": 3, "fullScore": 50 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.05, "xiaokao": 0.1, "gaokao": 0.85 }
+    },
+    "official": {
+      "xuekao": { "A": 5, "B": 4.5, "C": 4, "D": 3, "fullScore": 50 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.05, "xiaokao": 0.1, "gaokao": 0.85 }
+    },
+    "diff": [],
+    "quote": "学业水平测试成绩按A=5、B=4.5、C=4、D=3折算，满分50分；综合成绩=高考成绩×85%+面试成绩×10%+学业水平测试成绩×5%",
+    "source": "https://www.ao.fudan.edu.cn/e5/4c/c36330a779596/page.htm",
+    "note": "复旦折算方式特殊：学考满分50、综测满分100、高考用原始分参与合成，三项按5%/10%/85%计，权重与our一致"
+  },
+  {
+    "id": "zjut",
+    "year": 2025,
+    "name": "浙江工业大学",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 10, "B": 8, "C": 0, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 10, "B": 8, "C": 0, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "综合成绩按“学业水平考试成绩（折算成满分100分）×20%+综合素质测试成绩（折算成满分100分）×20%+高考总分（折算成满分100分）×60%”计算；学业水平考试成绩换算见附表（10A=100、9A1B=98）",
+    "source": "https://zs.zjut.edu.cn/html/n2518.html",
+    "note": "学考C等、D等计分章程正文未单列，依据表3换算对照表（仅计A=10、B=8，如10A=100、9A1B=98）及报名条件（其余科目须C等及以上、D等不满足报考）推得C=0、D=0，与our一致"
+  },
+  {
+    "id": "wmu",
+    "year": 2025,
+    "name": "温州医科大学",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 10, "B": 9, "C": 7, "D": 4, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 10, "B": 9, "C": 7, "D": 4, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "学考折算：总分=A个数×10+B个数×9+C个数×7+D个数×4；综合成绩=学业水平考试（折算满分100）×20%+综合测试（折算满分100）×20%+高考文化分（折算满分100）×60%",
+    "source": "https://www.gaokzx.com/gk/zizhao/136118.html",
+    "note": ""
+  },
+  {
+    "id": "zust",
+    "year": 2025,
+    "name": "浙江科技大学",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 15, "B": 10, "C": 5, "D": 0, "fullScore": 150 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "学业水平测试A等计15分、B等计10分、C等计5分、D等不计分，满分150分；综合成绩=学业水平考试成绩（折算满分150）×20%+综合素质测试成绩（折算满分100）×20%+高考总分（折算满分100）×60%",
+    "source": "https://aiie.zust.edu.cn/info/1057/1156.htm",
+    "note": ""
+  },
+  {
+    "id": "hzsf",
+    "year": 2025,
+    "name": "湖州师范大学",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 10, "B": 6, "C": 2, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 10, "B": 6, "C": 2, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "学业水平测试成绩A等计10分、B等计6分、C等计2分、D等不计分，满分100分；综合成绩=学业水平测试成绩×20%+综合素质测试成绩×20%+高考总分×60%",
+    "source": "https://zsw.zjhu.edu.cn/",
+    "note": ""
+  },
+  {
+    "id": "tzc",
+    "year": 2025,
+    "name": "台州学院",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 10, "B": 8, "C": 6, "D": 4, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 10, "B": 8, "C": 6, "D": 4, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "学业水平测试成绩折算：满分为100分，A等计10分，B等计8分，C等计6分，D等计4分；综合成绩=学业水平测试成绩×10%+综合素质测试成绩×30%+高考总分×60%（三项成绩均折算成满分100分进行计算）",
+    "source": "https://zs.tzc.edu.cn/info/1013/2936.htm",
+    "note": "章程明确三项成绩均折算成满分100分计算"
+  },
+  {
+    "id": "qzc",
+    "year": 2025,
+    "name": "衢州学院",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 10, "B": 7, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "学业水平测试A等计10分、B等计7分、C等计4分、D等不计分，满分100分；综合成绩=学业水平测试成绩×20%+综合素质测试成绩×20%+高考总分×60%",
+    "source": "https://zs.qzc.edu.cn/2025/0301/c116a76540/page.htm",
+    "note": ""
+  },
+  {
+    "id": "wzut",
+    "year": 2025,
+    "name": "温州理工学院",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": 10, "B": 8, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": 10, "B": 8, "C": 4, "D": 0, "fullScore": 100 },
+      "xiaokaoFS": 100,
+      "weights": { "xuekao": 0.2, "xiaokao": 0.2, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "学业水平测试成绩A等计10分、B等计8分、C等计4分、D等不计分，满分100分；综合成绩=学业水平测试成绩×20%+综合素质测试成绩×20%+高考总分×60%",
+    "source": "https://zhejiang.eol.cn/zhejiang_gkkx/202503/t20250310_2657708.shtml",
+    "note": ""
+  },
+  {
+    "id": "ucas",
+    "year": 2025,
+    "name": "中国科学院大学",
+    "ok": true,
+    "our": {
+      "xuekao": { "A": null, "B": null, "C": null, "D": null, "fullScore": 750 },
+      "xiaokaoFS": 750,
+      "weights": { "xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6 }
+    },
+    "official": {
+      "xuekao": { "A": null, "B": null, "C": null, "D": null, "fullScore": 750 },
+      "xiaokaoFS": 750,
+      "weights": { "xuekao": 0.1, "xiaokao": 0.3, "gaokao": 0.6 }
+    },
+    "diff": [],
+    "quote": "综合评价成绩=高考成绩×60%+面试成绩×30%+学业水平考试成绩×10%（高考、面试、学业水平测试均按折算满分750分计入）",
+    "source": "https://admission.ucas.ac.cn/ShowArticle/Article/dc7dc7f7-1b95-4d46-80e9-b6b29c4278a2/19ca7dff-dfca-4405-be00-6128c219798912",
+    "note": "国科大不以A/B/C/D单科计分，学考与校测均按折算满分750参与合成，综合成绩=高考×60%+校测×30%+学考×10%，权重与our一致"
+  }
+]

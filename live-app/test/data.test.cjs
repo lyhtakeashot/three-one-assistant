@@ -10,9 +10,9 @@ function check(t, cond, msg) {
   else { t.fail++; t.failures.push('data: ' + msg); process.stdout.write('  ✗ ' + msg + '\n'); }
 }
 
-// 标准三一折算：学考有实际 A 分值，且学考/高考权重均为正
+// 标准三一折算：学考有可用的等级分值表（A+B+C+D > 0，与 index.html 口径一致），且学考/高考权重均为正
 function isStandardFormula(f) {
-  return !!(f && f.xuekao && f.xuekao.A > 0 && f.weights && f.weights.xuekao > 0 && f.weights.gaokao > 0);
+  return !!(f && f.xuekao && (f.xuekao.A + f.xuekao.B + f.xuekao.C + f.xuekao.D) > 0 && f.weights && f.weights.xuekao > 0 && f.weights.gaokao > 0);
 }
 
 module.exports = function run(t) {
