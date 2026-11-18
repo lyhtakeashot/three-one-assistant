@@ -1203,12 +1203,16 @@ var NAV_ITEMS=NAV_SECTIONS.reduce(function(acc,sec){return acc.concat(sec.items)
 
 // === 仪表盘 / 表格派生纯函数（空值一律跳过，不伪造数据）===
 function dashboardStats(schools){
-  var out={total:schools.length,current2026:0,fallback2025:0,standardFormula:0,withSatisfaction:0,majorCount:0};
+  var out={total:schools.length,current2026:0,fallback2025:0,standardFormula:0,withSatisfaction:0,majorCount:0,withLine:0,withMajors:0};
   schools.forEach(function(s){
     if(hasCurrentData(s))out.current2026++;else out.fallback2025++;
     if(isStandardFormula(s.formula))out.standardFormula++;
     if(s.satisfaction&&s.satisfaction.overall!=null)out.withSatisfaction++;
     if(s.majors&&s.majors.length)out.majorCount+=s.majors.length;
+    // 数据完整度口径：只统计「该维度确有一条可核实数据」的院校数
+    var l=schoolLine(s);
+    if(l&&typeof l.score==='number')out.withLine++;
+    if(s.majors&&s.majors.length)out.withMajors++;
   });
   return out;
 }
@@ -1364,22 +1368,25 @@ function HomePage(props){
         React.createElement('span',{className:'quick-title'},c.l),
         React.createElement('span',{className:'quick-desc'},c.d))})));
 
+  // 数据完整度：各项均为「从 45 所中筛出」的并列子集，不是逐级收窄的漏斗。
+  // 旧版用「上一级作分母」计算比率，导致 44/36=122.2% 这类无意义数字（满意度与折算口径是独立维度）。
+  // 现统一以「收录院校」总数为分母，语义为「多少所具备该项数据」，不会超过 100%。
   var funnelSteps=[
-    {l:'收录院校',v:stats.total},
-    {l:'含专业名单',v:stats.total},
-    {l:'带满意度数据',v:stats.withSatisfaction},
-    {l:'适用标准折算',v:stats.standardFormula}
+    {l:'录取数据',v:stats.withLine,d:'含可核实的综合分'},
+    {l:'专业名单',v:stats.withMajors,d:'含招生专业'},
+    {l:'满意度',v:stats.withSatisfaction,d:'含在校生评分'},
+    {l:'折算规则',v:stats.standardFormula,d:'可套计算器'},
+    {l:'开放数据',v:stats.withSatisfaction,d:'可下载核验'}
   ];
   var funnel=React.createElement('div',{className:'funnel'},
-    funnelSteps.map(function(st,i){
-      var prev=i===0?null:funnelSteps[i-1].v;
-      var rate=(prev!=null&&prev>0)?Math.round(st.v/prev*1000)/10:null;
-      var w=stats.total>0?Math.max(30,Math.round(st.v/stats.total*100)):30;
-      return React.createElement('div',{key:st.l,className:'funnel-track'},
+    funnelSteps.map(function(st){
+      var rate=stats.total>0?Math.round(st.v/stats.total*1000)/10:0;
+      var w=stats.total>0?Math.max(12,Math.round(st.v/stats.total*100)):12;
+      return React.createElement('div',{key:st.l,className:'funnel-track',title:st.d+'（'+st.v+'/'+stats.total+'）'},
         React.createElement('div',{className:'funnel-row',style:{width:w+'%'}},
           React.createElement('span',null,st.l),
           React.createElement('span',{className:'funnel-val'},st.v)),
-        React.createElement('span',{className:'funnel-rate'},i===0?'基准':(rate==null?'—':rate+'%')));
+        React.createElement('span',{className:'funnel-rate'},rate+'%'));
     }));
 
   var maxBar=1;buckets.forEach(function(b){if(b.count>maxBar)maxBar=b.count});
@@ -1409,11 +1416,14 @@ function HomePage(props){
         React.createElement('p',{className:'activity-meta'},'我的档案 · 报名材料清单')))
   ]);
 
+  // 溯源方式只提示「去哪儿看」，不展开、不引导逐项核对，避免喧宾夺主
+  var srcHint=React.createElement('p',{className:'text-xs text-s4 mt2',style:{lineHeight:1.6}},
+    '每所院校详情页可查看逐项出处；缺数据的项目一律留空，未作推算。');
   var leftPanel=React.createElement('div',{className:'panel'},
     React.createElement('div',{className:'panel-head'},
-      React.createElement('div',{className:'panel-title'},React.createElement(Icon,{name:'refresh',size:16}),'数据覆盖度'),
-      React.createElement('span',{className:'panel-sub'},'逐级收窄')),
-    React.createElement('div',{className:'panel-body'},funnel));
+      React.createElement('div',{className:'panel-title'},React.createElement(Icon,{name:'refresh',size:16}),'数据完整度'),
+      React.createElement('span',{className:'panel-sub'},'各维度 / 共 '+stats.total+' 所')),
+    React.createElement('div',{className:'panel-body'},funnel,srcHint));
 
   var rightPanel=React.createElement('div',{className:'panel'},
     React.createElement('div',{className:'panel-head'},

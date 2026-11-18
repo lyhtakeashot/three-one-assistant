@@ -33,6 +33,29 @@ function extractAppCode() {
   return code.substring(start, end);
 }
 
+// 提取指定的具名函数（用于切片区外、但需参与测试的纯函数，如 dashboardStats）
+// 说明：这些函数定义在 Components 段之后，不在上述切片区里，故按函数名单独截取。
+function extractFunctions(names) {
+  const html = fs.readFileSync(HTML, 'utf8');
+  const scriptStart = html.indexOf('<script>');
+  const scriptEnd = html.lastIndexOf('</script>');
+  const code = html.substring(scriptStart + 8, scriptEnd);
+  const chunks = [];
+  names.forEach((name) => {
+    const head = 'function ' + name + '(';
+    const start = code.indexOf(head);
+    if (start === -1) return;
+    // 按花括号配对截取函数体
+    let depth = 0, end = -1, seenBrace = false;
+    for (let i = start; i < code.length; i++) {
+      if (code[i] === '{') { depth++; seenBrace = true; }
+      else if (code[i] === '}') { depth--; if (seenBrace && depth === 0) { end = i; break; } }
+    }
+    if (end > -1) chunks.push(code.substring(start, end + 1));
+  });
+  return chunks.join('\n');
+}
+
 // 返回 { SCHOOLS, SUBJECTS, FAQ_DATA, ENCOURAGE_DATA, calcResult, reverseGk, reverseXs, filterSchools, calcXuekao, extractTuitionNum }
 function extract() {
   const code = extractAppCode();
@@ -42,6 +65,12 @@ function extract() {
     vm.runInContext(code, sandbox, { timeout: 5000 });
   } catch (e) {
     throw new Error('提取代码执行失败: ' + e.message);
+  }
+  // dashboardStats 定义在切片区之后，单独截取注入同一沙箱后再取
+  try {
+    vm.runInContext(extractFunctions(['dashboardStats', 'scoreBuckets']), sandbox, { timeout: 5000 });
+  } catch (e) {
+    throw new Error('提取 dashboardStats 失败: ' + e.message);
   }
   return {
     SCHOOLS: sandbox.SCHOOLS,
@@ -106,6 +135,8 @@ function extract() {
     OPEN_DATA_README: sandbox.OPEN_DATA_README,
     OPEN_DATA_VERSION: sandbox.OPEN_DATA_VERSION,
     OPEN_DATA_DATE: sandbox.OPEN_DATA_DATE,
+    dashboardStats: sandbox.dashboardStats,
+    scoreBuckets: sandbox.scoreBuckets,
   };
 }
 

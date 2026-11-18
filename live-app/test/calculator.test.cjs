@@ -8,7 +8,7 @@ function check(t, cond, msg) {
 function close(a, b, eps) { return Math.abs(a - b) < (eps || 0.01); }
 
 module.exports = function run(t) {
-  const { SCHOOLS, calcResult, reverseGk, reverseXs, filterSchools, calcXuekao, xuekaoTotal, SUBJECTS, schoolDataYear, hasCurrentData, schoolLine, majorLine, admissionRow, YEAR_MODES, normYearMode, isLatestMode, dataYears, hasYearRecord, targetYear, admissionRowForMode, lineForMode, yearModeLabel } = extract();
+  const { SCHOOLS, calcResult, reverseGk, reverseXs, filterSchools, calcXuekao, xuekaoTotal, SUBJECTS, schoolDataYear, hasCurrentData, schoolLine, majorLine, admissionRow, YEAR_MODES, normYearMode, isLatestMode, dataYears, hasYearRecord, targetYear, admissionRowForMode, lineForMode, yearModeLabel, dashboardStats } = extract();
 
   // 通用 10 科学考等级（全 B 基准）
   const grades = SUBJECTS.concat(['语文', '数学', '英语']).map((subject) => ({ subject, grade: 'B' }));
@@ -175,5 +175,30 @@ module.exports = function run(t) {
     // ucas（国科大）是 38 所三位一体院校中唯一无学考折算的院校
     const ucas = SCHOOLS.find((x) => x.id === 'ucas');
     check(t, xuekaoTotal(gs, ucas.formula) === null, '无学考折算院校返回 null');
+  }
+
+  // 10) 数据完整度（首页「数据完整度」面板口径）
+  // 回归背景：旧版把「满意度」与「折算规则」当成逐级收窄的漏斗，用上一级作分母，
+  // 出现 44/36=122.2% 这种无意义比率。现统一以院校总数为分母，任何维度都不得 >100%。
+  {
+    const stats = dashboardStats(SCHOOLS);
+    check(t, stats.total === SCHOOLS.length, '完整度分母 = 院校总数（' + stats.total + '）');
+    const dims = [
+      ['录取数据', stats.withLine],
+      ['专业名单', stats.withMajors],
+      ['满意度', stats.withSatisfaction],
+      ['折算规则', stats.standardFormula],
+    ];
+    let over = 0;
+    dims.forEach(([label, v]) => {
+      check(t, typeof v === 'number' && v >= 0 && v <= stats.total,
+        label + ' 数量在 0~总数之间（' + v + '/' + stats.total + '）');
+      if (v > stats.total) over++;
+    });
+    check(t, over === 0, '没有任何维度超过院校总数（避免出现 >100% 的覆盖率）');
+
+    // 各维度应确为「并列子集」，而非包含关系：满意度与折算规则互不决定
+    check(t, stats.withSatisfaction !== stats.total, '满意度并非全覆盖（当前 ' + stats.withSatisfaction + '/' + stats.total + '）');
+    check(t, stats.standardFormula !== stats.withSatisfaction, '折算规则与满意度是不同维度（不可互为分母）');
   }
 };
