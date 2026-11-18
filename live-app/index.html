@@ -522,10 +522,15 @@ function Lget(k){try{return JSON.parse(localStorage.getItem('3in1_'+k))}catch(e)
 function Lset(k,v){localStorage.setItem('3in1_'+k,JSON.stringify(v))}
 
 // === API Layer ===
+// 比赛演示版开关：静态托管（Qoder Sites）无后端，置 false 后所有请求直接回落离线分支，
+// 不产生 404、不刷控制台错误、8 秒轮询也不再空转。有后端的完整版置 true 即可恢复。
+var BACKEND_ENABLED=false;
 function apiGet(path,cb){
+  if(!BACKEND_ENABLED){cb(null);return;}
   fetch(path).then(function(r){return r.json()}).then(function(data){cb(data)}).catch(function(){cb(null)});
 }
 function apiPost(path,body,cb){
+  if(!BACKEND_ENABLED){cb(null);return;}
   fetch(path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body||{})}).then(function(r){return r.json()}).then(function(data){cb(data)}).catch(function(){cb(null)});
 }
 function getUserId(){
@@ -2102,7 +2107,7 @@ function TreeholePage(){
       }else{
         var u2=[localPost].concat(posts);
         setPosts(u2);Lset('treehole',u2);Lset('myPosts',my.concat([localPost.id]));
-        setOnline(false);setNotice('离线模式：帖子仅保存在本设备');
+        setOnline(false);setNotice('已保存到本设备（单机体验版）');
       }
       setText('');
     });
@@ -2115,7 +2120,7 @@ function TreeholePage(){
     setPosts(updated);Lset('treehole',updated);
     apiPost('/api/treehole/'+p.id+'/like',{userId:uid},function(data){
       if(data&&data.ok)setNotice(liked?'已取消点赞':'收到你的鼓励！');
-      else{setOnline(false);setNotice('离线模式：点赞未同步');}
+      else{setOnline(false);setNotice('已记录你的喜欢（单机体验版）');}
     });
   }
 
@@ -2127,7 +2132,7 @@ function TreeholePage(){
     setPosts(updated);Lset('treehole',updated);
     apiPost('/api/treehole/'+p.id+'/reply',{content:c,aid:'匿名'},function(data){
       if(data&&data.ok)setNotice('回复成功');
-      else{setOnline(false);setNotice('⚠️ 离线模式：回复仅保存在本设备');}
+      else{setOnline(false);setNotice('回复已保存在本设备（单机体验版）');}
     });
     setReplyText('');setReplyOpen(null);
   }
@@ -2176,9 +2181,9 @@ function TreeholePage(){
   var sorted=filtered.slice().sort(function(a,b){return (b.pinned?1:0)-(a.pinned?1:0)});
   var header=React.createElement(PageHead,{title:'树洞社区',sub:'匿名分享经验、互助与心情',
     right:React.createElement('div',{className:'flex items-center gap2'},
-      React.createElement('span',{className:'chip '+(online?'chip-g':'chip-y')},React.createElement('span',{className:'status-dot'+(online?'':' is-off')}),online?'已连接':'离线'),
+      React.createElement('span',{className:'chip chip-p'},React.createElement('span',{className:'status-dot'}),'单机体验版'),
       React.createElement('span',{className:'chip chip-p'},'共 '+posts.length+' 帖'))});
-  var onlineTag=online?null:React.createElement('div',{className:'alert-bar alert-warn mb4'},React.createElement(Icon,{name:'alert',size:15}),React.createElement('span',null,'离线模式：无法连接服务器，帖子仅保存在本设备'));
+  var onlineTag=React.createElement('div',{className:'alert-bar alert-info mb4'},React.createElement(Icon,{name:'info',size:15}),React.createElement('span',null,'单机体验版：参赛演示站未接入服务器，你发布的帖子只保存在当前设备，换设备或清缓存后会消失'));
   var noticeTag=notice?React.createElement('div',{className:'alert-bar alert-info mb4'},React.createElement(Icon,{name:'info',size:15}),React.createElement('span',null,notice)):null;
   var quoteCard=React.createElement('div',{className:'banner mb4'},
     React.createElement('div',{className:'banner-inner'},
@@ -2447,7 +2452,7 @@ function FeedbackPage(props){
       else{
         setOnline(false);
         var text='【数据纠错】院校：'+name+'｜字段：'+field+'｜描述：'+detail.trim()+(contact?'｜联系方式：'+contact.trim():'');
-        setDone('离线模式：无法提交。请复制以下内容发给维护者：'+text);
+        setDone('演示站暂未接入服务器，请复制以下内容发给维护者：'+text);
       }
     });
   }
@@ -2803,8 +2808,8 @@ var root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(React.createElement(App));
 
 if('serviceWorker' in navigator){
-  var swRefreshed=false;
-  navigator.serviceWorker.addEventListener('controllerchange',function(){if(swRefreshed)return;swRefreshed=true;location.reload()});
+  // 说明：旧版在 controllerchange 时会 location.reload() 强制刷新以做到「发版即新」。
+  // 比赛演示站不需要追版本，而首访自动刷新会让评审看到页面闪一下，故只保留离线缓存能力。
   window.addEventListener('load',function(){
     navigator.serviceWorker.register('sw.js').then(function(reg){reg.update()}).catch(function(err){console.error('SW register failed:',err)});
   });

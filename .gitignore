@@ -30,3 +30,7 @@ live-app/data/
 # IDE 数据目录（项目数据，不入库）
 .codebuddy/
 .workbuddy/
+.vite/
+
+# 旧版 Vite 工程（已废弃，仅本地保留，不入库）
+three-one-assistant/

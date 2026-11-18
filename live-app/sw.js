@@ -1,13 +1,26 @@
-const CACHE_NAME='3in1-v17';
+const CACHE_NAME='3in1-v18';
+
+// 说明：站点可能被部署在根域名，也可能被部署在子路径（如 /three-one/）。
+// 旧版把 APP_SHELL 和离线兜底路径写死成以 '/' 开头的绝对路径，一旦落在子路径，
+// 预缓存会全部 404、断网兜底也会命中不到，PWA 静默失效。
+// 现在一律用「相对 SW 自身作用域」推导，根域名与子路径都能正确工作。
+const SCOPE=self.registration.scope;
+const ROOT=new URL('./',SCOPE).href;
 const APP_SHELL=[
-  '/',
-  '/manifest.json',
-  '/icon.svg',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/vendor/react.production.min.js',
-  '/vendor/react-dom.production.min.js'
-];
+  './',
+  './manifest.json',
+  './icon.svg',
+  './icon-192.png',
+  './icon-512.png',
+  './vendor/react.production.min.js',
+  './vendor/react-dom.production.min.js'
+].map(function(p){return new URL(p,SCOPE).href});
+
+function rootFallback(){
+  return caches.match(ROOT).then(function(hit){
+    return hit||caches.match(new URL('./index.html',SCOPE).href);
+  });
+}
 
 self.addEventListener('install',function(e){
   e.waitUntil(
@@ -46,7 +59,7 @@ self.addEventListener('fetch',function(e){
         return resp;
       }).catch(function(){
         return caches.match(e.request).then(function(hit){
-          return hit||caches.match('/');
+          return hit||rootFallback();
         });
       })
     );
@@ -54,7 +67,7 @@ self.addEventListener('fetch',function(e){
   }
 
   // HTML / 页面导航：network-first（在线取最新并刷新缓存；断网回退最近缓存，保证发版即新）
-  if(e.request.mode==='navigate'||url.pathname==='/'||url.pathname.endsWith('.html')){
+  if(e.request.mode==='navigate'||url.pathname.endsWith('.html')||url.href===ROOT){
     e.respondWith(
       fetch(e.request).then(function(resp){
         if(resp&&resp.status===200&&resp.type==='basic'){
@@ -64,7 +77,7 @@ self.addEventListener('fetch',function(e){
         return resp;
       }).catch(function(){
         return caches.match(e.request).then(function(hit){
-          return hit||caches.match('/');
+          return hit||rootFallback();
         });
       })
     );
@@ -82,7 +95,7 @@ self.addEventListener('fetch',function(e){
         }
         return resp;
       }).catch(function(){
-        if(e.request.mode==='navigate')return caches.match('/');
+        if(e.request.mode==='navigate')return rootFallback();
         return new Response('',{status:503,statusText:'Offline'});
       });
     })
