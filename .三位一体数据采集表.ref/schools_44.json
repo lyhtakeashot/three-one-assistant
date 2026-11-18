@@ -11270,7 +11270,7 @@
           "applicants": null,
           "passed": null,
           "admitted": 200,
-          "minScore": 72.0,
+          "minScore": 72,
           "avgScore": null,
           "xuekaoRequirement": "学考均为合格及以上且折算≥60分；综合素质评价均为B等及以上；折算=A×15+B×9+C×6+D×4，满分100，超过100按100计"
         }
@@ -13122,9 +13122,10 @@
           "applicants": null,
           "passed": null,
           "admitted": null,
-          "minScore": 645,
+          "minScore": null,
           "avgScore": null,
-          "xuekaoRequirement": "高考投档成绩须位于2025年浙江省普通高校招生考试考生成绩前8%（含）以上（2025年三位一体高考最低录取分约645分，较统招约降13分）。总计划980名、70个专业。"
+          "xuekaoRequirement": "高考投档成绩须位于2025年浙江省普通高校招生考试考生成绩前8%（含）以上（2025年三位一体高考最低录取分约645分，较统招约降13分）。总计划980名、70个专业。",
+          "note": "招生计划980名(来源：2025年简章原文)。简章仅公布初审比例1:6、入围比例不超过专业计划5倍，未公布报名人数与入围汇总人数，故 applicants/passed 置空；未公布最低综合分，故 minScore 置空（原填值为推算值，已按“不可推算”原则移除）。录取结果登录特殊类型招生报名平台查询。"
         }
       ],
       "satisfaction": {

@@ -40,3 +40,11 @@ three-one-assistant/
 转接.md
 大赛-*.md
 lab/
+
+# 部署平台产物（含项目 ID 等工具内部状态，不入库）
+*.qoder.site
+.qoder/
+
+# 临时素材（未定稿，不入库）
+抖音图文/
+三位一体草图.png

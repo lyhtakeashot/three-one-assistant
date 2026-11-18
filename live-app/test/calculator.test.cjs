@@ -92,15 +92,24 @@ module.exports = function run(t) {
   check(t, calcResult({ xuekaoGrades: grades }, { formula: null }) === null, '无 formula 返回 null');
 
   // 9) 数据年份：今年(2026)优先、去年(2025)回退
+  // 注：2026-11-18 起因浙大历年录取分数经核实无官方公示、已按数据诚实原则置空，
+  // 不再具备「有可用历史分数」的条件，故回退场景改用浙江工业大学（2026 无分数、2025 有官方分数）。
+  {
+    const zjut = SCHOOLS.find((x) => x.id === 'zjut');
+    check(t, hasCurrentData(zjut) === false, 'zjut 视为今年未发布');
+    check(t, schoolDataYear(zjut) === 2025, 'zjut 数据年份 = 2025');
+    const sl = schoolLine(zjut);
+    check(t, !!sl && sl.year === 2025 && sl.isPrev === true, 'zjut 校级线回退 2025 且标记 isPrev');
+    check(t, zjut.majors.length >= 3, 'zjut 使用去年完整专业名单（' + zjut.majors.length + ' 个）');
+    const ml = majorLine(zjut, zjut.majors[0]);
+    check(t, !!ml && ml.score === sl.score, 'zjut 专业线回退到校级线');
+  }
+  // 9b) 数据诚实回归：浙大历年录取分数无官方公示，必须保持为空（禁止推算）
   {
     const zju = SCHOOLS.find((x) => x.id === 'zju');
-    check(t, hasCurrentData(zju) === false, 'zju 视为今年未发布');
-    check(t, schoolDataYear(zju) === 2025, 'zju 数据年份 = 2025');
-    const sl = schoolLine(zju);
-    check(t, !!sl && sl.year === 2025 && sl.isPrev === true, 'zju 校级线回退 2025 且标记 isPrev');
-    check(t, zju.majors.length >= 3, 'zju 使用去年完整专业名单（' + zju.majors.length + ' 个）');
-    const ml = majorLine(zju, zju.majors[0]);
-    check(t, !!ml && ml.score === sl.score, 'zju 专业线回退到校级线');
+    const rows = zju.admission || [];
+    check(t, rows.every((a) => a.minScore === null), 'zju 各年 minScore 均为空（无官方公示，不推算）');
+    check(t, rows.every((a) => a.applicants === null), 'zju 各年报名人数均为空（官方未公开）');
   }
   {
     const zcmu = SCHOOLS.find((x) => x.id === 'zcmu');

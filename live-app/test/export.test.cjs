@@ -80,7 +80,9 @@ module.exports = function run(t) {
     if ((pct == null ? '' : pct) !== row[iPct]) mismatch++;
   }
   const withLine = S.filter((s) => { const l = app.schoolLine(s); return l && typeof l.score === 'number'; }).length;
-  check(t, lineChecked === withLine && lineChecked >= 30, '所有有录取线的院校均被校验（' + lineChecked + '/' + withLine + ' 所）');
+  // 门槛含义：有官方分数来源的院校应占多数。2026-11-18 起浙大历年分数因官方未公示而置空，
+  // 有录取线院校由 29 降至 28 所，故门槛随数据诚实原则下调（不是放宽要求，而是数据更真了）。
+  check(t, lineChecked === withLine && lineChecked >= 28, '所有有录取线的院校均被校验（' + lineChecked + '/' + withLine + ' 所）');
   check(t, mismatch === 0, '导出口径与 schoolLine 完全一致（不一致 ' + mismatch + ' 处）');
 
   // 三所「admission[0] 年份与页面可能不一致」的院校，必须以 schoolLine 为准

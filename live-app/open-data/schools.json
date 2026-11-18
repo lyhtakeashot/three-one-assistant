@@ -727,15 +727,15 @@
       "admission": [
         {
           "year": 2025,
-          "applicants": 10000,
-          "passed": 2800,
-          "admitted": 400,
-          "minScore": 76,
+          "applicants": null,
+          "passed": 1724,
+          "admitted": null,
+          "minScore": null,
           "xuekaoRequirement": "学考≥5A",
           "xuekaoRequirementSourceUrl": "https://zs.zjnu.edu.cn/2026/0306/c6886a547727/page.htm",
           "xuekaoRequirementSourceTitle": "浙江师范大学2026年“三位一体”综合评价招生章程",
           "collectedAt": "2026-09-13",
-          "note": "本行年份未找到官方公示链接。 入围1724人（含复硕培养试点；按招生计划1:6/1:5比例确定）。初审(获得综合素质测试资格)2592人。两项数字均出自学校本科招生网该公示，但搜索引擎未返回可直接打开的官方文章URL（仅见公众号/第三方转载），故sourceUrl置空，请人工在 zs.zjnu.edu.cn 公示公告栏核实。报名人数未见官方公示；录取含复硕计划未单列，录取总人数未公示。"
+          "note": "初审(获综合素质测试资格)2592人、入围1724人（含复硕培养试点，按招生计划1:6/1:5确定）两项均为学校本科招生网公示的真实数据，故 passed 取 1724；但未捕获到可直接打开的官方文章 URL（仅见官方公众号与第三方转载），sourceUrl 留空，可在 zs.zjnu.edu.cn 公示公告栏核实。报名人数未见官方公示；录取含复硕计划未单列、录取总人数未公示，故 applicants/admitted 置空。最低综合分未见官方公示，minScore 置空（原填 76 无来源，已移除）。"
         }
       ],
       "satisfaction": {
@@ -13023,29 +13023,29 @@
       "admission": [
         {
           "year": 2025,
-          "applicants": 18000,
-          "passed": 4800,
+          "applicants": null,
+          "passed": null,
           "admitted": 980,
-          "minScore": 86,
+          "minScore": null,
           "xuekaoRequirement": "各科目均须合格",
           "sourceUrl": "https://zdpx.zju.edu.cn/news1.aspx?fl=301&id=6559",
           "sourceTitle": "浙江大学2025年浙江省“三位一体”综合评价招生简章发布",
           "xuekaoRequirementSourceUrl": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm",
           "xuekaoRequirementSourceTitle": "浙江大学2026年浙江省“三位一体”综合评价招生简章",
           "collectedAt": "2026-09-13",
-          "note": "招生计划980名(来源：招生简章/本科招生网)。报名人数未公开；入围按‘不超过专业招生计划数5倍’确定，未公布汇总人数(入围结果登录报名系统查询)。录取结果登录特殊类型招生报名平台查询。2024/2026未检索。"
+          "note": "招生计划980名(来源：2025年简章原文)。简章仅公布初审比例1:6、入围比例不超过专业计划5倍，未公布报名人数与入围汇总人数，故 applicants/passed 置空；未公布最低综合分，故 minScore 置空（原填 18000/4800/86 为推算值，已按“不可推算”原则移除）。录取结果登录特殊类型招生报名平台查询。2026 年录取分数亦未公开（2026-07-09 官方仅发布结果查询入口）。"
         },
         {
           "year": 2024,
-          "applicants": 16500,
-          "passed": 4500,
-          "admitted": 950,
-          "minScore": 85,
+          "applicants": null,
+          "passed": null,
+          "admitted": null,
+          "minScore": null,
           "xuekaoRequirement": "各科目均须合格",
           "xuekaoRequirementSourceUrl": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm",
           "xuekaoRequirementSourceTitle": "浙江大学2026年浙江省“三位一体”综合评价招生简章",
           "collectedAt": "2026-09-13",
-          "note": "本行年份未找到官方公示链接（同类来源见 2025 年）。"
+          "note": "本行年份（2024）未找到任何官方公示链接，简章与招生网均未见当年报名人数、入围人数与最低综合分，故全部置空（原填 16500/4500/950/85 为无来源推算值，已按“不可核实即不呈现”原则移除）。浙大历年录取结果仅对考生本人开放查询。"
         }
       ],
       "satisfaction": {
