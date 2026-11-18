@@ -4121,13 +4121,13 @@
         {
           "year": 2025,
           "applicants": 5148,
-          "passed": 1472,
+          "passed": 870,
           "admitted": null,
           "minScore": null,
           "sourceUrl": "https://www.zcmu.edu.cn/info/10498/11554.htm",
           "sourceTitle": "学校顺利完成2025年三位一体综合评价招生综合测试",
           "collectedAt": "2026-09-13",
-          "note": "报名5148、材料评审入围(初审)1472。校测入围官方公示分组合计870（中医学类185/临床医学类277/中药学类150/护理学类157/管理学类101；二次源zizzs误报843，以官方公示为准）。最终录取官方仅公布分专业综合分，未单列总人数，admitted 置空。"
+          "note": "报名5148、材料评审入围(初审)1472。校测入围官方公示分组合计870（中医学类185/临床医学类277/中药学类150/护理学类157/管理学类101；二次源zizzs误报843，以官方公示为准）。passed 取校测入围 870，不取初审 1472（两者口径不同，初审数仍列于本说明）。最终录取官方仅公布分专业综合分，未单列总人数，admitted 置空。"
         },
         {
           "year": 2024,
@@ -11281,7 +11281,7 @@
           "year": 2025,
           "applicants": null,
           "passed": null,
-          "admitted": 200,
+          "admitted": null,
           "minScore": 72,
           "sourceUrl": "https://zsb.nbufe.edu.cn/st/zs_news.jsp?neId=151",
           "sourceTitle": "宁波财经学院2025年“三位一体”综合评价招生初审通过名单公示",
@@ -13028,7 +13028,7 @@
           "year": 2025,
           "applicants": null,
           "passed": null,
-          "admitted": 980,
+          "admitted": null,
           "minScore": null,
           "xuekaoRequirement": "各科目均须合格",
           "sourceUrl": "https://zdpx.zju.edu.cn/news1.aspx?fl=301&id=6559",
@@ -13036,7 +13036,7 @@
           "xuekaoRequirementSourceUrl": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm",
           "xuekaoRequirementSourceTitle": "浙江大学2026年浙江省“三位一体”综合评价招生简章",
           "collectedAt": "2026-09-13",
-          "note": "招生计划980名(来源：2025年简章原文)。简章仅公布初审比例1:6、入围比例不超过专业计划5倍，未公布报名人数与入围汇总人数，故 applicants/passed 置空；未公布最低综合分，故 minScore 置空（原填值为推算值，已按“不可推算”原则移除）。录取结果登录特殊类型招生报名平台查询。"
+          "note": "招生计划980名(来源：2025年简章原文)。简章仅公布初审比例1:6、入围比例不超过专业计划5倍，未公布报名人数与入围汇总人数，故 applicants/passed 置空；未公布最低综合分，故 minScore 置空（原填值为推算值，已按“不可推算”原则移除）。admitted 亦置空：980 是招生计划数而非实际录取数，录取结果需登录特殊类型招生报名平台查询，官方未以可解析文本公布录取总人数。"
         },
         {
           "year": 2024,
@@ -13637,7 +13637,7 @@
           "year": 2025,
           "applicants": null,
           "passed": null,
-          "admitted": 15,
+          "admitted": null,
           "minScore": null,
           "xuekaoRequirement": "学考各科均须合格，综合素质评价均B等(含)以上；选考须含物理+化学；高考总分须达浙江省特殊类型招生控制线",
           "sourceUrl": "https://zh-ugadmissions.westlake.edu.cn/Admissions/ZSJZ/Situation/202505/t20250507_55287.shtml",
