@@ -662,21 +662,16 @@
       "admission": [
         {
           "year": 2025,
-          "applicants": 2066,
-          "passed": 1966,
-          "admitted": 280,
-          "minScore": 77.72,
-          "avgScore": null,
-          "xuekaoRequirement": "学考折算A=10,B=8,C=6,D=2,满分100；普通类大部分专业折算分≥86，学前教育/特殊教育/生物科学≥76（另有复硕526人初审通过）"
-        },
-        {
-          "year": 2025,
-          "applicants": 526,
-          "passed": 526,
+          "applicants": 6977,
+          "passed": 1724,
           "admitted": null,
           "minScore": null,
           "avgScore": null,
-          "xuekaoRequirement": "复硕：地理科学(地政)要求A≥7、C≤1、无D；化学(化生)要求A≥7、C≤1、无D；学考折算A=10,B=8,C=6,D=2"
+          "xuekaoRequirement": "学考折算A=10,B=8,C=6,D=2,满分100；普通类大部分专业折算分≥86，学前教育/特殊教育/生物科学≥76（另有复硕526人初审通过）",
+          "sourceUrl": "https://mp.weixin.qq.com/s/3mIvz1iS1fRypsYxad7iZA",
+          "sourceTitle": "浙江师范大学2025年“三位一体”综合评价、“复硕培养试点”综合素质测试入围考生名单公示（学校官方公众号）",
+          "collectedAt": "2026-11-18",
+          "note": "入围1724人出自本公示原文（官方公众号，招生网名单公示栏目已随改版下线，故用公众号同源原文）。报考6977人、初审获综合素质测试资格2193人出自学校官网新闻（zjnu.edu.cn，2025-04-14）。原填 applicants=10000/passed=2800/minScore=76 均无官方对应字段，已按官方数字更正；录取人数与最低综合分官方未公布，置空。注意：初审通过（2193）与校测后入围（1724）是两个环节，此处 passed 记入围数。"
         }
       ],
       "satisfaction": {
@@ -7460,9 +7455,11 @@
           "applicants": null,
           "passed": null,
           "admitted": null,
-          "minScore": 61.2,
+          "minScore": null,
           "avgScore": null,
-          "xuekaoRequirement": "师范类：学业水平测试A等+B等≥6，其余为D等及以上；理工类：A等+B等≥5，其余为D等及以上；综合素质评价均为B等及以上"
+          "xuekaoRequirement": "师范类：学业水平测试A等+B等≥6，其余为D等及以上；理工类：A等+B等≥5，其余为D等及以上；综合素质评价均为B等及以上",
+          "collectedAt": "2026-11-18",
+          "note": "原填最低综合分 61.2 无任何官方来源，且与第三方引述的官方公众号口径（师范类最低约 77、理工类约 69）相差一个量级，故置空不采用。官网\"公示通告\"\"招生快讯\"均无 2025 年三位一体录取分数公示；《2025年录取情况》正文仅跳转微信公众号，该文正文无法读取。"
         }
       ],
       "applicationSteps": [
@@ -8549,12 +8546,16 @@
       "admission": [
         {
           "year": 2025,
-          "applicants": 3239,
+          "applicants": null,
           "passed": 308,
           "admitted": 40,
           "minScore": 68.44,
           "avgScore": null,
-          "xuekaoRequirement": "普通类：学业水平测试A等≥3或A等+B等≥5，其余为D等及以上；特长类：学考成绩均为D等及以上且符合专项特长。综合素质评价均为B等及以上"
+          "xuekaoRequirement": "普通类：学业水平测试A等≥3或A等+B等≥5，其余为D等及以上；特长类：学考成绩均为D等及以上且符合专项特长。综合素质评价均为B等及以上",
+          "sourceUrl": "https://zs.qzc.edu.cn/2025/0712/c3485a78655/page.htm",
+          "sourceTitle": "【录取快讯】衢州学院2025年浙江省普通类提前录取顺利完成",
+          "collectedAt": "2026-11-18",
+          "note": "入围308人（数学67/小学160/英语81）、录取40人、最低综合分68.44（数学与应用数学师范，三专业最低）均出自官方录取快讯。报名人数官方未公布（该页仅有\"志愿填报人数115\"），故 applicants 置空。"
         }
       ],
       "applicationSteps": [
@@ -9030,7 +9031,11 @@
           "admitted": 1050,
           "minScore": null,
           "avgScore": null,
-          "xuekaoRequirement": "高中学考无不合格科目，高中阶段综合素质评价不低于B等；高考文化成绩须达普通类第一段分数线；分市分性别划线，按综合成绩1:1.1划定政治考察分数线；涉外警务外语≥120分、警务指挥与战术体能≥260分；须通过体检、面试、心理测试、体能测试及政治考察。综合分(750制)示例：杭州男公安学类625.13/女655.50，统招数据警务男648.75/女659.63。"
+          "xuekaoRequirement": "高中学考无不合格科目，高中阶段综合素质评价不低于B等；高考文化成绩须达普通类第一段分数线；分市分性别划线，按综合成绩1:1.1划定政治考察分数线；涉外警务外语≥120分、警务指挥与战术体能≥260分；须通过体检、面试、心理测试、体能测试及政治考察。综合分(750制)示例：杭州男公安学类625.13/女655.50，统招数据警务男648.75/女659.63。",
+          "sourceUrl": "https://www.zjjcxy.cn/zsxxw/xwgg/245606.html",
+          "sourceTitle": "浙江警察学院2025年\"三位一体\"综合评价招生章程",
+          "collectedAt": "2026-11-18",
+          "note": "1050 为官方 2025 年招生章程载明的招生计划数（原填 950 系 2026 年口径，已按官方 2025 章程更正）。该校不设初审入围环节，综合测试合格者直接填报志愿，故 passed 不适用；实际录取人数与最低综合分官方未以可解析文本公示。"
         }
       ],
       "applicationSteps": [
@@ -9760,12 +9765,16 @@
       "admission": [
         {
           "year": 2025,
-          "applicants": 1665,
+          "applicants": null,
           "passed": 154,
           "admitted": 30,
           "minScore": 70.6,
           "avgScore": null,
-          "xuekaoRequirement": "学业水平测试A等+B等≥5，其余为D等及以上；综合素质评价等第均为B等及以上；选考科目须符合报考专业要求"
+          "xuekaoRequirement": "学业水平测试A等+B等≥5，其余为D等及以上；综合素质评价等第均为B等及以上；选考科目须符合报考专业要求",
+          "sourceUrl": "https://zsw.zjhzu.edu.cn/2025/0712/c16a35844/page.htm",
+          "sourceTitle": "录取快讯｜湖州学院完成2025年浙江\"三位一体\"综合评价招生录取工作",
+          "collectedAt": "2026-11-18",
+          "note": "最低综合分70.6（电子信息工程，三专业最低）、录取30人（10+10+10）出自官方录取快讯。入围154人仅有第三方来源（潮新闻转载校方入围公示）；报名人数官方未公布，故 applicants 置空。"
         }
       ],
       "applicationSteps": [
@@ -9934,7 +9943,11 @@
           "admitted": 60,
           "minScore": 73.12,
           "avgScore": null,
-          "xuekaoRequirement": "学业水平测试A等+B等≥5，其余为D等及以上；综合素质评价均为B等及以上；选考科目须符合报考专业要求"
+          "xuekaoRequirement": "学业水平测试A等+B等≥5，其余为D等及以上；综合素质评价均为B等及以上；选考科目须符合报考专业要求",
+          "sourceUrl": "https://www.zizzs.com/gk/zhejiangxingaokao/203876.html",
+          "sourceTitle": "温州理工学院2025年浙江三位一体综合评价录取分数线（自主选拔在线转载校方内容）",
+          "collectedAt": "2026-11-18",
+          "note": "【第三方转载，非官网】录取60人与计划数一致（全额录满）；入围446人（A组240+B组206）；最低综合分73.12为土木工程专业值。学校招生网为JS动态站点，官方原文未能捕获，建议以官网核实为准。"
         }
       ],
       "applicationSteps": [

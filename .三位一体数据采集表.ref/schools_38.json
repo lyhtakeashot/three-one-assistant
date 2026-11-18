@@ -727,15 +727,16 @@
       "admission": [
         {
           "year": 2025,
-          "applicants": 10000,
-          "passed": 2800,
-          "admitted": 400,
-          "minScore": 76,
-          "xuekaoRequirement": "学考≥5A",
-          "xuekaoRequirementSourceUrl": "https://zs.zjnu.edu.cn/2026/0306/c6886a547727/page.htm",
-          "xuekaoRequirementSourceTitle": "浙江师范大学2026年“三位一体”综合评价招生章程",
-          "collectedAt": "2026-09-13",
-          "note": "本行年份未找到官方公示链接。 入围1724人（含复硕培养试点；按招生计划1:6/1:5比例确定）。初审(获得综合素质测试资格)2592人。两项数字均出自学校本科招生网该公示，但搜索引擎未返回可直接打开的官方文章URL（仅见公众号/第三方转载），故sourceUrl置空，请人工在 zs.zjnu.edu.cn 公示公告栏核实。报名人数未见官方公示；录取含复硕计划未单列，录取总人数未公示。"
+          "applicants": 6977,
+          "passed": 1724,
+          "admitted": null,
+          "minScore": null,
+          "avgScore": null,
+          "xuekaoRequirement": "学考折算A=10,B=8,C=6,D=2,满分100；普通类大部分专业折算分≥86，学前教育/特殊教育/生物科学≥76（另有复硕526人初审通过）",
+          "sourceUrl": "https://mp.weixin.qq.com/s/3mIvz1iS1fRypsYxad7iZA",
+          "sourceTitle": "浙江师范大学2025年“三位一体”综合评价、“复硕培养试点”综合素质测试入围考生名单公示（学校官方公众号）",
+          "collectedAt": "2026-11-18",
+          "note": "入围1724人出自本公示原文（官方公众号，招生网名单公示栏目已随改版下线，故用公众号同源原文）。报考6977人、初审获综合素质测试资格2193人出自学校官网新闻（zjnu.edu.cn，2025-04-14）。原填 applicants=10000/passed=2800/minScore=76 均无官方对应字段，已按官方数字更正；录取人数与最低综合分官方未公布，置空。注意：初审通过（2193）与校测后入围（1724）是两个环节，此处 passed 记入围数。"
         }
       ],
       "satisfaction": {
@@ -9321,13 +9322,15 @@
           "year": 2025,
           "applicants": null,
           "passed": null,
-          "admitted": 950,
+          "admitted": 1050,
           "minScore": null,
           "xuekaoRequirement": "学考无不合格科目、综合素质评价不低于B等；学考折算A=10/B=8/C=5/D=2；录取按综合分(高考×75%+学考×10%+体能×15%)，分市分性别划线",
           "xuekaoRequirementSourceUrl": "https://www.zjjcxy.cn/zsxxw/xwgg/271286.html",
           "xuekaoRequirementSourceTitle": "浙江警察学院2026年三位一体综合评价招生章程",
-          "collectedAt": "2026-09-13",
-          "note": "本行年份未找到官方公示链接。 admitted=2025招生计划/录取1050人（治安学165、侦查学125、涉外警务80、经济犯罪侦查90、警务指挥与战术60、刑事科学技术120、交通管理工程140、网络安全与执法190、数据警务技术80），分市分性别划线，数据来自官方招生信息网录取查询系统(www.zjjcxy.cn/zsxxw)及官微，无汇总静态页故sourceUrl填null；applicants/passed/finalPassed不适用（无传统报名/初审公示）。"
+          "collectedAt": "2026-11-18",
+          "note": "1050 为官方 2025 年招生章程载明的招生计划数（原填 950 系 2026 年口径，已按官方 2025 章程更正）。该校不设初审入围环节，综合测试合格者直接填报志愿，故 passed 不适用；实际录取人数与最低综合分官方未以可解析文本公示。",
+          "sourceUrl": "https://www.zjjcxy.cn/zsxxw/xwgg/245606.html",
+          "sourceTitle": "浙江警察学院2025年\"三位一体\"综合评价招生章程"
         }
       ],
       "applicationSteps": [
@@ -13037,15 +13040,17 @@
         },
         {
           "year": 2024,
-          "applicants": 16500,
-          "passed": 4500,
-          "admitted": 950,
-          "minScore": 85,
+          "applicants": null,
+          "passed": null,
+          "admitted": null,
+          "minScore": null,
           "xuekaoRequirement": "各科目均须合格",
           "xuekaoRequirementSourceUrl": "https://zdzsc.zju.edu.cn/2026/0511/c87333a3161363/page.htm",
           "xuekaoRequirementSourceTitle": "浙江大学2026年浙江省“三位一体”综合评价招生简章",
-          "collectedAt": "2026-09-13",
-          "note": "本行年份未找到官方公示链接（同类来源见 2025 年）。"
+          "collectedAt": "2026-11-18",
+          "note": "该年官方仅发布\"录取结果请登录报名系统查询\"的通知，未公布报名人数、入围人数、录取人数与最低综合分，故各项保持为空。原填 16500/4500/950/85 为无来源推算值，已按\"不可核实即不呈现\"原则移除。综合成绩算法公开（高考85%+面试10%+学考5%）。",
+          "sourceUrl": "https://zdzsc.zju.edu.cn/2024/0708/c87333a2944579/page.htm",
+          "sourceTitle": "浙江大学2024年浙江省“三位一体”综合评价招生录取结果公布的通知"
         }
       ],
       "satisfaction": {
