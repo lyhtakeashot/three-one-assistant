@@ -26,6 +26,7 @@ live-app/data/
 
 # 数据管道内的临时产物（不入库）
 .三位一体数据采集表.ref/_jxnh_tmp.pdf
+.三位一体数据采集表.ref/jxnh_*
 
 # IDE 数据目录（项目数据，不入库）
 .codebuddy/
