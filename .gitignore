@@ -35,3 +35,8 @@ live-app/data/
 
 # 旧版 Vite 工程（已废弃，仅本地保留，不入库）
 three-one-assistant/
+
+# 内部交接文档与参赛草稿（仅本地保留，不入库）
+转接.md
+大赛-*.md
+lab/
